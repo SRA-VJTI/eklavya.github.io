@@ -1,4 +1,4 @@
-baseurl = "https://sravjti.in/eklavya2021/"
+baseurl = "https://sra-eklavya2021.netlify.app/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
