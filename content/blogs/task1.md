@@ -1,7 +1,7 @@
 +++
 title = "Task 1: An easy start"
-hideReadMore = true
 +++
+
 
 ## Sample taks content
 **Question Statement:**
