@@ -1,5 +1,5 @@
 +++
-title = "Task 1: An "
+title = "Task 1: An easy start"
 +++
 
 
