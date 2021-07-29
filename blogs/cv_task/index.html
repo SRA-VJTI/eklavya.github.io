@@ -1,0 +1,143 @@
+<!doctype html><html lang=en>
+<head>
+<title>
+::
+Eklavya 2021 — Tasks
+</title>
+<meta charset=utf-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<meta name=description content="Haar Features! What are features in Computer Vision?
+Features are identification marks of an image using which we can convinicingly identify different images. Most features record data related to extreme change in pixel intensities(edges). These features can also be categorized for specific objects such as a Face, Hands, Person, etc.
+What are Haar Features?
+There are many different types of features which differ from one another on the basis of method used for calculating them.">
+<meta name=keywords content>
+<meta name=robots content="noodp">
+<link rel=canonical href=https://eklavya.sravjti.in/blogs/cv_task/>
+<link rel=stylesheet href=https://eklavya.sravjti.in/assets/style.css>
+<link rel=stylesheet href=https://eklavya.sravjti.in/style.css>
+<link rel=apple-touch-icon-precomposed sizes=144x144 href=https://eklavya.sravjti.in/img/apple-touch-icon-144-precomposed.png>
+<link rel="shortcut icon" href=https://eklavya.sravjti.in/img/favicon.png>
+<link href=https://eklavya.sravjti.in/assets/fonts/Inter-Italic.woff2 rel=preload type=font/woff2 as=font crossorigin>
+<link href=https://eklavya.sravjti.in/assets/fonts/Inter-Regular.woff2 rel=preload type=font/woff2 as=font crossorigin>
+<link href=https://eklavya.sravjti.in/assets/fonts/Inter-Medium.woff2 rel=preload type=font/woff2 as=font crossorigin>
+<link href=https://eklavya.sravjti.in/assets/fonts/Inter-MediumItalic.woff2 rel=preload type=font/woff2 as=font crossorigin>
+<link href=https://eklavya.sravjti.in/assets/fonts/Inter-Bold.woff2 rel=preload type=font/woff2 as=font crossorigin>
+<link href=https://eklavya.sravjti.in/assets/fonts/Inter-BoldItalic.woff2 rel=preload type=font/woff2 as=font crossorigin>
+<meta name=twitter:card content="summary">
+<meta name=twitter:title content>
+<meta name=twitter:description content="Haar Features! What are features in Computer Vision?
+Features are identification marks of an image using which we can convinicingly identify different images. Most features record data related to extreme change in pixel intensities(edges). These features can also be categorized for specific objects such as a Face, Hands, Person, etc.
+What are Haar Features?
+There are many different types of features which differ from one another on the basis of method used for calculating them.">
+<meta property="og:title" content>
+<meta property="og:description" content="Haar Features! What are features in Computer Vision?
+Features are identification marks of an image using which we can convinicingly identify different images. Most features record data related to extreme change in pixel intensities(edges). These features can also be categorized for specific objects such as a Face, Hands, Person, etc.
+What are Haar Features?
+There are many different types of features which differ from one another on the basis of method used for calculating them.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://eklavya.sravjti.in/blogs/cv_task/"><meta property="article:section" content="blogs">
+<meta property="og:site_name" content="Eklavya 2021">
+</head>
+<body class=dark-theme>
+<div class=container>
+<header class=header>
+<span class=header__inner>
+<a href=/ class=logo style=text-decoration:none>
+<span class=logo__mark><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44"><path fill="none" d="M15 8l14.729 14.382L15 35.367"/></svg>
+</span>
+<span class=logo__text>Eklavya 2021</span>
+<span class=logo__cursor></span>
+</a>
+<span class=header__right>
+<nav class=menu>
+<ul class="menu__inner menu__inner--desktop">
+<li><a href=/scoreboard>Scoreboard</a></li>
+</ul>
+<ul class="menu__inner menu__inner--mobile">
+<li><a href=/scoreboard>Scoreboard</a></li>
+</ul>
+</nav>
+<span class=menu-trigger><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+</span>
+<span class=theme-toggle><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M22 41c10.4934.0 19-8.5066 19-19C41 11.5066 32.4934 3 22 3 11.5066 3 3 11.5066 3 22s8.5066 19 19 19zM7 22C7 13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22z"/></svg>
+</span>
+</span>
+</span>
+</header>
+<div class=content>
+<div class=post>
+<h1 class=post-title></h1>
+<div class=post-meta>
+</div>
+<div class=post-content>
+<h1 id=haar-features>Haar Features!</h1>
+<p><strong>What are features in Computer Vision?</strong></p>
+<p>Features are identification marks of an image using which we can convinicingly identify different images. Most features record data related to extreme change in pixel intensities(edges). These features can also be categorized for specific objects such as a Face, Hands, Person, etc.</p>
+<p><strong>What are Haar Features?</strong></p>
+<p>There are many different types of features which differ from one another on the basis of method used for calculating them. Haar features is one such category of unique features used to categorize an image.</p>
+<p></p>
+<p></p>
+<p>A sample calculation of Haar value from a rectangular image section has been shown here. The darker areas in the haar feature are pixels with values 1, and the lighter areas are pixels with values 0. Each of these is responsible for finding out one particular feature in the image. Such as an edge, a line or any structure in the image where there is a sudden change of intensities. For ex. in the image above, the haar feature can detect a vertical edge with darker pixels at its right and lighter pixels at its left.</p>
+<p>The objective here is to find out the sum of all the image pixels lying in the darker area of the haar feature and the sum of all the image pixels lying in the lighter area of the haar feature and then find out their difference divided by overall sum. Now if the image has an edge separating dark pixels on the right and light pixels on the left, then the haar value will be closer to 1. That means, we say that there is an edge detected if the haar value is closer to 1. In the example above, there is no edge as the haar value is far from 1.</p>
+<p>Here we ll use 4 types of haar feature:</p>
+<ul>
+<li>a. type-2-x</li>
+<li>b. type-2-y</li>
+<li>c. type-3-x</li>
+<li>d. type-3-y</li>
+<li>e. type-4</li>
+</ul>
+<p></p>
+<h2 id=task>Task</h2>
+<p>We will provide you with an image, your job is to extract a single Haar feature from it. Your program must accept a path which will lead to the provided image and type of desired Haar feature.</p>
+<h2 id=resources>Resources</h2>
+<p>Here is a collection of some links to help y&rsquo;all. Try to solve the task on your own as much as you can without asking for help from your mentor(s).</p>
+<ul>
+<li>
+<p><a href="https://www.youtube.com/watch?v=RPoUdDGonWc">Resource</a></p>
+</li>
+<li>
+<p><a href=https://medium.com/analytics-vidhya/what-is-haar-features-used-in-face-detection-a7e531c8332b>Resource</a></p>
+</li>
+<li>
+<p><a href=https://towardsdatascience.com/face-detection-with-haar-cascade-727f68dafd08>Resource</a></p>
+</li>
+</ul>
+</div>
+<div class=pagination>
+<div class=pagination__title>
+<span class=pagination__title-h>Read other posts</span>
+<hr>
+</div>
+<div class=pagination__buttons>
+<span class="button next">
+<a href=https://eklavya.sravjti.in/blogs/task1/>
+<span class=button__text>Task 1: An easy start</span>
+<span class=button__icon>→</span>
+</a>
+</span>
+</div>
+</div>
+</div>
+</div>
+<footer class=footer>
+<div class=footer__inner>
+<a href=/ class=logo style=text-decoration:none>
+<span class=logo__mark><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44"><path fill="none" d="M15 8l14.729 14.382L15 35.367"/></svg>
+</span>
+<span class=logo__text>Eklavya 2021</span>
+<span class=logo__cursor></span>
+</a>
+<div class=copyright>
+<span>© 2021 Powered by
+<a href=https://gohugo.io target=_blank rel=noopener>Hugo</a></span>
+<span>Theme created by
+<a href=https://twitter.com/panr target=_blank rel=noopener>panr</a></span>
+</div>
+</div>
+</footer>
+<script src=https://eklavya.sravjti.in/assets/main.js></script>
+<script src=https://eklavya.sravjti.in/assets/prism.js></script>
+</div>
+</body>
+</html>
