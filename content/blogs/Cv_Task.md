@@ -1,6 +1,8 @@
 +++
-title = "Haar Features!"
+title = "CV Task"
 +++
+
+# Haar Features!
 
 **What are features in Computer Vision?**
 
