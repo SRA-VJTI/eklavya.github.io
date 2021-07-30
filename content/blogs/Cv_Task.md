@@ -10,9 +10,9 @@ Features are identification marks of an image using which we can convinicingly i
 
 There are many different types of features which differ from one another on the basis of method used for calculating them. Haar features is one such category of unique features used to categorize an image.
 
-{{< image src="/public/img/Haar_feature1.png" alt="Haar_feature1" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/Haar_feature1.png" alt="Haar_feature1" position="center" style="border-radius: 8px;" >}}
 
-{{< image src="/public/img/Haar_feature2.png" alt="Haar_feature2" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/Haar_feature2.png" alt="Haar_feature2" position="center" style="border-radius: 8px;" >}}
 
 A sample calculation of Haar value from a rectangular image section has been shown here. The darker areas in the haar feature are pixels with values 1, and the lighter areas are pixels with values 0. Each of these is responsible for finding out one particular feature in the image. Such as an edge, a line or any structure in the image where there is a sudden change of intensities. For ex. in the image above, the haar feature can detect a vertical edge with darker pixels at its right and lighter pixels at its left.
 
@@ -26,7 +26,7 @@ Here we ll use 4 types of haar feature:
  - d. type-3-y
  - e. type-4
 
-{{< image src="/public/img/Haar_feature3.png" alt="Haar_feature3" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/Haar_feature3.png" alt="Haar_feature3" position="center" style="border-radius: 8px;" >}}
 
 ## Task
 
