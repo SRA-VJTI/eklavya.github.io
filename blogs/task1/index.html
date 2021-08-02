@@ -1,12 +1,15 @@
 <!doctype html><html lang=en>
 <head>
 <title>
-Task 1: An easy start ::
+Task 1: An Windy Path ::
 Eklavya 2021 — Tasks
 </title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content="Sample taks content Question Statement: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
+<meta name=description content="Download Download
+Description Given line sensor data of a line following bot in a maze following &amp;ldquo;Left follow rule&amp;rdquo;, write left follow algorithm and give dynamic output for encountered turn, type of junction and direction facing.
+Line sensor placement
+ | | | | ____| |____ ____| |____ | | | 5 | 1|2 3|4  1, 2, 3, 4 are the location of the 4 line sensors and extra 5th one for front line  Types of Junction">
 <meta name=keywords content>
 <meta name=robots content="noodp">
 <link rel=canonical href=https://eklavya.sravjti.in/blogs/task1/>
@@ -21,10 +24,10 @@ Eklavya 2021 — Tasks
 <link href=https://eklavya.sravjti.in/assets/fonts/Inter-Bold.woff2 rel=preload type=font/woff2 as=font crossorigin>
 <link href=https://eklavya.sravjti.in/assets/fonts/Inter-BoldItalic.woff2 rel=preload type=font/woff2 as=font crossorigin>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Task 1: An easy start">
-<meta name=twitter:description content="Sample taks content Question Statement: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
-<meta property="og:title" content="Task 1: An easy start">
-<meta property="og:description" content="Sample taks content Question Statement: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.">
+<meta name=twitter:title content="Task 1: An Windy Path">
+<meta name=twitter:description content="Don't get lost in the maze!">
+<meta property="og:title" content="Task 1: An Windy Path">
+<meta property="og:description" content="Don't get lost in the maze!">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://eklavya.sravjti.in/blogs/task1/"><meta property="article:section" content="blogs">
 <meta property="og:site_name" content="Eklavya 2021">
@@ -57,27 +60,79 @@ Eklavya 2021 — Tasks
 </header>
 <div class=content>
 <div class=post>
-<h1 class=post-title>Task 1: An easy start</h1>
+<h1 class=post-title>Task 1: An Windy Path</h1>
 <div class=post-meta>
 </div>
 <div class=post-content>
-<h2 id=sample-taks-content>Sample taks content</h2>
-<p><strong>Question Statement:</strong>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-<img src=/img/hello.jpg alt="Hello Friend" class=center style=border-radius:8px>
-<pre><code>.
-├── components
-├── data
-├── next.config.js
-├── node_modules
-├── package.json
-├── package-lock.json
-├── pages
-├── public
-├── README.md
-├── styles
-└── utils
-</code></pre><p><a href=/blogs/task2>Normal Link</a></p>
+<h2 id=download>Download</h2>
+<p><a href=https://github.com/SRA-VJTI/eklavya2020-assignments/releases/download/eklavya/Assignment_4.zip>Download</a></p>
+<h2 id=description>Description</h2>
+<p>Given line sensor data of a line following bot in a maze following &ldquo;Left follow rule&rdquo;, write left follow algorithm and give dynamic output for encountered turn, type of junction and direction facing.</p>
+<p><strong>Line sensor placement</strong></p>
+<pre><code>    |   |
+    |   |
+____|   |____
+____|   |____
+    |   |
+    | 5 |
+   1|2 3|4
+</code></pre><ul>
+<li>1, 2, 3, 4 are the location of the 4 line sensors and extra 5th one for front line</li>
+</ul>
+<p><strong>Types of Junction</strong></p>
+<pre><code>                       |  |
+                       |  |
+         ______________|  |
+ Only--&gt;|   ______________|  &lt;-- Only Left
+ Right  |  |
+        |  |
+    ____|  |____
+    ____    ____ &lt;-- Plus
+        |  |
+        |  |
+    ____|  |
+    ____   | &lt;-- Straight+Left
+        |  |
+        |  |_____
+        |   _____ &lt;-- Straight+Right
+        |  |
+        |  |
+        |  |
+        |  |
+
+</code></pre><h2 id=task>Task</h2>
+<p>In the file data.txt you have been given line sensor data.</p>
+<p>The bot starts &ldquo;On the line&rdquo;(Initial direction North), &ldquo;traverses through the maze&rdquo; by using the left follow rule.</p>
+<p>Your task is to determine the path taken by the bot to reach the end based on the sensor values.</p>
+<p>This is a practically obtained data set
+so discard any impractical values which may have been recorded
+due to &ldquo;sensor or motion errors&rdquo;</p>
+<h2 id=input>Input</h2>
+<ul>
+<li><code>data.txt</code> has the line sensor data.</li>
+<li>The program on running must ask the name of the file to be read</li>
+</ul>
+<h2 id=output>Output</h2>
+<ul>
+<li>Print Turn Type, Type of Junction and Direction of the bot for each Junction encountered.</li>
+<li>Turn Types : Left, Right or Straight</li>
+<li>Types of Junction : Only Left, Only Right, Left + Straight, Right + Straight, Plus, End</li>
+<li>Directions: North South East West</li>
+</ul>
+<pre><code>Enter the filename: data.txt
+LEFT TURN       PLUS                    East
+RIGHT TURN      ONLY RIGHT              South
+LEFT TURN       ONLY LEFT               East
+...
+</code></pre><h2 id=submission-instructions>Submission Instructions</h2>
+<ul>
+<li>
+<p>You must create a zip file, which should contain source files,</p>
+</li>
+<li>
+<p>Submit here : <a href=https://docs.google.com/forms/d/e/1FAIpQLSeb4sJwjtliGen-9R-vTIQiPaMTozlYLT7WM4TdsL1_512pGA/viewform>Link to Google Form</a></p>
+</li>
+</ul>
 </div>
 <div class=pagination>
 <div class=pagination__title>
@@ -85,9 +140,15 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 <hr>
 </div>
 <div class=pagination__buttons>
+<span class="button previous">
+<a href=https://eklavya.sravjti.in/blogs/t0/>
+<span class=button__icon>←</span>
+<span class=button__text>Marks distribution</span>
+</a>
+</span>
 <span class="button next">
 <a href=https://eklavya.sravjti.in/blogs/task2/>
-<span class=button__text>Task 2: Hmmmmm...</span>
+<span class=button__text>Task 2: Bytes and Pieces</span>
 <span class=button__icon>→</span>
 </a>
 </span>

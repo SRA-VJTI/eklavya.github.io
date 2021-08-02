@@ -1,12 +1,15 @@
 <!doctype html><html lang=en>
 <head>
 <title>
-Task 2: Hmmmmm... ::
+Task 2: Bytes and Pieces ::
 Eklavya 2021 — Tasks
 </title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content>
+<meta name=description content="Download Download
+Description You have been given a 1D lidar sensor data. Go through its datasheet provided within this folder Especially the &amp;ldquo;Serial port data communication&amp;rdquo; part
+Task In the file data.bin you have been given a large set of binary stream received from the lidar. Each data stream has been seperated by a \x0A (newline byte) Extract the distance and signal info and plot a graph for both
+This is a practically obtained data set so discard any impractical values which may have been recorded refer the datasheet to know what impractical means for this lidar">
 <meta name=keywords content>
 <meta name=robots content="noodp">
 <link rel=canonical href=https://eklavya.sravjti.in/blogs/task2/>
@@ -21,10 +24,10 @@ Eklavya 2021 — Tasks
 <link href=https://eklavya.sravjti.in/assets/fonts/Inter-Bold.woff2 rel=preload type=font/woff2 as=font crossorigin>
 <link href=https://eklavya.sravjti.in/assets/fonts/Inter-BoldItalic.woff2 rel=preload type=font/woff2 as=font crossorigin>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Task 2: Hmmmmm...">
-<meta name=twitter:description content>
-<meta property="og:title" content="Task 2: Hmmmmm...">
-<meta property="og:description" content>
+<meta name=twitter:title content="Task 2: Bytes and Pieces">
+<meta name=twitter:description content="01000001 01110011 01110011 01101001 01100111 01101110 01101101 01100101 01101110 01110100 00100000 01101011 01100001 01110010 00100000 01101110 01100001">
+<meta property="og:title" content="Task 2: Bytes and Pieces">
+<meta property="og:description" content="01000001 01110011 01110011 01101001 01100111 01101110 01101101 01100101 01101110 01110100 00100000 01101011 01100001 01110010 00100000 01101110 01100001">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://eklavya.sravjti.in/blogs/task2/"><meta property="article:section" content="blogs">
 <meta property="og:site_name" content="Eklavya 2021">
@@ -57,10 +60,82 @@ Eklavya 2021 — Tasks
 </header>
 <div class=content>
 <div class=post>
-<h1 class=post-title>Task 2: Hmmmmm&mldr;</h1>
+<h1 class=post-title>Task 2: Bytes and Pieces</h1>
 <div class=post-meta>
 </div>
 <div class=post-content>
+<h2 id=download>Download</h2>
+<p><a href=https://github.com/SRA-VJTI/eklavya2020-assignments/releases/download/eklavya/Assignment_3.zip>Download</a></p>
+<h2 id=description>Description</h2>
+<p>You have been given a 1D lidar sensor data.
+Go through its datasheet provided within this folder
+Especially the &ldquo;Serial port data communication&rdquo; part</p>
+<h2 id=task>Task</h2>
+<p>In the file data.bin
+you have been given a large set of binary stream received from the lidar.
+Each data stream has been seperated by a <code>\x0A (newline byte)</code>
+Extract the distance and signal info and plot a graph for both</p>
+<p>This is a practically obtained data set
+so discard any impractical values which may have been recorded
+refer the datasheet to know what impractical means for this lidar</p>
+<h2 id=input>Input</h2>
+<ul>
+<li><code>data.bin</code> file contains a large set of binary stream received from the lidar.</li>
+<li>The program on running must ask the name of the file to be read</li>
+</ul>
+<h2 id=output>Output</h2>
+<ul>
+<li>The program must output two files <code>distance.txt</code> and <code>signal.txt</code> which contains distance and signal data.</li>
+<li>Each line in file must be of the form <code>&lt;distance or strength_value></code></li>
+<li>The extracted data can be plotted using gnuplot</li>
+<li>Example of data in file:</li>
+</ul>
+<pre><code>900
+900
+900
+300
+...
+</code></pre><h3 id=installing-gnuplot>Installing gnuplot</h3>
+<ul>
+<li><strong>For Ubuntu</strong></li>
+</ul>
+<pre><code>sudo apt-get install gnuplot
+</code></pre><ul>
+<li><strong>For Windows</strong>
+<ul>
+<li>Follow this <a href="https://www.youtube.com/watch?v=L-YPZDe_BYw&feature=youtu.be">link</a></li>
+</ul>
+</li>
+<li>Running <code>gnuplot</code> should result in:</li>
+</ul>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>G N U P L O T
+Version 5.0 patchlevel <span style=color:#ae81ff>3</span>    last modified 2016-02-21
+
+Copyright <span style=color:#f92672>(</span>C<span style=color:#f92672>)</span> 1986-1993, 1998, 2004, 2007-2016
+Thomas Williams, Colin Kelley and many others
+
+gnuplot home:     http://www.gnuplot.info
+faq, bugs, etc:   type <span style=color:#e6db74>&#34;help FAQ&#34;</span>
+immediate help:   type <span style=color:#e6db74>&#34;help&#34;</span>  <span style=color:#f92672>(</span>plot window: hit <span style=color:#e6db74>&#39;h&#39;</span><span style=color:#f92672>)</span>
+
+Terminal type set to <span style=color:#e6db74>&#39;qt&#39;</span>
+gnuplot&gt;
+</code></pre></div><h3 id=plotting-using-gnuplot>Plotting using gnuplot</h3>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>gnuplot&gt; plot <span style=color:#e6db74>&#34;./distance.txt&#34;</span>
+gnuplot&gt; plot <span style=color:#e6db74>&#34;./signal.txt&#34;</span>
+</code></pre></div><h2 id=submission-instructions>Submission Instructions</h2>
+<ul>
+<li>
+<p>You must create a zip file, which should contain source files, files distance.txt, signal.txt and screenshot of the plots for distance and signal value.</p>
+</li>
+<li>
+<p>Submit here : <a href=https://docs.google.com/forms/d/e/1FAIpQLSclVNltkwhaIiOB-Qd8fwsdESAibQ552X7wv-36sp34d85sxw/viewform>Link to Google Form</a></p>
+</li>
+</ul>
+<h2 id=example>Example</h2>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash>sra@sra21:~$ ./assignment
+enter name of file to be read: data.bin
+</code></pre></div>
 </div>
 <div class=pagination>
 <div class=pagination__title>
@@ -71,7 +146,7 @@ Eklavya 2021 — Tasks
 <span class="button previous">
 <a href=https://eklavya.sravjti.in/blogs/task1/>
 <span class=button__icon>←</span>
-<span class=button__text>Task 1: An easy start</span>
+<span class=button__text>Task 1: An Windy Path</span>
 </a>
 </span>
 <span class="button next">
