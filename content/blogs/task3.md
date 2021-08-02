@@ -3,6 +3,7 @@ title = "Task 3: C(V) you laterrr"
 description = "Implementing harr features from scratch"
 +++
 
+<<<<<<< HEAD
 ## Haar Features!
 
 **What are features in Computer Vision?**
