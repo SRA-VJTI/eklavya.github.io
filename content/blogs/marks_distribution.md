@@ -22,18 +22,12 @@
 
 - Task 3 -
 
-  | Output           | Marks for correct Output |
-  | :--------------- | :----------------------: |
-  | Turns            |            30            |
-  | Junction Type    |            40            |
-  | Direction        |            10            |
-  | Bonus Quest Diag |            20            |
-  | logic            |            50            |
-  | TOTAL            |           150            |
-
-**Bonus Question Diagram should show the placement of sensors with dimensions**  
-**Assume line width to be 3cm**  
-**It should also mention the condition based on your sensors for end detection**  
-**Include image or pdf for this in zip file**
+  | Output        | Marks for correct Output |
+  | :------------ | :----------------------: |
+  | Turns         |            40            |
+  | Junction Type |            40            |
+  | Direction     |            20            |
+  | logic         |            50            |
+  | TOTAL         |           150            |
 
 <!-- [Go back](score.md) -->
