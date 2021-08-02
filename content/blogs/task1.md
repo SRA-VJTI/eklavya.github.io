@@ -1,26 +1,89 @@
 +++
-title = "Task 1: An easy start"
+title = "Task 1: An Windy Path"
+description = "Don't get lost in the maze!"
 +++
 
+## Download
 
-## Sample taks content
-**Question Statement:**
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+[Download](https://github.com/SRA-VJTI/eklavya2020-assignments/releases/download/eklavya/Assignment_4.zip)
 
-{{< image src="/img/hello.jpg" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
+## Description
+
+Given line sensor data of a line following bot in a maze following "Left follow rule", write left follow algorithm and give dynamic output for encountered turn, type of junction and direction facing.
+
+**Line sensor placement**
 
 ```
-.
-├── components
-├── data
-├── next.config.js
-├── node_modules
-├── package.json
-├── package-lock.json
-├── pages
-├── public
-├── README.md
-├── styles
-└── utils
+    |   |
+    |   |
+____|   |____
+____|   |____
+    |   |
+    | 5 |
+   1|2 3|4
 ```
-[Normal Link](/blogs/task2)
+
+- 1, 2, 3, 4 are the location of the 4 line sensors and extra 5th one for front line
+
+**Types of Junction**
+
+```
+                       |  |
+                       |  |
+         ______________|  |
+ Only-->|   ______________|  <-- Only Left
+ Right  |  |
+        |  |
+    ____|  |____
+    ____    ____ <-- Plus
+        |  |
+        |  |
+    ____|  |
+    ____   | <-- Straight+Left
+        |  |
+        |  |_____
+        |   _____ <-- Straight+Right
+        |  |
+        |  |
+        |  |
+        |  |
+
+```
+
+## Task
+
+In the file data.txt you have been given line sensor data.
+
+The bot starts "On the line"(Initial direction North), "traverses through the maze" by using the left follow rule.
+
+Your task is to determine the path taken by the bot to reach the end based on the sensor values.
+
+This is a practically obtained data set
+so discard any impractical values which may have been recorded
+due to "sensor or motion errors"
+
+## Input
+
+- `data.txt` has the line sensor data.
+- The program on running must ask the name of the file to be read
+
+## Output
+
+- Print Turn Type, Type of Junction and Direction of the bot for each Junction encountered.
+- Turn Types : Left, Right or Straight
+- Types of Junction : Only Left, Only Right, Left + Straight, Right + Straight, Plus, End
+- Directions: North South East West
+
+```
+Enter the filename: data.txt
+LEFT TURN       PLUS                    East
+RIGHT TURN      ONLY RIGHT              South
+LEFT TURN       ONLY LEFT               East
+...
+```
+
+## Submission Instructions
+
+- You must create a zip file, which should contain source files,
+
+- Submit here : [Link to Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeb4sJwjtliGen-9R-vTIQiPaMTozlYLT7WM4TdsL1_512pGA/viewform)
