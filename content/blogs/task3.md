@@ -19,15 +19,15 @@ There are many different types of features which differ from one another on the 
 
 A sample calculation of Haar value from a rectangular image section has been shown here. The darker areas in the haar feature are pixels with values 1, and the lighter areas are pixels with values 0. Each of these is responsible for finding out one particular feature in the image. Such as an edge, a line or any structure in the image where there is a sudden change of intensities. For ex. in the image above, the haar feature can detect a vertical edge with darker pixels at its right and lighter pixels at its left.
 
-The objective here is to find out the sum of all the image pixels lying in the darker area of the haar feature and the sum of all the image pixels lying in the lighter area of the haar feature and then find out their difference divided by overall sum. Now if the image has an edge separating dark pixels on the right and light pixels on the left, then the haar value will be closer to 1. That means, we say that there is an edge detected if the haar value is closer to 1. In the example above, there is no edge as the haar value is far from 1.
+The objective here is to find out the sum of all the image pixels lying in the darker area of the image patch(assumed haar feature) and the sum of all the image pixels lying in the lighter area of the image patch(assumed haar feature).
 
-Here we ll use 4 types of haar feature:
+Here we ll use 5 types of haar feature:
 
- - a. type-2-x
- - b. type-2-y
- - c. type-3-x
- - d. type-3-y
- - e. type-4
+ - type-2-x
+ - type-2-y
+ - type-3-x
+ - type-3-y
+ - type-4
 
 {{< image src="/img/Haar_feature3.png" alt="Haar_feature3" position="center" style="border-radius: 8px;" >}}
 
@@ -35,15 +35,16 @@ Here we ll use 4 types of haar feature:
 
 **Question Statement**
 
-We will provide you with an image, your job is to extract a single Haar feature from it. Your program must accept a path which will lead to the provided image and type of desired Haar feature. 
+We will provide you with an image, your job is to extract a single Haar feature from it. Your program must accept a path which will lead to the provided image and type of desired Haar feature. It should have the option of entering types of haar features in a continous fashion one after another. You must note that while doing so, image should be processed only once. 
 
-**Resources** 
+Here is the expected program flow : 
 
-Here is a collection of some links to help y'all. Try to solve the task on your own as much as you can without asking for help from your mentor(s).
+Take image path input -> Process the Image in required manner -> Take input for haar feature type -> display haar feature -> Take input for haar feature type -> display haar feature .... until the user enters exit. 
 
- - [Resource](https://www.youtube.com/watch?v=RPoUdDGonWc)
+Note that Image was processed only once during the entire cycle in beginning.
 
- - [Resource](https://medium.com/analytics-vidhya/what-is-haar-features-used-in-face-detection-a7e531c8332b)
+**Sample Working**
+
+{{< image src="/img/Task3.jpeg" alt="Sample_Working" position="center" style="border-radius: 8px;" >}}
  
- - [Resource](https://towardsdatascience.com/face-detection-with-haar-cascade-727f68dafd08)
- 
+Note : Solution should be prepared using Python.
