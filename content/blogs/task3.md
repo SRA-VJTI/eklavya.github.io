@@ -48,3 +48,5 @@ Note that Image was processed only once during the entire cycle in beginning.
 {{< image src="/img/Task3.jpeg" alt="Sample_Working" position="center" style="border-radius: 8px;" >}}
  
 Note : Solution should be prepared using Python.
+
+ - Submit here : [Google Form](https://forms.gle/5hjd2i47FgH1bH4c8)
