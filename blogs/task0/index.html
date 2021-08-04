@@ -1,18 +1,19 @@
 <!doctype html><html lang=en>
 <head>
 <title>
-Task 1: A Windy Path ::
+Task 0: Tighten your seatbelts ::
 Eklavya 2021 — Tasks
 </title>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=description content="Download Download
-Description Given line sensor data of a line following bot in a maze following &amp;ldquo;Left follow rule&amp;rdquo;, write left follow algorithm and give dynamic output for encountered turn, type of junction and direction facing.
-Line sensor placement
- | | | | ____| |____ ____| |____ | | | 5 | 1|2 3|4  1, 2, 3, 4 are the location of the 4 line sensors and extra 5th one for front line  Types of Junction">
+Description Given data contains the values obtained by a line sensor. 4 space separated values on each line gives the values of sensor at any instant
+You have been given a scenario of a white line on black surface there are regions on this line called nodes
+A node looks like this
+ | | | | ____| |____ ____| |____ &amp;lt;-- node here | | | | | | | | ^ | | | | | | | | bot travels in this direction Line sensor placement">
 <meta name=keywords content>
 <meta name=robots content="noodp">
-<link rel=canonical href=https://eklavya.sravjti.in/blogs/task1/>
+<link rel=canonical href=https://eklavya.sravjti.in/blogs/task0/>
 <link rel=stylesheet href=https://eklavya.sravjti.in/assets/style.css>
 <link rel=stylesheet href=https://eklavya.sravjti.in/style.css>
 <link rel=apple-touch-icon-precomposed sizes=144x144 href=https://eklavya.sravjti.in/img/apple-touch-icon-144-precomposed.png>
@@ -24,12 +25,12 @@ Line sensor placement
 <link href=https://eklavya.sravjti.in/assets/fonts/Inter-Bold.woff2 rel=preload type=font/woff2 as=font crossorigin>
 <link href=https://eklavya.sravjti.in/assets/fonts/Inter-BoldItalic.woff2 rel=preload type=font/woff2 as=font crossorigin>
 <meta name=twitter:card content="summary">
-<meta name=twitter:title content="Task 1: A Windy Path">
-<meta name=twitter:description content="Don't get lost in the maze!">
-<meta property="og:title" content="Task 1: A Windy Path">
-<meta property="og:description" content="Don't get lost in the maze!">
+<meta name=twitter:title content="Task 0: Tighten your seatbelts">
+<meta name=twitter:description content="Arrays start at 0, so do your marks.">
+<meta property="og:title" content="Task 0: Tighten your seatbelts">
+<meta property="og:description" content="Arrays start at 0, so do your marks.">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://eklavya.sravjti.in/blogs/task1/"><meta property="article:section" content="blogs">
+<meta property="og:url" content="https://eklavya.sravjti.in/blogs/task0/"><meta property="article:section" content="blogs">
 <meta property="og:site_name" content="Eklavya 2021">
 </head>
 <body class=dark-theme>
@@ -60,79 +61,65 @@ Line sensor placement
 </header>
 <div class=content>
 <div class=post>
-<h1 class=post-title>Task 1: A Windy Path</h1>
+<h1 class=post-title>Task 0: Tighten your seatbelts</h1>
 <div class=post-meta>
 </div>
 <div class=post-content>
 <h2 id=download>Download</h2>
-<p><a href=https://github.com/SRA-VJTI/eklavya2020-assignments/releases/download/eklavya/Assignment_4.zip>Download</a></p>
+<p><a href=https://github.com/SRA-VJTI/eklavya2020-assignments/releases/download/eklavya/Assignment_1.zip>Download</a></p>
 <h2 id=description>Description</h2>
-<p>Given line sensor data of a line following bot in a maze following &ldquo;Left follow rule&rdquo;, write left follow algorithm and give dynamic output for encountered turn, type of junction and direction facing.</p>
-<p><strong>Line sensor placement</strong></p>
-<pre><code>    |   |
-    |   |
-____|   |____
-____|   |____
-    |   |
-    | 5 |
-   1|2 3|4
-</code></pre><ul>
-<li>1, 2, 3, 4 are the location of the 4 line sensors and extra 5th one for front line</li>
-</ul>
-<p><strong>Types of Junction</strong></p>
-<pre><code>                       |  |
-                       |  |
-         ______________|  |
- Only--&gt;|   ______________|  &lt;-- Only Left
- Right  |  |
+<p>Given data contains the values obtained by a line sensor.
+4 space separated values on each line gives the values of sensor at any instant</p>
+<p>You have been given a scenario of a white line on black surface
+there are regions on this line called nodes</p>
+<p><strong>A node looks like this</strong></p>
+<pre><code>        |  |
         |  |
     ____|  |____
-    ____    ____ &lt;-- Plus
-        |  |
-        |  |
-    ____|  |
-    ____   | &lt;-- Straight+Left
-        |  |
-        |  |_____
-        |   _____ &lt;-- Straight+Right
+    ____|  |____ &lt;-- node here
         |  |
         |  |
         |  |
-        |  |
-
-</code></pre><h2 id=task>Task</h2>
-<p>In the file data.txt you have been given line sensor data.</p>
-<p>The bot starts &ldquo;On the line&rdquo;(Initial direction North), &ldquo;traverses through the maze&rdquo; by using the left follow rule.</p>
-<p>Your task is to determine the path taken by the bot to reach the end based on the sensor values.</p>
+        |  |             ^
+        |  |             |
+        |  |             |
+        |  | bot travels in this direction
+</code></pre><p><strong>Line sensor placement</strong></p>
+<pre><code>    |  |
+    |  |
+____|  |____
+____|  |____ 
+    |  |
+    |  |
+   0|12|3
+</code></pre><ul>
+<li>0, 1, 2, 3 are the location of the 4 line sensors</li>
+</ul>
+<h2 id=task>Task</h2>
+<p>Your task is to count the number of nodes from the values given in data</p>
+<p>The bot starts &ldquo;On the line&rdquo;, &ldquo;passes straight through nodes&rdquo;
+and stops when it reaches the &ldquo;end of line&rdquo;</p>
 <p>This is a practically obtained data set
 so discard any impractical values which may have been recorded
 due to &ldquo;sensor or motion errors&rdquo;</p>
 <h2 id=input>Input</h2>
 <ul>
-<li><code>data.txt</code> has the line sensor data.</li>
+<li><code>data.txt</code> file contains the values obtained by a line sensor. 4 space separated values on each line gives the values of sensor at any instant</li>
 <li>The program on running must ask the name of the file to be read</li>
 </ul>
 <h2 id=output>Output</h2>
 <ul>
-<li>Print Turn Type, Type of Junction and Direction of the bot for each Junction encountered.</li>
-<li>Turn Types : Left, Right or Straight</li>
-<li>Types of Junction : Only Left, Only Right, Left + Straight, Right + Straight, Plus, End</li>
-<li>Directions: North South East West</li>
+<li>The program must output the number of nodes it detected after reading the given .txt file</li>
 </ul>
-<pre><code>Enter the filename: data.txt
-LEFT TURN       PLUS                    East
-RIGHT TURN      ONLY RIGHT              South
-LEFT TURN       ONLY LEFT               East
-...
-</code></pre><h2 id=submission-instructions>Submission Instructions</h2>
+<h2 id=submission-instructions>Submission Instructions</h2>
 <ul>
-<li>
-<p>You must create a zip file, which should contain source files,</p>
-</li>
-<li>
-<p>Submit here : <a href=https://docs.google.com/forms/d/e/1FAIpQLSeb4sJwjtliGen-9R-vTIQiPaMTozlYLT7WM4TdsL1_512pGA/viewform>Link to Google Form</a></p>
-</li>
+<li>You must create a zip file, which should contain source files, and screenshot of the output.</li>
 </ul>
+<h2 id=example>Example</h2>
+<pre><code>sra@sra20:~$ ./assignment
+enter name of file to be read: data.txt
+number of nodes: 1
+</code></pre>
 </div>
 <div class=pagination>
 <div class=pagination__title>
@@ -141,14 +128,14 @@ LEFT TURN       ONLY LEFT               East
 </div>
 <div class=pagination__buttons>
 <span class="button previous">
-<a href=https://eklavya.sravjti.in/blogs/task0/>
+<a href=https://eklavya.sravjti.in/blogs/t0/>
 <span class=button__icon>←</span>
-<span class=button__text>Task 0: Tighten your seatbelts</span>
+<span class=button__text>Marks distribution</span>
 </a>
 </span>
 <span class="button next">
-<a href=https://eklavya.sravjti.in/blogs/task2/>
-<span class=button__text>Task 2: Bytes and Pieces</span>
+<a href=https://eklavya.sravjti.in/blogs/task1/>
+<span class=button__text>Task 1: A Windy Path</span>
 <span class=button__icon>→</span>
 </a>
 </span>
