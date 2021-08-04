@@ -44,6 +44,8 @@ refer the datasheet to know what impractical means for this lidar
 ...
 ```
 
+*Note :- You should use only C language to solve this task*
+
 ### Installing gnuplot
 
 - **For Ubuntu**
