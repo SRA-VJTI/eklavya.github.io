@@ -1,5 +1,5 @@
 +++
-title = "Task 1: An Windy Path"
+title = "Task 1: A Windy Path"
 description = "Don't get lost in the maze!"
 +++
 
