@@ -55,8 +55,6 @@ due to "sensor or motion errors"
 ## Output
 * The program must output the number of nodes it detected after reading the given .txt file
 
-## Submission Instructions
-* You must create a zip file, which should contain source files, and screenshot of the output.
 
 ## Example
 
