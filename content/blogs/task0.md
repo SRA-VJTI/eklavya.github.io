@@ -67,6 +67,6 @@ number of nodes: 1
 
 ## Submission Instructions
 
-- You must create a zip file, which should contain source files,
+- You must create a zip file, which should contain source files, and screenshot of the output.
 
 - Submit here : [Link to Google Form](https://forms.gle/KidHGNRT8NG1zmL76)
