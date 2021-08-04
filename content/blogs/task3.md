@@ -31,9 +31,12 @@ Here we ll use 5 types of haar feature:
 
 {{< image src="/img/Haar_feature3.png" alt="Haar_feature3" position="center" style="border-radius: 8px;" >}}
 
-## Task
+# Task
 
-**Question Statement**
+## Download
+[Download](https://github.com/SRA-VJTI/eklavya2021.github.io/releases/download/latest/Assignment_3.zip)
+
+## **Question Statement**
 
 We will provide you with an image, your job is to extract a single Haar feature from it. Your program must accept a path which will lead to the provided image and type of desired Haar feature. It should have the option of entering types of haar features in a continous fashion one after another. You must note that while doing so, image should be processed only once. 
 
@@ -43,10 +46,13 @@ Take image path input -> Process the Image in required manner -> Take input for 
 
 Note that Image was processed only once during the entire cycle in beginning.
 
-**Sample Working**
+## **Sample Working**
 
 {{< image src="/img/Task3.jpeg" alt="Sample_Working" position="center" style="border-radius: 8px;" >}}
  
 Note : Solution should be prepared using Python.
+
+## **Submission Instructions**
+ - You must create a zip file, which should contain source file and two screenshots of the terminal displaying Haar Feature.
 
  - Submit here : [Google Form](https://forms.gle/5hjd2i47FgH1bH4c8)
