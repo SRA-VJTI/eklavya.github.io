@@ -72,30 +72,34 @@ There are many different types of features which differ from one another on the 
 <img src=/img/Haar_feature1.png alt=Haar_feature1 class=center style=border-radius:8px>
 <img src=/img/Haar_feature2.png alt=Haar_feature2 class=center style=border-radius:8px>
 <p>A sample calculation of Haar value from a rectangular image section has been shown here. The darker areas in the haar feature are pixels with values 1, and the lighter areas are pixels with values 0. Each of these is responsible for finding out one particular feature in the image. Such as an edge, a line or any structure in the image where there is a sudden change of intensities. For ex. in the image above, the haar feature can detect a vertical edge with darker pixels at its right and lighter pixels at its left.</p>
-<p>The objective here is to find out the sum of all the image pixels lying in the darker area of the haar feature and the sum of all the image pixels lying in the lighter area of the haar feature and then find out their difference divided by overall sum. Now if the image has an edge separating dark pixels on the right and light pixels on the left, then the haar value will be closer to 1. That means, we say that there is an edge detected if the haar value is closer to 1. In the example above, there is no edge as the haar value is far from 1.</p>
-<p>Here we ll use 4 types of haar feature:</p>
+<p>The objective here is to find out the sum of all the image pixels lying in the darker area of the image patch(assumed haar feature) and the sum of all the image pixels lying in the lighter area of the image patch(assumed haar feature).</p>
+<p>Here we ll use 5 types of haar feature:</p>
 <ul>
-<li>a. type-2-x</li>
-<li>b. type-2-y</li>
-<li>c. type-3-x</li>
-<li>d. type-3-y</li>
-<li>e. type-4</li>
+<li>type-2-x</li>
+<li>type-2-y</li>
+<li>type-3-x</li>
+<li>type-3-y</li>
+<li>type-4</li>
 </ul>
 <img src=/img/Haar_feature3.png alt=Haar_feature3 class=center style=border-radius:8px>
-<h2 id=task>Task</h2>
-<p><strong>Question Statement</strong></p>
-<p>We will provide you with an image, your job is to extract a single Haar feature from it. Your program must accept a path which will lead to the provided image and type of desired Haar feature.</p>
-<p><strong>Resources</strong></p>
-<p>Here is a collection of some links to help y&rsquo;all. Try to solve the task on your own as much as you can without asking for help from your mentor(s).</p>
+<h1 id=task>Task</h1>
+<h2 id=download>Download</h2>
+<p><a href=https://github.com/SRA-VJTI/eklavya2021.github.io/releases/download/latest/Assignment_3.zip>Download</a></p>
+<h2 id=question-statement><strong>Question Statement</strong></h2>
+<p>We will provide you with an image, your job is to extract a single Haar feature from it. Your program must accept a path which will lead to the provided image and type of desired Haar feature. It should have the option of entering types of haar features in a continous fashion one after another. You must note that while doing so, image should be processed only once.</p>
+<p>Here is the expected program flow :</p>
+<p>Take image path input -> Process the Image in required manner -> Take input for haar feature type -> display haar feature -> Take input for haar feature type -> display haar feature &mldr;. until the user enters exit.</p>
+<p>Note that Image was processed only once during the entire cycle in beginning.</p>
+<h2 id=sample-working><strong>Sample Working</strong></h2>
+<img src=/img/Task3.jpeg alt=Sample_Working class=center style=border-radius:8px>
+<p>Note : Solution should be prepared using Python.</p>
+<h2 id=submission-instructions><strong>Submission Instructions</strong></h2>
 <ul>
 <li>
-<p><a href="https://www.youtube.com/watch?v=RPoUdDGonWc">Resource</a></p>
+<p>You must create a zip file, which should contain source file and two screenshots of the terminal displaying Haar Feature.</p>
 </li>
 <li>
-<p><a href=https://medium.com/analytics-vidhya/what-is-haar-features-used-in-face-detection-a7e531c8332b>Resource</a></p>
-</li>
-<li>
-<p><a href=https://towardsdatascience.com/face-detection-with-haar-cascade-727f68dafd08>Resource</a></p>
+<p>Submit here : <a href=https://forms.gle/5hjd2i47FgH1bH4c8>Google Form</a></p>
 </li>
 </ul>
 </div>
