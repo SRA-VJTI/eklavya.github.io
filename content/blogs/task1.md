@@ -11,6 +11,34 @@ description = "Don't get lost in the maze!"
 
 Given line sensor data of a line following bot in a maze following "Left follow rule", write left follow algorithm and give dynamic output for encountered turn, type of junction and direction facing.
 
+**An Example of Maze**       
+
+```
+                                                    _______
+ __________________________________________________|       |
+|   _______________________________    ____________        | <---- **END**
+|  |                               |  |            |_______|
+|  |                               |  |
+|  |         ______________        |  |
+|  |        |   ________   |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |________|  |________|  |_______|  |________
+|___________    _______________________________ <--- **DEAD END**
+            |  |             
+            |  | 
+            |  |
+            |  |
+            |  |
+          **START**
+
+
+```
+
 **Line sensor placement**
 
 ```
