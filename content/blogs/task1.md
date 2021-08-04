@@ -110,6 +110,8 @@ LEFT TURN       ONLY LEFT               East
 ...
 ```
 
+*Note :- You should use only C language to solve this task*
+
 ## Submission Instructions
 
 - You must create a zip file, which should contain source files, nad screenshot of output.
