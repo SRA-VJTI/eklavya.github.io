@@ -55,6 +55,7 @@ due to "sensor or motion errors"
 ## Output
 * The program must output the number of nodes it detected after reading the given .txt file
 
+*Note :- You should use only C language to solve this task*
 
 ## Example
 
