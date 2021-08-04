@@ -65,3 +65,10 @@ sra@sra20:~$ ./assignment
 enter name of file to be read: data.txt
 number of nodes: 1
 ```
+
+
+## Submission Instructions
+
+- You must create a zip file, which should contain source files,
+
+- Submit here : [Link to Google Form](https://forms.gle/KidHGNRT8NG1zmL76)
