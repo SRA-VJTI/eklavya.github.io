@@ -5,7 +5,7 @@ description = "01000001 01110011 01110011 01101001 01100111 01101110 01101101 01
 
 ## Download
 
-[Download](https://github.com/SRA-VJTI/eklavya2020-assignments/releases/download/eklavya/Assignment_3.zip)
+[Download](https://drive.google.com/drive/folders/1NjuOatrqFM_e0NDT4FFm6Yi1LkaIXqUb?usp=sharing)
 
 ## Description
 

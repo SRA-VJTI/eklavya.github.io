@@ -5,7 +5,7 @@ description = "Don't get lost in the maze!"
 
 ## Download
 
-[Download](https://github.com/SRA-VJTI/eklavya2020-assignments/releases/download/eklavya/Assignment_4.zip)
+[Download](https://drive.google.com/drive/folders/1NjuOatrqFM_e0NDT4FFm6Yi1LkaIXqUb?usp=sharing)
 
 ## Description
 

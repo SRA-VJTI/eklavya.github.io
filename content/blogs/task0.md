@@ -4,7 +4,7 @@ description = "Arrays start at 0, so do your marks."
 +++
 
 ## Download 
-[Download](https://github.com/SRA-VJTI/eklavya2020-assignments/releases/download/eklavya/Assignment_1.zip)
+[Download](https://drive.google.com/drive/folders/1NjuOatrqFM_e0NDT4FFm6Yi1LkaIXqUb?usp=sharing)
 ## Description
 Given data contains the values obtained by a line sensor.
 4 space separated values on each line gives the values of sensor at any instant

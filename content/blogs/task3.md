@@ -34,7 +34,7 @@ Here we ll use 5 types of haar feature:
 # Task
 
 ## Download
-[Download](https://github.com/SRA-VJTI/eklavya2021.github.io/releases/download/latest/Assignment_3.zip)
+[Download](https://drive.google.com/drive/folders/1NjuOatrqFM_e0NDT4FFm6Yi1LkaIXqUb?usp=sharing)
 
 ## **Question Statement**
 
