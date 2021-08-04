@@ -8,8 +8,8 @@ Eklavya 2021 — Tasks
 <meta name=viewport content="width=device-width,initial-scale=1">
 <meta name=description content="Download Download
 Description Given line sensor data of a line following bot in a maze following &amp;ldquo;Left follow rule&amp;rdquo;, write left follow algorithm and give dynamic output for encountered turn, type of junction and direction facing.
-Line sensor placement
- | | | | ____| |____ ____| |____ | | | 5 | 1|2 3|4  1, 2, 3, 4 are the location of the 4 line sensors and extra 5th one for front line  Types of Junction">
+An Example of Maze
+ _______ __________________________________________________| | | _______________________________ ____________ | &amp;lt;---- **END** | | | | |_______| | | | | | | ______________ | | | | | ________ | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |________| |________| |_______| |________ |___________ _______________________________ &amp;lt;--- **DEAD END** | | | | | | | | | | **START** Line sensor placement">
 <meta name=keywords content>
 <meta name=robots content="noodp">
 <link rel=canonical href=https://eklavya.sravjti.in/blogs/task1/>
@@ -68,7 +68,31 @@ Line sensor placement
 <p><a href=https://github.com/SRA-VJTI/eklavya2020-assignments/releases/download/eklavya/Assignment_4.zip>Download</a></p>
 <h2 id=description>Description</h2>
 <p>Given line sensor data of a line following bot in a maze following &ldquo;Left follow rule&rdquo;, write left follow algorithm and give dynamic output for encountered turn, type of junction and direction facing.</p>
-<p><strong>Line sensor placement</strong></p>
+<p><strong>An Example of Maze</strong></p>
+<pre><code>                                                    _______
+ __________________________________________________|       |
+|   _______________________________    ____________        | &lt;---- **END**
+|  |                               |  |            |_______|
+|  |                               |  |
+|  |         ______________        |  |
+|  |        |   ________   |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |________|  |________|  |_______|  |________
+|___________    _______________________________ &lt;--- **DEAD END**
+            |  |             
+            |  | 
+            |  |
+            |  |
+            |  |
+          **START**
+
+
+</code></pre><p><strong>Line sensor placement</strong></p>
 <pre><code>    |   |
     |   |
 ____|   |____
