@@ -6,6 +6,7 @@
 |INVICTUS|50|
 |VYRON|50|
 |Team 19|50|
+|Optimus Prime|50|
 |Alpha Team|0|
 |Blitz|0|
 |botcats|0|
@@ -21,7 +22,6 @@
 |Mini Maniac Robotics|0|
 |miraj|0|
 |NaN|0|
-|Optimus Prime|0|
 |OS|0|
 |Quasar|0|
 |Robo Sapiens|0|
