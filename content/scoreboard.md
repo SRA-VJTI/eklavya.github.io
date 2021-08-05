@@ -8,6 +8,7 @@
 |Team 19|50|
 |Optimus Prime|50|
 |Scout Regiment|50|
+|House_Targaryen|50|
 |Alpha Team|0|
 |Blitz|0|
 |botcats|0|
@@ -17,7 +18,6 @@
 |Enigma|0|
 |Exterminator|0|
 |Gladiators|0|
-|House_Targaryen|0|
 |Khiskholi|0|
 |KNSP|0|
 |Mini Maniac Robotics|0|
