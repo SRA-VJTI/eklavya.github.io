@@ -7,6 +7,7 @@
 |VYRON|50|
 |Team 19|50|
 |Optimus Prime|50|
+|Scout Regiment|50|
 |Alpha Team|0|
 |Blitz|0|
 |botcats|0|
@@ -28,7 +29,6 @@
 |Robusta|0|
 |Roto Phantom|0|
 |Runtime Terror|0|
-|Scout Regiment|0|
 |Straw Hats|0|
 |Team_AS|0|
 |Tech Aura|0|
