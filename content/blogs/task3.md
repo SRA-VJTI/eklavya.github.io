@@ -40,6 +40,8 @@ Here we ll use 5 types of haar feature:
 
 We will provide you with an image, your job is to extract a single Haar feature from it. Your program must accept a path which will lead to the provided image and type of desired Haar feature. It should have the option of entering types of haar features in a continous fashion one after another. You must note that while doing so, image should be processed only once. 
 
+*Add padding in starting row and column accordingly*
+
 Here is the expected program flow : 
 
 Take image path input -> Process the Image in required manner -> Take input for haar feature type -> display haar feature -> Take input for haar feature type -> display haar feature .... until the user enters exit. 
