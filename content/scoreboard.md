@@ -9,6 +9,7 @@
 |Optimus Prime|50|
 |Scout Regiment|50|
 |House_Targaryen|50|
+|This Space Left Intentionally Blank|50|
 |Alpha Team|0|
 |Blitz|0|
 |botcats|0|
@@ -34,5 +35,4 @@
 |Tech Aura|0|
 |Techie boyz|0|
 |Techtunes|0|
-|This Space Left Intentionally Blank|0|
 |Vigilantes|0|
