@@ -40,7 +40,7 @@ Here we ll use 5 types of haar feature:
 
 We will provide you with an image, your job is to extract a single Haar feature from it. Your program must accept a path which will lead to the provided image and type of desired Haar feature. It should have the option of entering types of haar features in a continous fashion one after another. You must note that while doing so, image should be processed only once. 
 
-*Add padding in starting row and column accordingly*
+Ignore the last remaining pixels of the image, accordingly.
 
 Here is the expected program flow : 
 
@@ -50,7 +50,7 @@ Note that Image was processed only once during the entire cycle in beginning.
 
 ## **Sample Working**
 
-{{< image src="/img/Task3.jpeg" alt="Sample_Working" position="center" style="border-radius: 8px;" >}}
+{{< image src="/img/Task3v2.jpeg" alt="Sample_Working" position="center" style="border-radius: 8px;" >}}
  
 Note : Solution should be prepared using Python.
 
