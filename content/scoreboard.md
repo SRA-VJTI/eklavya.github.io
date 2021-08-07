@@ -4,11 +4,11 @@
 |INVICTUS|200|
 |VYRON|200|
 |Scout Regiment|200|
+|House_Targaryen|200|
 |Tech titans|50|
 |Gigabit Space|50|
 |Team 19|50|
 |Optimus Prime|50|
-|House_Targaryen|50|
 |This Space Left Intentionally Blank|50|
 |Brutiesta|50|
 |Blitz|50|
