@@ -1,13 +1,13 @@
 |Team|Score|
 |---|---|
-|Team Vayu|50|
+|Team Vayu|200|
+|INVICTUS|200|
+|VYRON|200|
+|Scout Regiment|200|
 |Tech titans|50|
 |Gigabit Space|50|
-|INVICTUS|50|
-|VYRON|50|
 |Team 19|50|
 |Optimus Prime|50|
-|Scout Regiment|50|
 |House_Targaryen|50|
 |This Space Left Intentionally Blank|50|
 |Brutiesta|50|
