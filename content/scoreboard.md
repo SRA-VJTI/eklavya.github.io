@@ -14,20 +14,20 @@
 |Blitz|50|
 |Robusta|50|
 |NaN|50|
+|ChiliPepper|50|
+|Robo Sapiens|50|
+|Khiskholi|50|
+|Exterminator|50|
+|botcats|50|
+|Mini Maniac Robotics|50|
 |Alpha Team|0|
-|botcats|0|
-|ChiliPepper|0|
 |Electro Developers|0|
 |Enigma|0|
-|Exterminator|0|
 |Gladiators|0|
-|Khiskholi|0|
 |KNSP|0|
-|Mini Maniac Robotics|0|
 |miraj|0|
 |OS|0|
 |Quasar|0|
-|Robo Sapiens|0|
 |Roto Phantom|0|
 |Runtime Terror|0|
 |Straw Hats|0|
