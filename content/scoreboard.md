@@ -21,11 +21,11 @@
 |botcats|50|
 |Mini Maniac Robotics|50|
 |Techie boyz|50|
+|KNSP|50|
 |Alpha Team|0|
 |Electro Developers|0|
 |Enigma|0|
 |Gladiators|0|
-|KNSP|0|
 |miraj|0|
 |OS|0|
 |Quasar|0|
