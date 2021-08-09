@@ -10,10 +10,10 @@
 |Team 19|200|
 |Robusta|200|
 |Khiskholi|200|
+|Brutiesta|200|
 |Gigabit Space|150|
 |Tech titans|150|
 |Optimus Prime|50|
-|Brutiesta|50|
 |Blitz|50|
 |ChiliPepper|50|
 |Robo Sapiens|50|
