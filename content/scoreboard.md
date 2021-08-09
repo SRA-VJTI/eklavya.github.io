@@ -22,12 +22,12 @@
 |Mini Maniac Robotics|50|
 |Techie boyz|50|
 |KNSP|50|
+|OS|50|
 |Alpha Team|0|
 |Electro Developers|0|
 |Enigma|0|
 |Gladiators|0|
 |miraj|0|
-|OS|0|
 |Quasar|0|
 |Roto Phantom|0|
 |Runtime Terror|0|
