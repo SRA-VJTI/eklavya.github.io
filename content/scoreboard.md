@@ -1,6 +1,6 @@
 |Team|Score|
 |---|---|
-|Team Vayu|300|
+|Team Vayu|400|
 |INVICTUS|200|
 |VYRON|200|
 |Scout Regiment|200|
