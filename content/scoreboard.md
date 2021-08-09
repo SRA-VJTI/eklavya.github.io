@@ -6,11 +6,11 @@
 |Scout Regiment|200|
 |House_Targaryen|200|
 |NaN|200|
+|This Space Left Intentionally Blank|200|
 |Gigabit Space|150|
 |Tech titans|150|
 |Team 19|50|
 |Optimus Prime|50|
-|This Space Left Intentionally Blank|50|
 |Brutiesta|50|
 |Blitz|50|
 |Robusta|50|
