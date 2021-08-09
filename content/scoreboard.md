@@ -1,9 +1,9 @@
 |Team|Score|
 |---|---|
 |Team Vayu|400|
+|Scout Regiment|300|
 |INVICTUS|200|
 |VYRON|200|
-|Scout Regiment|200|
 |House_Targaryen|200|
 |NaN|200|
 |This Space Left Intentionally Blank|200|
