@@ -9,6 +9,7 @@
 |This Space Left Intentionally Blank|200|
 |Team 19|200|
 |Robusta|200|
+|Khiskholi|200|
 |Gigabit Space|150|
 |Tech titans|150|
 |Optimus Prime|50|
@@ -16,7 +17,6 @@
 |Blitz|50|
 |ChiliPepper|50|
 |Robo Sapiens|50|
-|Khiskholi|50|
 |Exterminator|50|
 |botcats|50|
 |Mini Maniac Robotics|50|
