@@ -4,8 +4,8 @@
 |Scout Regiment|300|
 |VYRON|300|
 |Gigabit Space|300|
+|INVICTUS|300|
 |Tech titans|250|
-|INVICTUS|200|
 |House_Targaryen|200|
 |NaN|200|
 |This Space Left Intentionally Blank|200|
