@@ -24,8 +24,8 @@
 |KNSP|50|
 |OS|50|
 |miraj|50|
+|Electro Developers|50|
 |Alpha Team|0|
-|Electro Developers|0|
 |Enigma|0|
 |Gladiators|0|
 |Quasar|0|
