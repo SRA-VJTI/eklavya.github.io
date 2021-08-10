@@ -5,6 +5,7 @@
 |VYRON|300|
 |Gigabit Space|300|
 |INVICTUS|300|
+|Brutiesta|300|
 |Tech titans|250|
 |House_Targaryen|200|
 |NaN|200|
@@ -12,7 +13,6 @@
 |Team 19|200|
 |Robusta|200|
 |Khiskholi|200|
-|Brutiesta|200|
 |Blitz|200|
 |Optimus Prime|200|
 |ChiliPepper|50|
