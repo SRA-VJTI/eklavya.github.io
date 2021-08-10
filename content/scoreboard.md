@@ -14,7 +14,7 @@
 |Khiskholi|200|
 |Brutiesta|200|
 |Blitz|200|
-|Optimus Prime|50|
+|Optimus Prime|200|
 |ChiliPepper|50|
 |Robo Sapiens|50|
 |Exterminator|50|
