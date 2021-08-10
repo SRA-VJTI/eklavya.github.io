@@ -3,6 +3,7 @@
 |Team Vayu|400|
 |Scout Regiment|300|
 |VYRON|300|
+|Tech titans|250|
 |INVICTUS|200|
 |House_Targaryen|200|
 |NaN|200|
@@ -12,7 +13,6 @@
 |Khiskholi|200|
 |Brutiesta|200|
 |Gigabit Space|150|
-|Tech titans|150|
 |Optimus Prime|50|
 |Blitz|50|
 |ChiliPepper|50|
