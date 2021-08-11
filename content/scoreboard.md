@@ -1,10 +1,10 @@
 |Team|Score|
 |---|---|
 |Team Vayu|400|
+|INVICTUS|400|
 |Scout Regiment|300|
 |VYRON|300|
 |Gigabit Space|300|
-|INVICTUS|300|
 |Brutiesta|300|
 |Tech titans|250|
 |House_Targaryen|200|
