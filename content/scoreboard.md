@@ -8,10 +8,10 @@
 |Brutiesta|300|
 |This Space Left Intentionally Blank|300|
 |House_Targaryen|300|
+|Robusta|300|
 |Tech titans|250|
 |NaN|200|
 |Team 19|200|
-|Robusta|200|
 |Khiskholi|200|
 |Blitz|200|
 |Optimus Prime|200|
