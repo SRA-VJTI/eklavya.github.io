@@ -7,8 +7,8 @@
 |Gigabit Space|300|
 |Brutiesta|300|
 |This Space Left Intentionally Blank|300|
+|House_Targaryen|300|
 |Tech titans|250|
-|House_Targaryen|200|
 |NaN|200|
 |Team 19|200|
 |Robusta|200|
