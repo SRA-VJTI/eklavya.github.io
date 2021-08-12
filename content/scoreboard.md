@@ -16,12 +16,12 @@
 |Blitz|200|
 |Optimus Prime|200|
 |Mini Maniac Robotics|200|
+|KNSP|200|
 |ChiliPepper|50|
 |Robo Sapiens|50|
 |Exterminator|50|
 |botcats|50|
 |Techie boyz|50|
-|KNSP|50|
 |OS|50|
 |miraj|50|
 |Electro Developers|50|
