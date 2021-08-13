@@ -15,7 +15,7 @@
 |Team 19|300|
 |Blitz|300|
 |Optimus Prime|300|
-|Mini Maniac Robotics|200|
+|Mini Maniac Robotics|300|
 |KNSP|200|
 |Vigilantes|200|
 |ChiliPepper|50|
