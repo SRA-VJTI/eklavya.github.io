@@ -7,13 +7,13 @@
 |Khiskholi|400|
 |NaN|400|
 |This Space Left Intentionally Blank|400|
+|Tech titans|400|
 |Scout Regiment|300|
 |VYRON|300|
 |Brutiesta|300|
 |Robusta|300|
 |Team 19|300|
 |Blitz|300|
-|Tech titans|250|
 |Optimus Prime|200|
 |Mini Maniac Robotics|200|
 |KNSP|200|
