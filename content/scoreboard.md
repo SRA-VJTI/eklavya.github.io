@@ -14,7 +14,7 @@
 |Robusta|300|
 |Team 19|300|
 |Blitz|300|
-|Optimus Prime|200|
+|Optimus Prime|300|
 |Mini Maniac Robotics|200|
 |KNSP|200|
 |Vigilantes|200|
