@@ -18,8 +18,8 @@
 |Mini Maniac Robotics|300|
 |KNSP|200|
 |Vigilantes|200|
+|Robo Sapiens|200|
 |ChiliPepper|50|
-|Robo Sapiens|50|
 |Exterminator|50|
 |botcats|50|
 |Techie boyz|50|
