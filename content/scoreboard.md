@@ -3,11 +3,11 @@
 |Team Vayu|400|
 |INVICTUS|400|
 |Gigabit Space|400|
+|House_Targaryen|400|
 |Scout Regiment|300|
 |VYRON|300|
 |Brutiesta|300|
 |This Space Left Intentionally Blank|300|
-|House_Targaryen|300|
 |Robusta|300|
 |Tech titans|250|
 |NaN|200|
