@@ -4,6 +4,7 @@
 |INVICTUS|400|
 |Gigabit Space|400|
 |House_Targaryen|400|
+|Khiskholi|400|
 |Scout Regiment|300|
 |VYRON|300|
 |Brutiesta|300|
@@ -12,7 +13,6 @@
 |Tech titans|250|
 |NaN|200|
 |Team 19|200|
-|Khiskholi|200|
 |Blitz|200|
 |Optimus Prime|200|
 |Mini Maniac Robotics|200|
