@@ -5,13 +5,13 @@
 |Gigabit Space|400|
 |House_Targaryen|400|
 |Khiskholi|400|
+|NaN|400|
 |Scout Regiment|300|
 |VYRON|300|
 |Brutiesta|300|
 |This Space Left Intentionally Blank|300|
 |Robusta|300|
 |Tech titans|250|
-|NaN|200|
 |Team 19|200|
 |Blitz|200|
 |Optimus Prime|200|
