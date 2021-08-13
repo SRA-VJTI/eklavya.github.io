@@ -12,8 +12,8 @@
 |Brutiesta|300|
 |Robusta|300|
 |Team 19|300|
+|Blitz|300|
 |Tech titans|250|
-|Blitz|200|
 |Optimus Prime|200|
 |Mini Maniac Robotics|200|
 |KNSP|200|
