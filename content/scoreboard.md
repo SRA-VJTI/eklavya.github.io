@@ -11,8 +11,8 @@
 |VYRON|300|
 |Brutiesta|300|
 |Robusta|300|
+|Team 19|300|
 |Tech titans|250|
-|Team 19|200|
 |Blitz|200|
 |Optimus Prime|200|
 |Mini Maniac Robotics|200|
