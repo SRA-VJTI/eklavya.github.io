@@ -17,6 +17,7 @@
 |Optimus Prime|200|
 |Mini Maniac Robotics|200|
 |KNSP|200|
+|Vigilantes|200|
 |ChiliPepper|50|
 |Robo Sapiens|50|
 |Exterminator|50|
@@ -35,4 +36,3 @@
 |Runtime Terror|0|
 |Straw Hats|0|
 |Techtunes|0|
-|Vigilantes|0|
