@@ -28,11 +28,11 @@
 |miraj|50|
 |Team_AS|50|
 |Tech Aura|50|
+|Straw Hats|50|
 |Alpha Team|0|
 |Enigma|0|
 |Gladiators|0|
 |Quasar|0|
 |Roto Phantom|0|
 |Runtime Terror|0|
-|Straw Hats|0|
 |Techtunes|0|
