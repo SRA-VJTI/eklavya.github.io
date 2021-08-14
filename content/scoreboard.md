@@ -17,8 +17,8 @@
 |Optimus Prime|300|
 |Mini Maniac Robotics|300|
 |KNSP|300|
+|Robo Sapiens|300|
 |Vigilantes|200|
-|Robo Sapiens|200|
 |Electro Developers|200|
 |botcats|200|
 |Exterminator|200|
