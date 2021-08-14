@@ -20,9 +20,9 @@
 |Vigilantes|200|
 |Robo Sapiens|200|
 |Electro Developers|200|
+|botcats|200|
 |ChiliPepper|50|
 |Exterminator|50|
-|botcats|50|
 |Techie boyz|50|
 |OS|50|
 |miraj|50|
