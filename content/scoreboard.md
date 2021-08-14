@@ -9,8 +9,8 @@
 |This Space Left Intentionally Blank|400|
 |Tech titans|400|
 |Scout Regiment|400|
+|Brutiesta|400|
 |VYRON|300|
-|Brutiesta|300|
 |Robusta|300|
 |Team 19|300|
 |Blitz|300|
