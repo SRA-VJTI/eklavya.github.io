@@ -8,7 +8,7 @@
 |NaN|400|
 |This Space Left Intentionally Blank|400|
 |Tech titans|400|
-|Scout Regiment|300|
+|Scout Regiment|400|
 |VYRON|300|
 |Brutiesta|300|
 |Robusta|300|
