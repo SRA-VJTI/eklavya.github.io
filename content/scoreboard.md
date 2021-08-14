@@ -16,7 +16,7 @@
 |Blitz|300|
 |Optimus Prime|300|
 |Mini Maniac Robotics|300|
-|KNSP|200|
+|KNSP|300|
 |Vigilantes|200|
 |Robo Sapiens|200|
 |Electro Developers|200|
