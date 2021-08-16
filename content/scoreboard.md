@@ -20,9 +20,9 @@
 |Optimus Prime|300|
 |Exterminator|300|
 |Electro Developers|300|
+|OS|275|
 |Vigilantes|200|
 |botcats|200|
-|OS|175|
 |ChiliPepper|50|
 |Techie boyz|50|
 |miraj|50|
