@@ -22,9 +22,9 @@
 |Electro Developers|300|
 |Vigilantes|200|
 |botcats|200|
+|OS|200|
 |ChiliPepper|50|
 |Techie boyz|50|
-|OS|50|
 |miraj|50|
 |Team_AS|50|
 |Tech Aura|50|
