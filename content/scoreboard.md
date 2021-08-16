@@ -13,11 +13,11 @@
 |Mini Maniac Robotics|400|
 |Robusta|400|
 |KNSP|350|
+|Robo Sapiens|350|
 |VYRON|300|
 |Team 19|300|
 |Blitz|300|
 |Optimus Prime|300|
-|Robo Sapiens|300|
 |Exterminator|300|
 |Electro Developers|300|
 |Vigilantes|200|
