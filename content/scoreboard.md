@@ -19,8 +19,8 @@
 |Optimus Prime|300|
 |Robo Sapiens|300|
 |Exterminator|300|
+|Electro Developers|300|
 |Vigilantes|200|
-|Electro Developers|200|
 |botcats|200|
 |ChiliPepper|50|
 |Techie boyz|50|
