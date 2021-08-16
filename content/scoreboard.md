@@ -11,9 +11,9 @@
 |Scout Regiment|400|
 |Brutiesta|400|
 |Mini Maniac Robotics|400|
+|Robusta|400|
 |KNSP|350|
 |VYRON|300|
-|Robusta|300|
 |Team 19|300|
 |Blitz|300|
 |Optimus Prime|300|
