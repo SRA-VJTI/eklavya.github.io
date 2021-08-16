@@ -18,10 +18,10 @@
 |Blitz|300|
 |Optimus Prime|300|
 |Robo Sapiens|300|
+|Exterminator|300|
 |Vigilantes|200|
 |Electro Developers|200|
 |botcats|200|
-|Exterminator|200|
 |ChiliPepper|50|
 |Techie boyz|50|
 |OS|50|
