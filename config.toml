@@ -1,4 +1,4 @@
-baseurl = "https://eklavya.sravjti.in/"
+baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
@@ -8,7 +8,7 @@ paginate = 5
   # the list of set content will show up on your index page (baseurl).
   contentTypeName = "blogs"
 
-  # "light" or "dark"
+  # OS theme is default when not provided, but you can force it to "light" or "dark"
   defaultTheme = "dark"
 
   # if you set this to 0, only submenu trigger will be visible
@@ -27,12 +27,12 @@ paginate = 5
 
 [languages]
   [languages.en]
-    title = "Eklavya 2021"
+    title = "Eklavya 2022"
     subtitle = "Tasks"
     keywords = ""
     copyright = ""
     menuMore = "Show more"
-    writtenBy = " "
+    writtenBy = "Written by"
     readMore = "Read more"
     readOtherPosts = "Read other posts"
     newerPosts = "Newer posts"
@@ -44,7 +44,7 @@ paginate = 5
     # lastModDisplay = ""
 
     [languages.en.params.logo]
-      logoText = "Eklavya 2021"
+      logoText = "Eklavya 2022"
       logoHomeLink = "/"
     # or
     #

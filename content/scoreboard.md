@@ -1,7 +1,5 @@
 |Team|Score|
 |---|---|
-|Team Vayu|400|
-|INVICTUS|400|
 |Gigabit Space|400|
 |House_Targaryen|400|
 |Khiskholi|400|
@@ -15,7 +13,7 @@
 |KNSP|350|
 |Robo Sapiens|350|
 |VYRON|300|
-|Team 19|300|
+|Team 19|400|
 |Blitz|300|
 |Optimus Prime|300|
 |Exterminator|300|
