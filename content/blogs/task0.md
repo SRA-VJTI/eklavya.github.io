@@ -4,7 +4,7 @@ description = "Arrays start at 0, so do your marks."
 +++
 
 ## Download 
-[Download](https://drive.google.com/drive/folders/1NjuOatrqFM_e0NDT4FFm6Yi1LkaIXqUb?usp=sharing)
+[Download](https://drive.google.com/drive/folders/1k_b8FbtwirBn1d9N5-RJgHnU5uFAJIjV?usp=sharing)
 ## Description
 Given data contains the values obtained by a line sensor.
 4 space separated values on each line gives the values of sensor at any instant
@@ -70,4 +70,4 @@ number of nodes: 1
 
 - You must create a zip file, which should contain source files, and screenshot of the output.
 
-- Submit here : [Link to Google Form](https://forms.gle/KidHGNRT8NG1zmL76)
+- Submit here : [Link to Google Form](https://forms.gle/CTjNkovNax7LDtsy8)

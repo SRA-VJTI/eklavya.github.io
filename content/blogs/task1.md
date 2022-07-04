@@ -5,7 +5,7 @@ description = "Don't get lost in the maze!"
 
 ## Download
 
-[Download](https://drive.google.com/drive/folders/1NjuOatrqFM_e0NDT4FFm6Yi1LkaIXqUb?usp=sharing)
+[Download](https://drive.google.com/drive/folders/1k_b8FbtwirBn1d9N5-RJgHnU5uFAJIjV?usp=sharing)
 
 ## Description
 
@@ -117,4 +117,4 @@ LEFT TURN       ONLY LEFT               East
 
 - You must create a zip file, which should contain source files, nad screenshot of output.
 
-- Submit here : [Link to Google Form](https://docs.google.com/forms/d/e/1FAIpQLSeb4sJwjtliGen-9R-vTIQiPaMTozlYLT7WM4TdsL1_512pGA/viewform)
+- Submit here : [Link to Google Form](https://forms.gle/CTjNkovNax7LDtsy8)

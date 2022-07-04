@@ -15,11 +15,11 @@ for line in lines:
         continue
     team_dict[line[1]] = int(line[2])
     i += 1
-
-input_string = sys.argv[1]
-team_name = input_string.split(":")[0]
-team_score_change = int(input_string.split(":")[1])
-team_dict[team_name] += team_score_change
+for teams in range(1,len(sys.argv)):
+    input_string = sys.argv[teams]
+    team_name = input_string.split(":")[0]
+    team_score_change = int(input_string.split(":")[1])
+    team_dict[team_name] += team_score_change
 
 team_dict = {k: v for k, v in sorted(team_dict.items(), key=lambda item: item[1], reverse=True)}
 
