@@ -1,7 +1,7 @@
 |Team|Score|
 |---|---|
 |YK|0|
-|Team 2|0|
+|Fenris|0|
 |silently-destroys-the-universe|0|
 |Halfwit gang|0|
 |Ladsss|0|
