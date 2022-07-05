@@ -1,7 +1,7 @@
 |Team|Score|
 |---|---|
-||0|
-||0|
+|YK|0|
+|Team 2|0|
 |silently-destroys-the-universe|0|
 |Halfwit gang|0|
 |Ladsss|0|
@@ -53,3 +53,4 @@
 |MechTitans|0|
 |Futureviz|0|
 |Team 100|0|
+|ROBO|0|
