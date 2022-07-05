@@ -1,5 +1,6 @@
 +++
 title = "Task 1: A Windy Path"
+draft = true
 description = "Don't get lost in the maze!"
 +++
 
@@ -117,4 +118,4 @@ LEFT TURN       ONLY LEFT               East
 
 - You must create a zip file, which should contain source files, nad screenshot of output.
 
-- Submit here : [Link to Google Form](https://docs.google.com/forms/d/18whNdI0I6h8r2ahbEnyz6GPJmOitlHUYGuJpMPt1lBQ)
+- Submit here : [Link to Google Form](https://forms.gle/kzgtZ43YSVEezpTGA)

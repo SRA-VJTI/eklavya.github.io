@@ -1,5 +1,6 @@
 +++
 title = "Task 0: Tighten your seatbelts"
+draft = true
 description = "Arrays start at 0, so do your marks."
 +++
 
@@ -70,4 +71,4 @@ number of nodes: 1
 
 - You must create a zip file, which should contain source files, and screenshot of the output.
 
-- Submit here : [Link to Google Form](https://forms.gle/CTjNkovNax7LDtsy8)
+- Submit here : [Link to Google Form](https://forms.gle/7riMUU56EYaiQx7h7)

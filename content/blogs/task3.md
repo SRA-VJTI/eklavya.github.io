@@ -1,5 +1,6 @@
 +++
 title = "Task 3: Spread your arms"
+draft = true
 description = "Work with your favourite inverse kinematics."
 +++
 
@@ -90,5 +91,5 @@ The output for the above file should look like:
     - Scanned PDF of your working on paper(name it `written_working.pdf`)
     - Python code file(`inverse_kinematics_module.py`)
     - Output Text file(`output.txt`) with the joint parameters.
-- Submit here: [Link to Google Form](https://docs.google.com/forms/d/1Tl0XqX3IxwrMUj4DOb3GdpeHUCPihgAnCy64FhZz9g4)
+- Submit here: [Link to Google Form](https://forms.gle/SCsTA2dsoxNAzKom8)
 

@@ -1,5 +1,6 @@
 +++
 title = "Task 2: Mark your ways"
+draft = true
 description = "Always track the direction in which you are going!"
 +++
 
@@ -67,4 +68,4 @@ LEFT
 ## Submission Instructions:
 
 - You must create a `.zip` file containing the python code file (`.py` file) & the text file (`.txt`) with the output directions.
-- Submit here : [Link to Google Form](https://forms.gle/tA7V4KymFw32K3uz8)
+- Submit here : [Link to Google Form](https://forms.gle/6zzG9r4vusep26jV7)
