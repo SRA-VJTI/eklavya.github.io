@@ -1,6 +1,5 @@
 +++
 title = "Task 1: A Windy Path"
-draft = true
 description = "Don't get lost in the maze!"
 +++
 

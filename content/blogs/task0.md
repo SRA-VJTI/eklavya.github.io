@@ -1,6 +1,5 @@
 +++
 title = "Task 0: Tighten your seatbelts"
-draft = true
 description = "Arrays start at 0, so do your marks."
 +++
 

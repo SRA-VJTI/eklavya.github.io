@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+      <title>
+        Task 1: A Windy Path ::
+        Eklavya 2022 — Tasks
+      </title>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta
+  name="description"
+  content="Download # Download
+Description # Given line sensor data of a line following bot in a maze following &amp;ldquo;Left follow rule&amp;rdquo;, write left follow algorithm and give dynamic output for encountered turn, type of junction and direction facing. You have been given a scenario of a white line on black surface
+An Example of Maze
+_______ __________________________________________________| | | _______________________________ ____________ | &amp;lt;---- **END** | | | | |_______| | | | | | | ______________ | | | | | ________ | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | | |________| |________| |_______| |________ |___________ _______________________________ &amp;lt;--- **DEAD END** | | | | | | | | | | **START** Line sensor placement"
+/>
+<meta
+  name="keywords"
+  content=""
+/>
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/blogs/task1/" />
+
+
+
+
+
+<link rel="stylesheet" href="/assets/style.css" />
+
+<link rel="stylesheet" href="/style.css" />
+
+
+<link
+  rel="apple-touch-icon-precomposed"
+  sizes="144x144"
+  href="/img/apple-touch-icon-144-precomposed.png"
+/>
+<link rel="shortcut icon" href="/img/favicon.png" />
+
+
+<link href="/assets/fonts/Inter-Italic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Regular.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Medium.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-MediumItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-Bold.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+<link href="/assets/fonts/Inter-BoldItalic.woff2" rel="preload" type="font/woff2" as="font" crossorigin="">
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Task 1: A Windy Path"/>
+<meta name="twitter:description" content="Don&#39;t get lost in the maze!"/>
+
+
+
+<meta property="og:title" content="Task 1: A Windy Path" />
+<meta property="og:description" content="Don&#39;t get lost in the maze!" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/blogs/task1/" /><meta property="article:section" content="blogs" />
+
+<meta property="og:site_name" content="Eklavya 2022" />
+
+
+
+
+
+
+
+  </head>
+  <body class="dark-theme">
+    <div class="container">
+      <header class="header">
+  <span class="header__inner">
+    <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Eklavya 2022</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+    <span class="header__right">
+      
+        <nav class="menu">
+  <ul class="menu__inner menu__inner--desktop">
+    
+      
+        
+          <li><a href="/scoreboard">Scoreboard</a></li>
+        
+      
+      
+      
+  </ul>
+
+  <ul class="menu__inner menu__inner--mobile">
+    
+      
+        <li><a href="/scoreboard">Scoreboard</a></li>
+      
+    
+  </ul>
+</nav>
+
+        <span class="menu-trigger">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <path d="M0 0h24v24H0z" fill="none" />
+            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+          </svg>
+        </span>
+      
+      <span class="theme-toggle">
+        <svg
+  class="theme-toggler"
+  width="24"
+  height="24"
+  viewBox="0 0 48 48"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"
+  />
+</svg>
+
+      </span>
+    </span>
+  </span>
+</header>
+
+
+      <div class="content">
+        
+  
+  
+
+  <div class="post">
+    <h1 class="post-title">Task 1: A Windy Path</h1>
+    <div class="post-meta">
+      
+
+      
+
+
+      
+    </div>
+
+    
+
+    
+
+    <div class="post-content">
+      
+      <h2 id="download">
+  Download
+  <a href="#download" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p><a href="https://drive.google.com/drive/folders/1k_b8FbtwirBn1d9N5-RJgHnU5uFAJIjV?usp=sharing">Download</a></p>
+<h2 id="description">
+  Description
+  <a href="#description" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Given line sensor data of a line following bot in a maze following &ldquo;Left follow rule&rdquo;, write left follow algorithm and give dynamic output for encountered turn, type of junction and direction facing.
+You have been given a scenario of a white line on black surface</p>
+<p><strong>An Example of Maze</strong></p>
+<pre tabindex="0"><code>                                                    _______
+ __________________________________________________|       |
+|   _______________________________    ____________        | &lt;---- **END**
+|  |                               |  |            |_______|
+|  |                               |  |
+|  |         ______________        |  |
+|  |        |   ________   |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |________|  |________|  |_______|  |________
+|___________    _______________________________ &lt;--- **DEAD END**
+            |  |             
+            |  | 
+            |  |
+            |  |
+            |  |
+          **START**
+</code></pre><p><strong>Line sensor placement</strong></p>
+<pre tabindex="0"><code>    |   |
+    |   |
+____|   |____
+____|   |____
+    |   |
+    | 5 |
+   1|2 3|4
+</code></pre><ul>
+<li>1, 2, 3, 4 are the location of the 4 line sensors and extra 5th one for front line</li>
+</ul>
+<p><strong>Types of Junction</strong></p>
+<pre tabindex="0"><code>                       |  |
+                       |  |
+         ______________|  |
+ Only--&gt;|   ______________|  &lt;-- Only Left
+ Right  |  |
+        |  |
+    ____|  |____
+    ____    ____ &lt;-- Plus
+        |  |
+        |  |
+    ____|  |
+    ____   | &lt;-- Straight+Left
+        |  |
+        |  |_____
+        |   _____ &lt;-- Straight+Right
+        |  |
+        |  |
+        |  |
+        |  |
+</code></pre><h2 id="task">
+  Task
+  <a href="#task" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>In the file data.txt you have been given line sensor data.</p>
+<p>The bot starts &ldquo;On the line&rdquo;(Initial direction North), &ldquo;traverses through the maze&rdquo; by using the left follow rule.</p>
+<p>Your task is to determine the path taken by the bot to reach the end based on the sensor values.</p>
+<p>This is a practically obtained data set
+so discard any impractical values which may have been recorded
+due to &ldquo;sensor or motion errors&rdquo;</p>
+<h2 id="input">
+  Input
+  <a href="#input" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li><code>data.txt</code> has the line sensor data.</li>
+<li>The program on running must ask the name of the file to be read</li>
+</ul>
+<h2 id="output">
+  Output
+  <a href="#output" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li>Print Turn Type, Type of Junction and Direction of the bot for each Junction encountered.</li>
+<li>Turn Types : Left, Right or Straight</li>
+<li>Types of Junction : Only Left, Only Right, Left + Straight, Right + Straight, Plus, End</li>
+<li>Directions: North South East West</li>
+</ul>
+<pre tabindex="0"><code>Enter the filename: data.txt
+LEFT TURN       PLUS                    East
+RIGHT TURN      ONLY RIGHT              South
+LEFT TURN       ONLY LEFT               East
+...
+</code></pre><p><em>Note :- You should use only C language to solve this task</em></p>
+<h2 id="submission-instructions">
+  Submission Instructions
+  <a href="#submission-instructions" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li>
+<p>You must create a zip file, which should contain source files, nad screenshot of output.</p>
+</li>
+<li>
+<p>Submit here : <a href="https://forms.gle/kzgtZ43YSVEezpTGA">Link to Google Form</a></p>
+</li>
+</ul>
+
+    </div>
+    
+      
+        <div class="pagination">
+          <div class="pagination__title">
+            <span class="pagination__title-h"
+              >Read other posts</span
+            >
+            <hr />
+          </div>
+          <div class="pagination__buttons">
+            
+              <span class="button previous">
+                <a href="/blogs/task0/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Task 0: Tighten your seatbelts</span>
+                </a>
+              </span>
+            
+            
+              <span class="button next">
+                <a href="/blogs/task2/">
+                  <span class="button__text">Task 2: Mark your ways</span>
+                  <span class="button__icon">→</span>
+                </a>
+              </span>
+            
+          </div>
+        </div>
+      
+    
+
+    
+      
+        
+
+      
+    
+  </div>
+
+      </div>
+
+      
+        <footer class="footer">
+  <div class="footer__inner">
+    
+      <a
+  href="/"
+  class="logo"
+  style="text-decoration: none;"
+>
+  
+    <span class="logo__mark"><svg xmlns="http://www.w3.org/2000/svg" class="greater-icon" viewBox="0 0 44 44">
+  <path fill="none" d="M15 8l14.729 14.382L15 35.367" />
+</svg>
+</span>
+    <span class="logo__text"
+      >Eklavya 2022</span
+    >
+    <span class="logo__cursor"></span>
+  
+</a>
+
+      <div class="copyright">
+        <span
+          >© 2022 Powered by
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a></span
+        >
+        <span
+          >Theme created by
+          <a href="https://twitter.com/panr" target="_blank" rel="noopener">panr</a></span
+        >
+      </div>
+    
+  </div>
+</footer>
+
+<script src="/assets/main.js"></script>
+<script src="/assets/prism.js"></script>
+
+
+      
+    </div>
+
+    
+  </body>
+</html>
