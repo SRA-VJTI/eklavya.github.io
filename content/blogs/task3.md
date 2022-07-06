@@ -25,7 +25,7 @@ Given the below 3-DOF Arm, with the denoted parameters, your job is to **create 
 - Solve the Inverse Kinematics equations for the given arm on paper(you will have to submit the working for this too).
 - For the code, your task is to read the `arm_configs.txt` file given in the zip file using *file handling in Python*.
 - Next, make a function in Python which takes each configuration as input and outputs the joint parameters. 
-- For the given arm there are 3 Joint parameters, namely $\theta$<sub>1</sub>, $\theta$<sub>2</sub> and $d$<sub>3</sub>.
+- For the given arm there are 3 Joint parameters, namely &Theta;<sub>1</sub>, &Theta;<sub>2</sub> and d<sub>3</sub>.
 Hence, your Python function should look something like:
 ```\python
 # Here, `config` is a Python list where the first 3 elements are
@@ -56,7 +56,7 @@ def inverse_kinematics(config):
 
 ## Output:
 - A single text file `output.txt`
-> For each line in the `arm_configs.txt` the `output.txt` will contain three space seperated nos. representing **$\theta$<sub>1</sub>, $\theta$<sub>2</sub> and $d$<sub>3</sub>.**
+> For each line in the `arm_configs.txt` the `output.txt` will contain three space seperated nos. representing **&Theta;<sub>1</sub>, &Theta;<sub>2</sub> and d<sub>3</sub>.**
 
 ## Example:
 You are given an `example.txt` file in the zip file to test your code.
@@ -83,9 +83,9 @@ The output for the above file should look like:
 
 ## Pssst...
 - *Not able to decide which method to use?*
-    - Geometric approach yaad hai kya :upside_down_face:
+    - Geometric approach yaad hai kya (:
 - *Still not able to crack how to write an inverse kinematics module?*
-    - Well, you have used one before, and we wrote it for you then! Dig through the **MARIO Repo**, to find the *inverse_kinematics_module* used there :wink:
+    - Well, you have used one before, and we wrote it for you then! Dig through the **MARIO Repo**, to find the *inverse_kinematics_module* used there ;) 
 
 ## Submission Instructions:
 - You must create a `.zip`(**not `.rar`**) file containing:-

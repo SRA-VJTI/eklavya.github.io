@@ -115,6 +115,6 @@ LEFT TURN       ONLY LEFT               East
 
 ## Submission Instructions
 
-- You must create a zip file, which should contain source files, nad screenshot of output.
+- You must create a zip file, which should contain source files, and screenshot of output.
 
 - Submit here : [Link to Google Form](https://forms.gle/kzgtZ43YSVEezpTGA)
