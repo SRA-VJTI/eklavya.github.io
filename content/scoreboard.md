@@ -1,5 +1,8 @@
 |Team|Score|
 |---|---|
+|JP|50|
+|GenZ|50|
+|Beta Bijli Vibhag|50|
 |YK|0|
 |Fenris|0|
 |silently-destroys-the-universe|0|
@@ -8,10 +11,8 @@
 |Sentient_AI|0|
 |Binary|0|
 |Digiminds|0|
-|GenZ|0|
 |Kamakshi|0|
 |Alpha Bijli Vibhag|0|
-|Beta Bijli Vibhag|0|
 |We both|0|
 |Sigma Bijli Vibhag|0|
 |ROSe|0|
@@ -38,7 +39,6 @@
 |The Flash|0|
 |Geeky Junkies|0|
 |Hustlers|0|
-|JP|0|
 |Dynamite|0|
 |TECHNOGIANTS|0|
 |Hustlers1|0|
