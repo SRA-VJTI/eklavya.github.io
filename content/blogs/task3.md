@@ -1,6 +1,5 @@
 +++
 title = "Task 3: Spread your arms"
-draft = true
 description = "Work with your favourite inverse kinematics."
 +++
 

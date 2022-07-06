@@ -1,6 +1,5 @@
 +++
 title = "Task 2: Mark your ways"
-draft = true
 description = "Always track the direction in which you are going!"
 +++
 
