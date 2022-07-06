@@ -3,7 +3,7 @@
   <head>
     
       <title>
-        Marks distribution ::
+        Task 0: Tighten your seatbelts ::
         Eklavya 2022 — Tasks
       </title>
     
@@ -11,18 +11,18 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta
   name="description"
-  content="Marks Distribution in each task # Task 0 -
-File Name Marks for correct Output data.txt 20 data_1.txt 20 logic 10 TOTAL 50 Task 1 -
-Output Marks for correct Output Turns 30 Junction Type 40 Direction 10 logic 50 TOTAL 150 Task 2 -
-Folder Marks for correct Output set1 30 set2(for testing) 30 logic 40 TOTAL 100 Task 3 -
-File Name Marks for correct Output output.txt 50 logic(python file) 30 written_working."
+  content="Download # Download
+Description # Given data contains the values obtained by a line sensor. 4 space separated values on each line gives the values of sensor at any instant
+You have been given a scenario of a white line on black surface there are regions on this line called nodes
+A node looks like this
+| | | | ____| |____ ____| |____ &amp;lt;-- node here | | | | | | | | ^ | | | | | | | | bot travels in this direction Line sensor placement"
 />
 <meta
   name="keywords"
   content=""
 />
 <meta name="robots" content="noodp" />
-<link rel="canonical" href="/blogs/t0/" />
+<link rel="canonical" href="/blogs/task0/" />
 
 
 
@@ -50,15 +50,15 @@ File Name Marks for correct Output output.txt 50 logic(python file) 30 written_w
 
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Marks distribution"/>
-<meta name="twitter:description" content="Marks chahiye ki nahi? :)"/>
+<meta name="twitter:title" content="Task 0: Tighten your seatbelts"/>
+<meta name="twitter:description" content="Arrays start at 0, so do your marks."/>
 
 
 
-<meta property="og:title" content="Marks distribution" />
-<meta property="og:description" content="Marks chahiye ki nahi? :)" />
+<meta property="og:title" content="Task 0: Tighten your seatbelts" />
+<meta property="og:description" content="Arrays start at 0, so do your marks." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/blogs/t0/" /><meta property="article:section" content="blogs" />
+<meta property="og:url" content="/blogs/task0/" /><meta property="article:section" content="blogs" />
 
 <meta property="og:site_name" content="Eklavya 2022" />
 
@@ -148,7 +148,7 @@ File Name Marks for correct Output output.txt 50 logic(python file) 30 written_w
   
 
   <div class="post">
-    <h1 class="post-title">Marks distribution</h1>
+    <h1 class="post-title">Task 0: Tighten your seatbelts</h1>
     <div class="post-meta">
       
 
@@ -164,133 +164,87 @@ File Name Marks for correct Output output.txt 50 logic(python file) 30 written_w
 
     <div class="post-content">
       
-      <h2 id="marks-distribution-in-each-task">
-  Marks Distribution in each task
-  <a href="#marks-distribution-in-each-task" class="h-anchor" aria-hidden="true">#</a>
+      <h2 id="download">
+  Download
+  <a href="#download" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p><a href="https://drive.google.com/drive/folders/1k_b8FbtwirBn1d9N5-RJgHnU5uFAJIjV?usp=sharing">Download</a></p>
+<h2 id="description">
+  Description
+  <a href="#description" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Given data contains the values obtained by a line sensor.
+4 space separated values on each line gives the values of sensor at any instant</p>
+<p>You have been given a scenario of a white line on black surface
+there are regions on this line called nodes</p>
+<p><strong>A node looks like this</strong></p>
+<pre tabindex="0"><code>        |  |
+        |  |
+    ____|  |____
+    ____|  |____ &lt;-- node here
+        |  |
+        |  |
+        |  |
+        |  |             ^
+        |  |             |
+        |  |             |
+        |  | bot travels in this direction
+</code></pre><p><strong>Line sensor placement</strong></p>
+<pre tabindex="0"><code>    |  |
+    |  |
+____|  |____
+____|  |____ 
+    |  |
+    |  |
+   0|12|3
+</code></pre><ul>
+<li>0, 1, 2, 3 are the location of the 4 line sensors</li>
+</ul>
+<h2 id="task">
+  Task
+  <a href="#task" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<p>Your task is to count the number of nodes from the values given in data</p>
+<p>The bot starts &ldquo;On the line&rdquo;, &ldquo;passes straight through nodes&rdquo;
+and stops when it reaches the &ldquo;end of line&rdquo;</p>
+<p>This is a practically obtained data set
+so discard any impractical values which may have been recorded
+due to &ldquo;sensor or motion errors&rdquo;</p>
+<h2 id="input">
+  Input
+  <a href="#input" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li><code>data.txt</code> file contains the values obtained by a line sensor. 4 space separated values on each line gives the values of sensor at any instant</li>
+<li>The program on running must ask the name of the file to be read</li>
+</ul>
+<h2 id="output">
+  Output
+  <a href="#output" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<ul>
+<li>The program must output the number of nodes it detected after reading the given .txt file</li>
+</ul>
+<p><em>Note :- You should use only C language to solve this task</em></p>
+<h2 id="example">
+  Example
+  <a href="#example" class="h-anchor" aria-hidden="true">#</a>
+</h2>
+<pre tabindex="0"><code>sra@sra20:~$ ./assignment
+enter name of file to be read: data.txt
+number of nodes: 1
+</code></pre><h2 id="submission-instructions">
+  Submission Instructions
+  <a href="#submission-instructions" class="h-anchor" aria-hidden="true">#</a>
 </h2>
 <ul>
 <li>
-<p>Task 0 -</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">File Name</th>
-<th style="text-align:center">Marks for correct Output</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">data.txt</td>
-<td style="text-align:center">20</td>
-</tr>
-<tr>
-<td style="text-align:left">data_1.txt</td>
-<td style="text-align:center">20</td>
-</tr>
-<tr>
-<td style="text-align:left">logic</td>
-<td style="text-align:center">10</td>
-</tr>
-<tr>
-<td style="text-align:left">TOTAL</td>
-<td style="text-align:center">50</td>
-</tr>
-</tbody>
-</table>
+<p>You must create a zip file, which should contain source files, and screenshot of the output.</p>
 </li>
 <li>
-<p>Task 1 -</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Output</th>
-<th style="text-align:center">Marks for correct Output</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">Turns</td>
-<td style="text-align:center">30</td>
-</tr>
-<tr>
-<td style="text-align:left">Junction Type</td>
-<td style="text-align:center">40</td>
-</tr>
-<tr>
-<td style="text-align:left">Direction</td>
-<td style="text-align:center">10</td>
-</tr>
-<tr>
-<td style="text-align:left">logic</td>
-<td style="text-align:center">50</td>
-</tr>
-<tr>
-<td style="text-align:left">TOTAL</td>
-<td style="text-align:center">150</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>Task 2 -</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Folder</th>
-<th style="text-align:center">Marks for correct Output</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">set1</td>
-<td style="text-align:center">30</td>
-</tr>
-<tr>
-<td style="text-align:left">set2(for testing)</td>
-<td style="text-align:center">30</td>
-</tr>
-<tr>
-<td style="text-align:left">logic</td>
-<td style="text-align:center">40</td>
-</tr>
-<tr>
-<td style="text-align:left">TOTAL</td>
-<td style="text-align:center">100</td>
-</tr>
-</tbody>
-</table>
-</li>
-<li>
-<p>Task 3 -</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">File Name</th>
-<th style="text-align:center">Marks for correct Output</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">output.txt</td>
-<td style="text-align:center">50</td>
-</tr>
-<tr>
-<td style="text-align:left">logic(python file)</td>
-<td style="text-align:center">30</td>
-</tr>
-<tr>
-<td style="text-align:left">written_working.pdf</td>
-<td style="text-align:center">20</td>
-</tr>
-<tr>
-<td style="text-align:left">TOTAL</td>
-<td style="text-align:center">100</td>
-</tr>
-</tbody>
-</table>
+<p>Submit here : <a href="https://forms.gle/7riMUU56EYaiQx7h7">Link to Google Form</a></p>
 </li>
 </ul>
-<!-- raw HTML omitted -->
 
     </div>
     
@@ -304,10 +258,17 @@ File Name Marks for correct Output output.txt 50 logic(python file) 30 written_w
           </div>
           <div class="pagination__buttons">
             
+              <span class="button previous">
+                <a href="/blogs/t0/">
+                  <span class="button__icon">←</span>
+                  <span class="button__text">Marks distribution</span>
+                </a>
+              </span>
+            
             
               <span class="button next">
-                <a href="/blogs/task0/">
-                  <span class="button__text">Task 0: Tighten your seatbelts</span>
+                <a href="/blogs/task1/">
+                  <span class="button__text">Task 1: A Windy Path</span>
                   <span class="button__icon">→</span>
                 </a>
               </span>
