@@ -82,8 +82,10 @@ The output for the above file should look like:
 ```
 
 ## Pssst...
+- *Not able to decide which method to use?*
+    - Geometric approach yaad hai kya :upside_down_face:
 - *Still not able to crack how to write an inverse kinematics module?*
--> Well, you have used one before, and we wrote it for you then! Dig through the **MARIO Repo**, to find the *inverse_kinematics_module* used there :wink:
+    - Well, you have used one before, and we wrote it for you then! Dig through the **MARIO Repo**, to find the *inverse_kinematics_module* used there :wink:
 
 ## Submission Instructions:
 - You must create a `.zip`(**not `.rar`**) file containing:-
