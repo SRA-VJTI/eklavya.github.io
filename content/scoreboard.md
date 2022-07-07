@@ -6,6 +6,7 @@
 |Kadanacci|50|
 |Technofreaks|50|
 |Dynamite|50|
+|Raven|50|
 |YK|0|
 |Fenris|0|
 |silently-destroys-the-universe|0|
@@ -22,7 +23,6 @@
 |AsNik|0|
 |Culers|0|
 |A squad|0|
-|Raven|0|
 |Born2Code|0|
 |Ajeya|0|
 |JOJO Bots|0|
