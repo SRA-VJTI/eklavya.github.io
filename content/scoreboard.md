@@ -1,12 +1,12 @@
 |Team|Score|
 |---|---|
 |silently-destroys-the-universe|200|
+|Dynamite|200|
 |JP|50|
 |GenZ|50|
 |Beta Bijli Vibhag|50|
 |Kadanacci|50|
 |Technofreaks|50|
-|Dynamite|50|
 |Raven|50|
 |Ingenious|50|
 |Born2Code|50|
