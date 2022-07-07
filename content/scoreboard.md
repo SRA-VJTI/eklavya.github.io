@@ -3,8 +3,9 @@
 |JP|50|
 |GenZ|50|
 |Beta Bijli Vibhag|50|
-|Dynamite|50|
 |Kadanacci|50|
+|Technofreaks|50|
+|Dynamite|50|
 |YK|0|
 |Fenris|0|
 |silently-destroys-the-universe|0|
@@ -21,7 +22,6 @@
 |AsNik|0|
 |Culers|0|
 |A squad|0|
-|Technofreaks|0|
 |Raven|0|
 |Born2Code|0|
 |Ajeya|0|
