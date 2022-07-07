@@ -11,6 +11,7 @@
 |Ingenious|50|
 |Born2Code|50|
 |Kamakshi|50|
+|Hustlers1|50|
 |YK|0|
 |Fenris|0|
 |Halfwit gang|0|
@@ -41,7 +42,6 @@
 |Geeky Junkies|0|
 |Hustlers|0|
 |TECHNOGIANTS|0|
-|Hustlers1|0|
 |Team_07|0|
 |Coding Gujjus|0|
 |Team Z|0|
