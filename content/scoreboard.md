@@ -2,14 +2,14 @@
 |---|---|
 |silently-destroys-the-universe|200|
 |Dynamite|200|
+|Born2Code|200|
+|Beta Bijli Vibhag|200|
 |JP|50|
 |GenZ|50|
-|Beta Bijli Vibhag|50|
 |Kadanacci|50|
 |Technofreaks|50|
 |Raven|50|
 |Ingenious|50|
-|Born2Code|50|
 |Kamakshi|50|
 |Hustlers1|50|
 |YK|0|
