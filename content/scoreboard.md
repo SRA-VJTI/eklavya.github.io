@@ -1,9 +1,10 @@
 |Team|Score|
 |---|---|
+|Beta Bijli Vibhag|300|
 |silently-destroys-the-universe|200|
 |Dynamite|200|
 |Born2Code|200|
-|Beta Bijli Vibhag|200|
+|Sentient_AI|100|
 |JP|50|
 |GenZ|50|
 |Kadanacci|50|
@@ -12,16 +13,15 @@
 |Ingenious|50|
 |Kamakshi|50|
 |Hustlers1|50|
+|Halfwit gang|50|
+|Binary|50|
+|Sigma Bijli Vibhag|50|
 |YK|0|
 |Fenris|0|
-|Halfwit gang|0|
 |Ladsss|0|
-|Sentient_AI|0|
-|Binary|0|
 |Digiminds|0|
 |Alpha Bijli Vibhag|0|
 |We both|0|
-|Sigma Bijli Vibhag|0|
 |ROSe|0|
 |AsNik|0|
 |Culers|0|
