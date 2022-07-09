@@ -19,6 +19,7 @@
 |Sigma Bijli Vibhag|50|
 |AsNik|50|
 |Kuch Bhi|50|
+|Hertz|50|
 |YK|0|
 |Fenris|0|
 |Ladsss|0|
@@ -37,7 +38,6 @@
 |RAY|0|
 |THE TITANS|0|
 |Duo Creators|0|
-|Hertz|0|
 |PROBOTS|0|
 |The Flash|0|
 |Geeky Junkies|0|
