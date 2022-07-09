@@ -21,9 +21,9 @@
 |Kuch Bhi|50|
 |Hertz|50|
 |ROBONAUTS|50|
+|Ladsss|50|
 |YK|0|
 |Fenris|0|
-|Ladsss|0|
 |Digiminds|0|
 |Alpha Bijli Vibhag|0|
 |We both|0|
