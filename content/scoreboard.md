@@ -18,6 +18,7 @@
 |Binary|50|
 |Sigma Bijli Vibhag|50|
 |AsNik|50|
+|Kuch Bhi|50|
 |YK|0|
 |Fenris|0|
 |Ladsss|0|
@@ -47,7 +48,6 @@
 |Team Z|0|
 |Riders|0|
 |Spectres|0|
-|Kuch Bhi|0|
 |Riders1|0|
 |Silent Killers|0|
 |MechTitans|0|
