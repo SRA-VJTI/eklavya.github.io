@@ -7,13 +7,13 @@
 |Technofreaks|200|
 |Kamakshi|200|
 |Kadanacci|200|
+|Hustlers1|200|
 |Sentient_AI|100|
 |A squad|100|
 |JP|50|
 |GenZ|50|
 |Raven|50|
 |Ingenious|50|
-|Hustlers1|50|
 |Halfwit gang|50|
 |Binary|50|
 |Sigma Bijli Vibhag|50|
