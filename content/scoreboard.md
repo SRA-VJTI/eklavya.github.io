@@ -1,6 +1,6 @@
 |Team|Score|
 |---|---|
-|Beta Bijli Vibhag|300|
+|Beta Bijli Vibhag|400|
 |silently-destroys-the-universe|200|
 |Dynamite|200|
 |Born2Code|200|
