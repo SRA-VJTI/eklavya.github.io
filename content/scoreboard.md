@@ -16,6 +16,7 @@
 |Halfwit gang|50|
 |Binary|50|
 |Sigma Bijli Vibhag|50|
+|AsNik|50|
 |YK|0|
 |Fenris|0|
 |Ladsss|0|
@@ -23,7 +24,6 @@
 |Alpha Bijli Vibhag|0|
 |We both|0|
 |ROSe|0|
-|AsNik|0|
 |Culers|0|
 |A squad|0|
 |Ajeya|0|
