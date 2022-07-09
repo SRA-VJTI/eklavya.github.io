@@ -6,11 +6,11 @@
 |Born2Code|200|
 |Technofreaks|200|
 |Kamakshi|200|
+|Kadanacci|200|
 |Sentient_AI|100|
 |A squad|100|
 |JP|50|
 |GenZ|50|
-|Kadanacci|50|
 |Raven|50|
 |Ingenious|50|
 |Hustlers1|50|
