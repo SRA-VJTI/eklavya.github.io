@@ -8,7 +8,7 @@
 |Kamakshi|200|
 |Kadanacci|200|
 |Hustlers1|200|
-|Sentient_AI|100|
+|Sentient_AI|200|
 |A squad|100|
 |JP|50|
 |GenZ|50|
