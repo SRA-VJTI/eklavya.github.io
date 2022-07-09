@@ -20,8 +20,8 @@ Given Grayscale Image(s) will contain an arrow which will face a particular dire
                                     \/
 
 ## Task:
-* Your task is to read images `arrow0.png, arrow1.png, arrow2.png` etc. given in the zip file (i.e. `arrow[0,1,2,3..].png`)
-* Next, for each image, using only `Numpy and PIL` , you have to determine the direction of the arrow. 
+* Your task is to read images `arrow0.png, arrow1.png, arrow2.png` etc. given in the zip file (i.e. `arrow[0,1,2,3..].png`) using `PIL`
+* Next, for each image, using only `Numpy` , you have to determine the direction of the arrow. 
 * Store the directions determined for all images in a `.txt` file, located in the same folder as the images and your code file.
 
 > Directions for arrows can be **"TOP", "BOTTOM", "LEFT", and "RIGHT"** only.
@@ -61,9 +61,10 @@ LEFT
 
 ## Warnings:
 #### 1. You must make use of only Numpy and PIL Libraries in Python to solve this task, no other libraries can be used.
+#### Furthermore PIL can only be used to read the image and convert color if necessary ( nothing else )
 #### 2. Make sure to store the `png` images and `.txt` file in the same folder as your .py file.
 
 ## Submission Instructions:
 
 - You must create a `.zip` file containing the python code file (`.py` file) & the text file (`.txt`) with the output directions.
-- Submit here : [Link to Google Form](https://forms.gle/tA7V4KymFw32K3uz8)
+- Submit here : [Link to Google Form](https://forms.gle/6zzG9r4vusep26jV7)

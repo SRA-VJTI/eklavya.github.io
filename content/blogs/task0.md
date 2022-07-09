@@ -70,4 +70,4 @@ number of nodes: 1
 
 - You must create a zip file, which should contain source files, and screenshot of the output.
 
-- Submit here : [Link to Google Form](https://forms.gle/CTjNkovNax7LDtsy8)
+- Submit here : [Link to Google Form](https://forms.gle/7riMUU56EYaiQx7h7)
