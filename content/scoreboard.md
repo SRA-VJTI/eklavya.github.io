@@ -7,6 +7,7 @@
 |Technofreaks|200|
 |Kamakshi|200|
 |Sentient_AI|100|
+|A squad|100|
 |JP|50|
 |GenZ|50|
 |Kadanacci|50|
@@ -25,7 +26,6 @@
 |We both|0|
 |ROSe|0|
 |Culers|0|
-|A squad|0|
 |Ajeya|0|
 |JOJO Bots|0|
 |Binary Devs|0|
