@@ -2,7 +2,7 @@ from pprint import pprint
 import sys
 
 
-file1 = open('./scoreboard.md', 'r')
+file1 = open('./content/scoreboard.md', 'r')
 
 lines = [line.split("|") for line in file1.readlines()]
 file1.close()
@@ -23,8 +23,7 @@ for teams in range(1,len(sys.argv)):
 
     team_dict = {k: v for k, v in sorted(team_dict.items(), key=lambda item: item[1], reverse=True)}
 
-    with open("./scoreboard.md", "w") as scoreb:
+    with open("./content/scoreboard.md", "w") as scoreb:
         scoreb.write("|Team|Score|\n|---|---|\n")
         for team, score in team_dict.items():
             scoreb.write("|{}|{}|\n".format(team, score))
-            print(team,score)
