@@ -10,7 +10,7 @@
 |Hustlers1|200|
 |Sentient_AI|200|
 |Raven|200|
-|A squad|100|
+|A squad|150|
 |JP|50|
 |GenZ|50|
 |Ingenious|50|
