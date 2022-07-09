@@ -20,6 +20,7 @@
 |AsNik|50|
 |Kuch Bhi|50|
 |Hertz|50|
+|ROBONAUTS|50|
 |YK|0|
 |Fenris|0|
 |Ladsss|0|
@@ -32,7 +33,6 @@
 |JOJO Bots|0|
 |Binary Devs|0|
 |Sparta|0|
-|ROBONAUTS|0|
 |RM|0|
 |Team SeK|0|
 |RAY|0|
