@@ -25,6 +25,7 @@
 |Spectres|50|
 |Culers|50|
 |PROBOTS|50|
+|Futureviz|50|
 |Fenris|25|
 |YK|0|
 |Digiminds|0|
@@ -51,6 +52,5 @@
 |Riders1|0|
 |Silent Killers|0|
 |MechTitans|0|
-|Futureviz|0|
 |Team 100|0|
 |ROBO|0|
