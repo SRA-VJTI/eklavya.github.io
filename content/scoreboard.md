@@ -23,13 +23,13 @@
 |ROBONAUTS|50|
 |Ladsss|50|
 |Spectres|50|
+|Culers|50|
 |Fenris|25|
 |YK|0|
 |Digiminds|0|
 |Alpha Bijli Vibhag|0|
 |We both|0|
 |ROSe|0|
-|Culers|0|
 |Ajeya|0|
 |JOJO Bots|0|
 |Binary Devs|0|
