@@ -11,11 +11,11 @@
 |Sentient_AI|200|
 |Raven|200|
 |GenZ|200|
+|Binary|200|
 |A squad|150|
 |Ingenious|150|
 |JP|50|
 |Halfwit gang|50|
-|Binary|50|
 |Sigma Bijli Vibhag|50|
 |AsNik|50|
 |Kuch Bhi|50|
