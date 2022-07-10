@@ -22,6 +22,7 @@
 |Hertz|50|
 |ROBONAUTS|50|
 |Ladsss|50|
+|Spectres|50|
 |Fenris|25|
 |YK|0|
 |Digiminds|0|
@@ -47,7 +48,6 @@
 |Coding Gujjus|0|
 |Team Z|0|
 |Riders|0|
-|Spectres|0|
 |Riders1|0|
 |Silent Killers|0|
 |MechTitans|0|
