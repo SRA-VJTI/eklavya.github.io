@@ -12,8 +12,8 @@
 |Raven|200|
 |GenZ|200|
 |A squad|150|
+|Ingenious|150|
 |JP|50|
-|Ingenious|50|
 |Halfwit gang|50|
 |Binary|50|
 |Sigma Bijli Vibhag|50|
