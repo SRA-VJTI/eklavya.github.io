@@ -24,6 +24,7 @@
 |Ladsss|50|
 |Spectres|50|
 |Culers|50|
+|PROBOTS|50|
 |Fenris|25|
 |YK|0|
 |Digiminds|0|
@@ -39,7 +40,6 @@
 |RAY|0|
 |THE TITANS|0|
 |Duo Creators|0|
-|PROBOTS|0|
 |The Flash|0|
 |Geeky Junkies|0|
 |Hustlers|0|
