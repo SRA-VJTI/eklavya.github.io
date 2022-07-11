@@ -26,9 +26,9 @@
 |Culers|50|
 |PROBOTS|50|
 |Futureviz|50|
+|Digiminds|50|
 |Fenris|25|
 |YK|0|
-|Digiminds|0|
 |Alpha Bijli Vibhag|0|
 |We both|0|
 |ROSe|0|
