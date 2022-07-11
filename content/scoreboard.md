@@ -30,6 +30,7 @@
 |Sparta|50|
 |Riders|50|
 |Alpha Bijli Vibhag|50|
+|RM|50|
 |Fenris|25|
 |YK|25|
 |We both|0|
@@ -37,7 +38,6 @@
 |Ajeya|0|
 |JOJO Bots|0|
 |Binary Devs|0|
-|RM|0|
 |Team SeK|0|
 |RAY|0|
 |THE TITANS|0|
