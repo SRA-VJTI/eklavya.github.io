@@ -27,6 +27,7 @@
 |PROBOTS|50|
 |Futureviz|50|
 |Digiminds|50|
+|Sparta|50|
 |Fenris|25|
 |YK|0|
 |Alpha Bijli Vibhag|0|
@@ -35,7 +36,6 @@
 |Ajeya|0|
 |JOJO Bots|0|
 |Binary Devs|0|
-|Sparta|0|
 |RM|0|
 |Team SeK|0|
 |RAY|0|
