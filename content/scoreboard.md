@@ -6,7 +6,7 @@
 |Technofreaks|300|
 |Kamakshi|300|
 |Binary|300|
-|Dynamite|200|
+|Dynamite|300|
 |Kadanacci|200|
 |Hustlers1|200|
 |Sentient_AI|200|
