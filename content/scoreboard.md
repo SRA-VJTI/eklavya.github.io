@@ -29,9 +29,9 @@
 |Digiminds|50|
 |Sparta|50|
 |Riders|50|
+|Alpha Bijli Vibhag|50|
 |Fenris|25|
 |YK|0|
-|Alpha Bijli Vibhag|0|
 |We both|0|
 |ROSe|0|
 |Ajeya|0|
