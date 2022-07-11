@@ -7,6 +7,7 @@
 |Kamakshi|300|
 |Binary|300|
 |Dynamite|300|
+|Ingenious|300|
 |Sentient_AI|250|
 |Kadanacci|200|
 |Hustlers1|200|
@@ -14,7 +15,6 @@
 |GenZ|200|
 |JP|200|
 |A squad|150|
-|Ingenious|150|
 |Sigma Bijli Vibhag|150|
 |Halfwit gang|50|
 |AsNik|50|
