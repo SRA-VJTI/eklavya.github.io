@@ -3,8 +3,8 @@
 |Beta Bijli Vibhag|400|
 |silently-destroys-the-universe|400|
 |Born2Code|300|
+|Technofreaks|300|
 |Dynamite|200|
-|Technofreaks|200|
 |Kamakshi|200|
 |Kadanacci|200|
 |Hustlers1|200|
