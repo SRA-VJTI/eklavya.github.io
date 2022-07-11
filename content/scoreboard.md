@@ -15,8 +15,8 @@
 |JP|200|
 |A squad|150|
 |Ingenious|150|
+|Sigma Bijli Vibhag|150|
 |Halfwit gang|50|
-|Sigma Bijli Vibhag|50|
 |AsNik|50|
 |Kuch Bhi|50|
 |Hertz|50|
