@@ -31,7 +31,7 @@
 |Riders|50|
 |Alpha Bijli Vibhag|50|
 |Fenris|25|
-|YK|0|
+|YK|25|
 |We both|0|
 |ROSe|0|
 |Ajeya|0|
