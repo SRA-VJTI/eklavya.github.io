@@ -5,13 +5,13 @@
 |Born2Code|300|
 |Technofreaks|300|
 |Kamakshi|300|
+|Binary|300|
 |Dynamite|200|
 |Kadanacci|200|
 |Hustlers1|200|
 |Sentient_AI|200|
 |Raven|200|
 |GenZ|200|
-|Binary|200|
 |JP|200|
 |A squad|150|
 |Ingenious|150|
