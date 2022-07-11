@@ -28,6 +28,7 @@
 |Futureviz|50|
 |Digiminds|50|
 |Sparta|50|
+|Riders|50|
 |Fenris|25|
 |YK|0|
 |Alpha Bijli Vibhag|0|
@@ -48,7 +49,6 @@
 |Team_07|0|
 |Coding Gujjus|0|
 |Team Z|0|
-|Riders|0|
 |Riders1|0|
 |Silent Killers|0|
 |MechTitans|0|
