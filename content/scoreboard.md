@@ -17,6 +17,7 @@
 |JP|200|
 |A squad|150|
 |Sigma Bijli Vibhag|150|
+|MechTitans|100|
 |Halfwit gang|50|
 |AsNik|50|
 |Kuch Bhi|50|
@@ -51,6 +52,5 @@
 |Team Z|0|
 |Riders1|0|
 |Silent Killers|0|
-|MechTitans|0|
 |Team 100|0|
 |ROBO|0|
