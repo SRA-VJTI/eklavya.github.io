@@ -8,13 +8,13 @@
 |Technofreaks|400|
 |Binary|300|
 |Ingenious|300|
+|Sparta|300|
 |Sentient_AI|250|
 |Kadanacci|200|
 |Hustlers1|200|
 |Raven|200|
 |GenZ|200|
 |JP|200|
-|Sparta|200|
 |A squad|150|
 |Sigma Bijli Vibhag|150|
 |Halfwit gang|50|
