@@ -15,6 +15,7 @@
 |Raven|200|
 |GenZ|200|
 |JP|200|
+|ROBONAUTS|200|
 |A squad|150|
 |Sigma Bijli Vibhag|150|
 |MechTitans|100|
@@ -22,7 +23,6 @@
 |AsNik|50|
 |Kuch Bhi|50|
 |Hertz|50|
-|ROBONAUTS|50|
 |Ladsss|50|
 |Spectres|50|
 |Culers|50|
