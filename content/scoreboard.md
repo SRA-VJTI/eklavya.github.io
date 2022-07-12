@@ -5,7 +5,7 @@
 |Born2Code|400|
 |Kamakshi|400|
 |Dynamite|400|
-|Technofreaks|300|
+|Technofreaks|400|
 |Binary|300|
 |Ingenious|300|
 |Sentient_AI|250|
