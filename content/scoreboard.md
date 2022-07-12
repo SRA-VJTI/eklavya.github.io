@@ -14,6 +14,7 @@
 |Raven|200|
 |GenZ|200|
 |JP|200|
+|Sparta|200|
 |A squad|150|
 |Sigma Bijli Vibhag|150|
 |Halfwit gang|50|
@@ -27,7 +28,6 @@
 |PROBOTS|50|
 |Futureviz|50|
 |Digiminds|50|
-|Sparta|50|
 |Riders|50|
 |Alpha Bijli Vibhag|50|
 |RM|50|
