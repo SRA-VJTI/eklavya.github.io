@@ -6,10 +6,10 @@
 |Kamakshi|400|
 |Dynamite|400|
 |Technofreaks|400|
+|GenZ|400|
 |Binary|300|
 |Ingenious|300|
 |Sparta|300|
-|GenZ|300|
 |Raven|300|
 |A squad|300|
 |Sentient_AI|250|
