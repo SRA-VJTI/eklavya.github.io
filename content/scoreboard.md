@@ -20,7 +20,6 @@
 |A squad|150|
 |Sigma Bijli Vibhag|150|
 |MechTitans|100|
-|Hustlers|50|
 |AsNik|50|
 |Kuch Bhi|50|
 |Hertz|50|
@@ -34,6 +33,7 @@
 |Alpha Bijli Vibhag|50|
 |RM|50|
 |JOJO Bots|50|
+|Hustlers|50|
 |Fenris|25|
 |YK|25|
 |We both|0|
