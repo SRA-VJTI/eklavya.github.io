@@ -7,13 +7,13 @@
 |Dynamite|400|
 |Technofreaks|400|
 |GenZ|400|
+|Kadanacci|400|
 |Binary|300|
 |Ingenious|300|
 |Sparta|300|
 |Raven|300|
 |A squad|300|
 |Sentient_AI|250|
-|Kadanacci|200|
 |Hustlers1|200|
 |JP|200|
 |ROBONAUTS|200|
