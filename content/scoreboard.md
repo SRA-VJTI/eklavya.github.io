@@ -10,10 +10,10 @@
 |Ingenious|300|
 |Sparta|300|
 |GenZ|300|
+|Raven|300|
 |Sentient_AI|250|
 |Kadanacci|200|
 |Hustlers1|200|
-|Raven|200|
 |JP|200|
 |ROBONAUTS|200|
 |Halfwit gang|200|
