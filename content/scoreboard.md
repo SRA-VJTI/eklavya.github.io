@@ -20,7 +20,7 @@
 |A squad|150|
 |Sigma Bijli Vibhag|150|
 |MechTitans|100|
-|Hustlers|100|
+|Hustlers|50|
 |AsNik|50|
 |Kuch Bhi|50|
 |Hertz|50|
