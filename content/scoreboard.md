@@ -16,10 +16,10 @@
 |GenZ|200|
 |JP|200|
 |ROBONAUTS|200|
+|Halfwit gang|200|
 |A squad|150|
 |Sigma Bijli Vibhag|150|
 |MechTitans|100|
-|Halfwit gang|50|
 |AsNik|50|
 |Kuch Bhi|50|
 |Hertz|50|
