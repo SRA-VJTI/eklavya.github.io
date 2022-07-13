@@ -20,6 +20,7 @@
 |A squad|150|
 |Sigma Bijli Vibhag|150|
 |MechTitans|100|
+|Hustlers|100|
 |AsNik|50|
 |Kuch Bhi|50|
 |Hertz|50|
@@ -45,7 +46,6 @@
 |Duo Creators|0|
 |The Flash|0|
 |Geeky Junkies|0|
-|Hustlers|0|
 |TECHNOGIANTS|0|
 |Team_07|0|
 |Coding Gujjus|0|
