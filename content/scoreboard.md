@@ -9,11 +9,11 @@
 |Binary|300|
 |Ingenious|300|
 |Sparta|300|
+|GenZ|300|
 |Sentient_AI|250|
 |Kadanacci|200|
 |Hustlers1|200|
 |Raven|200|
-|GenZ|200|
 |JP|200|
 |ROBONAUTS|200|
 |Halfwit gang|200|
