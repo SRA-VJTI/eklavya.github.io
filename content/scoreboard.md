@@ -11,6 +11,7 @@
 |Sparta|300|
 |GenZ|300|
 |Raven|300|
+|A squad|300|
 |Sentient_AI|250|
 |Kadanacci|200|
 |Hustlers1|200|
@@ -18,7 +19,6 @@
 |ROBONAUTS|200|
 |Halfwit gang|200|
 |Fenris|175|
-|A squad|150|
 |Sigma Bijli Vibhag|150|
 |MechTitans|100|
 |AsNik|50|
