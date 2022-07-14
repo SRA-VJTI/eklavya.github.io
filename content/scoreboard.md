@@ -14,6 +14,7 @@
 |Raven|300|
 |A squad|300|
 |Sentient_AI|250|
+|Sigma Bijli Vibhag|250|
 |Hustlers1|200|
 |JP|200|
 |ROBONAUTS|200|
@@ -21,7 +22,6 @@
 |Spectres|200|
 |Ladsss|200|
 |Fenris|175|
-|Sigma Bijli Vibhag|150|
 |MechTitans|100|
 |AsNik|50|
 |Kuch Bhi|50|
