@@ -12,12 +12,12 @@
 |Binary|400|
 |Sentient_AI|400|
 |Sigma Bijli Vibhag|400|
+|Kuch Bhi|400|
 |Ingenious|300|
 |Sparta|300|
 |Raven|300|
 |Hustlers1|300|
 |ROBONAUTS|300|
-|Kuch Bhi|300|
 |JP|300|
 |Halfwit gang|200|
 |Spectres|200|
