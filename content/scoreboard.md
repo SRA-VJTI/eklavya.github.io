@@ -8,11 +8,11 @@
 |Technofreaks|400|
 |GenZ|400|
 |Kadanacci|400|
+|A squad|400|
 |Binary|300|
 |Ingenious|300|
 |Sparta|300|
 |Raven|300|
-|A squad|300|
 |Sentient_AI|250|
 |Sigma Bijli Vibhag|250|
 |Hustlers1|200|
