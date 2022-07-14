@@ -37,9 +37,9 @@
 |JOJO Bots|50|
 |Hustlers|50|
 |RAY|50|
+|Ajeya|50|
 |We both|0|
 |ROSe|0|
-|Ajeya|0|
 |Binary Devs|0|
 |Team SeK|0|
 |THE TITANS|0|
