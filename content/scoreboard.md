@@ -9,7 +9,7 @@
 |GenZ|400|
 |Kadanacci|400|
 |A squad|400|
-|Binary|300|
+|Binary|400|
 |Ingenious|300|
 |Sparta|300|
 |Raven|300|
