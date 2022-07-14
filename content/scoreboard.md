@@ -22,6 +22,7 @@
 |Spectres|200|
 |Ladsss|200|
 |Fenris|175|
+|YK|175|
 |MechTitans|100|
 |AsNik|50|
 |Kuch Bhi|50|
@@ -35,7 +36,6 @@
 |RM|50|
 |JOJO Bots|50|
 |Hustlers|50|
-|YK|25|
 |We both|0|
 |ROSe|0|
 |Ajeya|0|
