@@ -16,6 +16,7 @@
 |Raven|300|
 |Hustlers1|300|
 |ROBONAUTS|300|
+|Kuch Bhi|300|
 |Sigma Bijli Vibhag|250|
 |JP|200|
 |Halfwit gang|200|
@@ -24,7 +25,6 @@
 |AsNik|200|
 |Fenris|175|
 |YK|175|
-|Kuch Bhi|150|
 |MechTitans|100|
 |Hertz|50|
 |Culers|50|
