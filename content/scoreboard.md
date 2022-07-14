@@ -19,13 +19,13 @@
 |ROBONAUTS|200|
 |Halfwit gang|200|
 |Spectres|200|
+|Ladsss|200|
 |Fenris|175|
 |Sigma Bijli Vibhag|150|
 |MechTitans|100|
 |AsNik|50|
 |Kuch Bhi|50|
 |Hertz|50|
-|Ladsss|50|
 |Culers|50|
 |PROBOTS|50|
 |Futureviz|50|
