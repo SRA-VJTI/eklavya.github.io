@@ -25,6 +25,7 @@
 |AsNik|200|
 |Fenris|175|
 |YK|175|
+|Alpha Bijli Vibhag|150|
 |MechTitans|100|
 |Hertz|50|
 |Culers|50|
@@ -32,7 +33,6 @@
 |Futureviz|50|
 |Digiminds|50|
 |Riders|50|
-|Alpha Bijli Vibhag|50|
 |RM|50|
 |JOJO Bots|50|
 |Hustlers|50|
