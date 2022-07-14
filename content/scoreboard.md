@@ -13,9 +13,9 @@
 |Ingenious|300|
 |Sparta|300|
 |Raven|300|
+|Hustlers1|300|
 |Sentient_AI|250|
 |Sigma Bijli Vibhag|250|
-|Hustlers1|200|
 |JP|200|
 |ROBONAUTS|200|
 |Halfwit gang|200|
