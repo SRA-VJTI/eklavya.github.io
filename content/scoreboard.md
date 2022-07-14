@@ -18,7 +18,7 @@
 |Hustlers1|300|
 |ROBONAUTS|300|
 |Kuch Bhi|300|
-|JP|200|
+|JP|300|
 |Halfwit gang|200|
 |Spectres|200|
 |Ladsss|200|
