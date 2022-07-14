@@ -21,10 +21,10 @@
 |Halfwit gang|200|
 |Spectres|200|
 |Ladsss|200|
+|AsNik|200|
 |Fenris|175|
 |YK|175|
 |MechTitans|100|
-|AsNik|50|
 |Kuch Bhi|50|
 |Hertz|50|
 |Culers|50|
