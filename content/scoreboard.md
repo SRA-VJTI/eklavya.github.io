@@ -24,8 +24,8 @@
 |AsNik|200|
 |Fenris|175|
 |YK|175|
+|Kuch Bhi|150|
 |MechTitans|100|
-|Kuch Bhi|50|
 |Hertz|50|
 |Culers|50|
 |PROBOTS|50|
