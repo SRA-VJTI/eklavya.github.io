@@ -36,12 +36,12 @@
 |RM|50|
 |JOJO Bots|50|
 |Hustlers|50|
+|RAY|50|
 |We both|0|
 |ROSe|0|
 |Ajeya|0|
 |Binary Devs|0|
 |Team SeK|0|
-|RAY|0|
 |THE TITANS|0|
 |Duo Creators|0|
 |The Flash|0|
