@@ -14,10 +14,10 @@
 |Sparta|300|
 |Raven|300|
 |Hustlers1|300|
+|ROBONAUTS|300|
 |Sentient_AI|250|
 |Sigma Bijli Vibhag|250|
 |JP|200|
-|ROBONAUTS|200|
 |Halfwit gang|200|
 |Spectres|200|
 |Ladsss|200|
