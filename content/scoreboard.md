@@ -23,6 +23,7 @@
 |Spectres|200|
 |Ladsss|200|
 |AsNik|200|
+|Riders|200|
 |Fenris|175|
 |YK|175|
 |Alpha Bijli Vibhag|150|
@@ -32,7 +33,6 @@
 |PROBOTS|50|
 |Futureviz|50|
 |Digiminds|50|
-|Riders|50|
 |RM|50|
 |JOJO Bots|50|
 |Hustlers|50|
