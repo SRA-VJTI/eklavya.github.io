@@ -10,12 +10,12 @@
 |Kadanacci|400|
 |A squad|400|
 |Binary|400|
+|Sentient_AI|400|
 |Ingenious|300|
 |Sparta|300|
 |Raven|300|
 |Hustlers1|300|
 |ROBONAUTS|300|
-|Sentient_AI|250|
 |Sigma Bijli Vibhag|250|
 |JP|200|
 |Halfwit gang|200|
