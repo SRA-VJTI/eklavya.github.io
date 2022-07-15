@@ -15,10 +15,10 @@
 |Kuch Bhi|400|
 |Spectres|400|
 |Ingenious|400|
+|ROBONAUTS|400|
 |Sparta|300|
 |Raven|300|
 |Hustlers1|300|
-|ROBONAUTS|300|
 |JP|300|
 |Alpha Bijli Vibhag|300|
 |Halfwit gang|200|
