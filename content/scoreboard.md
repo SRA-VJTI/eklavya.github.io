@@ -27,6 +27,7 @@
 |Riders|200|
 |Fenris|175|
 |YK|175|
+|Ajeya|150|
 |MechTitans|100|
 |Hertz|50|
 |Culers|50|
@@ -37,7 +38,6 @@
 |JOJO Bots|50|
 |Hustlers|50|
 |RAY|50|
-|Ajeya|50|
 |We both|0|
 |ROSe|0|
 |Binary Devs|0|
