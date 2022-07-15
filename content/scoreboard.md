@@ -28,9 +28,9 @@
 |Fenris|175|
 |YK|175|
 |Ajeya|150|
+|Culers|150|
 |MechTitans|100|
 |Hertz|50|
-|Culers|50|
 |PROBOTS|50|
 |Futureviz|50|
 |Digiminds|50|
