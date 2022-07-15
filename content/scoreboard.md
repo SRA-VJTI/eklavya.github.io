@@ -20,13 +20,13 @@
 |Hustlers1|300|
 |ROBONAUTS|300|
 |JP|300|
+|Alpha Bijli Vibhag|300|
 |Halfwit gang|200|
 |Ladsss|200|
 |AsNik|200|
 |Riders|200|
 |Fenris|175|
 |YK|175|
-|Alpha Bijli Vibhag|150|
 |MechTitans|100|
 |Hertz|50|
 |Culers|50|
