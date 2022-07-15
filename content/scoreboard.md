@@ -14,7 +14,7 @@
 |Sigma Bijli Vibhag|400|
 |Kuch Bhi|400|
 |Spectres|400|
-|Ingenious|300|
+|Ingenious|400|
 |Sparta|300|
 |Raven|300|
 |Hustlers1|300|
