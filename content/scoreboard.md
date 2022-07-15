@@ -13,6 +13,7 @@
 |Sentient_AI|400|
 |Sigma Bijli Vibhag|400|
 |Kuch Bhi|400|
+|Spectres|400|
 |Ingenious|300|
 |Sparta|300|
 |Raven|300|
@@ -20,7 +21,6 @@
 |ROBONAUTS|300|
 |JP|300|
 |Halfwit gang|200|
-|Spectres|200|
 |Ladsss|200|
 |AsNik|200|
 |Riders|200|
