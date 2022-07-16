@@ -19,8 +19,8 @@
 |Raven|400|
 |Sparta|400|
 |JP|400|
+|Alpha Bijli Vibhag|400|
 |Hustlers1|300|
-|Alpha Bijli Vibhag|300|
 |AsNik|300|
 |Halfwit gang|300|
 |Ladsss|300|
