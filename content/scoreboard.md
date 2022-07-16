@@ -21,9 +21,9 @@
 |Hustlers1|300|
 |JP|300|
 |Alpha Bijli Vibhag|300|
+|AsNik|300|
 |Halfwit gang|200|
 |Ladsss|200|
-|AsNik|200|
 |Riders|200|
 |Hertz|200|
 |Fenris|175|
