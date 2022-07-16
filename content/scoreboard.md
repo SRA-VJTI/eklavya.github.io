@@ -20,7 +20,7 @@
 |Sparta|400|
 |JP|400|
 |Alpha Bijli Vibhag|400|
-|Hertz|400|
+|Hertz|390|
 |Hustlers1|390|
 |Fenris|375|
 |AsNik|300|
