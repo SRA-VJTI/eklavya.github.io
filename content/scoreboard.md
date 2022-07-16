@@ -26,9 +26,9 @@
 |Halfwit gang|300|
 |Ladsss|300|
 |Fenris|275|
+|YK|275|
 |Riders|200|
 |RAY|200|
-|YK|175|
 |Ajeya|150|
 |Culers|150|
 |MechTitans|100|
