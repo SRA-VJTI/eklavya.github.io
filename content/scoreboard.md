@@ -24,9 +24,9 @@
 |AsNik|300|
 |Halfwit gang|300|
 |Ladsss|300|
+|Hertz|300|
 |Fenris|275|
 |Riders|200|
-|Hertz|200|
 |RAY|200|
 |YK|175|
 |Ajeya|150|
