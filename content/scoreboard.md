@@ -26,6 +26,7 @@
 |Ladsss|200|
 |Riders|200|
 |Hertz|200|
+|RAY|200|
 |Fenris|175|
 |YK|175|
 |Ajeya|150|
@@ -37,7 +38,6 @@
 |RM|50|
 |JOJO Bots|50|
 |Hustlers|50|
-|RAY|50|
 |We both|50|
 |ROSe|0|
 |Binary Devs|0|
