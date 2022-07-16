@@ -29,10 +29,10 @@
 |YK|275|
 |Riders|200|
 |RAY|200|
+|PROBOTS|200|
 |Ajeya|150|
 |Culers|150|
 |MechTitans|100|
-|PROBOTS|50|
 |Futureviz|50|
 |Digiminds|50|
 |RM|50|
