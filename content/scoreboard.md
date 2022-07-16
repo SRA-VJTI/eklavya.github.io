@@ -39,6 +39,7 @@
 |JOJO Bots|50|
 |Hustlers|50|
 |We both|50|
+|Team Z|50|
 |ROSe|0|
 |Binary Devs|0|
 |Team SeK|0|
@@ -49,7 +50,6 @@
 |TECHNOGIANTS|0|
 |Team_07|0|
 |Coding Gujjus|0|
-|Team Z|0|
 |Riders1|0|
 |Silent Killers|0|
 |Team 100|0|
