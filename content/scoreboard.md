@@ -22,7 +22,7 @@
 |JP|300|
 |Alpha Bijli Vibhag|300|
 |AsNik|300|
-|Halfwit gang|200|
+|Halfwit gang|300|
 |Ladsss|200|
 |Riders|200|
 |Hertz|200|
