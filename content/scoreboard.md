@@ -25,12 +25,12 @@
 |Ladsss|200|
 |AsNik|200|
 |Riders|200|
+|Hertz|200|
 |Fenris|175|
 |YK|175|
 |Ajeya|150|
 |Culers|150|
 |MechTitans|100|
-|Hertz|50|
 |PROBOTS|50|
 |Futureviz|50|
 |Digiminds|50|
