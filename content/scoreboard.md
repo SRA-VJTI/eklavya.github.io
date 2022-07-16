@@ -31,10 +31,10 @@
 |Culers|250|
 |Riders|200|
 |RAY|200|
+|Digiminds|200|
 |Ajeya|150|
 |MechTitans|100|
 |Futureviz|50|
-|Digiminds|50|
 |RM|50|
 |JOJO Bots|50|
 |Hustlers|50|
