@@ -22,10 +22,10 @@
 |Alpha Bijli Vibhag|400|
 |Hertz|400|
 |Hustlers1|390|
+|Fenris|375|
 |AsNik|300|
 |Halfwit gang|300|
 |Ladsss|300|
-|Fenris|275|
 |YK|275|
 |Riders|200|
 |RAY|200|
