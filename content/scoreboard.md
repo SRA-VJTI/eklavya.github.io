@@ -21,7 +21,7 @@
 |JP|400|
 |Alpha Bijli Vibhag|400|
 |Hertz|400|
-|Hustlers1|300|
+|Hustlers1|390|
 |AsNik|300|
 |Halfwit gang|300|
 |Ladsss|300|
