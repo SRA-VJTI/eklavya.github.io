@@ -33,10 +33,10 @@
 |RAY|200|
 |Digiminds|200|
 |Ajeya|150|
+|JOJO Bots|150|
 |MechTitans|100|
 |Futureviz|50|
 |RM|50|
-|JOJO Bots|50|
 |Hustlers|50|
 |We both|50|
 |Team Z|50|
