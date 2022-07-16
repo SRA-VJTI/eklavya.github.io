@@ -26,10 +26,10 @@
 |AsNik|300|
 |Halfwit gang|300|
 |Ladsss|300|
+|PROBOTS|300|
 |YK|275|
 |Riders|200|
 |RAY|200|
-|PROBOTS|200|
 |Ajeya|150|
 |Culers|150|
 |MechTitans|100|
