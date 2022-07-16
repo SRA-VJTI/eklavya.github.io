@@ -20,11 +20,11 @@
 |Sparta|400|
 |JP|400|
 |Alpha Bijli Vibhag|400|
+|Hertz|400|
 |Hustlers1|300|
 |AsNik|300|
 |Halfwit gang|300|
 |Ladsss|300|
-|Hertz|300|
 |Fenris|275|
 |Riders|200|
 |RAY|200|
