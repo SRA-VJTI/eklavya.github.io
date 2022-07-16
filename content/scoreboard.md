@@ -28,10 +28,10 @@
 |Ladsss|300|
 |PROBOTS|300|
 |YK|275|
+|Culers|250|
 |Riders|200|
 |RAY|200|
 |Ajeya|150|
-|Culers|150|
 |MechTitans|100|
 |Futureviz|50|
 |Digiminds|50|
