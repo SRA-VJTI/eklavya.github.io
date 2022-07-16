@@ -23,8 +23,8 @@
 |Alpha Bijli Vibhag|300|
 |AsNik|300|
 |Halfwit gang|300|
+|Ladsss|300|
 |Fenris|275|
-|Ladsss|200|
 |Riders|200|
 |Hertz|200|
 |RAY|200|
