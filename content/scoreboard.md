@@ -38,7 +38,7 @@
 |JOJO Bots|50|
 |Hustlers|50|
 |RAY|50|
-|We both|0|
+|We both|50|
 |ROSe|0|
 |Binary Devs|0|
 |Team SeK|0|
