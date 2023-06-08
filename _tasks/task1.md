@@ -1,16 +1,13 @@
 ---
 layout: page
 title: Task 1
-description: Windy Path
+description: Don't get lost in the maze!
 img: assets/img/Windy.jpeg
 importance: 2
 category: Computer Vision
 ---
 
-+++
-title = "Task 1: A Windy Path"
-description = "Don't get lost in the maze!"
-+++
+#### 150 points
 
 ## Download
 

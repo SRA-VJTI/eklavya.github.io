@@ -6,6 +6,8 @@ img: assets/img/PCB.jpg
 importance: 5
 ---
 
+#### 200 points
+
 ## Choose any one
 
 [Leg of the Titan](<javascript:redirectToTask('task4_1')>)

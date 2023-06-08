@@ -7,6 +7,8 @@ importance: 4
 category: Computer Vision
 ---
 
+#### 150 points
+
 ## Task Description
 
 In task 1, you found out the path traversed by the bot. In this task, you'll move your bot according to the path described by task 1.
