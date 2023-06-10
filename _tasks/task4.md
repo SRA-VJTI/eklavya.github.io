@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Task 4
-description: Subtasks
+description: Final Showdown
 img: assets/img/PCB.jpg
 importance: 5
 ---

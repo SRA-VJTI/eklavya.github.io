@@ -102,6 +102,7 @@ A zip containing your input images:
 ## Submission Instructions:
 
 - You must create a `.zip` file containing the C++ code file (`.cpp` file) & the text file (`.txt`) with the output directions.
+- Submit here: [Form](https://forms.gle/6LfpToTFLk5gi1maA)
 
 ### Resources
 
