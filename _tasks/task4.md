@@ -1,12 +1,10 @@
 ---
 layout: page
 title: Task 4
-description: Final Showdown
+description: Subtasks
 img: assets/img/PCB.jpg
 importance: 5
 ---
-
-#### 200 points
 
 ## Choose any one
 

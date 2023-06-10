@@ -7,8 +7,6 @@ importance: 1
 category: Computer Vision
 ---
 
-#### 50 points
-
 [Download](https://drive.google.com/file/d/16hg60JUl6SjvoTKHPaqrVoQm9FwXktDe/view?usp=drive_link)
 
 ## Description
