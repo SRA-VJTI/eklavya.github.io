@@ -7,11 +7,6 @@ importance: 2
 category: Computer Vision
 ---
 
-+++
-title = "Task 1: A Windy Path"
-description = "Don't get lost in the maze!"
-+++
-
 ## Download
 
 [Download](https://drive.google.com/drive/folders/1k_b8FbtwirBn1d9N5-RJgHnU5uFAJIjV?usp=sharing)

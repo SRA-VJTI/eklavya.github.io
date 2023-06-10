@@ -157,7 +157,71 @@
 
 <h2 id="task-details">Task Details</h2>
 
-<p>Develop a C++ program that can analyze an image containing arrow symbols and determine the direction in which each arrow is pointing. The program should be able to handle various types of arrows, including those pointing left, right, up, and down. The objective is to accurately identify the direction of each arrow based on the provided image.</p>
+<ul>
+  <li>Your task is to read images <code class="language-plaintext highlighter-rouge">arrow0.png, arrow1.png, arrow2.png</code> etc. given in the zip file (i.e. <code class="language-plaintext highlighter-rouge">arrow[0,1,2,3..].png</code>) using <code class="language-plaintext highlighter-rouge">Opencv</code>
+</li>
+  <li>Next, for each image, using only <code class="language-plaintext highlighter-rouge">Mat</code> , you have to determine the direction of the arrow.</li>
+  <li>Store the directions determined for all images in a <code class="language-plaintext highlighter-rouge">.txt</code> file, located in the same folder as the images and your code file.</li>
+</ul>
+
+<blockquote>
+  <p>Directions for arrows can be <strong>“TOP”, “BOTTOM”, “LEFT”, and “RIGHT”</strong> only.</p>
+</blockquote>
+
+<h2 id="input">Input:</h2>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">arrow[1,2,3..].png</code>
+    <blockquote>
+      <p>Multiple grayscale image files each containing an arrow pointing at a particular direction <strong>[LEFT, RIGHT, TOP, BOTTOM]</strong></p>
+    </blockquote>
+  </li>
+</ul>
+
+<h2 id="output">Output:</h2>
+
+<h4 id="for-a-single-input-image">For a single input image:</h4>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">LEFT/RIGHT/TOP/BOTTOM</code>
+    <blockquote>
+      <p>ie, Arrow Direction</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h4 id="for-multiple-input-images">For multiple input images:</h4>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">.txt file</code>
+    <blockquote>
+      <p>That contains the directions of arrows of images read in the order <code class="language-plaintext highlighter-rouge">arrow[i].png</code> where i = 0, 1, 2 … 9</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h2 id="example">Example:</h2>
+
+<h4 id="for-a-single-input-image-1">For a single input image:</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sra@sra20:~<span class="nv">$ </span>g++ assignment.cpp <span class="nt">-o</span> assignment
+sra@sra20:~<span class="nv">$ </span>./assignment
+Direction of arrow: TOP
+</code></pre></div></div>
+
+<h4 id="for-multiple-input-images-1">For multiple input images:</h4>
+
+<p>If there are 3 images (<code class="language-plaintext highlighter-rouge">arrow[i].png</code>, where i=0,1,2) and the output for <code class="language-plaintext highlighter-rouge">arrow0.png</code> is ‘TOP’, <code class="language-plaintext highlighter-rouge">arrow1.png</code> is ‘BOTTOM’, <code class="language-plaintext highlighter-rouge">arrow2.png</code> is ‘LEFT’, the .txt file generated must look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TOP
+BOTTOM
+LEFT
+</code></pre></div></div>
+
+<h2 id="warnings">Warnings</h2>
 
 <ul>
   <li>
@@ -169,29 +233,36 @@
   <li>
     <p><b>Image Input</b>: The program should accept input images in common formats, such as JPEG or PNG.</p>
   </li>
-  <li>
-    <p><b>Multiple Image Input</b>: If multiple images are provided as input, the program should be capable of processing them sequentially and generating the output for each image.</p>
-  </li>
-  <li>
-    <p><b>Output Format</b>: The program should provide the output in a text file, containing the direction of the arrow for each input image.</p>
-  </li>
-  <li>
-    <p><b>Image Size</b>: The program should be able to handle images of various sizes, including both small and large dimensions.</p>
-  </li>
-  <li>
-    <p><b>Arrow Types</b>: The program should accurately identify arrows pointing <b>left</b>, <b>right</b>, <b>up</b>, and <b>down</b>. Other arrow types or symbols are not considered in this task.</p>
-  </li>
-  <li>
-    <p><b>Performance</b>: The program should efficiently process the images, ensuring acceptable processing times for typical images.</p>
-  </li>
-  <li>
-    <p><b>Usability</b>: The program should have a user-friendly interface, allowing users to input either a single image or a list of images and receive the detected arrow directions as output in a text file.</p>
-  </li>
 </ul>
+
+<h2 id="zip-file-download">Zip file download:</h2>
+
+<p>A zip containing your input images:
+<a href="https://drive.google.com/drive/folders/1k_b8FbtwirBn1d9N5-RJgHnU5uFAJIjV?usp=sharing" rel="external nofollow noopener" target="_blank">Download</a></p>
 
 <h3 id="sample-arrow-image">Sample Arrow image</h3>
 
-<p><a href="https://ibb.co/M9hgsZ5" rel="external nofollow noopener" target="_blank"><img src="https://i.ibb.co/rvtQmFf/arrow10.jpg" alt="arrow10" border="0"></a><br><a target="_blank" href="https://the-crosswordsolver.com/london-lockup-4-letters" rel="external nofollow noopener"></a><br></p>
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/arrow0-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/arrow0-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/arrow0-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/arrow0.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+<h2 id="submission-instructions">Submission Instructions:</h2>
+
+<ul>
+  <li>You must create a <code class="language-plaintext highlighter-rouge">.zip</code> file containing the C++ code file (<code class="language-plaintext highlighter-rouge">.cpp</code> file) &amp; the text file (<code class="language-plaintext highlighter-rouge">.txt</code>) with the output directions.</li>
+</ul>
 
 <h3 id="resources">Resources</h3>
 
