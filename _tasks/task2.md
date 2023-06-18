@@ -7,8 +7,6 @@ importance: 3
 category: Computer Vision
 ---
 
-#### 150 points
-
 # The Enchanted Arrows: Deciphering Destiny in Arrovia
 
 <div style="text-align:center;">
@@ -41,7 +39,50 @@ Let the coding adventure begin! Good luck, brave programmer, for the fate of Arr
 
 ## Task Details
 
-Develop a C++ program that can analyze an image containing arrow symbols and determine the direction in which each arrow is pointing. The program should be able to handle various types of arrows, including those pointing left, right, up, and down. The objective is to accurately identify the direction of each arrow based on the provided image.
+- Your task is to read images `arrow0.png, arrow1.png, arrow2.png` etc. given in the zip file (i.e. `arrow[0,1,2,3..].png`) using `Opencv`
+- Next, for each image, using only `Mat` , you have to determine the direction of the arrow.
+- Store the directions determined for all images in a `.txt` file, located in the same folder as the images and your code file.
+
+> Directions for arrows can be **"TOP", "BOTTOM", "LEFT", and "RIGHT"** only.
+
+## Input:
+
+- `arrow[1,2,3..].png`
+  > Multiple grayscale image files each containing an arrow pointing at a particular direction **[LEFT, RIGHT, TOP, BOTTOM]**
+
+## Output:
+
+#### For a single input image:
+
+- `LEFT/RIGHT/TOP/BOTTOM`
+  > ie, Arrow Direction
+
+#### For multiple input images:
+
+- `.txt file`
+  > That contains the directions of arrows of images read in the order `arrow[i].png` where i = 0, 1, 2 ... 9
+
+## Example:
+
+#### For a single input image:
+
+```bash
+sra@sra20:~$ g++ assignment.cpp -o assignment
+sra@sra20:~$ ./assignment
+Direction of arrow: TOP
+```
+
+#### For multiple input images:
+
+If there are 3 images (`arrow[i].png`, where i=0,1,2) and the output for `arrow0.png` is 'TOP', `arrow1.png` is 'BOTTOM', `arrow2.png` is 'LEFT', the .txt file generated must look like this:
+
+```
+TOP
+BOTTOM
+LEFT
+```
+
+## Warnings
 
 - <b>Language</b>: The program must be implemented in C++.
 
@@ -49,21 +90,19 @@ Develop a C++ program that can analyze an image containing arrow symbols and det
 
 - <b>Image Input</b>: The program should accept input images in common formats, such as JPEG or PNG.
 
-- <b>Multiple Image Input</b>: If multiple images are provided as input, the program should be capable of processing them sequentially and generating the output for each image.
+## Zip file download:
 
-- <b>Output Format</b>: The program should provide the output in a text file, containing the direction of the arrow for each input image.
-
-- <b>Image Size</b>: The program should be able to handle images of various sizes, including both small and large dimensions.
-
-- <b>Arrow Types</b>: The program should accurately identify arrows pointing <b>left</b>, <b>right</b>, <b>up</b>, and <b>down</b>. Other arrow types or symbols are not considered in this task.
-
-- <b>Performance</b>: The program should efficiently process the images, ensuring acceptable processing times for typical images.
-
-- <b>Usability</b>: The program should have a user-friendly interface, allowing users to input either a single image or a list of images and receive the detected arrow directions as output in a text file.
+A zip containing your input images:
+[Download](https://drive.google.com/drive/folders/1k_b8FbtwirBn1d9N5-RJgHnU5uFAJIjV?usp=sharing)
 
 ### Sample Arrow image
 
-<a href="https://ibb.co/M9hgsZ5"><img src="https://i.ibb.co/rvtQmFf/arrow10.jpg" alt="arrow10" border="0"></a><br /><a target='_blank' href='https://the-crosswordsolver.com/london-lockup-4-letters'></a><br />
+{% include figure.html path="assets/img/arrow0.png" title="example image" class="img-fluid rounded z-depth-1" %}
+
+## Submission Instructions:
+
+- You must create a `.zip` file containing the C++ code file (`.cpp` file) & the text file (`.txt`) with the output directions.
+- Submit here: [Form](https://forms.gle/6LfpToTFLk5gi1maA)
 
 ### Resources
 

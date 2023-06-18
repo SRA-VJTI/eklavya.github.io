@@ -1,13 +1,11 @@
 ---
 layout: page
 title: Task 1
-description: Don't get lost in the maze!
+description: Windy Path
 img: assets/img/Windy.jpeg
 importance: 2
 category: Computer Vision
 ---
-
-#### 150 points
 
 ## Download
 

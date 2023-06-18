@@ -7,7 +7,7 @@ importance: 4
 category: Computer Vision
 ---
 
-#### 150 points
+# Spread your arms
 
 ## Task Description
 
@@ -31,8 +31,9 @@ In task 1, you found out the path traversed by the bot. In this task, you'll mov
 - Submit the code, and the video of the bot moving in the path described by Task 3.
 - In the video of the bot moving, the path traversed by the bot should be clearly visible. The video should also have a notepad or a text editor showing the team name and the task number.
 - The submission should be in the form of a zip file.
+- Submit here: [Form](https://forms.gle/UypqbbTCyrhGR6Lw7)
 
 ## Resources
 
-- http://wiki.ros.org/turtlesim/Tutorials
-- http://wiki.ros.org/turtlesim/Tutorials/Moving%20in%20a%20Straight%20Line
+- [Tutorials](http://wiki.ros.org/turtlesim/Tutorials)
+- [Moving in a Straight Line](http://wiki.ros.org/turtlesim/Tutorials/Moving%20in%20a%20Straight%20Line)
