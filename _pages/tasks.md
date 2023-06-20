@@ -2,11 +2,17 @@
 layout: page
 title: Tasks
 permalink: /tasks/
-description: Eklavya Tasks
+description:
 nav: true
 nav_order: 2
 horizontal: false
 ---
+
+<div class="alert alert-secondary text-center" role="alert">
+  For selection in the Eklavya mentorship program, you are required to complete a number of tasks that will be revealed here on <b>June 28th 2023</b>. Stay tuned!
+</div>
+
+
 
 <!-- pages/projects.md -->
 

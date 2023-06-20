@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Rotary Inverted Pendulum using MPC and LQR
+title: Rotary Inverted Pendulum
 description: Implement MPC using LQR on rotary inverted pendulum in simulation and hardware
 importance: 1
 ---

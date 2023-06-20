@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Titanlegs design
-description: To design and test different types of legs for titanlegs
+description: To design and test different types of legs for the Quadruped Titanlegs
 importance: 1
 ---
 
@@ -13,7 +13,7 @@ importance: 1
 
 ### Project Description
 
-The main aim here is to study different mechanical design elements and then implementing those designs (Mostly 3 design)
+This Project focuses on designing, manufacturing, testing, and controlling a leg for a quadruped. Contributors to this project will learn about mechanical design through research review of previous designs and understanding mathematical and kinematical concepts necessary for efficient mechanisms. They will create two designs based on their research using CAD modeling software, manufacture them using optimal materials, and test them using various criteria such as torque, force, and destructive/non-destructive tests. The contributors will also learn to control the leg's motion through ROS (Robot Operating System)
 
 ### Resources
 
