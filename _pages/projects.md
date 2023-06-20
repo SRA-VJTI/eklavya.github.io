@@ -2,10 +2,9 @@
 layout: page
 title: Eklavya Projects
 permalink: /projects/
-description: Eklavya Projects
+description: Have a look at the projects you can work on in the Ekavya Mentorship Program.
 nav: true
 nav_order: 2
-display_categories: [Computer Vision, PCB]
 horizontal: false
 ---
 

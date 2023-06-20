@@ -114,7 +114,9 @@ body.sticky-bottom-footer {
 }
 
 .profile img {
-  width: 100%;
+  object-fit: cover;
+  width: 250px;
+  height: 150px;
 }
 
 /******************************************************************************
@@ -367,7 +369,7 @@ blockquote {
   text-align: center;
 }
 .social .contact-icons {
-  font-size: 4rem;
+  font-size: 2rem;
 }
 .social .contact-icons a i::before {
   color: var(--global-text-color);

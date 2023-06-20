@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+Have a look at the projects for the mentorship program! Do not hesitate to contact mentors of the project for more information.
