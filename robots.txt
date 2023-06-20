@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://sra-vjti.github.io/eklavya/sitemap.xml
+Sitemap: https://sra-vjti.github.io/eklavya.github.io/sitemap.xml
