@@ -10,7 +10,7 @@ let toggleTheme = (theme) => {
 
 
 let setTheme = (theme) =>  {
-  transTheme();
+  //transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
 
