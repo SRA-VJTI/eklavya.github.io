@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://eklavya.sravjti.in//sitemap.xml
+Sitemap: https://eklavya.sravjti.in/sitemap.xml
