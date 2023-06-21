@@ -13,7 +13,7 @@ importance: 1
 
 ### Project Description
 
-This project aims to implement an ML model on an FPGA for image classification. 
+The RISC-V CPU will be implemented with IMAF instruction extensions, and also verified using custom verification methods.
 
 ### Resources
 
