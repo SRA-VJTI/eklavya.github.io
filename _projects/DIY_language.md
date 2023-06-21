@@ -18,4 +18,3 @@ The project is to create a custom programming language from scratch. It will inv
 ### Resources
 
 [Writing an Interpreter](https://www.toptal.com/scala/writing-an-interpreter) <br>
-[Writing an interpreter in C++](https://www.youtube.com/watch?v=LCslqgM48D4) <br>
