@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Scene Graph Generator
-description: Gnerating graphs to represent relations between objects in a given image.
+description: Generating graphs to represent relations between objects in a given image.
 importance: 1
 ---
 

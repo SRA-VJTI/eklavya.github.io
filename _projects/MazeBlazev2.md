@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mazeblaze
+title: MazeBlaze
 description: To build a maze solving robot with better algorithm than LFR
 importance: 1
 ---
