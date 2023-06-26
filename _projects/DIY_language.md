@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Make your own programming language!
-description: Developing a programming language of your own and building it's tree-walk interpreter from scratch
+title: LangCraft
+description: Making your own programming language and building it's tree-walk interpreter from scratch
 importance: 1
 ---
 
 | Project Domains              | Mentors      | Project Difficulty |
 |------------------------------|--------------|--------------------|
-| C++, Compilers, Interpreters | Khushi Balia | Medium to Hard     |
+| C++, Compilers, Interpreters | Khushi Balia, Lakshaya Singhal | Medium to Hard     |
 
 <br>
 
