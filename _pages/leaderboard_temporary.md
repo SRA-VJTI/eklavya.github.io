@@ -9,7 +9,7 @@ horizontal: false
 ---
 
 <div class="alert alert-secondary text-center" role="alert">
-Competing team's scores will be revealed here on <b>July 28th 2023</b>. Stay tuned!
+Competing team's scores will be revealed here on <b>June 28th 2023</b>. Stay tuned!
 </div>
 
 <!-- <div id="leaderboard">

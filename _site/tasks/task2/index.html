@@ -3,17 +3,16 @@
 
   <!-- Head -->
   <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta http-equiv="refresh" content="3; url=/">    <!-- Metadata, OpenGraph and Schema.org -->
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
     
 
     <!-- Standard metadata -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page not found | Eklavya 2023  </title>
+    <title>Task 2 | Eklavya 2023  </title>
     <meta name="author" content="Eklavya 2023  ">
-    <meta name="description" content="Looks like there has been a mistake. Nothing exists here.">
+    <meta name="description" content="Welcome to Arrovia">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/404.html">
+    <link rel="canonical" href="http://localhost:4000/tasks/task2/">
 
     <!-- Dark Mode -->
     
@@ -118,12 +117,157 @@
         <div class="post table-borderless">
 
           <header class="post-header">
-            <h1 class="post-title">Page not found</h1>
-            <p class="post-description">Looks like there has been a mistake. Nothing exists here.</p>
+            <h1 class="post-title">Task 2</h1>
+            <p class="post-description">Welcome to Arrovia</p>
           </header>
 
           <article>
-            <p>You will be redirected to the main page within 3 seconds. If not redirected, please go back to the <a href="/">home page</a>.</p>
+            <h1 id="the-enchanted-arrows-deciphering-destiny-in-arrovia">The Enchanted Arrows: Deciphering Destiny in Arrovia</h1>
+
+<div style="text-align:center;">
+  <img src="https://st4.depositphotos.com/1752371/30801/i/600/depositphotos_308011538-stock-photo-archway-enchanted-fairy-forest-landscape.jpg" alt="Forest">
+</div>
+
+<h2 id="task-description">Task Description</h2>
+
+<p>In the remote kingdom of Arrovia, an ancient tradition has been passed down for generations. Legends speak of enchanted arrows hidden in the mystical Arrow Forest, each possessing a unique power and purpose. 🏹✨ These arrows hold the key to the prosperity and well-being of the kingdom.</p>
+
+<p>As a young and ambitious programmer in Arrovia, you have been chosen to embark on a quest to unlock the secrets of the enchanted arrows. The kingdom’s fate rests in your hands as you are tasked with developing a groundbreaking program that can decipher the direction of the arrows hidden within images. 💻🔍</p>
+
+<p>Armed with your programming skills and a deep understanding of image analysis, you set out on a journey to explore the Arrow Forest. The forest is known for its lush greenery, towering trees, and the presence of magical energies that surround the hidden arrows. 🌳🌿✨ It is said that only those with the keenest eyes and the sharpest algorithms can uncover the true nature of the arrows.</p>
+
+<p>Your adventure begins with capturing images of the mystical arrows scattered throughout the forest. Each arrow you encounter presents a unique challenge, as their appearances vary in shape, size, and orientation. 📷🎯 Some arrows are clearly defined, while others may be partially covered by foliage or concealed in the shadows.</p>
+
+<p>To successfully fulfill your quest, you must employ your image analysis skills to process each image and identify the direction of the arrows. You experiment with custom algorithms, exploring techniques to differentiate arrows from the forest background and detect subtle visual cues that indicate their directions. 🧪🔬</p>
+
+<p>The people of Arrovia eagerly await your success, believing that your program will unlock the full potential of the enchanted arrows. The prosperity and harmony of the kingdom hinge on your ability to accurately identify the direction of each arrow and harness their powers for the greater good. 🌟🌍</p>
+
+<p>But beware, as you delve deeper into the Arrow Forest, you encounter mystical creatures that guard the arrows. These creatures, with their enigmatic presence, challenge your skills and force you to adapt your algorithms to overcome their tricks and illusions. 🦉🌌</p>
+
+<p>In your quest, you find ancient scrolls containing cryptic symbols and riddles, believed to hold the key to understanding the hidden patterns of the arrows. With careful analysis and logical reasoning, you decipher these mysterious clues and unlock the secrets they hold. 📜🔓</p>
+
+<p>As you make progress, you uncover the existence of a legendary Golden Arrow, said to possess unparalleled power and wisdom. Finding this elusive arrow becomes your ultimate goal, as it is believed to hold the key to unlocking the kingdom’s true potential. ⚡🔑</p>
+
+<p>Can you rise to the challenge and develop a robust C++ program that can decipher the hidden arrow directions, overcome the mystical creatures, and find the legendary Golden Arrow? The destiny of an entire kingdom lies in your code, and the wonders of the Arrow Forest await your exploration. 🏞️🔐</p>
+
+<p>Let the coding adventure begin! Good luck, brave programmer, for the fate of Arrovia rests in your hands! 🚀👨‍💻🔥🗺️</p>
+
+<h2 id="task-details">Task Details</h2>
+
+<ul>
+  <li>Your task is to read images <code class="language-plaintext highlighter-rouge">arrow0.png, arrow1.png, arrow2.png</code> etc. given in the zip file (i.e. <code class="language-plaintext highlighter-rouge">arrow[0,1,2,3..].png</code>) using <code class="language-plaintext highlighter-rouge">Opencv</code>
+</li>
+  <li>Next, for each image, using only <code class="language-plaintext highlighter-rouge">Mat</code> , you have to determine the direction of the arrow.</li>
+  <li>Store the directions determined for all images in a <code class="language-plaintext highlighter-rouge">.txt</code> file, located in the same folder as the images and your code file.</li>
+</ul>
+
+<blockquote>
+  <p>Directions for arrows can be <strong>“TOP”, “BOTTOM”, “LEFT”, and “RIGHT”</strong> only.</p>
+</blockquote>
+
+<h2 id="input">Input:</h2>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">arrow[1,2,3..].png</code>
+    <blockquote>
+      <p>Multiple grayscale image files each containing an arrow pointing at a particular direction <strong>[LEFT, RIGHT, TOP, BOTTOM]</strong></p>
+    </blockquote>
+  </li>
+</ul>
+
+<h2 id="output">Output:</h2>
+
+<h4 id="for-a-single-input-image">For a single input image:</h4>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">LEFT/RIGHT/TOP/BOTTOM</code>
+    <blockquote>
+      <p>ie, Arrow Direction</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h4 id="for-multiple-input-images">For multiple input images:</h4>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">.txt file</code>
+    <blockquote>
+      <p>That contains the directions of arrows of images read in the order <code class="language-plaintext highlighter-rouge">arrow[i].png</code> where i = 0, 1, 2 … 9</p>
+    </blockquote>
+  </li>
+</ul>
+
+<h2 id="example">Example:</h2>
+
+<h4 id="for-a-single-input-image-1">For a single input image:</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sra@sra20:~<span class="nv">$ </span>g++ assignment.cpp <span class="nt">-o</span> assignment
+sra@sra20:~<span class="nv">$ </span>./assignment
+Direction of arrow: TOP
+</code></pre></div></div>
+
+<h4 id="for-multiple-input-images-1">For multiple input images:</h4>
+
+<p>If there are 3 images (<code class="language-plaintext highlighter-rouge">arrow[i].png</code>, where i=0,1,2) and the output for <code class="language-plaintext highlighter-rouge">arrow0.png</code> is ‘TOP’, <code class="language-plaintext highlighter-rouge">arrow1.png</code> is ‘BOTTOM’, <code class="language-plaintext highlighter-rouge">arrow2.png</code> is ‘LEFT’, the .txt file generated must look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>TOP
+BOTTOM
+LEFT
+</code></pre></div></div>
+
+<h2 id="warnings">Warnings</h2>
+
+<ul>
+  <li>
+    <p><b>Language</b>: The program must be implemented in C++.</p>
+  </li>
+  <li>
+    <p><b>Libraries</b>: Only standard C++ libraries. OpenCV can be used only for reading and displaying images.</p>
+  </li>
+  <li>
+    <p><b>Image Input</b>: The program should accept input images in common formats, such as JPEG or PNG.</p>
+  </li>
+</ul>
+
+<h2 id="zip-file-download">Zip file download:</h2>
+
+<p>A zip containing your input images:
+<a href="https://drive.google.com/drive/folders/1k_b8FbtwirBn1d9N5-RJgHnU5uFAJIjV?usp=sharing" rel="external nofollow noopener" target="_blank">Download</a></p>
+
+<h3 id="sample-arrow-image">Sample Arrow image</h3>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/arrow0-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/arrow0-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/arrow0-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/arrow0.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+<h2 id="submission-instructions">Submission Instructions:</h2>
+
+<ul>
+  <li>You must create a <code class="language-plaintext highlighter-rouge">.zip</code> file containing the C++ code file (<code class="language-plaintext highlighter-rouge">.cpp</code> file) &amp; the text file (<code class="language-plaintext highlighter-rouge">.txt</code>) with the output directions.</li>
+  <li>Submit here: <a href="https://forms.gle/9F8hJSjqtHrBax4U9" rel="external nofollow noopener" target="_blank">Form</a>
+</li>
+</ul>
+
+<h3 id="resources">Resources</h3>
+
+<ul>
+  <li><a href="https://makefiletutorial.com/" rel="external nofollow noopener" target="_blank">MakeFile Tutorial</a></li>
+</ul>
 
           </article>
 

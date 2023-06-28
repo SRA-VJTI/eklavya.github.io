@@ -171,7 +171,7 @@ collections:
     output: true
     permalink: /projects/:path/
   tasks:
-    output: false
+    output: true
     permalink: /tasks/:path/
 
 announcements:
@@ -208,7 +208,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - vendor
-  - _pages/leaderboard.md
+  - _pages/leaderboard_temporary.md
   - _pages/projects_.md
 keep_files:
   - CNAME
