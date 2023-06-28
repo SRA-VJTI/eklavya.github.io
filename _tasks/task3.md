@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Task 3
-description: Turtle Task
+description: Spread your arms
 img: assets/img/Turtle.jpeg
 importance: 4
 category: Computer Vision
