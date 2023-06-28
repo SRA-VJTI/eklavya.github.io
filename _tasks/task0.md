@@ -4,7 +4,6 @@ title: Task 0
 description: Tighten your Seatbelts
 img: assets/img/Windy.jpeg
 importance: 1
-category: Computer Vision
 ---
 
 **Points for Task: 50**
@@ -18,16 +17,19 @@ A node looks like this:
 
 ```
         |  |
-        |  |
     ____|  |____
-    ____|  |____ <--- node here
+    ____    ____ <-- Node here
+        |  |
+        |  |
+    ____|  |
+    ____   | <-- Node Here
+        |  |
+        |  |_____
+        |   _____ <-- Node Here
         |  |
         |  |
         |  |
-        |  |             ^
-        |  |             |
-        |  |             |
-        |  | bot travels in this direction
+        |  |
 ```
 
 Line sensor placement:

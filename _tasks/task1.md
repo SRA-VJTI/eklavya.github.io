@@ -4,7 +4,6 @@ title: Task 1
 description: Windy Path
 img: assets/img/Windy.jpeg
 importance: 2
-category: Computer Vision
 ---
 
 **Points for Task: 150**

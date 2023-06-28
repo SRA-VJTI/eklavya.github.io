@@ -4,7 +4,6 @@ title: Task 3
 description: Spread your arms
 img: assets/img/Turtle.jpeg
 importance: 4
-category: Computer Vision
 ---
 
 
