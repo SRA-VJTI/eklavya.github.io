@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Leaderboard | Eklavya 2023  </title>
+    <title>PCB Designing | Eklavya 2023  </title>
     <meta name="author" content="Eklavya 2023  ">
     <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
@@ -39,7 +39,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://eklavya.sravjti.in/leaderboard/">
+    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/task4_3">
 
     <!-- Dark Mode -->
     
@@ -80,8 +80,8 @@
               
 
               <!-- Other pages -->
-              <li class="nav-item active">
-                <a class="nav-link" href="/leaderboard/">Leaderboard<span class="sr-only">(current)</span></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="/leaderboard/">Leaderboard</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/projects/">Eklavya Projects</a>
@@ -118,28 +118,99 @@
         <div class="post table-borderless">
 
           <header class="post-header">
-            <h1 class="post-title">Leaderboard</h1>
+            <h1 class="post-title">PCB Designing</h1>
             <p class="post-description"></p>
           </header>
 
           <article>
-            <div id="leaderboard">
-  <table class="table" id="leaderboardTable">
-    <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">Team</th>
-        <th scope="col">Score</th>
-      </tr>
-    </thead>
-    <tbody id="leaderboardBody">
-      <!-- Table rows will be dynamically generated here -->
-    </tbody>
-  </table>
-</div>
+            <h2 id="description">Description</h2>
 
-<script src="/assets/js/leaderboard.js"></script>
+<p>Have you ever heard of Automatic Headlights? It basically means that the headlights will turn ON when its dark and during day-time, the headlights will turn OFF. This serves as a feature in many luxurious cars. In this problem statement, you have to design one!</p>
 
+<h2 id="problem-statement">Problem Statement</h2>
+
+<p>In this task, you have to design a PCB for Automatic Headlights which means that the lights will turn ON when its dark and vice versa. For this, you need few components like:</p>
+
+<ol>
+  <li>
+<strong>LDR (Light Dependent Resistor):</strong> An LDR is a component that has a (variable) resistance that changes with the light intensity that falls upon it. In case of dark environment, the resistance value becomes very high and vice versa.</li>
+  <li>
+<strong>LM358 (Comparators):</strong> From the name itself it is clear that this is an Op-Amp that compares two voltages, one is a SET voltage and other one is the incoming voltage (through LDR) and correspondingly generate a HIGH or LOW output. In case of HIGH condition, the LED/ headlight shall glow. Read more about the <strong>IC LM358</strong> if it is still not clear.</li>
+</ol>
+
+<p><strong>BLOCK DIAGRAM AND CIRCUIT DIAGRAM ARE GIVEN BELOW:</strong></p>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/block_diagram-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/block_diagram-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/block_diagram-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/block_diagram.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/circuit_diagram-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/circuit_diagram-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/circuit_diagram-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/circuit_diagram.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+
+<h2 id="submission-instructions-kicad-software-is-recommended">Submission Instructions: (KiCAD software is recommended)</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Submit a PDF that includes the snapshots of the following things:
+	- Schematic Diagram
+	- PCB Layout (Both front layer and back layer)
+2. Along with the PDF, submit a zip folder that contains all the KiCAD files and rename it as your team name and task number. Eg. "Task_4_TEAM_ABCD"
+3. You have to import the component symbols and footprints from EDA Websites given below. For now, we have provided you the the folder which includes all the required symbols and footprints of the components. (Refer Playlist for tutorial)
+</code></pre></div></div>
+
+<p>Task Submission Link: <a href="https://forms.gle/cY6Xr4FnZwqUjcUs8" rel="external nofollow noopener" target="_blank">Form</a></p>
+
+<h2 id="resources">Resources:</h2>
+
+<ol>
+  <li>
+    <p>KiCAD Installations: (Follow all the steps carefully)</p>
+
+    <ul>
+      <li><a href="https://www.kicad.org/download/linux/" rel="external nofollow noopener" target="_blank">Linux</a></li>
+      <li><a href="https://www.kicad.org/download/windows/" rel="external nofollow noopener" target="_blank">Windows</a></li>
+      <li><a href="https://www.kicad.org/download/macos/" rel="external nofollow noopener" target="_blank">MacOS</a></li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>KiCAD Playlist:</strong>
+<a href="https://www.youtube.com/playlist?list=PL3bNyZYHcRSUhUXUt51W6nKvxx2ORvUQB" rel="external nofollow noopener" target="_blank">Click here</a></p>
+  </li>
+  <li>
+    <p><strong>Download the Symbols and Footprints from here:</strong>
+<a href="https://drive.google.com/drive/folders/1WAuIDvje05pGdIHXOORPXT2VOyxn8W1j" rel="external nofollow noopener" target="_blank">Click here</a></p>
+  </li>
+  <li>
+    <p><strong>EDA Tools for importing components: (Not Required for this task)</strong></p>
+    <ul>
+      <li><a href="https://www.snapeda.com/" rel="external nofollow noopener" target="_blank">SnapEDA</a></li>
+      <li><a href="https://componentsearchengine.com/" rel="external nofollow noopener" target="_blank">Component Search Engine</a></li>
+    </ul>
+  </li>
+</ol>
 
           </article>
 
