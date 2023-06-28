@@ -7,7 +7,10 @@ importance: 4
 category: Computer Vision
 ---
 
+
 # Spread your arms
+
+**Points for this task: 150**
 
 ## Task Description
 

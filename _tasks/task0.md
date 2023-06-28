@@ -7,7 +7,7 @@ importance: 1
 category: Computer Vision
 ---
 
-[Download](https://drive.google.com/file/d/16hg60JUl6SjvoTKHPaqrVoQm9FwXktDe/view?usp=drive_link)
+**Points for Task: 50**
 
 ## Description
 
@@ -51,6 +51,8 @@ The bot starts "On the line", "passes straight through nodes," and stops when it
 This is a practically obtained dataset, so discard any impractical values that may have been recorded due to "sensor or motion errors."
 
 ## Input
+
+[Download Task Data](https://drive.google.com/file/d/16hg60JUl6SjvoTKHPaqrVoQm9FwXktDe/view?usp=drive_link)
 
 - data.txt file contains the values obtained by a line sensor. 4 space-separated values on each line give the values of the sensor at any instant.
 - The program, when running, must ask the name of the file to be read.

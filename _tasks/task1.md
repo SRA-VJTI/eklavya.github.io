@@ -7,9 +7,7 @@ importance: 2
 category: Computer Vision
 ---
 
-## Download
-
-[Download](https://drive.google.com/drive/folders/1k_b8FbtwirBn1d9N5-RJgHnU5uFAJIjV?usp=sharing)
+**Points for Task: 150**
 
 ## Description
 
@@ -84,6 +82,8 @@ ____|   |____
 ```
 
 ## Task
+
+[Download Task data](https://drive.google.com/file/d/18OFGBB7kmlk0VieZYj7ZzXN7hA5T1OHc/view?usp=drive_link)
 
 In the file data.txt you have been given line sensor data.
 

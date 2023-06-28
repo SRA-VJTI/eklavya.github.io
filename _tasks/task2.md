@@ -7,6 +7,8 @@ importance: 3
 category: Computer Vision
 ---
 
+**Points for this task: 150**
+
 # The Enchanted Arrows: Deciphering Destiny in Arrovia
 
 <div style="text-align:center;">
