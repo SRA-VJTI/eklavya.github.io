@@ -95,7 +95,7 @@ LEFT
 ## Zip file download:
 
 A zip containing your input images:
-[Download](https://drive.google.com/drive/folders/1k_b8FbtwirBn1d9N5-RJgHnU5uFAJIjV?usp=sharing)
+[Download](https://drive.google.com/file/d/1fs5P6x0vzsBSCq6Nv9KvfR-1CWDbN-Cu/view?usp=sharing)
 
 ### Sample Arrow image
 

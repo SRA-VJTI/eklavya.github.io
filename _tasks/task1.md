@@ -120,4 +120,4 @@ _Note :- You should use only C language to solve this task_
 
 - You must create a zip file, which should contain source files, and screenshot of output.
 
-- Submit here : [Link to Google Form](https://forms.gle/bejBnsLosXFEEsJ28)
+- Submit here : [Link to Google Form](https://forms.gle/q6NiQEmi4c7TsXqc7)
