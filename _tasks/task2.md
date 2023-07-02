@@ -108,4 +108,4 @@ A zip containing your input images:
 
 ### Resources
 
-- [MakeFile Tutorial](https://makefiletutorial.com/)
+- [MakeFile Tutorial](https://github.com/SRA-VJTI/Pixels_Seminar/tree/main/2_build_systems)
