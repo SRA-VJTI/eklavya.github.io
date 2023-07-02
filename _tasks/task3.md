@@ -25,6 +25,7 @@ In task 1, you found out the path traversed by the bot. In this task, you'll mov
 - The task requires applicants to move the turtle as per the path traversed by the bot in Task 1.
 - For example, the turtle should move in the same path as that of Task 1 - see picture below.
 - The path followed by the bot should atleast depict 90% of the path traversed by the bot in Task 1, or else submission will be considered invalid.
+- A ROS Package should be created for this task, which should contain the script to move the turtle.
 
 {% include figure.html path="assets/img/TurtleSim_Output.png" title="example image" class="img-fluid rounded z-depth-1" %}
 
@@ -32,6 +33,7 @@ In task 1, you found out the path traversed by the bot. In this task, you'll mov
 
 - Submit the code, and the video of the bot moving in the path described by Task 3.
 - In the video of the bot moving, the path traversed by the bot should be clearly visible. The video should also have a notepad or a text editor showing the team name and the task number.
+- The submission should contain the video, the output of Task 1, and the ROS package containing the code.
 - The submission should be in the form of a zip file.
 - Submit here: [Form](https://forms.gle/PNcfMAQsnenD5yev6)
 
