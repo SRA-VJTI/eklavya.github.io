@@ -1,6 +1,6 @@
 ---
 layout: page
-title: ctTL
+title: ctRL
 description: Implementing a Line follower bot using Reinforcement Learning
 importance: 1
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Talking_Lamdas
+title: ROSfunc
 description: Use functional programming to implement a natively parallel and fault tolerant ROS-like software stack.
 importance: 1
 ---
