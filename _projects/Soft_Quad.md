@@ -18,5 +18,6 @@ This project introduces a miniature robot capable of scaling obstacles with rema
 
 ### Resources
 
-[Design, Fabrication, and Locomotion Analysis of an Untethered Miniature Soft Quadruped, SQuad](https://www.semanticscholar.org/paper/Design%2C-Fabrication%2C-and-Locomotion-Analysis-of-an-Kalin-Ayg%C3%BCl/95ec21af325983557eeac774be50bcddfca145fa)
-[Related Article](https://techxplore.com/news/2020-04-squad-miniature-robot-climb-obstacles.html)
+1) [Design, Fabrication, and Locomotion Analysis of an Untethered Miniature Soft Quadruped](https://techxplore.com/news/2020-04-squad-miniature-robot-climb-obstacles.html)    <br />
+
+2) [Research paper](https://www.semanticscholar.org/paper/Design%2C-Fabrication%2C-and-Locomotion-Analysis-of-an-Kalin-Ayg%C3%BCl/95ec21af325983557eeac774be50bcddfca145fa) 
