@@ -1,7 +1,7 @@
 ---
 layout: page
 title: EMG_ArmBand
-description: A gesture controlled EMG Arm-Band using Machine Learning
+description: A gesture controlled EMG Arm-Band 
 importance: 1
 ---
  
