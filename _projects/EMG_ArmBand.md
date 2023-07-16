@@ -11,7 +11,7 @@ importance: 1
  
  
 ### Project Description
-Make your own EMG sensor integrated pcb with a microcontroller capable of detecting hand gestures and orientation via muscle impulses using Machine Learning 
+To create an EMG (Electromyography) Arm Band, which may be worn as a bracelet, to detect hand movements and orientation via muscle impulses transmitted through your forearm. One will be designing PCBs based on EMG sensors, integrating them with microcontrollers, and subsequently train the system using Machine Learning (ML).
  
 ### Resources 
 1. [Recognization of EMG signals using ML](https://www.mdpi.com/1424-8220/22/9/3424)
