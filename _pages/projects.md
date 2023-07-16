@@ -61,5 +61,3 @@ horizontal: false
 {%- endif -%}
 </div>
 <br>
-
-##### ...and many more to come soon! Keep checking our home page for updates!
