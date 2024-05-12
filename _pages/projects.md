@@ -2,7 +2,7 @@
 layout: page
 title: Eklavya Projects
 permalink: /projects/
-description: Have a look at the projects you can work on in the Ekavya Mentorship Program.
+description: Have a look at the projects you can work on in the Eklavya Mentorship Program.
 nav: true
 nav_order: 2
 horizontal: false
