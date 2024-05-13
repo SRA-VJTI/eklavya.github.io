@@ -36,7 +36,7 @@ First round starts from 10th June and ends on 17th June.
 
 What preparations should I do for the first round
 
-1. Go through SRA exclusive resources, i.e. ppts from workshops and assignments
+1. Go through <a href='https://linktr.ee/EKLAVYA2k24'>SRA exclusive resources</a>, i.e. ppts from workshops and assignments
 Note: assignments will be prioritized in your selections as well, so do attempt all the incomplete assignments from all workshops
 
 And that's it!  😤
