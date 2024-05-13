@@ -3,32 +3,24 @@ layout: about
 title: Home
 permalink: /
 
-profile:
-  align: right
-  image: Profile.png
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>VJTI, Mumbai</p>
+
 
 news: true # includes a list of news items
 latest_posts: true # includes a list of the newest posts
 social: true # includes social icons at the bottom of the page
 ---
 
-SRA had conducted various workshops over the course of this year, starting from Inception till MARIO where we tried to give you exposure to various domains:
-C++/Python programming, embedded systems, ROS (Robot Operating System), OpenCV (Image processing), interesting theory (meh) and exciting hands-on hardware experience 😎
-Now, it's time to utilise all the knowledge you gained from these workshops in your own research level projects. 
+SRA has organized workshops throughout the year, from Inception to MARIO, covering topics such as C++/Python programming, embedded systems, ROS (Robot Operating System), OpenCV (Image Processing), interesting theory (meh), and hands-on hardware experience. Now it's time to apply all you've learned from these sessions to your own research level projects.
 
-Eklavya presents you the opportunity to work on projects in various domains where you will be mentored by your seniors over the coarse of two whole months!
-Here's the link of all projects with their respective domains.
+EKLAVYA offers you the opportunity to work on projects in a variety of fields while being mentored by your seniors for two months. Here's a link to all projects and their related websites.
 
-Whether you are applying for an internship or trying to lit your profile just to brag among your buddies, the level of projects you do in your undergrad life provides you the edge on the same and on top of that, doing a project at the end of the first year itself is a big achievement.
+Whether you are applying for an internship or simply seeking to boost your profile to brag to your friends, the level of projects you complete during your undergraduate studies gives you an advantage, and executing a project at the conclusion of your first year is a significant accomplishment.
 
 How can we participate in this mentorship program?
 
 Here's the procedure for the program:
 
-1. Logic building and technical round
+1. Logic building and technical round:
 Here you will get tasks with a defined problem statement and you’ll have to solve it with knowledge you gained from the workshops.
 For this round you need a team of two members.
 TIP: Try to have a teammate who has access to SRA board as it might come handy for the tasks 
@@ -40,12 +32,12 @@ Top performers in this round will go for the next round
 
 So, when is the technical round?
 
-First round starts from 28th June and ends on 8th of July.
+First round starts from 10th June and ends on 17th June.
 
 What preparations should I do for the first round
 
 1. Go through SRA exclusive resources, i.e. ppts from workshops and assignments
-Note: assignments will be prioritized in your selections as well, so do attempt all the incomplete assignment s from all workshops
+Note: assignments will be prioritized in your selections as well, so do attempt all the incomplete assignments from all workshops
 
 And that's it!  😤
 
