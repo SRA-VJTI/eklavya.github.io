@@ -36,4 +36,4 @@ This project will be very beneficial for those who want to do research in Transf
 ### Mentor
 Aryan Nanda - nandaaryan823@gmail.com
 
-> If you have any doubts regarding this project or any difficulty in understanding the pre-requisites videos you can ask the mentor directly.
+> If you have any doubts regarding this project or any difficulty in understanding the pre-requisites videos you reach out to the mentor.
