@@ -9,6 +9,7 @@ importance: 1
 |----------------------------------------------|---------------------------------|--------------------|
 | Computer Architecture, FPGA, Degital Design  | Atharva Kashalkar, Saish Karole | Hard               |
 <br>
+
 ### Project Description
 
 Currently AMD’s FPGA synthesizer Vivado uses 32-bit MicroBlaze Risc-V core for its software defined SoC.The goal of this project would be modifying SRA’s present Risc-V 32IM CPU core to replace MicroBlaze soft processor IP.<br>
