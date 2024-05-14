@@ -12,9 +12,10 @@ importance: 1
 <br>
 
 ### Project Description
-The morphable multi-terrain robot, known as EvoBorne, under development by SRA, is capable of navigating both airspace and landspace in its drone mode and quadruped version.
-<br>
-With two wheels and two thrusters, this project seeks to develop a  that can equip the bot with autonomous self-balancing so that it can maneuver through steep terrain in a semi-drone mode. To fully automate the robot to navigate all terrains using SLAM and trajectory planning, a semi-drone mode would be essential.
+Imagine a groundbreaking creation in the making: EvoBorne, a versatile robot being developed by SRA, designed to conquer diverse landscapes both in the air and on the ground. This morphable marvel transitions effortlessly between drone mode, where it soars through airspace, and a quadrupedal form for terrestrial traversal.<br>
+Equipped with a clever configuration of two wheels and two thrusters, the project aims to imbue EvoBorne with autonomous self-balancing capabilities. This will enable the robot to navigate even the steepest terrains in a semi-drone mode, combining the best of aerial and ground mobility.<br>
+
+The ultimate goal? EvoBorne will have a semi-drone mode, allowing it to navigate any environment with ease. This semi-drone capability represents a significant step forward in the evolution of robotics, promising seamless and agile movement across all types of challenging terrain. By use of cutting-edge technologies like SLAM (Simultaneous Localization and Mapping) and advanced trajectory planning EvoBorne bot will achieve full autonomy to traverse through its environment. This is the exciting vision driving the development of EvoBorne.
 
 ![Morphobot-SB.png](/assets/img/Morphobot-SB.png)
 
