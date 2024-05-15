@@ -12,8 +12,11 @@ importance: 1
 
 ### Project Description
 
-Currently AMD’s FPGA synthesizer Vivado uses 32-bit MicroBlaze Risc-V core for its software defined SoC.The goal of this project would be modifying SRA’s present Risc-V 32IM CPU core to replace MicroBlaze soft processor IP.<br>
-This will expand the use cases of SRA’s Risc-V core and we can directly use the peripherals and IPs compatible compatible with Xilinx boards to design a custom SoC for SRA around this Risc-V core.
+
+SRA hosts its own 32-bit RISC-V Core, supporting the IM extensions. Currently compatible with an open-source toolchain, our core is poised for greater versatility.<br>
+This project aims to integrate our RISC-V core into the Xilinx Vivado ecosystem, allowing users to effortlessly drag and drop it into their designs as a soft core. Additionally, we aim to rigorously verify the RISC-V core using industry-standard methods for testing digital designs. Ensuring the core's reliability and performance will provide a robust solution for a wide range of applications.
+
+This integration will significantly expand the use cases for SRA’s RISC-V core. By leveraging the peripherals and IPs compatible with Xilinx boards, users will be able to design custom SoCs centered around our powerful RISC-V core. This initiative opens up exciting possibilities for innovative and efficient custom solutions.
 
 ### Resources
 
