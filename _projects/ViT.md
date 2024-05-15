@@ -1,6 +1,6 @@
 ---
 layout: page
-title: From Pixels to Descriptions: Vision Transformers From Scratch
+title: Vision Transformers From Scratch
 description: Implementing a Vision Transformers Model From Scratch
 importance: 1
 ---
