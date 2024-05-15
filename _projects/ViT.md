@@ -7,7 +7,7 @@ importance: 1
 
 | Project Domains              | Mentors      | Project Difficulty |
 |------------------------------|--------------|--------------------|
-| Deep Learning, Transformers, CNNs, Python, Pytorch | Aryan Nanda |  Hard  |
+| Deep Learning, Transformers, CNNs, LSTMs, Python, Pytorch | Aryan Nanda |  Hard  |
 
 <br>
 
