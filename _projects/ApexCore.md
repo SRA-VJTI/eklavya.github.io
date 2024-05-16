@@ -19,7 +19,7 @@ This project aims to integrate our RISC-V core into the Xilinx Vivado ecosystem,
 ### Resources
 
 [Inside a CPU](https://www.youtube.com/watch?v=IAkj32VPcUE)<br>
-[What is Risc-V?](https://www.youtube.com/watch?v=Ps0JFsyX2fU)<br>
+[What is RISC-V?](https://www.youtube.com/watch?v=Ps0JFsyX2fU)<br>
 [What is a FPGA](https://www.youtube.com/watch?v=WY-F3knih7c)<br>
 [MicroBlaze Processor](https://www.xilinx.com/products/design-tools/microblaze.html)<br>
 [Verification of a CPU](https://www.youtube.com/watch?v=Hg3O4Ti92gk)
