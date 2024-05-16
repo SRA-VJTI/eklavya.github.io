@@ -1,13 +1,14 @@
 ---
 layout: page
-title: ApexCore a Risc-V based CPU
-description: Developing a Risc-V based soft processor IP compatible with AMD's Xilinx Boards.  
+title: ApexCore a RISC-V based CPU
+description: Developing a RISC-V based soft processor IP compatible with AMD's Xilinx Boards.  
 importance: 1
 ---
 
 | Project Domains                              | Mentors                         | Project Difficulty |
 |----------------------------------------------|---------------------------------|--------------------|
 | Computer Architecture, FPGA, Digital Design  | Atharva Kashalkar, Saish Karole | Hard               |
+
 <br>
 
 ### Project Description
