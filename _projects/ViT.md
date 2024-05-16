@@ -13,6 +13,8 @@ importance: 1
 
 ### Project Description
 
+Transformers are state-of-the-art (SOTA) model architectures. GPT, BERT, T5, XLNet, and RoBERTa are all transformer-based models widely used in natural language processing tasks such as understanding, generation, and translation, setting benchmarks in various NLP applications.
+
 An Image is Worth 16x16 Words. While the Transformer architecture has become the de-facto standard for natural language processing tasks, its use in computer vision remains limited. This project is an attempt to understand the transformer architecture and its use in CV applications. Initially, we will start with naive deep-learning models and then will do basics of Processing sequential data using RNNs, LSTMs and then will understand the workings of Vision Transformers and then will implement a model that can generate a descriptive caption for an image we provide it.  
 This project will be very beneficial for those who want to do research in Transformer-based models in Open-source in upcoming years.
 
