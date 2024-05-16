@@ -8,6 +8,7 @@ importance: 1
 | Project Domains                              | Mentors                         | Project Difficulty |
 |----------------------------------------------|---------------------------------|--------------------|
 | Computer Architecture, FPGA, Digital Design  | Atharva Kashalkar, Saish Karole | Hard               |
+
 <br>
 
 ### Project Description
