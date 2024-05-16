@@ -16,8 +16,9 @@ You must have seen the quadruped robots built by Stanford, MIT, IIT Kanpur, etc.
 
 ![Quadruped.jpeg](/assets/img/Titan.jpeg)
 
-Aim : The project aims to design and build the robot from scratch. Mentees will explore and study various mechanisms to make the robot's leg move, then complete the assembly of a quadruped using CAD modelling softwares like SOLIDWORKS/ONSHAPE/FUSION360 depending upon their conviniece, analysie the feasiblity as well as the strength of their designed parts, manufacture it using 3D Printing and Laser cutting, and simultaneously work on ROS2 for the simulation and the control of the same. <br>
-The Quadruped will be then simulated and controlled firstly in Gazebo simulator using the ROS2 controllers, and after this the target is to implement the same on hardware. 
+The project aims to design and build a robot from scratch, focusing on the development of a quadruped. Mentees will embark on a comprehensive journey exploring and studying various mechanisms essential for leg movement. Following this, they will utilize CAD modeling software such as SOLIDWORKS, ONSHAPE, or FUSION360, depending on their preference, to assemble the quadruped meticulously.<br>
+
+Additionally, mentees will conduct a detailed analysis to assess the feasibility and strength of the designed components. The manufacturing process will involve advanced techniques like 3D printing and laser cutting, ensuring precision and efficiency simultaneously delving into ROS2 for both simulation and control aspects of the robot, fostering a holistic understanding of robotic systems. <br>
 
 
 ### Resources
