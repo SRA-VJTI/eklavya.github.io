@@ -13,6 +13,8 @@ importance: 1
 
 ### Project Description
 
+Transformers are state-of-the-art (SOTA) model architectures. GPT, BERT, T5, XLNet, and RoBERTa are all transformer-based models widely used in natural language processing tasks such as understanding, generation, and translation, setting benchmarks in various NLP applications.
+
 An Image is Worth 16x16 Words. While the Transformer architecture has become the de-facto standard for natural language processing tasks, its use in computer vision remains limited. This project is an attempt to understand the transformer architecture and its use in CV applications. Initially, we will start with naive deep-learning models and then will do basics of Processing sequential data using RNNs, LSTMs and then will understand the workings of Vision Transformers and then will implement a model that can generate a descriptive caption for an image we provide it.  
 This project will be very beneficial for those who want to do research in Transformer-based models in Open-source in upcoming years.
 
@@ -22,7 +24,7 @@ This project will be very beneficial for those who want to do research in Transf
 
 - Good conceptual understanding of Linear Algebra concepts -> [Playlist on Concepts of LA by 3B1B](https://www.youtube.com/watchv=fNk_zzaMoSslist=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
-- Good understanding of concepts taught in the Pixels workshop(Convolutions, playing with images etc.) -> [Links of Pixels PPTs](https://drive.google.com/drive/folders/1vyaM4vVJF-gTf_5movE73Ve3Pq_SUFSt)
+- Good understanding of concepts taught in the Pixels workshop(Convolutions, playing with images etc.) -> [Links of Pixels PPTs](https://drive.google.com/drive/folders/1ORjQWokFKnQPQ5Y86R-Dhw2KLFC6BE61)
 
 - Familiarity with neural networks ->
   [Short playlist on Neural Networks by 3B1B](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) (Must Watch)
