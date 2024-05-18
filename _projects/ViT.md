@@ -24,7 +24,7 @@ This project will be very beneficial for those who want to do research in Transf
 
 - Good conceptual understanding of Linear Algebra concepts -> [Playlist on Concepts of LA by 3B1B](https://www.youtube.com/watchv=fNk_zzaMoSslist=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 
-- Good understanding of concepts taught in the Pixels workshop(Convolutions, playing with images etc.) -> [Links of Pixels PPTs](https://drive.google.com/drive/folders/1vyaM4vVJF-gTf_5movE73Ve3Pq_SUFSt)
+- Good understanding of concepts taught in the Pixels workshop(Convolutions, playing with images etc.) -> [Links of Pixels PPTs](https://drive.google.com/drive/folders/1ORjQWokFKnQPQ5Y86R-Dhw2KLFC6BE61)
 
 - Familiarity with neural networks ->
   [Short playlist on Neural Networks by 3B1B](https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi) (Must Watch)
