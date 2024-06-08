@@ -1,6 +1,6 @@
-let SHEET_ID = "1K9QtML3lSrBIk0UNDydKRtBL3TNEnZO5VyU08mqwE1Q";
-let SHEET_TITLE = "Eklavya Leaderboard";
-let SHEET_RANGE = "A2:B42";
+let SHEET_ID = "1SicFCrILTarw2dsadPwuciuanI6aIcLU1i8DWhv62k0";
+let SHEET_TITLE = "Eklavya Leaderboard 24";
+let SHEET_RANGE = "A2:B28";
 
 let full_URI = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?sheet=${SHEET_TITLE}/&range=${SHEET_RANGE}`;
 

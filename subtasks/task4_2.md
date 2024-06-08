@@ -53,7 +53,7 @@ Task Submission Link: [Form](https://forms.gle/CW8H5cMQxCDznzcW7)
    [Click here](https://www.youtube.com/playlist?list=PL3bNyZYHcRSUhUXUt51W6nKvxx2ORvUQB)
 
 3. **Download the Symbols and Footprints from here:**
-   [Click here](https://drive.google.com/drive/folders/11rkXFyyctFbJHwZQ2PqeT1WfrvRJoC2s?usp=drive_link)
+   [Click here](https://drive.google.com/file/d/1jm2rXZxPTpAuMMbnAyWenM84ktNT7qWE/view)
 
 4. **EDA Tools for importing components: (If using any other components than suggested above)**
    - [SnapEDA](https://www.snapeda.com/)
