@@ -10,7 +10,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Hardware Task | Eklavya 2024  </title>
+    <title>Embedded Task | Eklavya 2024  </title>
     <meta name="author" content="Eklavya 2024  ">
     <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
@@ -118,44 +118,123 @@
         <div class="post table-borderless">
 
           <header class="post-header">
-            <h1 class="post-title">Hardware Task</h1>
+            <h1 class="post-title">Embedded Task</h1>
             <p class="post-description"></p>
           </header>
 
           <article>
-            <h1 id="using-our-knowledge-in-real-life">Using our knowledge in real life</h1>
+            <p>This task involves implementing a system that reads a .txt file generated from Task 1 and performs actions based on the type of node and turn detected. The system will use the SRA board to control LED blinking patterns and motor movements. Additionally, the system will use freeRTOS to control both the LED blinking patterns and motor movements concurrently.</p>
 
-<p>The simplest embedded system used in real life is car parking system.
-So what’s the most important thing need to be taken care of in a parking lot?
-That’s right! We need to make sure only as many cars get inside as the capacity of parking lot.
-So let’s count how many cars pass thourgh a gate in a parking lot.</p>
+<h2 id="task-instructions"><strong>Task Instructions:</strong></h2>
 
-<h2 id="task-instructions">Task Instructions</h2>
+<ul>
+  <li>Read the lsa.txt file output from Task 1.</li>
+  <li>Detect a specified type of node (e.g., only left node) and turn (e.g., left turn).</li>
+  <li>What is a Node?</li>
+</ul>
 
-<ol>
-  <li>There are two IR sensors one on the entry gate and one on the exit gate.</li>
-  <li>Whenever sensor on entry gate gets triggered Total number of cars is increased by one.</li>
-  <li>Whenever sensor on exist gate gets triggered Total number of cars is decreased by one.</li>
-  <li>Print total number of cars inside parking lot on terminal whenever a sensor is triggered.</li>
-</ol>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    |  |
+____|  |____
+____    ____ &lt;-- Node here
+    |  |
+    |  |
+____|  |
+____   | &lt;-- Node Here
+    |  |
+    |  |_____
+    |   _____ &lt;-- Node Here
+    |  |
+    |  |
+    |  |
+    |  |
 
-<p>Note: 2 IR Sensors will be provided for each team.</p>
+</code></pre></div></div>
+
+<p>Line sensor placement:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
+    |   |
+    |   |
+____|   |____
+____|   |____
+    |   |
+    |   |
+   0|123|4
+</code></pre></div></div>
+
+<p>0, 1, 2, 3, 4 are the locations of the 5 line sensors</p>
+
+<p><strong>Types of Nodes:</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                       |  |
+                       |  |
+         ______________|  |
+ Only--&gt;|   ______________|  &lt;-- Only Left
+ Right  |  |
+        |  |
+    ____|  |____
+    ____    ____ &lt;-- Plus
+        |  |
+        |  |
+    ____|  |
+    ____   | &lt;-- Straight+Left
+        |  |
+        |  |_____
+        |   _____ &lt;-- Straight+Right
+        |  |
+        |  |
+        |  |
+        |  |
+</code></pre></div></div>
+
+<ul>
+  <li>Implement <strong>LED blinking</strong> according to the <strong>node type</strong>:
+    <ul>
+      <li>Utilize the SRA board’s 8 LEDs to display the blink pattern.</li>
+      <li>For only left node: LEDs will blink in a pattern from right to left.</li>
+      <li>For only right node: LEDs will blink in a pattern from left to right.</li>
+      <li>For right+straight or left+straight node: LEDs will blink in a pattern where the lights at both ends (first and eighth LEDs) move towards the center.</li>
+      <li>For plus node: All LEDs blink simultaneously (on and off).</li>
+      <li>For dead end: LEDs will blink in a stationary pattern, indicating the end of the path.</li>
+    </ul>
+
+    <p><strong>Click <a href="https://tangy-ironclad-2ce.notion.site/LED-Patterns-415bc48176e9438fa4d564c7bb276041" rel="external nofollow noopener" target="_blank">here</a> for LED Patterns</strong></p>
+  </li>
+  <li>Control <strong>motor movement</strong>s according to the detected <strong>turn type</strong> using the SRA board. 
+  i.e
+    <ul>
+      <li>For a left turn, the motors should turn left.</li>
+      <li>For a right turn, the motors should turn right.</li>
+      <li>For a right + straight node,  the motors should continue to move straight.</li>
+      <li>For a left + straight node, the motors should turn left.</li>
+      <li>For a plus node, the motors should turn left.</li>
+      <li>For dead end, the motors should stop.</li>
+    </ul>
+
+    <p>(This is the basic application of Left-Follow Rule where in the bot prioritises Left Turn at each node. The next priority is for going Straight and then least priority is given to the Right Turn.)</p>
+  </li>
+  <li>Utilize freeRTOS to ensure parallel execution of LED blinking and motor control tasks.</li>
+</ul>
 
 <h2 id="submission-instructions">Submission Instructions</h2>
 
+<p>Make a zip file containing</p>
+
 <ul>
-  <li>Make a zip file containing<br>
-(a) Your code file (main.c)<br>
-(b) A video showing increment and decrement of total number of cars</li>
+  <li>Your code file main.c</li>
+  <li>A video showing LED blinking patterns and motor movements.</li>
+  <li>Rename zip folder as your team name and task number. Eg. “Task_4_TEAM_ABCD”</li>
+  <li>Submit <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfMcJeF9Kahu3anRx_x-Yy7Uge-mmePv7-zoeEcM3BXhWb_Q/viewform" rel="external nofollow noopener" target="_blank"><strong>here</strong></a>
+</li>
 </ul>
 
-<p>Task Submission Link: <a href="https://forms.gle/cY6Xr4FnZwqUjcUs8" rel="external nofollow noopener" target="_blank">Form</a></p>
+<h2 id="resources"><strong>Resources</strong></h2>
 
-<h2 id="resources">Resources</h2>
-
-<ol>
-  <li><a href="https://robu.in/wp-content/uploads/2016/01/ACFrOgDI4749Ttb15AOWjCO3p_XJF0MIgbgEftPZbmS6dtYJ29HB3TQaCTVMN1jfS3wPEtqVebbxTYhVczV17pBCn_sIVKGzeyMiVqHnYIj9f-F_vBMyPp7V.pdf" rel="external nofollow noopener" target="_blank">IR Sensor Datasheet</a></li>
-</ol>
+<ul>
+  <li><a href="https://drive.google.com/drive/folders/1vG0va4bM5qz_MJKkz4dLdT4V8_zq696K" rel="external nofollow noopener" target="_blank"><strong>Wall-E PPT’s</strong></a></li>
+  <li><a href="https://github.com/SRA-VJTI/Wall-E" rel="external nofollow noopener" target="_blank"><strong>Wall-E github</strong></a></li>
+  <li><a href="https://github.com/SRA-VJTI/Wall-E" rel="external nofollow noopener" target="_blank">Task Creation using FreeRTOS</a></li>
+</ul>
 
           </article>
 
