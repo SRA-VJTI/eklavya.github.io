@@ -7,7 +7,7 @@ importance: 4
 ---
 
 
-**Points for this task: 150**
+**Points for this task: 100**
 
 ## Description
    

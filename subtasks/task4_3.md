@@ -55,7 +55,7 @@ Line sensor placement:
                               1|2 3 4|5
 ```
 
-1, 2, 3, 4, 5 are the positions of the 4 line sensors and the 5th is for the IR sensor.
+1, 2, 3, 4, 5 are the positions of the 4 line sensors and the 6th is for the IR sensor.
 
 - Implement **LED blinking** according to the **junction type**:
     - Utilize the SRA board's 8 LEDs to display the blink pattern.
