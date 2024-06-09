@@ -86,6 +86,9 @@
               <li class="nav-item ">
                 <a class="nav-link" href="/projects/">Eklavya Projects</a>
               </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/tasks/">Tasks</a>
+              </li>
 
               <!-- Toogle theme mode -->
               <!-- <li class="toggle-container">
@@ -122,52 +125,29 @@
           <article>
             <h2 id="description">Description</h2>
 
-<p>Have you ever heard of Automatic Headlights? It basically means that the headlights will turn ON when its dark and during day-time, the headlights will turn OFF. This serves as a feature in many luxurious cars. In this problem statement, you have to design one!</p>
+<p>PCB and circuit design is about how carefully we can plan electronic layouts and diagrams, focusing on where to put which electronic component and how to connect them to make devices work well. In any electronics/robotics project, the power circuitry is super important. It’s like the manager, making sure the electricity flows smoothly and safely through the whole system.</p>
 
 <h2 id="problem-statement">Problem Statement</h2>
 
-<p>In this task, you have to design a PCB for Automatic Headlights which means that the lights will turn ON when its dark and vice versa. For this, you need few components like:</p>
+<p>In this task, you have to design a PCB with a power circuitry on it with specific requirements. The use case of the same is given below:</p>
 
+<p>1)Screw Terminal with 24V as Input</p>
+
+<p>2)Screw Terminal with 12V and 4A current rating as Output</p>
+
+<p>3)Screw Terminal with 5V and 2A current rating as Output</p>
+
+<p>4)Screw Terminal with 3.3V and 2A current rating as Output</p>
+
+<p>Following components can be used to achieve the task:</p>
 <ol>
   <li>
-<strong>LDR (Light Dependent Resistor):</strong> An LDR is a component that has a (variable) resistance that changes with the light intensity that falls upon it. In case of dark environment, the resistance value becomes very high and vice versa.</li>
+    <p><strong>Buck Convertors:</strong> Buck converters, also known as step-down converters, are a type of DC-DC power converter that efficiently reduces a higher input voltage to a lower output voltage. They operate by rapidly switching the input voltage on and off and then smoothing it to provide a stable output voltage, making them ideal for applications where energy efficiency and voltage regulation are crucial, such as in portable electronic devices and power supplies. Examples are LM2576,XL4015,XL4005,etc.</p>
+  </li>
   <li>
-<strong>LM358 (Comparators):</strong> From the name itself it is clear that this is an Op-Amp that compares two voltages, one is a SET voltage and other one is the incoming voltage (through LDR) and correspondingly generate a HIGH or LOW output. In case of HIGH condition, the LED/ headlight shall glow. Read more about the <strong>IC LM358</strong> if it is still not clear.</li>
+    <p><strong>Linear Regulators:</strong> Linear regulators maintain stable voltage levels by dissipating excess voltage as heat. They are simple and inexpensive, suited for applications prioritizing low noise and simplicity over energy efficiency, such as audio amplifiers and sensor circuits. Example AMS1117,etc.</p>
+  </li>
 </ol>
-
-<p><strong>BLOCK DIAGRAM AND CIRCUIT DIAGRAM ARE GIVEN BELOW:</strong></p>
-
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/block_diagram-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/block_diagram-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/block_diagram-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/block_diagram.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/circuit_diagram-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/circuit_diagram-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/circuit_diagram-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/circuit_diagram.jpeg" class="img-fluid rounded z-depth-1" width="auto" height="auto" title="example image" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
 
 <h2 id="submission-instructions-kicad-software-is-recommended">Submission Instructions: (KiCAD software is recommended)</h2>
 
@@ -175,10 +155,10 @@
 	- Schematic Diagram
 	- PCB Layout (Both front layer and back layer)
 2. Along with the PDF, submit a zip folder that contains all the KiCAD files and rename it as your team name and task number. Eg. "Task_4_TEAM_ABCD"
-3. You have to import the component symbols and footprints from EDA Websites given below. For now, we have provided you the the folder which includes all the required symbols and footprints of the components. (Refer Playlist for tutorial)
+3. You have to import the component symbols and footprints from EDA Websites given below. For now, we have provided you the the folder which includes some of the suggested components with their symbols &amp; footprints.Although we encourgae you to use different components than mentioned below. (Refer Playlist for tutorial)
 </code></pre></div></div>
 
-<p>Task Submission Link: <a href="https://forms.gle/cY6Xr4FnZwqUjcUs8" rel="external nofollow noopener" target="_blank">Form</a></p>
+<p>Task Submission Link: <a href="https://forms.gle/CW8H5cMQxCDznzcW7" rel="external nofollow noopener" target="_blank">Form</a></p>
 
 <h2 id="resources">Resources:</h2>
 
@@ -198,10 +178,10 @@
   </li>
   <li>
     <p><strong>Download the Symbols and Footprints from here:</strong>
-<a href="https://drive.google.com/drive/folders/1WAuIDvje05pGdIHXOORPXT2VOyxn8W1j" rel="external nofollow noopener" target="_blank">Click here</a></p>
+<a href="https://drive.google.com/file/d/1jm2rXZxPTpAuMMbnAyWenM84ktNT7qWE/view" rel="external nofollow noopener" target="_blank">Click here</a></p>
   </li>
   <li>
-    <p><strong>EDA Tools for importing components: (Not Required for this task)</strong></p>
+    <p><strong>EDA Tools for importing components: (If using any other components than suggested above)</strong></p>
     <ul>
       <li><a href="https://www.snapeda.com/" rel="external nofollow noopener" target="_blank">SnapEDA</a></li>
       <li><a href="https://componentsearchengine.com/" rel="external nofollow noopener" target="_blank">Component Search Engine</a></li>
