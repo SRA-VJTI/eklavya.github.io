@@ -123,50 +123,23 @@
           </header>
 
           <article>
-            <p>This task involves implementing a system that reads a .txt file generated from Task 1 and performs actions based on the type of node and turn detected. The system will use the SRA board to control LED blinking patterns and motor movements. Additionally, the system will use freeRTOS to control both the LED blinking patterns and motor movements concurrently.</p>
+            <h1 id="embedded-task">Embedded Task</h1>
+
+<p>This task involves implementing a system that reads a .txt file generated from Task 1 and performs actions based on the type of junction and turn detected. The system will use the SRA board to control LED blinking patterns and motor movements. Additionally, the system will use freeRTOS to control both the LED blinking patterns and motor movements concurrently.</p>
 
 <h2 id="task-instructions"><strong>Task Instructions:</strong></h2>
 
 <ul>
-  <li>Read the lsa.txt file output from Task 1.</li>
-  <li>Detect a specified type of node (e.g., only left node) and turn (e.g., left turn).</li>
-  <li>What is a Node?</li>
+  <li>Read the output text file output from Task 1.</li>
+  <li>Detect a specified type of junction (e.g., only left junction) and turn (e.g., left turn).</li>
+  <li><strong>Types of Junction</strong></li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    |  |
-____|  |____
-____    ____ &lt;-- Node here
-    |  |
-    |  |
-____|  |
-____   | &lt;-- Node Here
-    |  |
-    |  |_____
-    |   _____ &lt;-- Node Here
-    |  |
-    |  |
-    |  |
-    |  |
-
-</code></pre></div></div>
-
-<p>Line sensor placement:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>
-    |   |
-    |   |
-____|   |____
-____|   |____
-    |   |
-    |   |
-   0|123|4
-</code></pre></div></div>
-
-<p>0, 1, 2, 3, 4 are the locations of the 5 line sensors</p>
-
-<p><strong>Types of Nodes:</strong></p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                       |  |
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>					   |XX|	  &lt;--- Mines/U-turn
+					   |  |
+			-----------    -------------    &lt;---- plus junction
+			-----------	   -------------		
+                       |  |
                        |  |
          ______________|  |
  Only--&gt;|   ______________|  &lt;-- Only Left
@@ -185,33 +158,47 @@ ____|   |____
         |  |
         |  |
         |  |
+
 </code></pre></div></div>
 
+<p>Line sensor placement:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                               |     |
+                               |     |
+                           ____|     |____
+                           ____|     |____
+                               |     |
+                               |  6  |
+                              1|2 3 4|5
+</code></pre></div></div>
+
+<p>1, 2, 3, 4, 5 are the positions of the 4 line sensors and the 5th is for the IR sensor.</p>
+
 <ul>
-  <li>Implement <strong>LED blinking</strong> according to the <strong>node type</strong>:
+  <li>Implement <strong>LED blinking</strong> according to the <strong>junction type</strong>:
     <ul>
       <li>Utilize the SRA board’s 8 LEDs to display the blink pattern.</li>
-      <li>For only left node: LEDs will blink in a pattern from right to left.</li>
-      <li>For only right node: LEDs will blink in a pattern from left to right.</li>
-      <li>For right+straight or left+straight node: LEDs will blink in a pattern where the lights at both ends (first and eighth LEDs) move towards the center.</li>
-      <li>For plus node: All LEDs blink simultaneously (on and off).</li>
+      <li>For only left junction: LEDs will blink in a pattern from right to left.</li>
+      <li>For only right junction: LEDs will blink in a pattern from left to right.</li>
+      <li>For right+straight or left+straight junction: LEDs will blink in a pattern where the lights at both ends (first and eighth LEDs) move towards the center.</li>
+      <li>For plus junction: All LEDs blink simultaneously (on and off).</li>
       <li>For dead end: LEDs will blink in a stationary pattern, indicating the end of the path.</li>
     </ul>
 
-    <p><strong>Click <a href="https://tangy-ironclad-2ce.notion.site/LED-Patterns-415bc48176e9438fa4d564c7bb276041" rel="external nofollow noopener" target="_blank">here</a> for LED Patterns</strong></p>
+    <p><strong>Check <a href="https://tangy-ironclad-2ce.notion.site/LED-Patterns-415bc48176e9438fa4d564c7bb276041" rel="external nofollow noopener" target="_blank">here</a> for LED Patterns</strong></p>
   </li>
   <li>Control <strong>motor movement</strong>s according to the detected <strong>turn type</strong> using the SRA board. 
   i.e
     <ul>
       <li>For a left turn, the motors should turn left.</li>
       <li>For a right turn, the motors should turn right.</li>
-      <li>For a right + straight node,  the motors should continue to move straight.</li>
-      <li>For a left + straight node, the motors should turn left.</li>
-      <li>For a plus node, the motors should turn left.</li>
+      <li>For a right + straight junction,  the motors should continue to move straight.</li>
+      <li>For a left + straight junction, the motors should turn left.</li>
+      <li>For a plus junction, the motors should turn left.</li>
       <li>For dead end, the motors should stop.</li>
     </ul>
 
-    <p>(This is the basic application of Left-Follow Rule where in the bot prioritises Left Turn at each node. The next priority is for going Straight and then least priority is given to the Right Turn.)</p>
+    <p>(This is the basic application of Left-Follow Rule where in the bot prioritises Left Turn at each junction. The next priority is for going Straight and then least priority is given to the Right Turn.)</p>
   </li>
   <li>Utilize freeRTOS to ensure parallel execution of LED blinking and motor control tasks.</li>
 </ul>
@@ -222,9 +209,9 @@ ____|   |____
 
 <ul>
   <li>Your code file main.c</li>
-  <li>A video showing LED blinking patterns and motor movements.</li>
+  <li>A video showing LED blinking patterns and motor movements, including a notepad in the video showing the task number and team name.</li>
   <li>Rename zip folder as your team name and task number. Eg. “Task_4_TEAM_ABCD”</li>
-  <li>Submit <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfMcJeF9Kahu3anRx_x-Yy7Uge-mmePv7-zoeEcM3BXhWb_Q/viewform" rel="external nofollow noopener" target="_blank"><strong>here</strong></a>
+  <li>Submit <a href="https://drive.google.com/drive/folders/1CGM7tCPZB3jeFF9N61QfBO6x4sRzHxan?usp=sharing" rel="external nofollow noopener" target="_blank"><strong>here</strong></a>
 </li>
 </ul>
 
