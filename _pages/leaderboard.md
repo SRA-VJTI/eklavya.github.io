@@ -8,7 +8,7 @@ nav_order: 2
 horizontal: false
 ---
 
-<!-- <div id="leaderboard">
+<div id="leaderboard">
   <table class="table" id="leaderboardTable">
     <thead>
       <tr>
@@ -21,10 +21,7 @@ horizontal: false
       
     </tbody>
   </table>
-</div> -->
-
-<div class="alert alert-secondary text-center" role="alert">
-Competing team's scores will be revealed here. Stay tuned!
 </div>
+
 
 <script src="{{ '/assets/js/leaderboard.js' | relative_url }}"></script>

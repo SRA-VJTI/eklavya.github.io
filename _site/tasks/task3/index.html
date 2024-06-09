@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>PCB Designing | Eklavya 2024  </title>
+    <title>Task 3 | Eklavya 2024  </title>
     <meta name="author" content="Eklavya 2024  ">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="Spread your arms">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="http://localhost:4000/tasks/task4_3">
+    <link rel="canonical" href="http://localhost:4000/tasks/task3/">
 
     <!-- Dark Mode -->
     
@@ -118,76 +117,46 @@
         <div class="post table-borderless">
 
           <header class="post-header">
-            <h1 class="post-title">PCB Designing</h1>
-            <p class="post-description"></p>
+            <h1 class="post-title">Task 3</h1>
+            <p class="post-description">Spread your arms</p>
           </header>
 
           <article>
-            <h2 id="description">Description</h2>
+            <p><strong>Points for this task: 150</strong></p>
 
-<p>PCB and circuit design is about how carefully we can plan electronic layouts and diagrams, focusing on where to put which electronic component and how to connect them to make devices work well. In any electronics/robotics project, the power circuitry is super important. It’s like the manager, making sure the electricity flows smoothly and safely through the whole system.</p>
+<h2 id="description">Description</h2>
 
-<h2 id="problem-statement">Problem Statement</h2>
+<p>Cooperative robots, or robots that work together in a collaborative manner, have a broad spectrum of applications and importance in today’s world. These robots can be utilized in manufacturing to streamline production processes, enhance efficiency, and ensure consistent quality control. In healthcare, they can assist medical professionals by performing repetitive tasks or aiding in surgeries, ultimately improving patient care and outcomes. In disaster response scenarios, cooperative robots can navigate through hazardous environments, gather information, and assist in search and rescue missions, minimizing human risk. Furthermore, in exploration missions, such as space exploration or deep-sea exploration, these robots can work together to gather data and explore environments that are inaccessible or dangerous for humans. The significance of cooperative robots lies in their ability to augment human capabilities, automate tedious tasks, and operate in environments where human presence may be limited or risky. They represent a transformative technology that is reshaping industries and opening up new possibilities for innovation and advancement.</p>
 
-<p>In this task, you have to design a PCB with a power circuitry on it with specific requirements. The use case of the same is given below:</p>
-
-<p>1)Screw Terminal with 24V as Input</p>
-
-<p>2)Screw Terminal with 12V and 4A current rating as Output</p>
-
-<p>3)Screw Terminal with 5V and 2A current rating as Output</p>
-
-<p>4)Screw Terminal with 3.3V and 2A current rating as Output</p>
-
-<p>Following components can be used to achieve the task:</p>
+<h2 id="task">Task</h2>
+<p>Your Task is to create a simulation of cooperative robots using the ROS2 Turtlesim package to perform the desired maneuver with three turtlesims exactly as described below.</p>
 <ol>
-  <li>
-    <p><strong>Buck Convertors:</strong> Buck converters, also known as step-down converters, are a type of DC-DC power converter that efficiently reduces a higher input voltage to a lower output voltage. They operate by rapidly switching the input voltage on and off and then smoothing it to provide a stable output voltage, making them ideal for applications where energy efficiency and voltage regulation are crucial, such as in portable electronic devices and power supplies. Examples are LM2576,XL4015,XL4005,etc.</p>
-  </li>
-  <li>
-    <p><strong>Linear Regulators:</strong> Linear regulators maintain stable voltage levels by dissipating excess voltage as heat. They are simple and inexpensive, suited for applications prioritizing low noise and simplicity over energy efficiency, such as audio amplifiers and sensor circuits. Example AMS1117,etc.</p>
-  </li>
+  <li>Turtle 1 should trace the path with red color,turtle2 with black and turtle3 with green color.</li>
+  <li>You need to trace the following equations with the help of turtlesims packages:<br>
+ Y = 5cos(x) ,Y = 5sin(x).</li>
+  <li>The Three turtlesims should not collide with each other,rather they should complete the given curves simultaneously.</li>
+  <li>The first curve traced by turtle 1 should be in interval [0,2π],the second curve should be in [2π,4π] and the third  curve should in [4π,6π].</li>
 </ol>
 
-<h2 id="submission-instructions-kicad-software-is-recommended">Submission Instructions: (KiCAD software is recommended)</h2>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Submit a PDF that includes the snapshots of the following things:
-	- Schematic Diagram
-	- PCB Layout (Both front layer and back layer)
-2. Along with the PDF, submit a zip folder that contains all the KiCAD files and rename it as your team name and task number. Eg. "Task_4_TEAM_ABCD"
-3. You have to import the component symbols and footprints from EDA Websites given below. For now, we have provided you the the folder which includes some of the suggested components with their symbols &amp; footprints.Although we encourgae you to use different components than mentioned below. (Refer Playlist for tutorial)
-</code></pre></div></div>
-
-<p>Task Submission Link: <a href="https://forms.gle/CW8H5cMQxCDznzcW7" rel="external nofollow noopener" target="_blank">Form</a></p>
-
-<h2 id="resources">Resources:</h2>
-
+<h2 id="resources">Resources</h2>
 <ol>
-  <li>
-    <p>KiCAD Installations: (Follow all the steps carefully)</p>
-
-    <ul>
-      <li><a href="https://www.kicad.org/download/linux/" rel="external nofollow noopener" target="_blank">Linux</a></li>
-      <li><a href="https://www.kicad.org/download/windows/" rel="external nofollow noopener" target="_blank">Windows</a></li>
-      <li><a href="https://www.kicad.org/download/macos/" rel="external nofollow noopener" target="_blank">MacOS</a></li>
-    </ul>
-  </li>
-  <li>
-    <p><strong>KiCAD Playlist:</strong>
-<a href="https://www.youtube.com/playlist?list=PL3bNyZYHcRSUhUXUt51W6nKvxx2ORvUQB" rel="external nofollow noopener" target="_blank">Click here</a></p>
-  </li>
-  <li>
-    <p><strong>Download the Symbols and Footprints from here:</strong>
-<a href="https://drive.google.com/file/d/1jm2rXZxPTpAuMMbnAyWenM84ktNT7qWE/view" rel="external nofollow noopener" target="_blank">Click here</a></p>
-  </li>
-  <li>
-    <p><strong>EDA Tools for importing components: (If using any other components than suggested above)</strong></p>
-    <ul>
-      <li><a href="https://www.snapeda.com/" rel="external nofollow noopener" target="_blank">SnapEDA</a></li>
-      <li><a href="https://componentsearchengine.com/" rel="external nofollow noopener" target="_blank">Component Search Engine</a></li>
-    </ul>
-  </li>
+  <li><a href="https://www.youtube.com/watch?v=FSqm0fDfxrk" rel="external nofollow noopener" target="_blank">https://www.youtube.com/watch?v=FSqm0fDfxrk</a></li>
+  <li><a href="https://youtube.com/watch?v=vCTbUgw6k8U" rel="external nofollow noopener" target="_blank">https://youtube.com/watch?v=vCTbUgw6k8U</a></li>
 </ol>
+
+<h2 id="output">Output</h2>
+
+<ul>
+  <li>The Expected outcome from the <a href="https://drive.google.com/drive/u/1/folders/1CoQOc8vKLSoqLoNIptqM-c156ZXGEzq3" rel="external nofollow noopener" target="_blank">participants</a>
+</li>
+</ul>
+
+<h2 id="submission-instructions">Submission Instructions</h2>
+
+<p>You must create a zip file, which should contain ROS2 packages and a video of the output.</p>
+
+<p>Submit here: <a href="https://docs.google.com/forms/d/e/1FAIpQLSee2HnaR8JB_85cTnUeQ3AU6GudDHGpdXT3K5Yr0GV6cr6K7g/viewform?usp=sf_link" rel="external nofollow noopener" target="_blank">Form</a></p>
+
 
           </article>
 
