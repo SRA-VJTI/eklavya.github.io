@@ -8,7 +8,7 @@ importance: 5
 
 ## Choose any one
 
-**Points for any one Task: 100**
+**Points for any one Task: 150**
 
 [Leg of the Titan](<javascript:redirectToTask('task4_1')>)
 
