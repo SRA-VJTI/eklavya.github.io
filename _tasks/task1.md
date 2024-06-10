@@ -58,7 +58,7 @@ Tom used Alan's data to generate a map of his path. Then he began determining th
                               1|2 3 4|5
 ```
 
-- 1, 2, 3, 4, 5 are the positions of the 4 line sensors and the 5th is for the IR sensor.
+- 1, 2, 3, 4, 5 are the positions of the 5 line sensors and the 6th is for the IR sensor.
 - The line sensors detect the lines on the maze while the IR sensor detects mines on it.
 
 **Types of Junction**
