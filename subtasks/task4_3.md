@@ -87,7 +87,7 @@ Make a zip file containing
 - Your code file main.c
 - A video showing LED blinking patterns and motor movements, including a notepad in the video showing the task number and team name.
 - Rename zip folder as your team name and task number. Eg. "Task_4_TEAM_ABCD”
-- Submit [**here**](https://drive.google.com/drive/folders/1CGM7tCPZB3jeFF9N61QfBO6x4sRzHxan?usp=sharing)
+- Submit [**here**](https://forms.gle/CW8H5cMQxCDznzcW7)
 
 ## **Resources**
 
