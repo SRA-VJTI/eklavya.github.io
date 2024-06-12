@@ -17,7 +17,7 @@ Cooperative robots, or robots that work together in a collaborative manner, have
 Your Task is to create a simulation of cooperative robots using the ROS2 Turtlesim package to perform the desired maneuver with three turtlesims exactly as described below.
    1. Turtle 1 should trace the path with red color,turtle2 with black and turtle3 with green color. 
    2. You need to trace the following equations with the help of turtlesims packages:  
-       Y = 5cos(x) ,Y = 5sin(x).
+       Y = 5cos(x) ,Y = 5sin(4x).
    3. The Three turtlesims should not collide with each other,rather they should complete the given curves simultaneously.
    4. The first curve traced by turtle 1 should be in interval [0,2π],the second curve should be in [2π,4π] and the third  curve should in [4π,6π].   
 
