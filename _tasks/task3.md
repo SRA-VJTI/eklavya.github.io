@@ -24,11 +24,12 @@ Your Task is to create a simulation of cooperative robots using the ROS2 Turtles
 ## Resources 
    1.  [https://www.youtube.com/watch?v=FSqm0fDfxrk](https://www.youtube.com/watch?v=FSqm0fDfxrk)
    2.  [https://youtube.com/watch?v=vCTbUgw6k8U](https://youtube.com/watch?v=vCTbUgw6k8U) 
+ 
    
 ## Output
 
 - The Expected outcome from the [participants](https://drive.google.com/drive/u/1/folders/1CoQOc8vKLSoqLoNIptqM-c156ZXGEzq3)
-
+- Make the Requried changes in the MARIO repository.
 
 ## Submission Instructions
 
