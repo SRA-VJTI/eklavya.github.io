@@ -1,7 +1,8 @@
 ---
-Layout: Page
-Title: GymMaster
-Description: Project to gain a deep understanding of Reinforcement Learning (RL) by systematically exploring and solving various OpenAI Gym environments. 
+layout: page
+title: GymMaster
+description: Project to gain a deep understanding of Reinforcement Learning (RL) by systematically exploring and solving various OpenAI Gym environments.
+importance: 1
 ---
 
 | Project Domains                                           | Mentors     | Project Difficulty |
@@ -28,6 +29,7 @@ Comprehensive documentation and evaluation will enhance learning and provide ins
 
 - [OpenAI Gym Document](https://www.gymlibrary.dev/content/basic_usage/)
 - [Sutton and Barto](https://www.google.co.in/books/edition/Reinforcement_Learning_second_edition/uWV0DwAAQBAJ?hl=en&gbpv=1&printsec=frontcover)
+
 
 ### Mentor
 
