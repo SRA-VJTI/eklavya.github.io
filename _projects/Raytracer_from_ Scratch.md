@@ -1,4 +1,3 @@
-
 ---
 layout: page
 title: Raytracer from Scratch
@@ -10,7 +9,7 @@ importance: 1
 |----------------------------------------------|---------------------------------|--------------------|
 | OpenGL, CUDA, Graphics programming  | Anish Mahadevan | Medium           |
 
-
+<br>
 
 ### Project Description
 
