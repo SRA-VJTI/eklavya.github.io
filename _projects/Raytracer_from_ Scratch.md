@@ -7,7 +7,7 @@ importance: 1
 
 | Project Domains                              | Mentors                         | Project Difficulty |
 |----------------------------------------------|---------------------------------|--------------------|
-| OpenGL, CUDA, Graphics programming  | Anish Mahadevan | Medium           |
+| OpenGL, CUDA, Graphics programming  | Anish Mahadevan, Aryan Nanda | Medium           |
 
 <br>
 
