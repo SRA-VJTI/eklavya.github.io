@@ -5,9 +5,9 @@ description: Design a micromouse PCB from scratch and implement maze floodfill a
 importance: 1
 ---
 
-| Project Domains                                                           | Mentors                      | Project Difficulty |
-|---------------------------------------------------------------------------|------------------------------|--------------------|
-| PCB Designing, Embedded C, Control Systems, Graph Algorithms, Electronics | Suraj Sonawane, Atharva Atre | Hard               |
+| Project Domains                                                           | Mentors                                     | Project Difficulty |
+|---------------------------------------------------------------------------|---------------------------------------------|--------------------|
+| PCB Designing, Embedded C, Control Systems, Graph Algorithms, Electronics | Suraj Sonawane, Atharva Atre, Atharv Nerkar | Hard               |
 
 <br>
 

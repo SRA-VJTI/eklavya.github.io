@@ -5,9 +5,9 @@ description: Project to gain a deep understanding of Reinforcement Learning (RL)
 importance: 1
 ---
 
-| Project Domains                                           | Mentors     | Project Difficulty |
-| --------------------------------------------------------- | ----------- | ------------------ |
-| Reinforcement learning, OpenAI Gym, TenserFlow/ PyTorch, ML basics | Aditya Vivekanand | Medium to Hard               |
+| Project Domains                                           | Mentors                 | Project Difficulty |
+| --------------------------------------------------------- | -----------------------------------------| ------------------ |
+| Reinforcement learning, OpenAI Gym, TenserFlow/ PyTorch, ML basics | Aditya Vivekanand, Atharv Dubey | Medium to Hard               |
 
 <br>
 
