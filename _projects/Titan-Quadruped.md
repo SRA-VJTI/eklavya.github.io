@@ -7,7 +7,7 @@ importance: 1
 
 | Project Domains                                                 | Mentors                                    | Project Difficulty |
 |-----------------------------------------------------------------|--------------------------------------------|--------------------|
-| Robotics, Mechanical Design                                     | Sarvesh Patki, Atharv Dubey                | Hard               |
+| Robotics, Mechanical Design                                     | Sarvesh Patki                              | Hard               |
 
 <br>
 
