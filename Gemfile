@@ -18,6 +18,7 @@ group :jekyll_plugins do
     gem 'mini_racer'
     gem 'unicode_utils'
     gem 'webrick'
+    gem 'rake'
     gem 'google-api-client'
 
 end
