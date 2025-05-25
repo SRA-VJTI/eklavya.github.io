@@ -2,7 +2,7 @@
 layout: page
 title: AutoPort
 
-description: Deep Reinforcement Learning for Rubik’s Cube Solving with Stepper Motor Apparatus
+description: Build an autonomous robot capable of navigating an indoor environment, avoiding obstacles, and delivering items from one location to another.
 ---
 
 ---

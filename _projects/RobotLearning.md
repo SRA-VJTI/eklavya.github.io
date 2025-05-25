@@ -30,4 +30,3 @@ This project introduces robotics, machine learning, and language-conditioned con
 [SO100 in MuJoco](https://wiki.seeedstudio.com/lerobot_so100m/?)<br>
 [TeleOp Data Collection demo](https://medium.com/%40sarohapranav/my-experiences-and-tips-for-creating-a-robotic-so100-arm-3df779a4aae7)<br>
 [Train an Action Chunking Transformer ](https://github.com/Shaka-Labs/ACT)<br>
-[MicroBlaze Processor](https://www.xilinx.com/products/design-tools/microblaze.html)<br>
