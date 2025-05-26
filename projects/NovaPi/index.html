@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>news | Eklavya 2025  </title>
+    <title>NovaPI - A Bare-Metal OS for Raspberry Pi | Eklavya 2025  </title>
     <meta name="author" content="Eklavya 2025  ">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="Bare-metal OS on Raspberry Pi with HDMI and a Pong game from scratch.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://eklavya.sravjti.in/news/">
+    <link rel="canonical" href="https://eklavya.sravjti.in/projects/NovaPi/">
 
     <!-- Dark Mode -->
     
@@ -115,32 +114,48 @@
         <div class="post table-borderless">
 
           <header class="post-header">
-            <h1 class="post-title">news</h1>
-            <p class="post-description"></p>
+            <h1 class="post-title">NovaPI - A Bare-Metal OS for Raspberry Pi</h1>
+            <p class="post-description">Bare-metal OS on Raspberry Pi with HDMI and a Pong game from scratch.</p>
           </header>
 
           <article>
-                      <div class="news">
-            <div class="table-responsive">
-              <table class="table table-sm table-dark borderless" style="color: inherit;">
-              
-                <tr>
-                  <th scope="row">Jun 10, 2024</th>
-                  <td>
-                    
+            <hr>
 
-                  </td>
-                </tr>
-                <tr>
-                  <th scope="row">May 26, 2025</th>
-                  <td>
-                    
+<table>
+  <thead>
+    <tr>
+      <th>Project Domains</th>
+      <th>Mentors</th>
+      <th>Project Difficulty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bare-metal, Drivers, ARM Assembly, Hardware Abstraction Layer</td>
+      <td>Shaunak Datar, Aditya Joil</td>
+      <td>Hard</td>
+    </tr>
+  </tbody>
+</table>
 
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
+<hr>
+
+<h3 id="project-description">Project Description</h3>
+
+<p>Focuses on building a bare-metal operating system and hardware abstraction layer (HAL) for Raspberry Pi 4B/5 without relying on existing OS kernels.<br>
+Initial work involves setting up bootloaders, managing memory, and writing low-level drivers from scratch.<br>
+Implements core features like UART and SPI communication protocols, interrupt handling, and support for timers and GPIOs.<br>
+Adds audio output using Pulse Code Modulation (PCM) and gradually builds up to HDMI video output.<br>
+All hardware interfacing will be handled through the custom HAL, offering a clear abstraction between kernel code and peripherals.<br>
+With HDMI output in place, the final goal is to build a simple Pong game that runs directly on the custom OS with no external libraries.<br>
+Offers deep insights into low-level systems programming, embedded graphics, and peripheral interfacing on modern ARM platforms.</p>
+
+<hr>
+
+<h3 id="resources">Resources</h3>
+<p><a href="https://github.com/s-matyukevich/raspberry-pi-os" rel="external nofollow noopener" target="_blank">RasPi-OS</a><br>
+<a href="https://youtu.be/gfmRrPjnEw4?si=flEVGXRJBXGRP29f" rel="external nofollow noopener" target="_blank">Assembly Language</a><br>
+<a href="https://youtu.be/mshVdGlGwBs?si=KgdI0XSvzd5yrXnl" rel="external nofollow noopener" target="_blank">BareMetal Programming</a><br></p>
 
           </article>
 
