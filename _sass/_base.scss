@@ -46,10 +46,21 @@ table.table a {
   &:hover:after :not(.nav-item.dropdown) {
     width: 100%;
   }
+
+}
+.table-dark,
+.table-dark thead th,
+.table-dark tbody tr,
+.table-dark tbody th,
+.table-dark tbody td {
+  background-color: #ffffff !important;   /* rows & header → white   */
+  color:            #000000 !important;   /* text  → black           */
+  border-color:     #dee2e6 !important;   /* thin grey table borders */
 }
 
-.table-dark {
-  background-color: transparent;
+/* If you still want zebra striping: */
+.table-dark.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f8f9fa !important;   /* pale grey for odd rows  */
 }
 
 figure,
@@ -85,12 +96,19 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
 
   img {
     width: 100%;
   }
 
   .card-title {
+    color: var(--global-text-color);
+  }
+
+  .card-text {
     color: var(--global-text-color);
   }
 
@@ -435,13 +453,13 @@ footer.sticky-bottom {
     padding-bottom: 2rem;
 
     .post-meta {
-      color: var(--global-text-color-light);
+      color: var(--global-text-color-dark);
       font-size: 0.875rem;
       margin-bottom: 0;
     }
 
     .post-tags {
-      color: var(--global-text-color-light);
+      color: var(--global-text-color-dark );
       font-size: 0.875rem;
       padding-top: 0.25rem;
       padding-bottom: 0;
@@ -755,19 +773,19 @@ html.transition *:after {
 // Extra Markdown style (post Customization)
 .post {
   .post-meta {
-    color: var(--global-text-color-light);
+    color: var(--global-text-color-dark);
     font-size: 0.875rem;
     margin-bottom: 0;
   }
 
   .post-tags {
-    color: var(--global-text-color-light);
+    color: var(--global-text-color-dark);
     font-size: 0.875rem;
     padding-top: 0.25rem;
     padding-bottom: 1rem;
 
     a {
-      color: var(--global-text-color-light);
+      color: var(--global-text-color-dark);
       text-decoration: none;
 
       &:hover {
@@ -995,4 +1013,17 @@ nav[data-toggle="toc"] {
       color: var(--global-danger-block-title);
     }
   }
+}
+
+
+/* Use Space Grotesk everywhere */
+body,
+.font-sans {
+  font-family: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 300;           /* thin like Teenage Engineering headers */
+  letter-spacing: -0.015em;   /* tighten a bit */
 }

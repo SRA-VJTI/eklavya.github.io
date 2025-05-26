@@ -3,46 +3,53 @@ layout: about
 title: Home
 permalink: /
 
-
-
-news: true # includes a list of news items
-latest_posts: true # includes a list of the newest posts
-social: true # includes social icons at the bottom of the page
+news: false
+latest_posts: true   
+social: true        
 ---
 
-SRA has organized workshops throughout the year, from Inception to MARIO, covering topics such as C++/Python programming, embedded systems, ROS (Robot Operating System), OpenCV (Image Processing), interesting theory (meh), and hands-on hardware experience. Now it's time to apply all you've learned from these sessions to your own research level projects.
+---
+SRA’s taken you from **Inception** to **MARIO**, diving into programming, embedded systems, ROS, OpenCV, and hands-on hardware.  
+Now it’s time to put that hard-earned knowledge to the test.
 
-EKLAVYA offers you the opportunity to work on projects in a variety of fields while being mentored by your seniors for two months. Here's a link to all projects and their related websites.
+---
 
-Whether you are applying for an internship or simply seeking to boost your profile to brag to your friends, the level of projects you complete during your undergraduate studies gives you an advantage, and executing a project at the conclusion of your first year is a significant accomplishment.
+### How it works
 
-How can we participate in this mentorship program?
+**Round 1 – Logic-Building & Technical Challenge**  
+  •  Team up in pairs and crack a set of tasks drawn straight from the workshops.  
+  •  Score high enough and you move on.
 
-Here's the procedure for the program:
+**Round 2 – Interview**  
+  •  Walk us through your solutions and pitch a summer project idea.  
+  •  Impress the panel and you’re in the EKLAVYA 2025 cohort.
 
-1. Logic building and technical round:
-Here you will get tasks with a defined problem statement and you’ll have to solve it with knowledge you gained from the workshops.
-For this round you need a team of two members.
-TIP: Try to have a teammate who has access to SRA board as it might come handy for the tasks 
-Top performers in this round will go for the next round
+---
 
-2. Interview round
+### Dates & links
 
-3. Commencement of Eklavya
+**Register (teams of two)** – <https://bit.ly/TeamRegistrationEklavya2k25>  
+**Deadline** – **05 June 2025 • 23:59 IST**  
+**Full timeline** – <https://bit.ly/Eklavya25Timeline>  
 
-So, when is the technical round?
+We already have **10 + project ideas** ready to hand out, but we’d love to see what *you* want to build.  
+**Got your own project in mind?** Tell us here – <https://bit.ly/EklavyaProjectIdeas>
 
-First round starts from 10th June and ends on 17th June.
+Go through the resources for all the workshops from here :)  
+<a href = 'https://linktr.ee/Eklavya_25'> SRA exclusive resources </a>
 
-What preparations should I do for the first round
+---
 
-1. Go through <a href='https://linktr.ee/EKLAVYA2k24'>SRA exclusive resources</a>, i.e. ppts from workshops and assignments
-Note: assignments will be prioritized in your selections as well, so do attempt all the incomplete assignments from all workshops
+### Ready to make something remarkable?
 
-And that's it!  😤
+1. Find your teammate.  
+2. Hit the registration link before the deadline.  
+3. Start sketching the project you’ve been itching to prototype.
 
-You need to register for the mentorship program before the commencement of selection rounds with a cool team 😎
+We can’t wait to see what you create. **See you in EKLAVYA 2025!**
 
-<!-- {%- if site.github_username -%}
+<!--
+{%- if site.github_username -%}
 <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fab fa-github"></i></a>
-{% endif %} -->
+{%- endif -%}
+-->
