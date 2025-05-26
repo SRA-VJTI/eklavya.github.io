@@ -3,9 +3,9 @@ layout: about
 title: Home
 permalink: /
 
-news: false      # list of news items off
-latest_posts: true   # show newest posts
-social: true         # show footer icons
+news: false
+latest_posts: true   
+social: true        
 ---
 
 ---
@@ -32,9 +32,11 @@ Now it’s time to put that hard-earned knowledge to the test.
 **Deadline** – **05 June 2025 • 23:59 IST**  
 **Full timeline** – <https://bit.ly/Eklavya25Timeline>  
 
-We already have **10 + project ideas** ready to hand out, but we’d love to see what *you* want to build.
+We already have **10 + project ideas** ready to hand out, but we’d love to see what *you* want to build.  
 **Got your own project in mind?** Tell us here – <https://bit.ly/EklavyaProjectIdeas>
 
+Go through the resources for all the workshops from here :)  
+<a href = 'https://linktr.ee/Eklavya_25'> SRA exclusive resources </a>
 
 ---
 
