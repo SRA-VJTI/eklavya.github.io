@@ -5,14 +5,25 @@ document.addEventListener('DOMContentLoaded', () => {
   const moonIcon = themeToggleButton.querySelector('.feather-moon');
 
   const applyTheme = (theme) => {
+    const logoLight = document.getElementById('logo-light');
+    const logoDark = document.getElementById('logo-dark');
+    
     if (theme === 'dark') {
       body.classList.add('dark-theme');
       sunIcon.style.display = 'none';
       moonIcon.style.display = 'inline-block';
+      
+      // Show dark logo, hide light logo
+      if (logoLight) logoLight.style.display = 'none';
+      if (logoDark) logoDark.style.display = 'inline-block';
     } else {
       body.classList.remove('dark-theme');
       sunIcon.style.display = 'inline-block';
       moonIcon.style.display = 'none';
+      
+      // Show light logo, hide dark logo
+      if (logoLight) logoLight.style.display = 'inline-block';
+      if (logoDark) logoDark.style.display = 'none';
     }
   };
 

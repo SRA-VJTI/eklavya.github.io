@@ -13,6 +13,7 @@ let setTheme = (theme) =>  {
   //transTheme();
   setHighlight(theme);
   setGiscusTheme(theme);
+  setLogo(theme);
 
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
@@ -90,5 +91,19 @@ let initTheme = (theme) => {
   setTheme(theme);
 }
 
+let setLogo = (theme) => {
+  const logoLight = document.getElementById('logo-light');
+  const logoDark = document.getElementById('logo-dark');
+  
+  if (logoLight && logoDark) {
+    if (theme === "dark") {
+      logoLight.style.display = 'none';
+      logoDark.style.display = 'inline-block';
+    } else {
+      logoLight.style.display = 'inline-block';
+      logoDark.style.display = 'none';
+    }
+  }
+};
 
 initTheme(localStorage.getItem("theme"));
