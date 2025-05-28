@@ -2,7 +2,7 @@
 
 let toggleTheme = (theme) => {
   if (theme == "dark") {
-    setTheme("dark");
+    setTheme("light");
   } else {
     setTheme("dark");
   }
@@ -92,16 +92,37 @@ let initTheme = (theme) => {
 }
 
 let setLogo = (theme) => {
+  // Header logos (only exist on non-about pages)
   const logoLight = document.getElementById('logo-light');
   const logoDark = document.getElementById('logo-dark');
   
-  if (logoLight && logoDark) {
-    if (theme === "dark") {
+  // About page logos (only exist on about page)
+  const aboutLogoLight = document.getElementById('about-logo-light');
+  const aboutLogoDark = document.getElementById('about-logo-dark');
+  
+  if (theme === "dark") {
+    // Header logos (if they exist)
+    if (logoLight && logoDark) {
       logoLight.style.display = 'none';
       logoDark.style.display = 'inline-block';
-    } else {
+    }
+    
+    // About page logos (if they exist)
+    if (aboutLogoLight && aboutLogoDark) {
+      aboutLogoLight.style.display = 'none';
+      aboutLogoDark.style.display = 'inline-block';
+    }
+  } else {
+    // Header logos (if they exist)
+    if (logoLight && logoDark) {
       logoLight.style.display = 'inline-block';
       logoDark.style.display = 'none';
+    }
+    
+    // About page logos (if they exist)
+    if (aboutLogoLight && aboutLogoDark) {
+      aboutLogoLight.style.display = 'inline-block';
+      aboutLogoDark.style.display = 'none';
     }
   }
 };

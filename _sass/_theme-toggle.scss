@@ -708,4 +708,39 @@ body.dark-theme .news-item .meta {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--global-text-color);
+}
+
+/* Logo theme switching styles */
+#logo-light, #logo-dark, #about-logo-light, #about-logo-dark {
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  height: auto;
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: inline-block;
+  position: relative !important;
+}
+
+.logo-container img {
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Fix navbar overlap issues */
+body {
+  padding-top: 0;
+}
+
+/* Add padding for fixed navbar if needed */
+.navbar.fixed-top + main,
+.navbar.fixed-top + .container,
+.navbar.fixed-top ~ main {
+  padding-top: 70px;
 } 

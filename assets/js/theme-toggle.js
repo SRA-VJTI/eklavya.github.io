@@ -7,23 +7,41 @@ document.addEventListener('DOMContentLoaded', () => {
   const applyTheme = (theme) => {
     const logoLight = document.getElementById('logo-light');
     const logoDark = document.getElementById('logo-dark');
+    const aboutLogoLight = document.getElementById('about-logo-light');
+    const aboutLogoDark = document.getElementById('about-logo-dark');
     
     if (theme === 'dark') {
       body.classList.add('dark-theme');
       sunIcon.style.display = 'none';
       moonIcon.style.display = 'inline-block';
       
-      // Show dark logo, hide light logo
-      if (logoLight) logoLight.style.display = 'none';
-      if (logoDark) logoDark.style.display = 'inline-block';
+      // Show dark logo, hide light logo (if they exist)
+      if (logoLight && logoDark) {
+        logoLight.style.display = 'none';
+        logoDark.style.display = 'inline-block';
+      }
+      
+      // About page logos (if they exist)
+      if (aboutLogoLight && aboutLogoDark) {
+        aboutLogoLight.style.display = 'none';
+        aboutLogoDark.style.display = 'inline-block';
+      }
     } else {
       body.classList.remove('dark-theme');
       sunIcon.style.display = 'inline-block';
       moonIcon.style.display = 'none';
       
-      // Show light logo, hide dark logo
-      if (logoLight) logoLight.style.display = 'inline-block';
-      if (logoDark) logoDark.style.display = 'none';
+      // Show light logo, hide dark logo (if they exist)
+      if (logoLight && logoDark) {
+        logoLight.style.display = 'inline-block';
+        logoDark.style.display = 'none';
+      }
+      
+      // About page logos (if they exist)
+      if (aboutLogoLight && aboutLogoDark) {
+        aboutLogoLight.style.display = 'inline-block';
+        aboutLogoDark.style.display = 'none';
+      }
     }
   };
 
