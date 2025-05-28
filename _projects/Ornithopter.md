@@ -7,9 +7,9 @@ description: This project builds a remote-controlled, bird-scale ornithopter fro
 
 ---
 
-| Project Domains                                                    | Mentors                                   | Project Difficulty |
-|--------------------------------------------------------------------|-------------------------------------------|--------------------|
-| Mechanical Design, Embedded Systems, ANSYS, Wireless Communication | Varun Nigudkar, Harsh Sagare              | Medium             |
+| Project Domains                                                    | Project Difficulty |
+|--------------------------------------------------------------------|--------------------|
+| Mechanical Design, Embedded Systems, ANSYS, Wireless Communication | Medium             |
 
 ---
 
@@ -30,4 +30,4 @@ Brings together bio-inspired flight, cross-disciplinary engineering, and hands-o
 
 [What is Ornithopter](https://www.youtube.com/watch?v=8o5H1Wo9o3w)<br>
 [Project Idea](http://ornithopter.org)<br>
-[Bir-Inspired Robot](https://youtu.be/ewYISBNg-6k?si=YqFaakEtvmGTojLm)<br>
+[Bio-Inspired Robot](https://youtu.be/ewYISBNg-6k?si=YqFaakEtvmGTojLm)<br>
