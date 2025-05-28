@@ -47,6 +47,7 @@
 
     <script src="/assets/js/theme.js"></script>
     <script src="/assets/js/dark_mode.js"></script>
+    <script src="/assets/js/theme-toggle.js"></script>
     
 
 
@@ -58,55 +59,69 @@
   <body class="fixed-top-nav ">
 
     <!-- Header -->
-    <header>
+<header>
 
-      <!-- Nav Bar -->
-      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
-        <div class="container">
-          <a class="navbar-brand title font-weight-lighter" href="/"><!-- <span class="font-weight-bold">Eklavya 2025&nbsp;</span> -->
-                <img src="/assets/img/Eklavya_Logo_2025.png" alt="heading" style="width: 300px; height: 45px; object-fit: cover; object-position: 0% 30%"></a>
-          <!-- Navbar Toggle -->
-          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar top-bar"></span>
-            <span class="icon-bar middle-bar"></span>
-            <span class="icon-bar bottom-bar"></span>
-          </button>
+  <!-- Nav Bar -->
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand title font-weight-lighter" href="/"><div class="logo-container" style="position: relative; width: auto; height: auto;max-height: 100px; max-width: 150px;">
+            <img id="logo-light" src="/assets/img/eklavya_logo_light.png" alt="Eklavya Logo" style="width: 100%; height: auto; max-width: 200px; object-position: 0% 30%">
+            <img id="logo-dark" src="/assets/img/eklavya_logo_dark.png" alt="Eklavya Logo" style="width: 100%; height: auto; max-width: 200px; object-position: 0% 30%">
+          </div></a>
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
 
-          <div class="collapse navbar-collapse text-right" id="navbarNav">
-            <ul class="navbar-nav ml-auto flex-nowrap">
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
 
-              <!-- About -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/">Home</a>
-              </li>
-              
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          
 
-              <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">Eklavya Projects</a>
-              </li>
+          <!-- Other pages -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/projects/">Eklavya Projects</a>
+          </li>
 
-              <!-- Toogle theme mode -->
-              <!-- <li class="toggle-container">
-                <button id="light-toggle" title="Change theme">
-                  <i class="fas fa-moon"></i>
-                  <i class="fas fa-sun"></i>
-                </button>
-              </li> -->
-            </ul>
-          </div>
-        </div>
-      </nav>
+          <!-- Toggle theme mode -->
+          <li class="nav-item">
+            <button id="theme-toggle" title="Toggle theme" style="border: none; background: transparent; color: var(--global-navbar-text-color);">
+              <!-- Feather Icons for sun and moon -->
+              <svg class="feather-sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="12" cy="12" r="5"></circle>
+                <line x1="12" y1="1" x2="12" y2="3"></line>
+                <line x1="12" y1="21" x2="12" y2="23"></line>
+                <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                <line x1="1" y1="12" x2="3" y2="12"></line>
+                <line x1="21" y1="12" x2="23" y2="12"></line>
+                <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+              </svg>
+              <svg class="feather-moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display: none;">
+                <path d="m21 12.79a9 9 0 1 1-6.79-11.79 7 7 0 0 0 6.79 11.79z"></path>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-      <!-- Scrolling Progress Bar -->
-      <progress id="progress" value="0">
-        <div class="progress-container">
-          <span class="progress-bar"></span>
-        </div>
-      </progress>
-    </header>
-
+  <!-- Scrolling Progress Bar -->
+  <progress id="progress" value="0">
+    <div class="progress-container">
+      <span class="progress-bar"></span>
+    </div>
+  </progress>
+</header>
 
     <!-- Content -->
     <div class="container mt-5">
@@ -118,7 +133,7 @@
 
   <header class="post-header">
     <h1 class="post-title" style="color: inherit;">Announcement_1</h1>
-    <p class="post-meta">May 26, 2025</p>
+    <p class="post-meta">May 28, 2025</p>
     <p class="post-tags">
       <a href="/blog/2025"> <i class="fas fa-calendar fa-sm"></i> 2025 </a>
 
