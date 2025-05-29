@@ -1,8 +1,9 @@
-let SHEET_ID = "1SicFCrILTarw2dsadPwuciuanI6aIcLU1i8DWhv62k0";
-let SHEET_TITLE = "Eklavya Leaderboard 24";
-let SHEET_RANGE = "A2:B42";
+let SHEET_ID = "1VKu6xus_T2644oPOtyZ1-PWJeJlf0SdXii2cAYwcY6A";
+let SHEET_TITLE = "Eklavya2k25"; 
+let SHEET_RANGE = "A2:C39"; 
 
-let full_URI = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?sheet=${SHEET_TITLE}/&range=${SHEET_RANGE}`;
+
+let full_URI = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?sheet=${SHEET_TITLE}&range=${SHEET_RANGE}`;
 
 fetch(full_URI)
   .then((res) => res.text())
@@ -11,8 +12,8 @@ fetch(full_URI)
     let leaderboardData = [];
 
     for (row in data.table.rows) {
-      let teamName = data.table.rows[row]["c"][0]["v"];
-      let score = data.table.rows[row]["c"][1]["f"];
+      let teamName = data.table.rows[row]["c"][0]?.v || "Unknown";
+      let score = Number(data.table.rows[row]["c"][1]?.v || 0);
       leaderboardData.push({ teamName, score });
     }
 

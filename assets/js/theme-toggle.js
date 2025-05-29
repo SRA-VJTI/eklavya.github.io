@@ -45,32 +45,32 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   };
 
-  // Check for saved theme in localStorage
-  const savedTheme = localStorage.getItem('theme');
+  // Check for saved theme in sessionStorage
+  const savedTheme = sessionStorage.getItem('theme');
   if (savedTheme) {
     applyTheme(savedTheme);
   } else {
     // Default to light theme unless system explicitly prefers dark
-    const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const defaultTheme = prefersDark ? 'dark' : 'light';
+    //const prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const defaultTheme = 'light';
     applyTheme(defaultTheme);
-    localStorage.setItem('theme', defaultTheme);
+    sessionStorage.setItem('theme', defaultTheme);
   }
 
   themeToggleButton.addEventListener('click', () => {
     const isDark = body.classList.contains('dark-theme');
     const newTheme = isDark ? 'light' : 'dark';
     applyTheme(newTheme);
-    localStorage.setItem('theme', newTheme);
+    sessionStorage.setItem('theme', newTheme);
   });
 
   // Listen for changes in prefers-color-scheme
   window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e) => {
     // Only apply if user hasn't manually set a theme
-    if (!localStorage.getItem('theme')) {
+    if (!sessionStorage.getItem('theme')) {
       const newTheme = e.matches ? 'dark' : 'light';
       applyTheme(newTheme);
-      localStorage.setItem('theme', newTheme);
+      sessionStorage.setItem('theme', newTheme);
     }
   });
 }); 
