@@ -7,9 +7,9 @@ description: A hands-on project combining simulation and real-world control of t
 
 ---
 
-| Project Domains                                               | Project Difficulty |
-|---------------------------------------------------------------|--------------------|
-| Machine Leaning, Computer Vision, Action Chunking Transformer | Hard               |
+| Project Domains                                               | Mentors                         | Project Difficulty |
+|---------------------------------------------------------------|---------------------------------|--------------------|
+| Machine Leaning, Computer Vision, Action Chunking Transformer | Atharva Kshirsagar              | Hard               |
 
 ---
 
