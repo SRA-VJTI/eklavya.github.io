@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RC Dragonfly/Ornithopter from scratch
+title: RC Ornithopter from scratch
 
 description: This project builds a remote-controlled, bird-scale ornithopter from scratch, blending bio-inspired design with precision engineering.
 ---
