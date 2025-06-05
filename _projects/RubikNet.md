@@ -7,9 +7,9 @@ description: Deep Reinforcement Learning for Rubik’s Cube Solving with Stepper
 
 ---
 
-| Project Domains                                                 | Project Difficulty |
-|-----------------------------------------------------------------|--------------------|
-| Reinforcement Learning, Python Programming, Robotics Simulation | Hard               |
+| Project Domains                                                 | Mentors                                 | Project Difficulty |
+|-----------------------------------------------------------------|-----------------------------------------|--------------------|
+| Reinforcement Learning, Python Programming, Robotics Simulation | Akash Kawle, Ansh Semwal                | Hard               |
 
 ---
 

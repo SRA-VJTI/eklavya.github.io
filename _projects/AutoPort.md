@@ -7,16 +7,22 @@ description: Build an autonomous robot capable of navigating an indoor environme
 
 ---
 
-| Project Domains                                                 | Project Difficulty |
-|-----------------------------------------------------------------|--------------------|
-| ROS2, SLAM, Computer-Vision, Hardware Design and Control, Swarm Robotics         | Medium             |
+| Project Domains                                                 | Mentors                             | Project Difficulty |
+|-----------------------------------------------------------------|-------------------------------------|--------------------|
+| ROS2, SLAM, ComputerVision, Hardware Design and Control         | Kartikey Pathak, Vishal Mutha       | Medium             |
 
 ---
 
 ### Project Description
 
-The AutoPort project aims to develop a system of two autonomous robots capable of collaboratively navigating an indoor environment, performing Simultaneous Localization and Mapping (SLAM), detecting and identifying boxes with ArUco markers, and simultaneously delivering them to a designated drop-off location.<br>
-The system leverages ROS2, SLAM for mapping and localization, Nav2 for path planning, and computer vision for ArUco marker detection to enable swarm robotics functionality, ensuring coordinated operation between the two robots.<br>
+AutoPort is an indoor autonomous delivery robot designed to navigate complex environments without manual control.<br>
+Uses ROS2 for system integration, SLAM for mapping and localization, and Nav2 for autonomous path planning.<br>
+Equipped with LIDAR, camera, and IMU for real-time obstacle detection and localization.<br>
+Features a compact 2WD/4WD mobile base with a servo-controlled delivery tray.<br>
+Learns and saves maps of indoor spaces for consistent, multi-session navigation.<br>
+Final goal is reliable, point-to-point object delivery triggered via user input.<br>
+Combines robotics, computer vision, and embedded systems into a practical solution.
+
 ---
 
 ### Resources
