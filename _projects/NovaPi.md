@@ -1,6 +1,6 @@
 ---
 layout: page
-title: NovaPI - A Bare-Metal OS for Raspberry Pi
+title: NovaPI
 
 description: Bare-metal OS on Raspberry Pi with HDMI and a Pong game from scratch.
 ---

@@ -1,6 +1,6 @@
 let SHEET_ID = "1VKu6xus_T2644oPOtyZ1-PWJeJlf0SdXii2cAYwcY6A";
 let SHEET_TITLE = "Eklavya2k25"; 
-let SHEET_RANGE = "A2:C50"; 
+let SHEET_RANGE = "A2:C60"; 
 
 
 let full_URI = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?sheet=${SHEET_TITLE}&range=${SHEET_RANGE}`;
