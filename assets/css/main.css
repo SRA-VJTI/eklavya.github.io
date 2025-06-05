@@ -1159,8 +1159,8 @@ d-appendix a:hover, d-appendix a.footnote-backlink:hover {
 /* Theme Toggle Button Styles */
 #theme-toggle {
   position: fixed;
-  top: 1rem;
-  right: 1rem;
+  top: 4.8rem;
+  left: 1rem;
   z-index: 1000;
   border: none;
   background: transparent;

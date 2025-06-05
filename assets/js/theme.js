@@ -30,7 +30,7 @@ let setTheme = (theme) =>  {
   } else {
     document.documentElement.removeAttribute("data-theme");
   }
-  localStorage.setItem("theme", theme);
+  sessionStorage.setItem("theme", theme);
 
   // Updates the background of medium-zoom overlay.
   if (typeof medium_zoom !== 'undefined') {
@@ -78,18 +78,14 @@ let transTheme = () => {
 }
 
 
-let initTheme = (theme) => {
-  if (theme == null || theme == 'null') {
-    const userPref = window.matchMedia;
-    if (userPref && userPref('(prefers-color-scheme: dark)').matches) {
-        theme = 'dark';
-    } else {
-        theme = 'light';
-    }
+let initTheme = () => {
+  let savedTheme = sessionStorage.getItem("theme");
+  if (savedTheme === "dark" || savedTheme === "light") {
+    setTheme(savedTheme);
+  } else {
+    setTheme("light"); // default if no preference saved
   }
-
-  setTheme(theme);
-}
+};
 
 let setLogo = (theme) => {
   // Header logos (only exist on non-about pages)
@@ -127,4 +123,4 @@ let setLogo = (theme) => {
   }
 };
 
-initTheme(localStorage.getItem("theme"));
+initTheme();
