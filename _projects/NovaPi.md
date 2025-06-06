@@ -15,13 +15,8 @@ description: Bare-metal OS on Raspberry Pi with HDMI and a Pong game from scratc
 
 ### Project Description
 
-Focuses on building a bare-metal operating system and hardware abstraction layer (HAL) for Raspberry Pi 4B/5 without relying on existing OS kernels.<br>
-Initial work involves setting up bootloaders, managing memory, and writing low-level drivers from scratch.<br>
-Implements core features like UART and SPI communication protocols, interrupt handling, and support for timers and GPIOs.<br>
-Adds audio output using Pulse Code Modulation (PCM) and gradually builds up to HDMI video output.<br>
-All hardware interfacing will be handled through the custom HAL, offering a clear abstraction between kernel code and peripherals.<br>
-With HDMI output in place, the final goal is to build a simple Pong game that runs directly on the custom OS with no external libraries.<br>
-Offers deep insights into low-level systems programming, embedded graphics, and peripheral interfacing on modern ARM platforms.
+The project deals with creating a bare-metal operating system and hardware abstraction layer for<br> Raspberry Pi 4B. The operating system will implement basic communication protocols, interrupt<br> controllers and ultimately HDMI support. Using these as the base this project will aim at creating a<br> simple pong game using the HDMI Support of our kernel.<br>
+
 
 ---
 

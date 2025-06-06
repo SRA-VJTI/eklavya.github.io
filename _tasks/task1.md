@@ -64,14 +64,14 @@ Each pixel is a **cell of traversal**. The colors and their meanings are as foll
 - You will collect **112 binary bits** during your journey.
 - Convert these into **14 ASCII characters** using the ways of the Jedi.
 - This string is the **password** to unlock the zip file:  
-  `secret.zip`
+  [`secret.zip`](https://drive.google.com/drive/u/0/folders/1RF4yw-MRR_ZKoP1AoHSOtmx7msi20Z3P)
 - Inside the archive lies a **critical video transmission**. Share it with the Rebellion and claim your reward.
 
 ---
 
 ## Mission Visual
  
-![Binary Gauntlet Grid](assets/img/maze.png)
+![Binary Gauntlet Grid]({{ "/assets/img/maze.png" | relative_url }})
 
 ---
 
