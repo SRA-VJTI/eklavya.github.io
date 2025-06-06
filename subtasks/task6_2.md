@@ -35,9 +35,9 @@ Craft a Holoboard (**PCB**) that performs the following core functions within th
 To aid in your design journey, consult the following data scrolls and holograms from the Rebel Archives:
 
 - [PCB Design Tutorial (YouTube Playlist)](https://youtube.com/playlist?list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O&si=jV_f-F7LT0rPMgh-)  
-- [Operational Amplifier: Inverting Op Amp and The Concept of Virtual Ground in Op Amp](https://www.youtube.com/watch?v=9D06x5lF9sI)  
-- [Operational Amplifier: Non-Inverting Op-Amp and Op-Amp as Buffer (Voltage Follower)](https://www.youtube.com/watch?v=C_2_zZr6gf0)  
-- [Active Low Pass Filter and Active High Pass Filter Explained](https://www.youtube.com/watch?v=9OqI2Bz7WW8)
+- [Operational Amplifier: Inverting Op Amp and The Concept of Virtual Ground in Op Amp](https://youtu.be/AuZ00cQ0UrE?si=Qj8TGB4sJWkUZros)  
+- [Operational Amplifier: Non-Inverting Op-Amp and Op-Amp as Buffer (Voltage Follower)](https://youtu.be/uyOfonR_rEw?si=RWxn3HkXUgWHxQAG)  
+- [Active Low Pass Filter and Active High Pass Filter Explained](https://youtu.be/gEeF8sEQTEc?si=xsx5Ekr8QGkI70Le)
 
 You are also encouraged to browse the holonet (internet) and consult other resources to deepen your understanding of filters and come up with the most efficient circuit designs.
 

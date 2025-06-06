@@ -1,0 +1,1956 @@
+/*******************************************************************************
+ * Variables used throughout the theme.
+ * To adjust anything, simply edit the variables below and rebuild the theme.
+ ******************************************************************************/
+/*******************************************************************************
+ * Themes
+ ******************************************************************************/
+:root {
+  --global-bg-color: #ffffff;
+  --global-code-bg-color: rgba(181, 9, 172, 0.05);
+  --global-text-color: #1C1C1D;
+  --global-text-color-light: #1C1C1D;
+  --global-theme-color: #2698BA;
+  --global-hover-color: #2698BA;
+  --global-hover-text-color: #1C1C1D;
+  --global-footer-bg-color: #e8e8e8;
+  --global-footer-text-color: #1C1C1D;
+  --global-footer-link-color: #000000;
+  --global-distill-app-color: #e8e8e8;
+  --global-divider-color: #e8e8e8;
+  --global-card-bg-color: #ffffff;
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
+}
+:root .fa-sun {
+  padding-left: 10px;
+  padding-top: 12px;
+  display: block;
+}
+:root .fa-moon {
+  display: none;
+}
+:root .repo-img-light {
+  display: none;
+}
+:root .repo-img-dark {
+  display: block;
+}
+
+html[data-theme=light] {
+  --global-bg-color: #ffffff;
+  --global-code-bg-color: #2c3237;
+  --global-text-color: #1C1C1D;
+  --global-text-color-light: #e8e8e8;
+  --global-theme-color: #00369f;
+  --global-hover-color: #2698BA;
+  --global-hover-text-color: #1C1C1D;
+  --global-footer-bg-color: #e8e8e8;
+  --global-footer-text-color: #1C1C1D;
+  --global-footer-link-color: #000000;
+  --global-distill-app-color: #1C1C1D;
+  --global-divider-color: #e8e8e8;
+  --global-card-bg-color: #ffffff;
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
+}
+html[data-theme=light] .fa-sun {
+  padding-left: 10px;
+  padding-top: 12px;
+  display: block;
+}
+html[data-theme=light] .fa-moon {
+  display: none;
+}
+html[data-theme=light] .repo-img-light {
+  display: none;
+}
+html[data-theme=light] .repo-img-dark {
+  display: block;
+}
+
+body.dark-theme {
+  --global-bg-color: #212529;
+  --global-text-color: #f8f9fa;
+  --global-text-color-light: #f8f9fa;
+  --global-theme-color: #7fbfff;
+  --global-hover-color: #7fbfff;
+  --global-hover-text-color: #f8f9fa;
+  --global-footer-bg-color: #212529;
+  --global-footer-text-color: #f8f9fa;
+  --global-footer-link-color: #7fbfff;
+  --global-distill-app-color: #f8f9fa;
+  --global-divider-color: #495057;
+  --global-card-bg-color: #2c3237;
+  --global-tip-block: #42b983;
+  --global-tip-block-bg: #e2f5ec;
+  --global-tip-block-text: #215d42;
+  --global-tip-block-title: #359469;
+  --global-warning-block: #e7c000;
+  --global-warning-block-bg: #fff8d8;
+  --global-warning-block-text: #6b5900;
+  --global-warning-block-title: #b29400;
+  --global-danger-block: #c00;
+  --global-danger-block-bg: #ffe0e0;
+  --global-danger-block-text: #600;
+  --global-danger-block-title: #c00;
+}
+body.dark-theme .fa-sun {
+  padding-left: 10px;
+  padding-top: 12px;
+  display: block;
+}
+body.dark-theme .fa-moon {
+  display: none;
+}
+body.dark-theme .repo-img-light {
+  display: none;
+}
+body.dark-theme .repo-img-dark {
+  display: block;
+}
+
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+body {
+  padding-bottom: 70px;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+}
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  scroll-margin-top: 66px;
+}
+
+body.fixed-top-nav {
+  padding-top: 56px;
+}
+
+body.sticky-bottom-footer {
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.profile img {
+  object-fit: cover;
+  width: 250px;
+  height: 150px;
+}
+
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+/*******************************************************************************
+ * Styles for the base elements of the theme.
+ ******************************************************************************/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+div,
+li,
+span,
+strong {
+  color: var(--global-text-color);
+}
+
+hr {
+  border-top: 1px solid var(--global-divider-color);
+}
+
+table td,
+table th {
+  font-size: 1rem;
+}
+table th {
+  font-weight: bold;
+}
+
+a,
+table.table a {
+  color: var(--global-theme-color);
+}
+a:hover,
+table.table a:hover {
+  color: var(--global-theme-color);
+  text-decoration: underline;
+}
+a:hover:after :not(.nav-item.dropdown),
+table.table a:hover:after :not(.nav-item.dropdown) {
+  width: 100%;
+}
+
+.table-dark,
+.table-dark thead th,
+.table-dark tbody tr,
+.table-dark tbody th,
+.table-dark tbody td {
+  background-color: inherit !important;
+  color: inherit !important;
+  border-color: inherit !important;
+}
+
+/* If you still want zebra striping: */
+.table-dark.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+figure,
+img {
+  max-width: 90vw;
+}
+
+blockquote {
+  background: var(--global-bg-color);
+  border-left: 2px solid var(--global-theme-color);
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  font-size: 1.2rem;
+}
+
+.equation {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.caption {
+  font-size: 0.875rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.card {
+  background-color: var(--global-card-bg-color);
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+.card img {
+  width: 100%;
+}
+.card .card-title {
+  color: var(--global-text-color);
+}
+.card .card-text {
+  color: var(--global-text-color);
+}
+.card .card-item {
+  width: auto;
+  margin-bottom: 10px;
+}
+.card .card-item .row {
+  display: flex;
+  align-items: center;
+}
+
+.citation,
+.citation-number {
+  color: var(--global-theme-color);
+}
+
+.profile {
+  width: 100%;
+}
+.profile .address {
+  margin-bottom: 5px;
+  margin-top: 5px;
+  font-family: monospace;
+}
+.profile .address p {
+  display: inline-block;
+  margin: 0;
+}
+
+.profile.float-right {
+  margin-left: 1rem;
+}
+
+.profile.float-left {
+  margin-right: 1rem;
+}
+
+@media (min-width: 576px) {
+  .profile {
+    width: 30%;
+  }
+  .profile .address p {
+    display: block;
+  }
+}
+.post-description {
+  margin-bottom: 2rem;
+  font-size: 0.875rem;
+}
+.post-description a {
+  color: inherit;
+}
+.post-description a:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.navbar {
+  box-shadow: none;
+  border-bottom: 1px solid var(--global-divider-color);
+  background-color: var(--global-bg-color);
+  opacity: 0.95;
+}
+
+.navbar .dropdown-menu {
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+}
+.navbar .dropdown-menu a:not(.active) {
+  color: var(--global-text-color);
+}
+.navbar .dropdown-menu a:hover {
+  color: var(--global-hover-color);
+}
+.navbar .dropdown-menu .dropdown-divider {
+  border-top: 1px solid var(--global-divider-color) !important;
+}
+
+.dropdown-item {
+  color: var(--global-text-color);
+}
+.dropdown-item:hover {
+  color: var(--global-hover-color);
+  background-color: var(--global-bg-color);
+}
+
+.navbar.navbar-light a:hover {
+  text-decoration: none;
+}
+.navbar.navbar-light .navbar-brand {
+  color: var(--global-text-color);
+}
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: var(--global-text-color);
+}
+.navbar.navbar-light .navbar-nav .nav-item .nav-link:hover {
+  color: var(--global-hover-color);
+}
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link {
+  background-color: inherit;
+  font-weight: bolder;
+  color: var(--global-theme-color);
+}
+.navbar.navbar-light .navbar-nav .nav-item.active > .nav-link:hover {
+  color: var(--global-hover-color);
+}
+.navbar.navbar-light .navbar-brand.social {
+  padding-bottom: 0;
+  padding-top: 0;
+  font-size: 1.7rem;
+}
+.navbar.navbar-light .navbar-brand.social a i::before {
+  color: var(--global-text-color);
+  transition-property: all 0.2s ease-in-out;
+}
+.navbar.navbar-light .navbar-brand.social a:hover i::before {
+  color: var(--global-theme-color);
+}
+
+.navbar-toggler .icon-bar {
+  display: block;
+  width: 22px;
+  height: 2px;
+  background-color: var(--global-text-color);
+  border-radius: 1px;
+  margin-bottom: 4px;
+  transition: all 0.2s;
+}
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+.navbar-toggler .middle-bar {
+  opacity: 0;
+}
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0);
+}
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1;
+}
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+#light-toggle {
+  padding: 0;
+  border: 0;
+  background-color: inherit;
+  color: var(--global-text-color);
+}
+#light-toggle:hover {
+  color: var(--global-hover-color);
+}
+
+.social {
+  text-align: center;
+}
+.social .contact-icons {
+  font-size: 2rem;
+}
+.social .contact-icons a i::before {
+  color: var(--global-text-color);
+  transition-property: all 0.2s ease-in-out;
+}
+.social .contact-icons a:hover i::before {
+  color: var(--global-theme-color);
+}
+.social .contact-note {
+  font-size: 0.8rem;
+}
+
+footer.fixed-bottom {
+  background-color: var(--global-footer-bg-color);
+  font-size: 0.75rem;
+}
+footer.fixed-bottom .container {
+  color: var(--global-footer-text-color);
+  padding-top: 9px;
+  padding-bottom: 8px;
+}
+footer.fixed-bottom a {
+  color: var(--global-footer-link-color);
+}
+footer.fixed-bottom a:hover {
+  color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+footer.sticky-bottom {
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 0.9rem;
+}
+
+.cv {
+  margin-bottom: 40px;
+}
+.cv .card {
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+}
+.cv .card .list-group-item {
+  background-color: inherit;
+  border-color: var(--global-divider-color);
+}
+.cv .card .list-group-item .badge {
+  color: var(--global-card-bg-color) !important;
+  background-color: var(--global-theme-color) !important;
+}
+
+@media (min-width: 768px) {
+  .repo {
+    max-width: 50%;
+  }
+}
+.header-bar {
+  border-bottom: 1px solid var(--global-divider-color);
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+.header-bar h1 {
+  color: var(--global-theme-color);
+  font-size: 5rem;
+}
+
+.tag-list {
+  border-bottom: 1px solid var(--global-divider-color);
+  text-align: center;
+  padding-top: 1rem;
+}
+.tag-list ul {
+  justify-content: center;
+  display: flow-root;
+}
+.tag-list ul p,
+.tag-list ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 1rem 0.5rem;
+  color: var(--global-text-color-light);
+}
+
+.post-title mjx-container[jax=CHTML][display=true] {
+  display: unset;
+}
+
+.post-list {
+  margin: 0;
+  margin-bottom: 40px;
+  padding: 0;
+}
+.post-list li {
+  border-bottom: 1px solid var(--global-divider-color);
+  list-style: none;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.post-list li .post-meta {
+  color: var(--global-text-color-dark);
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+.post-list li .post-tags {
+  color: var(--global-text-color-dark);
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0;
+}
+.post-list li a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+.post-list li a:hover {
+  color: var(--global-theme-color);
+}
+.post-list li mjx-container[jax=CHTML][display=true] {
+  display: unset;
+}
+
+.pagination .page-item .page-link {
+  color: var(--global-text-color);
+}
+.pagination .page-item .page-link:hover {
+  color: #000000;
+}
+.pagination .page-item.active .page-link {
+  color: #ffffff;
+  background-color: var(--global-theme-color);
+}
+.pagination .page-item.active .page-link:hover {
+  background-color: var(--global-theme-color);
+}
+
+.distill a:hover {
+  border-bottom-color: var(--global-theme-color);
+  text-decoration: none;
+}
+
+.projects a {
+  text-decoration: none;
+}
+.projects a:hover .card-title {
+  color: var(--global-theme-color);
+}
+.projects .card img {
+  width: 100%;
+}
+.projects .card-item {
+  width: auto;
+  margin-bottom: 10px;
+}
+.projects .card-item .row {
+  display: flex;
+  align-items: center;
+}
+.projects .grid-sizer,
+.projects .grid-item {
+  width: 250px;
+  margin-bottom: 10px;
+}
+.projects h2.category {
+  color: var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  padding-top: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: right;
+}
+
+.publications {
+  margin-top: 2rem;
+}
+.publications h1 {
+  color: var(--global-theme-color);
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.publications h2 {
+  margin-bottom: 1rem;
+}
+.publications h2 span {
+  font-size: 1.5rem;
+}
+.publications h2.year {
+  color: var(--global-divider-color);
+  border-top: 1px solid var(--global-divider-color);
+  padding-top: 1rem;
+  margin-top: 2rem;
+  margin-bottom: -2rem;
+  text-align: right;
+}
+.publications ol.bibliography {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+}
+.publications ol.bibliography li {
+  margin-bottom: 1rem;
+}
+.publications ol.bibliography li .preview {
+  width: 100%;
+  min-width: 80px;
+  max-width: 200px;
+}
+.publications ol.bibliography li .abbr {
+  height: 2rem;
+  margin-bottom: 0.5rem;
+}
+.publications ol.bibliography li .abbr abbr {
+  display: inline-block;
+  background-color: var(--global-theme-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.publications ol.bibliography li .abbr abbr a {
+  color: white;
+}
+.publications ol.bibliography li .abbr abbr a:hover {
+  text-decoration: none;
+}
+.publications ol.bibliography li .abbr .award {
+  color: var(--global-theme-color) !important;
+  border: 1px solid var(--global-theme-color);
+}
+.publications ol.bibliography li .title {
+  font-weight: bolder;
+}
+.publications ol.bibliography li .author a {
+  border-bottom: 1px dashed var(--global-theme-color);
+}
+.publications ol.bibliography li .author a:hover {
+  border-bottom-style: solid;
+  text-decoration: none;
+}
+.publications ol.bibliography li .author > em {
+  border-bottom: 1px solid;
+  font-style: normal;
+}
+.publications ol.bibliography li .author > span.more-authors {
+  color: var(--global-text-color-light);
+  border-bottom: 1px dashed var(--global-text-color-light);
+  cursor: pointer;
+}
+.publications ol.bibliography li .author > span.more-authors:hover {
+  color: var(--global-text-color);
+  border-bottom: 1px dashed var(--global-text-color);
+}
+.publications ol.bibliography li .links a.btn {
+  color: var(--global-text-color);
+  border: 1px solid var(--global-text-color);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  margin-left: 0;
+}
+.publications ol.bibliography li .links a.btn:hover {
+  color: var(--global-theme-color);
+  border-color: var(--global-theme-color);
+}
+.publications ol.bibliography li .badges {
+  padding-bottom: 0.5rem;
+}
+.publications ol.bibliography li .badges span {
+  display: inline-block;
+  color: #000000;
+  height: 100%;
+  padding-right: 0.5rem;
+  vertical-align: middle;
+}
+.publications ol.bibliography li .badges span:hover {
+  text-decoration: underline;
+}
+.publications ol.bibliography li .hidden {
+  font-size: 0.875rem;
+  max-height: 0px;
+  overflow: hidden;
+  text-align: justify;
+  transition-property: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -ms-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: all 0.15s ease;
+}
+.publications ol.bibliography li .hidden p {
+  line-height: 1.4em;
+  margin: 10px;
+}
+.publications ol.bibliography li .hidden pre {
+  font-size: 1em;
+  line-height: 1.4em;
+  padding: 10px;
+}
+.publications ol.bibliography li .hidden.open {
+  max-height: 100em;
+  transition-property: 0.15s ease;
+  -moz-transition: 0.15s ease;
+  -ms-transition: 0.15s ease;
+  -o-transition: 0.15s ease;
+  transition: all 0.15s ease;
+}
+.publications ol.bibliography li div.abstract.hidden {
+  border: dashed 1px var(--global-bg-color);
+}
+.publications ol.bibliography li div.abstract.hidden.open {
+  border-color: var(--global-text-color);
+}
+
+figure.highlight {
+  margin: 0 0 1rem;
+}
+
+pre {
+  color: var(--global-theme-color);
+  background-color: var(--global-code-bg-color);
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+pre pre,
+pre code {
+  background-color: transparent;
+  border-radius: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+code {
+  color: var(--global-theme-color);
+  background-color: var(--global-code-bg-color);
+  border-radius: 3px;
+  padding: 3px 3px;
+}
+
+html.transition,
+html.transition *,
+html.transition *:before,
+html.transition *:after {
+  transition: all 750ms !important;
+  transition-delay: 0 !important;
+}
+
+.post .post-meta {
+  color: var(--global-text-color-dark);
+  font-size: 0.875rem;
+  margin-bottom: 0;
+}
+.post .post-tags {
+  color: var(--global-text-color-dark);
+  font-size: 0.875rem;
+  padding-top: 0.25rem;
+  padding-bottom: 1rem;
+}
+.post .post-tags a {
+  color: var(--global-text-color-dark);
+  text-decoration: none;
+}
+.post .post-tags a:hover {
+  color: var(--global-theme-color);
+}
+.post .post-content blockquote {
+  border-left: 5px solid var(--global-theme-color);
+  padding: 8px;
+}
+.post .post-content blockquote p {
+  margin-bottom: 0;
+}
+
+progress {
+  /* Positioning */
+  position: fixed;
+  left: 0;
+  top: 56px;
+  z-index: 10;
+  /* Dimensions */
+  width: 100%;
+  height: 1px;
+  /* Reset the appearance */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* Get rid of the default border in Firefox/Opera. */
+  border: none;
+  /* Progress bar container for Firefox/IE10  */
+  background-color: transparent;
+  /* Progress bar value for IE10  */
+  color: var(--global-theme-color);
+}
+
+progress::-webkit-progress-bar {
+  background-color: transparent;
+}
+
+progress::-webkit-progress-value {
+  background-color: var(--global-theme-color);
+}
+
+progress::-moz-progress-bar {
+  background-color: var(--global-theme-color);
+}
+
+.progress-container {
+  width: 100%;
+  background-color: transparent;
+  position: fixed;
+  top: 56px;
+  left: 0;
+  height: 5px;
+  display: block;
+}
+
+.progress-bar {
+  background-color: var(--global-theme-color);
+  width: 0%;
+  display: block;
+  height: inherit;
+}
+
+/* Copy button */
+.code-display-wrapper {
+  position: relative;
+}
+.code-display-wrapper .copy {
+  background: var(--global-card-bg-color);
+  border-color: var(--global-bg-color);
+  border-radius: 0.3rem;
+  border-style: none;
+  color: var(--global-text-color);
+  font-size: medium;
+  opacity: 0;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.5rem;
+}
+.code-display-wrapper:active .copy, .code-display-wrapper:focus .copy, .code-display-wrapper:hover .copy {
+  color: var(--global-hover-color);
+  opacity: 1;
+}
+
+.btn-group.dropdown .btn {
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+.btn-group.dropdown .btn-secondary.dropdown-toggle {
+  border: 1px solid var(--global-divider-color);
+}
+.btn-group.dropdown .btn-secondary.dropdown-toggle .page-size {
+  color: inherit;
+}
+.btn-group.dropdown .btn-secondary.dropdown-toggle:not(.active) {
+  background-color: var(--global-bg-color) !important;
+  color: var(--global-text-color);
+}
+.btn-group.dropdown .btn-secondary.dropdown-toggle:hover {
+  background-color: var(--global-hover-color) !important;
+  color: var(--global-hover-text-color) !important;
+}
+.btn-group.dropdown .dropdown-menu {
+  background-color: var(--global-bg-color);
+}
+.btn-group.dropdown .dropdown-item {
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+}
+.btn-group.dropdown .dropdown-item:hover {
+  color: var(--global-hover-color);
+}
+.btn-group.dropdown .dropdown-item.active, .btn-group.dropdown .dropdown-item:active {
+  background-color: var(--global-hover-color);
+  color: var(--global-hover-text-color) !important;
+}
+.btn-group.dropdown .dropdown-item.active:hover, .btn-group.dropdown .dropdown-item:active:hover {
+  color: var(--global-hover-text-color);
+}
+
+/* Table of Contents */
+nav[data-toggle=toc] {
+  top: 5rem;
+}
+nav[data-toggle=toc] .nav .nav > li > a {
+  font-size: 0.75rem;
+}
+nav[data-toggle=toc] .nav > li > a {
+  color: var(--global-text-color);
+  font-size: 0.75rem;
+}
+nav[data-toggle=toc] .nav > li > a:hover {
+  color: var(--global-hover-color);
+  border-left-color: var(--global-hover-color);
+}
+nav[data-toggle=toc] .nav-link.active {
+  color: var(--global-theme-color);
+  border-left-color: var(--global-theme-color);
+  font-size: 0.75rem;
+}
+nav[data-toggle=toc] .nav-link.active:hover {
+  color: var(--global-hover-color);
+  border-left-color: var(--global-hover-color);
+}
+
+/* small screens */
+@media (max-width: 576px) {
+  /* override stickyness so that the navigation does not follow scrolling */
+  nav[data-toggle=toc] {
+    visibility: hidden;
+    height: 0;
+    top: 0;
+  }
+}
+/* Tips, warnings, and dangers blockquotes */
+.post .post-content blockquote.block-tip {
+  border-color: var(--global-tip-block);
+  background-color: var(--global-tip-block-bg);
+}
+.post .post-content blockquote.block-tip p {
+  color: var(--global-tip-block-text);
+}
+.post .post-content blockquote.block-tip h1, .post .post-content blockquote.block-tip h2, .post .post-content blockquote.block-tip h3, .post .post-content blockquote.block-tip h4, .post .post-content blockquote.block-tip h5, .post .post-content blockquote.block-tip h6 {
+  color: var(--global-tip-block-title);
+}
+.post .post-content blockquote.block-warning {
+  border-color: var(--global-warning-block);
+  background-color: var(--global-warning-block-bg);
+}
+.post .post-content blockquote.block-warning p {
+  color: var(--global-warning-block-text);
+}
+.post .post-content blockquote.block-warning h1, .post .post-content blockquote.block-warning h2, .post .post-content blockquote.block-warning h3, .post .post-content blockquote.block-warning h4, .post .post-content blockquote.block-warning h5, .post .post-content blockquote.block-warning h6 {
+  color: var(--global-warning-block-title);
+}
+.post .post-content blockquote.block-danger {
+  border-color: var(--global-danger-block);
+  background-color: var(--global-danger-block-bg);
+}
+.post .post-content blockquote.block-danger p {
+  color: var(--global-danger-block-text);
+}
+.post .post-content blockquote.block-danger h1, .post .post-content blockquote.block-danger h2, .post .post-content blockquote.block-danger h3, .post .post-content blockquote.block-danger h4, .post .post-content blockquote.block-danger h5, .post .post-content blockquote.block-danger h6 {
+  color: var(--global-danger-block-title);
+}
+
+/* Use Space Grotesk everywhere */
+body,
+.font-sans {
+  font-family: "Space Grotesk", "Helvetica Neue", Arial, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 300; /* thin like Teenage Engineering headers */
+  letter-spacing: -0.015em; /* tighten a bit */
+}
+
+.post table {
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+  border: 1px solid var(--global-divider-color);
+}
+.post table th {
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  padding: 8px;
+}
+.post table td {
+  color: var(--global-text-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  padding: 8px;
+}
+
+body.dark-theme .post table {
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+}
+body.dark-theme .post table th {
+  background-color: #2c3237;
+  color: #f8f9fa;
+  border-bottom: 1px solid #495057;
+}
+body.dark-theme .post table td {
+  color: #f8f9fa;
+  border-bottom: 1px solid #495057;
+}
+
+/*******************************************************************************
+ * Style overrides for distill blog posts.
+ ******************************************************************************/
+d-byline {
+  border-top-color: var(--global-divider-color) !important;
+}
+
+d-byline h3 {
+  color: var(--global-text-color) !important;
+}
+
+d-byline a, d-article d-byline a {
+  color: var(--global-text-color) !important;
+}
+d-byline a:hover, d-article d-byline a:hover {
+  color: var(--global-hover-color) !important;
+}
+
+d-article {
+  border-top-color: var(--global-divider-color) !important;
+}
+d-article p, d-article h1, d-article h2, d-article h3, d-article h4, d-article h5, d-article h6, d-article li, d-article table {
+  color: var(--global-text-color) !important;
+}
+d-article h1, d-article h2, d-article hr, d-article table, d-article table th, d-article table td {
+  border-bottom-color: var(--global-divider-color) !important;
+}
+d-article a {
+  color: var(--global-theme-color) !important;
+}
+d-article a:hover {
+  color: var(--global-theme-color) !important;
+}
+d-article b i {
+  display: inline;
+}
+d-article details {
+  color: var(--global-text-color);
+  background-color: var(--global-code-bg-color);
+  margin-top: 0;
+  padding: 8px 12px;
+  position: relative;
+  border-radius: 6px;
+  display: block;
+  margin-bottom: 20px;
+  grid-column: text;
+  overflow: auto;
+  max-width: 100%;
+}
+d-article details summary {
+  color: var(--global-theme-color);
+}
+d-article details p {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+d-article d-contents {
+  align-self: start;
+  grid-column: 1/4;
+  grid-row: auto/span 4;
+  justify-self: end;
+  margin-top: 0em;
+  padding-left: 2em;
+  padding-right: 3em;
+  border-right: 1px solid var(--global-divider-color);
+  width: max(70%, 300px);
+  margin-right: 0px;
+  margin-top: 0em;
+  display: grid;
+  grid-template-columns: minmax(8px, 1fr) [toc] auto minmax(8px, 1fr) [toc-line] 1px minmax(32px, 2fr);
+}
+d-article d-contents nav {
+  grid-column: toc;
+}
+d-article d-contents nav a {
+  border-bottom: none !important;
+}
+d-article d-contents nav a:hover {
+  border-bottom: 1px solid var(--global-text-color) !important;
+}
+d-article d-contents nav h3 {
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+d-article d-contents nav div {
+  display: block;
+  outline: none;
+  margin-bottom: 0.8em;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: bold;
+}
+d-article d-contents nav ul {
+  padding-left: 1em;
+  margin-top: 0;
+  margin-bottom: 6px;
+  list-style-type: none;
+}
+d-article d-contents nav ul li {
+  margin-bottom: 0.25em;
+}
+d-article d-contents .figcaption {
+  line-height: 1.4em;
+}
+d-article d-contents toc-line {
+  border-right: 1px solid var(--global-divider-color);
+  grid-column: toc-line;
+}
+d-article d-footnote {
+  scroll-margin-top: 66px;
+}
+
+d-appendix {
+  border-top-color: var(--global-divider-color) !important;
+  color: var(--global-distill-app-color) !important;
+}
+d-appendix h3, d-appendix li, d-appendix span {
+  color: var(--global-distill-app-color) !important;
+}
+d-appendix a, d-appendix a.footnote-backlink {
+  color: var(--global-distill-app-color) !important;
+}
+d-appendix a:hover, d-appendix a.footnote-backlink:hover {
+  color: var(--global-hover-color) !important;
+}
+
+@media (max-width: 1024px) {
+  d-article d-contents {
+    display: block;
+    grid-column-start: 2;
+    grid-column-end: -2;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+    width: 100%;
+    border: 1px solid var(--global-divider-color);
+  }
+  d-article d-contents nav {
+    grid-column: none;
+  }
+}
+/* Theme Toggle Button Styles */
+#theme-toggle {
+  position: fixed;
+  top: 4.8rem;
+  left: 1rem;
+  z-index: 1000;
+  border: none;
+  background: transparent;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: var(--global-text-color); /* Default icon color, will be overridden by theme */
+}
+
+#theme-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#theme-toggle svg {
+  width: 24px; /* Increased size for better visibility */
+  height: 24px; /* Increased size for better visibility */
+}
+
+/* Light theme (default) variables */
+body {
+  --global-bg-color: #ffffff;
+  --global-text-color: #212529;
+  --global-link-color: #007bff;
+  --global-header-bg: #f8f9fa;
+  --global-footer-bg: #f8f9fa;
+  --global-card-bg: #ffffff;
+  --global-card-border-color: rgba(0,0,0,.125);
+  --global-code-bg: #e9ecef;
+  --global-code-text-color: #212529;
+  --global-navbar-text-color: rgba(0, 0, 0, 0.55);
+  --global-navbar-hover-color: rgba(0, 0, 0, 0.7);
+  --global-navbar-active-color: rgba(0, 0, 0, 0.9);
+  --global-blockquote-border-color: #eee;
+  --global-blockquote-text-color: #6c757d;
+  --global-table-border-color: #dee2e6;
+  --global-hr-color: rgba(0,0,0,.1);
+  --global-distill-app-color: #212529; /* For distill articles */
+  --global-distill-app-background-color: #ffffff;
+  --global-distill-header-color: #212529; /* Distill header */
+  --global-distill-post-text-color: #212529;
+  --global-distill-code-color: #212529;
+  --global-distill-code-background-color: #f8f9fa;
+  --global-distill-figcaption-color: rgba(0,0,0,0.6);
+  --global-distill-dt-aside-text-color: rgba(0,0,0,0.6);
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Dark Theme Variables & Styles - Minimal Inverse */
+body.dark-theme {
+  --global-bg-color: #212529; /* Dark background (inverse of light theme text) */
+  --global-text-color: #f8f9fa; /* Light text (inverse of light theme background) */
+  --global-link-color: #7fbfff; /* Softer blue for links */
+  --global-header-bg: #212529; /* Match background */
+  --global-footer-bg: #212529; /* Match background */
+  --global-card-bg: #2c3237; /* Slightly lighter than background */
+  --global-card-border-color: #495057; /* Subtle border */
+  --global-code-bg: #2c3237; /* Match card background */
+  --global-code-text-color: #f8f9fa; /* Match text color */
+  --global-navbar-text-color: rgba(248, 249, 250, 0.75); /* Slightly dimmed text */
+  --global-navbar-hover-color: #ffffff; /* Full white on hover */
+  --global-navbar-active-color: #ffffff; /* Full white for active */
+  --global-blockquote-border-color: #495057; /* Subtle border */
+  --global-blockquote-text-color: #adb5bd; /* Slightly dimmed text */
+  --global-table-border-color: #495057; /* Subtle border */
+  --global-hr-color: #495057; /* Subtle border */
+  --global-distill-app-color: #f8f9fa;
+  --global-distill-app-background-color: #212529;
+  --global-distill-header-color: #f8f9fa;
+  --global-distill-post-text-color: #f8f9fa;
+  --global-distill-code-color: #f8f9fa;
+  --global-distill-code-background-color: #2c3237;
+  --global-distill-figcaption-color: rgba(248, 249, 250, 0.7);
+  --global-distill-dt-aside-text-color: rgba(248, 249, 250, 0.7);
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+  /* Minimal styling for code blocks */
+  /* Simple button styling */
+}
+body.dark-theme pre, body.dark-theme code {
+  border: 1px solid var(--global-card-border-color);
+}
+body.dark-theme .btn {
+  border: 1px solid var(--global-card-border-color);
+  transition: background-color 0.2s ease;
+}
+body.dark-theme .btn:hover {
+  background-color: var(--global-card-bg);
+}
+
+/* Apply theme variables to common elements */
+body {
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+}
+
+a {
+  color: var(--global-link-color);
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: color-mix(in srgb, var(--global-link-color) 80%, black);
+}
+
+/* Simple hover effect for dark theme */
+body.dark-theme a:hover {
+  color: #ffffff; /* Pure white on hover */
+}
+
+.navbar, .navbar-light {
+  background-color: var(--global-header-bg) !important; /* Important to override Bootstrap */
+}
+
+.navbar .navbar-nav .nav-link {
+  color: var(--global-navbar-text-color) !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+  color: var(--global-navbar-hover-color) !important;
+}
+
+.navbar .navbar-nav .nav-link.active,
+.navbar .navbar-nav .show > .nav-link {
+  color: var(--global-navbar-active-color) !important;
+}
+
+.navbar-brand {
+  color: var(--global-navbar-text-color) !important;
+}
+
+.navbar-brand:hover {
+  color: var(--global-navbar-hover-color) !important;
+}
+
+.profile .social a {
+  color: var(--global-text-color); /* Ensure social icons in profile match theme */
+}
+
+.profile .social a:hover {
+  color: var(--global-link-color);
+}
+
+footer.fixed-bottom, footer.sticky-bottom {
+  background-color: var(--global-footer-bg);
+  color: var(--global-text-color);
+}
+
+.card {
+  background-color: var(--global-card-bg);
+  border: 1px solid var(--global-card-border-color);
+  color: var(--global-text-color);
+  transition: border-color 0.2s ease;
+}
+
+.card:hover {
+  border-color: var(--global-text-color);
+}
+
+.card-header {
+  background-color: var(--global-card-bg);
+  border-bottom: 1px solid var(--global-card-border-color);
+}
+
+.card-body, .card-title, .card-text {
+  color: var(--global-text-color);
+}
+
+.card-footer {
+  background-color: var(--global-card-bg);
+  border-top: 1px solid var(--global-card-border-color);
+}
+
+/* Simple heading styles */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--global-text-color);
+  border-bottom: 1px solid var(--global-card-border-color);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+pre, code, kbd, samp {
+  background-color: var(--global-code-bg);
+  color: var(--global-code-text-color);
+}
+
+blockquote {
+  border-left-color: var(--global-blockquote-border-color);
+  color: var(--global-blockquote-text-color);
+}
+
+hr {
+  border-top-color: var(--global-hr-color); /* Bootstrap 4 uses border-top-color */
+}
+
+/* For Bootstrap 5, hr color is handled by `border-color` on the element */
+body.dark-theme hr {
+  border-color: var(--global-hr-color);
+}
+
+table, .table {
+  color: var(--global-text-color); /* Text color for table content */
+}
+
+table th, table td, .table th, .table td {
+  border-color: var(--global-table-border-color);
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: color-mix(in srgb, var(--global-bg-color) 95%, var(--global-text-color) 5%);
+}
+
+body.dark-theme .table-striped tbody tr:nth-of-type(odd) {
+  background-color: color-mix(in srgb, var(--global-bg-color) 90%, white 5%); /* Slightly lighter for dark theme odd stripes */
+}
+
+.header {
+  background-color: var(--global-header-bg);
+}
+
+#theme-toggle {
+  color: var(--global-text-color); /* Icon color */
+}
+
+body.dark-theme #theme-toggle .feather-sun {
+  display: none;
+}
+
+body.dark-theme #theme-toggle .feather-moon {
+  display: inline-block !important; /* Ensure it shows */
+}
+
+body:not(.dark-theme) #theme-toggle .feather-sun {
+  display: inline-block !important; /* Ensure it shows */
+}
+
+body:not(.dark-theme) #theme-toggle .feather-moon {
+  display: none;
+}
+
+/* Distill specific theme overrides */
+d-app {
+  color: var(--global-distill-app-color);
+  background-color: var(--global-distill-app-background-color);
+}
+
+d-app d-header {
+  color: var(--global-distill-header-color);
+}
+
+d-article {
+  color: var(--global-distill-post-text-color);
+}
+
+d-article code {
+  color: var(--global-distill-code-color);
+  background-color: var(--global-distill-code-background-color);
+}
+
+d-article pre code { /* Ensure nested code in pre also gets styled */
+  background-color: transparent; /* Often pre has the background */
+}
+
+d-article figcaption {
+  color: var(--global-distill-figcaption-color);
+}
+
+d-appendix dt-article h1, d-appendix dt-article h2, d-appendix dt-article h3, d-appendix dt-article h4, d-appendix dt-article h5, d-appendix dt-article h6 {
+  color: var(--global-distill-post-text-color);
+}
+
+dt-layout-article .dt-appendix, dt-layout-article .dt-bibliography {
+  color: var(--global-distill-post-text-color);
+  background-color: var(--global-distill-app-background-color);
+}
+
+/* Ensure that aside elements in Distill get themed correctly */
+d-article aside, d-article .aside {
+  color: var(--global-distill-dt-aside-text-color);
+}
+
+/* Further fine-tuning based on potential elements */
+.repo-language-color { /* for language color dots if any */ }
+body.dark-theme .repo-language-color {
+  filter: brightness(1.5); /* make them a bit brighter on dark background */
+}
+
+/* Search input styling for alfred theme */
+.search-input {
+  background-color: var(--global-card-bg);
+  color: var(--global-text-color);
+  border: 1px solid var(--global-card-border-color);
+}
+
+.search-results-container {
+  background-color: var(--global-card-bg);
+  border: 1px solid var(--global-card-border-color);
+}
+
+.search-result-item {
+  color: var(--global-text-color);
+}
+
+.search-result-item:hover {
+  background-color: color-mix(in srgb, var(--global-card-bg) 80%, var(--global-link-color) 20%);
+}
+
+.search-result-item strong {
+  color: var(--global-link-color);
+}
+
+/* Pagination */
+.pagination .page-item .page-link {
+  background-color: var(--global-card-bg);
+  color: var(--global-link-color);
+  border-color: var(--global-card-border-color);
+}
+
+.pagination .page-item.active .page-link {
+  background-color: var(--global-link-color);
+  border-color: var(--global-link-color);
+  color: var(--global-bg-color); /* Text color on active page link */
+}
+
+.pagination .page-item.disabled .page-link {
+  color: #6c757d; /* Default Bootstrap disabled color */
+  background-color: var(--global-card-bg);
+  border-color: var(--global-card-border-color);
+}
+
+body.dark-theme .pagination .page-item.disabled .page-link {
+  color: #888; /* Lighter disabled color for dark theme */
+}
+
+/* Ensure TOC sidebar links are themed */
+#toc-sidebar .nav-link {
+  color: var(--global-text-color);
+}
+
+#toc-sidebar .nav-link:hover,
+#toc-sidebar .nav-link.active {
+  color: var(--global-link-color);
+  border-left-color: var(--global-link-color);
+}
+
+body.dark-theme #toc-sidebar {
+  /* If the TOC has a background or border, theme it */
+  /* background-color: var(--global-card-bg); */
+  /* border: 1px solid var(--global-card-border-color); */
+}
+
+/* Adjusting academic icons if they exist and are SVGs or font icons */
+.academicons {
+  color: var(--global-text-color);
+}
+
+body.dark-theme .academicons {
+  color: var(--global-text-color); /* Should already be covered, but explicit */
+}
+
+a:hover .academicons {
+  color: var(--global-link-color);
+}
+
+/* Misc Adjustments for better dark theme */
+body.dark-theme img,
+body.dark-theme svg {
+  /* Consider if images need adjustment, e.g., if they have transparent backgrounds meant for light themes */
+  /* filter: brightness(.8) contrast(1.2); */ /* Example: slightly darken and increase contrast */
+}
+
+body.dark-theme .badge {
+  color: var(--global-bg-color); /* Text color for badges in dark mode */
+  background-color: var(--global-link-color); /* Use link color for badge background */
+}
+
+body.dark-theme .badge.badge-secondary { /* Example for a specific badge type */
+  background-color: var(--global-text-color);
+  color: var(--global-bg-color);
+}
+
+/* Ensure that selection color is also themed for better readability */
+::selection {
+  background-color: var(--global-link-color);
+  color: var(--global-bg-color); /* Or a very light color if link color is light */
+}
+
+body.dark-theme ::selection {
+  background-color: var(--global-link-color); /* Orange in dark theme */
+  color: #000000; /* Black text on orange selection */
+}
+
+/* Style for project cards, if they use a specific class not covered by .card */
+.project-card {
+  background-color: var(--global-card-bg);
+  border: 1px solid var(--global-card-border-color);
+  color: var(--global-text-color);
+}
+
+.project-card h5 a { /* Title inside project card */
+  color: var(--global-link-color);
+}
+
+.project-card .card-text, .project-card p {
+  color: var(--global-text-color);
+}
+
+/* For any .btn-primary, .btn-secondary, etc. ensure they are themed */
+.btn-primary {
+  background-color: var(--global-link-color);
+  border-color: var(--global-link-color);
+  color: var(--global-bg-color); /* Text color for primary button */
+}
+
+.btn-primary:hover {
+  background-color: color-mix(in srgb, var(--global-link-color) 80%, black);
+  border-color: color-mix(in srgb, var(--global-link-color) 80%, black);
+}
+
+.btn-secondary {
+  background-color: var(--global-text-color);
+  border-color: var(--global-text-color);
+  color: var(--global-bg-color);
+}
+
+body.dark-theme .btn-secondary {
+  background-color: var(--global-card-border-color); /* A less prominent color for secondary buttons in dark mode */
+  border-color: var(--global-card-border-color);
+  color: var(--global-text-color);
+}
+
+.btn-secondary:hover {
+  background-color: color-mix(in srgb, var(--global-text-color) 80%, white);
+  border-color: color-mix(in srgb, var(--global-text-color) 80%, white);
+}
+
+body.dark-theme .btn-secondary:hover {
+  background-color: color-mix(in srgb, var(--global-card-border-color) 80%, white);
+  border-color: color-mix(in srgb, var(--global-card-border-color) 80%, white);
+}
+
+/* Make sure placeholder colors are also adapted */
+input::placeholder, textarea::placeholder {
+  color: color-mix(in srgb, var(--global-text-color) 70%, transparent);
+}
+
+body.dark-theme input::placeholder, body.dark-theme textarea::placeholder {
+  color: color-mix(in srgb, var(--global-text-color) 50%, transparent);
+}
+
+/* Ensure form controls are legible */
+.form-control {
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+  border: 1px solid var(--global-card-border-color);
+}
+
+.form-control:focus {
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+  border-color: var(--global-link-color);
+  box-shadow: 0 0 0 0.2rem color-mix(in srgb, var(--global-link-color) 25%, transparent);
+}
+
+body.dark-theme .form-control {
+  background-color: var(--global-card-bg); /* Use card bg for inputs for slight contrast */
+}
+
+body.dark-theme .form-control:focus {
+  background-color: var(--global-card-bg);
+}
+
+/* For _includes/projects.html thumbnail handling */
+.thumbnail {
+  border-color: var(--global-card-border-color) !important;
+}
+
+.caption {
+  background-color: var(--global-card-bg) !important;
+  color: var(--global-text-color) !important;
+}
+
+.caption h3 {
+  color: var(--global-text-color) !important;
+}
+
+.caption p {
+  color: var(--global-text-color) !important;
+}
+
+/* Style for task page or any other specific page elements */
+/* Example: .task-item */
+.task-item {
+  background-color: var(--global-card-bg);
+  border: 1px solid var(--global-card-border-color);
+}
+
+.task-item h4 a {
+  color: var(--global-link-color);
+}
+
+/* Final override for toggle button icon colors with neon effects */
+#theme-toggle {
+  background: transparent;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+#theme-toggle:hover {
+  opacity: 1;
+}
+
+#theme-toggle .feather-sun {
+  color: #495057; /* Muted color for sun icon */
+}
+
+#theme-toggle .feather-moon {
+  color: #495057; /* Muted color for moon icon */
+}
+
+body.dark-theme #theme-toggle {
+  background: transparent;
+}
+
+body.dark-theme #theme-toggle .feather-sun {
+  color: #f8f9fa; /* Light color for sun icon */
+}
+
+body.dark-theme #theme-toggle .feather-moon {
+  color: #f8f9fa; /* Light color for moon icon */
+}
+
+/* Ensure that if bootstrap icons are used elsewhere, they pick up the theme */
+.bi { /* Assuming Bootstrap Icons are used with class .bi */
+  color: inherit; /* Inherit color from parent by default */
+}
+
+/* If you use FontAwesome icons */
+.fa, .fas, .far, .fal, .fab {
+  color: inherit;
+}
+
+/* publications page, bib.html specific styling */
+.publications .year {
+  color: var(--global-text-color);
+}
+
+.publications h2 {
+  color: var(--global-text-color); /* Assuming headers on this page */
+}
+
+.publications .abbr abbr { /* styling for the [pdf], [doi] etc links */
+  background-color: var(--global-code-bg);
+  color: var(--global-link-color);
+  border: 1px solid var(--global-link-color);
+}
+
+.publications .abbr abbr:hover {
+  background-color: var(--global-link-color);
+  color: var(--global-bg-color);
+}
+
+.publications .title {
+  color: var(--global-text-color);
+}
+
+.publications .author, .publications .periodical {
+  color: color-mix(in srgb, var(--global-text-color) 80%, transparent);
+}
+
+body.dark-theme .publications .author, body.dark-theme .publications .periodical {
+  color: color-mix(in srgb, var(--global-text-color) 70%, transparent);
+}
+
+.publications .links a, .publications .links span {
+  color: var(--global-link-color);
+}
+
+.publications .award {
+  color: var(--global-link-color); /* Make award text stand out */
+  font-weight: bold;
+}
+
+body.dark-theme .publications .award {
+  color: #ff8c00; /* Vibrant orange for awards in dark mode */
+}
+
+/* Alert styling */
+.alert {
+  color: var(--global-text-color);
+  background-color: var(--global-card-bg); /* Use card background for alerts */
+  border-color: var(--global-card-border-color);
+}
+
+.alert-heading {
+  color: inherit;
+}
+
+.alert-link {
+  color: var(--global-link-color);
+}
+
+.alert-primary {
+  color: color-mix(in srgb, #004085 80%, white); /* Dark blue text */
+  background-color: #cce5ff; /* Light blue background */
+  border-color: #b8daff; /* Lighter blue border */
+}
+
+body.dark-theme .alert-primary {
+  color: #cce5ff; /* Light blue text */
+  background-color: #002752; /* Dark blue background */
+  border-color: #003875; /* Darker blue border */
+}
+
+.alert-secondary {
+  color: color-mix(in srgb, #383d41 80%, white);
+  background-color: #e2e3e5;
+  border-color: #d6d8db;
+}
+
+body.dark-theme .alert-secondary {
+  color: #e2e3e5;
+  background-color: #2a2e31;
+  border-color: #3f4346;
+}
+
+/* Add other .alert-success, .alert-danger, .alert-warning, .alert-info with dark theme variants */
+.alert-success {
+  color: color-mix(in srgb, #155724 80%, white);
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+body.dark-theme .alert-success {
+  color: #d4edda;
+  background-color: #0d3615;
+  border-color: #1a5325;
+}
+
+.alert-danger {
+  color: color-mix(in srgb, #721c24 80%, white);
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+body.dark-theme .alert-danger {
+  color: #f8d7da;
+  background-color: #491217;
+  border-color: #6a1c22;
+}
+
+.alert-warning {
+  color: color-mix(in srgb, #856404 80%, white);
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+}
+
+body.dark-theme .alert-warning {
+  color: #fff3cd; /* Keep text light */
+  background-color: #533f03; /* Dark yellow/brown */
+  border-color: #665104;
+}
+
+.alert-info {
+  color: color-mix(in srgb, #0c5460 80%, white);
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+}
+
+body.dark-theme .alert-info {
+  color: #d1ecf1;
+  background-color: #073038;
+  border-color: #0c4a55;
+}
+
+.alert-light {
+  color: color-mix(in srgb, #818182 80%, white);
+  background-color: #fefefe;
+  border-color: #fdfdfe;
+}
+
+body.dark-theme .alert-light { /* This will look like a slightly off-white box on dark background */
+  color: #333; /* Dark text on light-ish background */
+  background-color: #dedede;
+  border-color: #cfcfcf;
+}
+
+.alert-dark { /* This is bootstrap's dark alert, might be used for primary info on light theme */
+  color: color-mix(in srgb, #1b1e21 80%, white);
+  background-color: #d6d8d9;
+  border-color: #c6c8ca;
+}
+
+body.dark-theme .alert-dark { /* This should be very dark text on a lighter dark background */
+  color: #d6d8d9; /* Light text */
+  background-color: #131517; /* Very dark background, darker than page */
+  border-color: #1e2225;
+}
+
+/* Social media icons from _includes/social.html if they are styled via .social a */
+.social a i { /* If icons are inside <i> tags */
+  color: var(--global-text-color);
+  transition: color 0.2s ease-in-out;
+}
+
+.social a:hover i {
+  color: var(--global-link-color);
+}
+
+/* News items from _includes/news.html */
+.news-item {
+  /* Assuming news items might have their own card-like structure or specific classes */
+  color: var(--global-text-color);
+}
+
+.news-item h5 a {
+  color: var(--global-link-color);
+}
+
+.news-item .meta {
+  color: color-mix(in srgb, var(--global-text-color) 70%, transparent);
+}
+
+body.dark-theme .news-item .meta {
+  color: color-mix(in srgb, var(--global-text-color) 60%, transparent);
+}
+
+/* Remove any remaining box shadows */
+.btn, .card, .navbar, .form-control, pre, code {
+  box-shadow: none !important;
+}
+
+/* Simpler button hover effect */
+.btn:hover {
+  opacity: 0.9;
+}
+
+/* Minimal scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--global-bg-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--global-card-border-color);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--global-text-color);
+}
+
+/* Logo theme switching styles */
+#logo-light, #logo-dark, #about-logo-light, #about-logo-dark {
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+  object-fit: contain;
+  vertical-align: middle;
+}
+
+.navbar-brand {
+  height: auto;
+  padding: 0.5rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: inline-block;
+  position: relative !important;
+}
+
+.logo-container img {
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Fix navbar overlap issues */
+body {
+  padding-top: 0;
+}
+
+/* Add padding for fixed navbar if needed */
+.navbar.fixed-top + main,
+.navbar.fixed-top + .container,
+.navbar.fixed-top ~ main {
+  padding-top: 70px;
+}
+
+/*# sourceMappingURL=main.css.map */

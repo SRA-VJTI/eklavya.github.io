@@ -71,7 +71,7 @@ Each pixel is a **cell of traversal**. The colors and their meanings are as foll
 
 ## Mission Visual
  
-![Binary Gauntlet Grid](assets/img/maze.png)
+![Binary Gauntlet Grid]({{ "/assets/img/maze.png" | relative_url }})
 
 ---
 
