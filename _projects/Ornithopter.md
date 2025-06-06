@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RC Ornithopter from scratch
+title: RC Ornithopter
 
 description: This project builds a remote-controlled, bird-scale ornithopter from scratch, blending bio-inspired design with precision engineering.
 ---

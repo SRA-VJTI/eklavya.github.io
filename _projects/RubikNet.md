@@ -23,7 +23,5 @@ By the end of the project, students will have a working pipeline that connects d
 
 ### Resources
 [Inspiration](https://www.youtube.com/watch?v=OZu9gjQJUQs)<br>
-[Intro to RL-1](https://www.youtube.com/watch?v=JgvyzIkgxF0)<br>
-[Intro to RL-2](https://www.youtube.com/watch?v=SgC6AZss478)<br>
-[DeepcubeA](https://deepcube.igb.uci.edu/static/files/SolvingTheRubiksCubeWithDeepReinforcementLearningAndSearch_Final.pdf)<br>
-[Cube on MuJoCo](https://github.com/kevinzakka/mujoco_cube)<br>
+[Intro to RL](https://www.youtube.com/watch?v=JgvyzIkgxF0)<br>
+[Monte-Carlo Tree Search](https://medium.com/data-science/the-animated-monte-carlo-tree-search-mcts-c05bb48b018c) <br>
