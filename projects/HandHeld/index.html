@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Embedded Task | Eklavya 2025  </title>
+    <title>Handheld Gaming Console | Eklavya 2025  </title>
     <meta name="author" content="Eklavya 2025  ">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="Build a custom STM32-based board that runs a simple Snake-style game on an LCD, all written in bare-metal C with your own I²C drivers.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/task4_2">
+    <link rel="canonical" href="https://eklavya.sravjti.in/projects/HandHeld/">
 
     <!-- Dark Mode -->
     
@@ -92,6 +91,9 @@
           <li class="nav-item ">
             <a class="nav-link" href="/projects/">Eklavya Projects</a>
           </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/tasks/">Tasks</a>
+          </li>
 
           <!-- Toggle theme mode -->
           <li class="nav-item">
@@ -133,110 +135,52 @@
         <div class="post table-borderless">
 
           <header class="post-header">
-            <h1 class="post-title">Embedded Task</h1>
-            <p class="post-description"></p>
+            <h1 class="post-title">Handheld Gaming Console</h1>
+            <p class="post-description">Build a custom STM32-based board that runs a simple Snake-style game on an LCD, all written in bare-metal C with your own I²C drivers.</p>
           </header>
 
           <article>
-            <h1 id="embedded-task">Embedded Task</h1>
+            <hr>
 
-<p>This task involves implementing a system that reads a .txt file generated from Task 1 and performs actions based on the type of junction and turn detected. The system will use the SRA board to control LED blinking patterns and motor movements. Additionally, the system will use freeRTOS to control both the LED blinking patterns and motor movements concurrently.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Project Domains</th>
+      <th>Mentors</th>
+      <th>Project Difficulty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Embedded Systems, MCU Programming, PCB Design, I²C Drivers</td>
+      <td>Piyush, Shaurya, Vishal</td>
+      <td>Medium-Hard</td>
+    </tr>
+  </tbody>
+</table>
 
-<h2 id="task-instructions"><strong>Task Instructions:</strong></h2>
+<hr>
 
+<h3 id="project-description">Project Description</h3>
+
+<p>Design a pocket-sized console from scratch:</p>
 <ul>
-  <li>Read the output text file output from Task 1.</li>
-  <li>Detect a specified type of junction (e.g., only left junction) and turn (e.g., left turn).</li>
-  <li><strong>Types of Junction</strong></li>
+  <li>Pick an STM32 MCU, flash a “blinky” to prove the toolchain.</li>
+  <li>Write drivers (no HAL) for GPIO, the I²C bus, and an MPU6050 IMU.</li>
+  <li>Lay out and assemble a simple PCB with the MCU, OLED, joystick, and buttons.</li>
+  <li>Draw pixels on the screen and code a lightweight Snake game that uses the joystick for control.</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>					   |XX|	  &lt;--- Mines/U-turn
-					   |  |
-			-----------    -------------    &lt;---- plus junction
-			-----------	   -------------		
-                       |  |
-                       |  |
-         ______________|  |
- Only--&gt;|   ______________|  &lt;-- Only Left
- Right  |  |
-        |  |
-    ____|  |____
-    ____    ____ &lt;-- Plus
-        |  |
-        |  |
-    ____|  |
-    ____   | &lt;-- Straight+Left
-        |  |
-        |  |_____
-        |   _____ &lt;-- Straight+Right
-        |  |
-        |  |
-        |  |
-        |  |
+<p>By the end, you’ll hold a fully working handheld you built, soldered, and programmed yourself.</p>
 
-</code></pre></div></div>
+<hr>
 
-<p>Line sensor placement:</p>
+<h3 id="resources">Resources</h3>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                               |     |
-                               |     |
-                           ____|     |____
-                           ____|     |____
-                               |     |
-                               |  6  |
-                              1|2 3 4|5
-</code></pre></div></div>
-
-<p>1, 2, 3, 4, 5 are the positions of the 4 line sensors and the 6th is for the IR sensor.</p>
-
-<ul>
-  <li>Implement <strong>LED blinking</strong> according to the <strong>junction type</strong>:
-    <ul>
-      <li>Utilize the SRA board’s 8 LEDs to display the blink pattern.</li>
-      <li>For only left junction: LEDs will blink in a pattern from right to left.</li>
-      <li>For only right junction: LEDs will blink in a pattern from left to right.</li>
-      <li>For right+straight or left+straight junction: LEDs will blink in a pattern where the lights at both ends (first and eighth LEDs) move towards the center.</li>
-      <li>For plus junction: All LEDs blink simultaneously (on and off).</li>
-      <li>For dead end: LEDs will blink in a stationary pattern, indicating the end of the path.</li>
-    </ul>
-
-    <p><strong>Check <a href="https://tangy-ironclad-2ce.notion.site/LED-Patterns-415bc48176e9438fa4d564c7bb276041" rel="external nofollow noopener" target="_blank">here</a> for LED Patterns</strong></p>
-  </li>
-  <li>Control <strong>motor movement</strong>s according to the detected <strong>turn type</strong> using the SRA board. 
-  i.e
-    <ul>
-      <li>For a left turn, the motors should turn left.</li>
-      <li>For a right turn, the motors should turn right.</li>
-      <li>For a right + straight junction,  the motors should continue to move straight.</li>
-      <li>For a left + straight junction, the motors should turn left.</li>
-      <li>For a plus junction, the motors should turn left.</li>
-      <li>For dead end, the motors should stop.</li>
-    </ul>
-
-    <p>(This is the basic application of Left-Follow Rule where in the bot prioritises Left Turn at each junction. The next priority is for going Straight and then least priority is given to the Right Turn.)</p>
-  </li>
-  <li>Utilize freeRTOS to ensure parallel execution of LED blinking and motor control tasks.</li>
-</ul>
-
-<h2 id="submission-instructions">Submission Instructions</h2>
-
-<p>Make a zip file containing</p>
-
-<ul>
-  <li>Your code file main.c</li>
-  <li>A video showing LED blinking patterns and motor movements, including a notepad in the video showing the task number and team name.</li>
-  <li>Rename zip folder as your team name and task number. Eg. “Task_4_TEAM_ABCD”</li>
-  <li>Submit <a href="https://forms.gle/CW8H5cMQxCDznzcW7" rel="external nofollow noopener" target="_blank"><strong>here</strong></a>
-</li>
-</ul>
-
-<h2 id="resources"><strong>Resources</strong></h2>
-
-<ul>
-  <li><a href="https://drive.google.com/drive/folders/1vG0va4bM5qz_MJKkz4dLdT4V8_zq696K" rel="external nofollow noopener" target="_blank"><strong>Wall-E PPT’s</strong></a></li>
-  <li><a href="https://github.com/SRA-VJTI/Wall-E" rel="external nofollow noopener" target="_blank"><strong>Wall-E github</strong></a></li>
-  <li><a href="https://github.com/SRA-VJTI/Wall-E" rel="external nofollow noopener" target="_blank">Task Creation using FreeRTOS</a></li>
-</ul>
+<p><a href="https://www.st.com/en/development-tools/stm32cubeide.html" rel="external nofollow noopener" target="_blank">STM32CubeIDE Docs</a><br>
+<a href="https://www.i2c-bus.org/" rel="external nofollow noopener" target="_blank">I²C-Bus Protocol Guide</a><br>
+<a href="https://www.ti.com/tool/BOOSTXL-EDUMKII" rel="external nofollow noopener" target="_blank">TI Educational BoosterPack MKII</a><br>
+<a href="https://kicad.org/help/" rel="external nofollow noopener" target="_blank">KiCad PCB Tutorial</a></p>
 
           </article>
 

@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tasks | Eklavya 2025  </title>
+    <title>Synapse32 | Eklavya 2025  </title>
     <meta name="author" content="Eklavya 2025  ">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="Design, implement, and verify a direct-mapped and set-associative cache subsystem for an existing RISC-V pipeline—boosting performance through reduced memory-access latency.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/">
+    <link rel="canonical" href="https://eklavya.sravjti.in/projects/Synapse32/">
 
     <!-- Dark Mode -->
     
@@ -92,8 +91,8 @@
           <li class="nav-item ">
             <a class="nav-link" href="/projects/">Eklavya Projects</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/tasks/">Tasks<span class="sr-only">(current)</span></a>
+          <li class="nav-item ">
+            <a class="nav-link" href="/tasks/">Tasks</a>
           </li>
 
           <!-- Toggle theme mode -->
@@ -136,103 +135,53 @@
         <div class="post table-borderless">
 
           <header class="post-header">
-            <h1 class="post-title">Tasks</h1>
-            <p class="post-description"></p>
+            <h1 class="post-title">Synapse32</h1>
+            <p class="post-description">Design, implement, and verify a direct-mapped and set-associative cache subsystem for an existing RISC-V pipeline—boosting performance through reduced memory-access latency.</p>
           </header>
 
           <article>
-            <!-- pages/projects.md -->
+            <hr>
 
-<div class="projects">
-<!-- Display projects without categories --><!-- Generate cards for each project -->
+<table>
+  <thead>
+    <tr>
+      <th>Project Domains</th>
+      <th>Mentors</th>
+      <th>Project Difficulty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Computer Architecture, Verilog, Cache Design, RTL</td>
+      <td>Shri Vishakh, Sujal</td>
+      <td>Hard</td>
+    </tr>
+  </tbody>
+</table>
 
-<div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task1/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 1</h2>
-          <p class="card-text">The Binary Gauntlet</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task2/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 2</h2>
-          <p class="card-text">Rebel Blueprints</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task3/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 3</h2>
-          <p class="card-text">The Descent protocol</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task4/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 4</h2>
-          <p class="card-text">The Droid Awakens — Maze Runner Protocol</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task5/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 5</h2>
-          <p class="card-text">Droid Arm Trials in the Holochamber</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task6/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 6</h2>
-          <p class="card-text">A lone Path in the Force</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-  </div>
-</div>
+<hr>
+
+<h3 id="project-description">Project Description</h3>
+
+<p>This project guides you from basic digital-logic foundations to a fully integrated cache inside a RISC-V core.<br>
+You’ll master Verilog for RTL design, explore cache theory (hits, misses, write policies, replacement strategies), and build two concrete implementations:</p>
+
+<ul>
+  <li>
+<strong>Direct-Mapped Cache</strong> – write-back, write-allocate policy with tag/data arrays, valid bits, and a write-back engine.</li>
+  <li>
+<strong>2-Way Set-Associative Cache</strong> – adds an LRU replacement finite-state machine for improved miss behavior.</li>
+</ul>
+
+<p>The final deliverable is a synthesizable cache subsystem plugged into the CPU pipeline, complete with test-benches, hit/miss statistics, and cycle-count comparisons against an uncached baseline.</p>
+
+<hr>
+
+<h3 id="resources">Resources</h3>
+
+<p><a href="https://github.com/SRA-VJTI/Synapse32.git" rel="external nofollow noopener" target="_blank">Synapse32 RISC-V Core</a> <br>
+<a href="https://www.cs.cornell.edu/courses/cs3410/2019sp/schedule/slides/12-caches-pre.pdf" rel="external nofollow noopener" target="_blank">Cornell CS3410 Cache Slides (2019)</a><br>
+<a href="https://www.youtube.com/watch?v=EjjbMfHPkbg" rel="external nofollow noopener" target="_blank">Onur Mutlu — Cache Design Talk</a><br></p>
 
           </article>
 

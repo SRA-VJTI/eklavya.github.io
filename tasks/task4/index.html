@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Leg of the Titan | Eklavya 2025  </title>
+    <title>Task 4 | Eklavya 2025  </title>
     <meta name="author" content="Eklavya 2025  ">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="The Droid Awakens — Maze Runner Protocol">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/task4_1">
+    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/task4/">
 
     <!-- Dark Mode -->
     
@@ -92,6 +91,9 @@
           <li class="nav-item ">
             <a class="nav-link" href="/projects/">Eklavya Projects</a>
           </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/tasks/">Tasks</a>
+          </li>
 
           <!-- Toggle theme mode -->
           <li class="nav-item">
@@ -133,66 +135,134 @@
         <div class="post table-borderless">
 
           <header class="post-header">
-            <h1 class="post-title">Leg of the Titan</h1>
-            <p class="post-description"></p>
+            <h1 class="post-title">Task 4</h1>
+            <p class="post-description">The Droid Awakens — Maze Runner Protocol</p>
           </header>
 
           <article>
-            <h2 id="task-description">Task Description</h2>
+            <p><strong>Points for Task: 150</strong></p>
 
-<p>You all must be aware of the quadruped robots, like the MIT Cheetah, STANFORD DOGGO, etc. A good leg design is the key to achieving a stable configuration of such robots.</p>
+<h2 id="description">Description</h2>
 
-<blockquote>
-  <p>Let the Titan rise.</p>
-</blockquote>
+<p>Alan faced a maze in a vast city. He had to navigate a treacherous path full with mines and incorrect turns. But he was determined to go to his target, even if it meant risking danger around every corner.
+Alan’s journey was like a puzzle with many pieces missing. Every time he believed he was on the correct track, he ran into a dead end or turned back on discovering a concealed mine. It was aggravating, but Alan refused to quit. He continued going, determined to finish no matter what.
+After what seemed like an eternity, Alan arrived at his destination. He felt tired and relieved. He understood he needed to assist others to avoid the same difficulties he encountered. So he sent all of the details of his journey—every false turn, every mine—to his pal Tom, who was waiting at the starting spot.
+Tom was quite skilled at reading maps and finding out the best routes. When he received Alan’s information, he realised he had an essential job. He meticulously documented Alan’s route, noting every twist and bend, every risky area.
+Tom used Alan’s data to generate a map of his path. Then he began determining the safest path for others to travel. He wanted to ensure that no one else had to go through what Alan did. With patience and skill, Tom evaluated the map to find the optimum route that avoided the mines and wrong turns.</p>
 
-<p><img src="https://github.com/aPR0T0/Eklavya-Copter-Control/assets/97826285/a95a1d5b-8212-4a00-bbdb-392289067211" alt="origin"></p>
+<p><strong>An Example of Maze</strong></p>
 
-<p>So your task is to make a leg design for a Quadruped robot. Not only does this end here, but you also have to complete the analysis for the permissible stress, strain, and safety factor for every part of the leg and this has to be done in ANSYS. After this is done, the results need to be properly documented.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                                                    ___
+ __________________________________________________|   |
+|   _______________________________    ____________    | &lt;---- **END**
+|  |               |  |            |  |            |___|
+|  |               |  |            |  |
+|  |         ______|  |____        |  |
+|  |        |   ________   |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |        |  |        |  |       |  |
+|  |________|  |________|  |_______|  |________|
+|___________    _______________________________| &lt;--- **DEAD END**
+            |  |
+            |  |
+            |  |
+            |  |
+            |  |
+          **START**
 
-<p>Hint :
-You need to analyze the forces acting on each leg link and draw its FBD. The leg configuration can be whatever you wish.</p>
 
-<h3 id="task-completion-guidelines">TASK COMPLETION GUIDELINES:</h3>
+</code></pre></div></div>
 
-<ol>
-  <li>You are free to use any CAD software. (eg. SOLIDWORKS, FUSION 360, ONSHAPE, etc.) Just make sure that you are using the licensed version of the same. No unauthorized use of the software is permitted, and if done, the team will suffer a penalty for the entire TASK 4.</li>
-  <li>Both the leg links should not be more than 400 mm, and the leg can have a maximum of 3 degrees of freedom.</li>
-  <li>Assign a suitable material to the leg parts.</li>
-  <li>The final documentation must contain the following things, and the documentation should follow the template given below:
-    <ul>
-      <li>The 4 views of the assembly are the front view, the Top view, the side view, and the isometric view.</li>
-      <li>The dimensional drawing of each component (Those using SOLIDWORKS can directly use the drawing feature to generate the same).</li>
-      <li>The Free Body Diagram(FBD) of every part in use.</li>
-    </ul>
+<p>** Sensor placement ***</p>
+<ul>
+  <li>Two sensors are used for this maze : a Line Sensor Array and an Infrared (IR) sensor.</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                               |     |
+                               |     |
+                           ____|     |____
+                           ____|     |____
+                               |     |
+                               |  6  |
+                              1|2 3 4|5
+</code></pre></div></div>
+
+<ul>
+  <li>1, 2, 3, 4, 5 are the positions of the 5 line sensors and the 6th is for the IR sensor.</li>
+  <li>The line sensors detect the lines on the maze while the IR sensor detects mines on it.</li>
+</ul>
+
+<p><strong>Types of Junction</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>					   |XX|	  &lt;--- Mines/U-turn
+					   |  |
+			-----------    -------------    &lt;---- plus junction
+			-----------	   -------------		
+                       |  |
+                       |  |
+         ______________|  |
+ Only--&gt;|   ______________|  &lt;-- Only Left
+ Right  |  |
+        |  |
+    ____|  |____
+    ____    ____ &lt;-- Plus
+        |  |
+        |  |
+    ____|  |
+    ____   | &lt;-- Straight+Left
+        |  |
+        |  |_____
+        |   _____ &lt;-- Straight+Right
+        |  |
+        |  |
+        |  |
+        |  |
+
+</code></pre></div></div>
+
+<h1 id="task">Task</h1>
+
+<p><a href="https://drive.google.com/file/d/1lQB1hIVMLCdLkzNckBj-tAfWj_tsVkLb/view?usp=drive_link" rel="external nofollow noopener" target="_blank">Download Task data</a></p>
+
+<h2 id="input">Input</h2>
+
+<ul>
+  <li>
+<code class="language-plaintext highlighter-rouge">LSA_IR_data.txt</code>  has the sensor data obtained by Alex ,that has all the turns &amp; obstacles on the map Alex traversed.</li>
+  <li>You will now process this map to find the shortest and safest path on the map .</li>
+</ul>
+
+<h2 id="output">Output</h2>
+<ul>
+  <li>The output should consist of the shortest &amp; safest path to navigate the maze . The path should be printed into a text file describing each turn taken at the type of junction with the direction.</li>
+  <li>Use the below example for reference :
+    <div class="language-plaintext highlighter-rouge">
+<div class="highlight"><pre class="highlight"><code>START
+LEFT TURN       PLUS                    East
+RIGHT TURN      ONLY RIGHT              South
+LEFT TURN       ONLY LEFT               East
+END
+...
+</code></pre></div>    </div>
   </li>
-  <li>The use of any mechanism(such as the pantograph mechanism) will be appreciable and shall be considered for the final evaluation of the task.</li>
+</ul>
+
+<p><strong>Note</strong> :-</p>
+<ol>
+  <li>You should use only C language to solve this task.</li>
+  <li>Consider reference direction as North.</li>
+  <li>U turn is taken whenever a mine is encountered.</li>
 </ol>
 
-<h3 id="submission-guidelines">SUBMISSION GUIDELINES:</h3>
-<ol>
-  <li>You have to document your work in a structured format provided <a href="https://docs.google.com/document/d/1B0JHIPJWQeh7pIPiwNEHvlXUQZTnJ1anqGBXKie4ZXE/edit" rel="external nofollow noopener" target="_blank">here</a>.</li>
-  <li>You have to fill in the required details in the document, with the proper images of the CAD files, and a working video of the model.</li>
-  <li>The images must include the following things:
-    <ol>
-      <li>The isometric view image of the leg design.</li>
-      <li>The drawing files of the leg links that provide the link length and the diameters of the circles inscribed in that CAD model.</li>
-      <li>The image of the FBD drawn, either using pen paper or with any online tool.</li>
-    </ol>
-  </li>
-  <li>You are expected to explain the design, and justify the reason for that particular material selection(metal or non-metal). The evaluation will be done based on your level of understanding, your approach, as well as your documentation</li>
-</ol>
+<h2 id="submission-instructions">Submission Instructions</h2>
 
-<p>You have to submit the zip file containing the documentation in the .pdf format and the video of the working model in the given form.
-Task Submission Link: <a href="https://docs.google.com/forms/d/e/1FAIpQLSdfMcJeF9Kahu3anRx_x-Yy7Uge-mmePv7-zoeEcM3BXhWb_Q/viewform" rel="external nofollow noopener" target="_blank">Form</a></p>
-
-<h3 id="resources">RESOURCES</h3>
-
-<p><a href="https://www.youtube.com/watch?v=fOawYRHRpPo" rel="external nofollow noopener" target="_blank">ANSYS Installation</a></p>
-
-<p>You may come to SRA room for the installation, if you face any issues while doing so.</p>
-
-<p><a href="https://github.com/SKYBIRDSGP/Titanleg_Design_EKLAVYA_2023" rel="external nofollow noopener" target="_blank">Quadruped Leg design Project</a></p>
+<ul>
+  <li>You must create a zip file, which should contain your code and generated output files.</li>
+</ul>
 
           </article>
 

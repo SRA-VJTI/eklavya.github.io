@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>PCB Designing | Eklavya 2025  </title>
+    <title>Make It Move | Eklavya 2025  </title>
     <meta name="author" content="Eklavya 2025  ">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="Train a PPO-based gait policy in MuJoCo and deploy it on a low-cost, tortoise-style quadruped.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/task4_3">
+    <link rel="canonical" href="https://eklavya.sravjti.in/projects/MakeItMove/">
 
     <!-- Dark Mode -->
     
@@ -92,6 +91,9 @@
           <li class="nav-item ">
             <a class="nav-link" href="/projects/">Eklavya Projects</a>
           </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="/tasks/">Tasks</a>
+          </li>
 
           <!-- Toggle theme mode -->
           <li class="nav-item">
@@ -133,76 +135,65 @@
         <div class="post table-borderless">
 
           <header class="post-header">
-            <h1 class="post-title">PCB Designing</h1>
-            <p class="post-description"></p>
+            <h1 class="post-title">Make It Move</h1>
+            <p class="post-description">Train a PPO-based gait policy in MuJoCo and deploy it on a low-cost, tortoise-style quadruped.</p>
           </header>
 
           <article>
-            <h2 id="description">Description</h2>
+            <hr>
 
-<p>PCB and circuit design is about how carefully we can plan electronic layouts and diagrams, focusing on where to put which electronic component and how to connect them to make devices work well. In any electronics/robotics project, the power circuitry is super important. It’s like the manager, making sure the electricity flows smoothly and safely through the whole system.</p>
+<table>
+  <thead>
+    <tr>
+      <th>Project Domains</th>
+      <th>Mentors</th>
+      <th>Project Difficulty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Reinforcement Learning, Robotics Simulation, Imitation Learning</td>
+      <td>Ansh, Prajwal</td>
+      <td>Hard</td>
+    </tr>
+  </tbody>
+</table>
 
-<h2 id="problem-statement">Problem Statement</h2>
+<hr>
 
-<p>In this task, you have to design a PCB with a power circuitry on it with specific requirements. The use case of the same is given below:</p>
+<h3 id="project-description">Project Description</h3>
 
-<p>1)Screw Terminal with 24V as Input</p>
-
-<p>2)Screw Terminal with 12V and 4A current rating as Output</p>
-
-<p>3)Screw Terminal with 5V and 2A current rating as Output</p>
-
-<p>4)Screw Terminal with 3.3V and 2A current rating as Output</p>
-
-<p>Following components can be used to achieve the task:</p>
-<ol>
-  <li>
-    <p><strong>Buck Convertors:</strong> Buck converters, also known as step-down converters, are a type of DC-DC power converter that efficiently reduces a higher input voltage to a lower output voltage. They operate by rapidly switching the input voltage on and off and then smoothing it to provide a stable output voltage, making them ideal for applications where energy efficiency and voltage regulation are crucial, such as in portable electronic devices and power supplies. Examples are LM2576,XL4015,XL4005,etc.</p>
-  </li>
-  <li>
-    <p><strong>Linear Regulators:</strong> Linear regulators maintain stable voltage levels by dissipating excess voltage as heat. They are simple and inexpensive, suited for applications prioritizing low noise and simplicity over energy efficiency, such as audio amplifiers and sensor circuits. Example AMS1117,etc.</p>
-  </li>
-</ol>
-
-<h2 id="submission-instructions-kicad-software-is-recommended">Submission Instructions: (KiCAD software is recommended)</h2>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. Submit a PDF that includes the snapshots of the following things:
-	- Schematic Diagram
-	- PCB Layout (Both front layer and back layer)
-2. Along with the PDF, submit a zip folder that contains all the KiCAD files and rename it as your team name and task number. Eg. "Task_4_TEAM_ABCD"
-3. You have to import the component symbols and footprints from EDA Websites given below. For now, we have provided you the the folder which includes some of the suggested components with their symbols &amp; footprints.Although we encourgae you to use different components than mentioned below. (Refer Playlist for tutorial)
-</code></pre></div></div>
-
-<p>Task Submission Link: <a href="https://forms.gle/CW8H5cMQxCDznzcW7" rel="external nofollow noopener" target="_blank">Form</a></p>
-
-<h2 id="resources">Resources:</h2>
+<p>Kurma is a budget quadruped with a turtle-like frame.<br>
+Your mission: teach it to walk—first in simulation, then in the real world.</p>
 
 <ol>
   <li>
-    <p>KiCAD Installations: (Follow all the steps carefully)</p>
-
+<strong>Policy Learning (PPO)</strong>
     <ul>
-      <li><a href="https://www.kicad.org/download/linux/" rel="external nofollow noopener" target="_blank">Linux</a></li>
-      <li><a href="https://www.kicad.org/download/windows/" rel="external nofollow noopener" target="_blank">Windows</a></li>
-      <li><a href="https://www.kicad.org/download/macos/" rel="external nofollow noopener" target="_blank">MacOS</a></li>
+      <li>Build a Gym-compatible MuJoCo environment for Kurma.</li>
+      <li>Craft rewards for speed, stability, and energy use.</li>
+      <li>Train a continuous-action neural policy using Proximal Policy Optimization.</li>
     </ul>
   </li>
   <li>
-    <p><strong>KiCAD Playlist:</strong>
-<a href="https://www.youtube.com/playlist?list=PL3bNyZYHcRSUhUXUt51W6nKvxx2ORvUQB" rel="external nofollow noopener" target="_blank">Click here</a></p>
-  </li>
-  <li>
-    <p><strong>Download the Symbols and Footprints from here:</strong>
-<a href="https://drive.google.com/file/d/1jm2rXZxPTpAuMMbnAyWenM84ktNT7qWE/view" rel="external nofollow noopener" target="_blank">Click here</a></p>
-  </li>
-  <li>
-    <p><strong>EDA Tools for importing components: (If using any other components than suggested above)</strong></p>
+<strong>Imitation / Inverse RL (stretch)</strong>
     <ul>
-      <li><a href="https://www.snapeda.com/" rel="external nofollow noopener" target="_blank">SnapEDA</a></li>
-      <li><a href="https://componentsearchengine.com/" rel="external nofollow noopener" target="_blank">Component Search Engine</a></li>
+      <li>Script or joystick-teleop a stable gait.</li>
+      <li>Use Inverse RL to learn a reward that reproduces the demonstration, then refine with PPO.</li>
     </ul>
   </li>
 </ol>
+
+<p>Deploy the final network to a Raspberry Pi controller, drive affordable servos, and film an untethered demo of Kurma on the move.</p>
+
+<hr>
+
+<h3 id="resources">Resources</h3>
+
+<p><a href="https://drive.google.com/file/d/1KZD7YOJFVc-1V6P_AOij_7Ek0Aka7dkh/view" rel="external nofollow noopener" target="_blank">Kurma</a> <br>
+<a href="https://youtu.be/JgvyzIkgxF0" rel="external nofollow noopener" target="_blank">Intro to Reinforcement Learning</a> <br>
+<a href="https://thegradient.pub/learning-from-humans-what-is-inverse-reinforcement-learning" rel="external nofollow noopener" target="_blank">Inverse RL</a> <br>
+<a href="https://spinningup.openai.com/en/latest/algorithms/ppo.html" rel="external nofollow noopener" target="_blank">PPO – Spinning Up guide</a></p>
 
           </article>
 

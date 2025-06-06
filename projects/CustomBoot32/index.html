@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tasks | Eklavya 2025  </title>
+    <title>CustomBoot-32 | Eklavya 2025  </title>
     <meta name="author" content="Eklavya 2025  ">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="A compact STM32 + ESP32 board that stores multiple firmware images and updates itself over Wi-Fi.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/">
+    <link rel="canonical" href="https://eklavya.sravjti.in/projects/CustomBoot32/">
 
     <!-- Dark Mode -->
     
@@ -92,8 +91,8 @@
           <li class="nav-item ">
             <a class="nav-link" href="/projects/">Eklavya Projects</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/tasks/">Tasks<span class="sr-only">(current)</span></a>
+          <li class="nav-item ">
+            <a class="nav-link" href="/tasks/">Tasks</a>
           </li>
 
           <!-- Toggle theme mode -->
@@ -136,103 +135,48 @@
         <div class="post table-borderless">
 
           <header class="post-header">
-            <h1 class="post-title">Tasks</h1>
-            <p class="post-description"></p>
+            <h1 class="post-title">CustomBoot-32</h1>
+            <p class="post-description">A compact STM32 + ESP32 board that stores multiple firmware images and updates itself over Wi-Fi.</p>
           </header>
 
           <article>
-            <!-- pages/projects.md -->
+            <hr>
 
-<div class="projects">
-<!-- Display projects without categories --><!-- Generate cards for each project -->
+<table>
+  <thead>
+    <tr>
+      <th>Project Domains</th>
+      <th>Mentors</th>
+      <th>Project Difficulty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Embedded Systems, Bootloaders, OTA, PCB Design, UART</td>
+      <td>Pritvi, Shaunak</td>
+      <td>Hard</td>
+    </tr>
+  </tbody>
+</table>
 
-<div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task1/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 1</h2>
-          <p class="card-text">The Binary Gauntlet</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task2/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 2</h2>
-          <p class="card-text">Rebel Blueprints</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task3/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 3</h2>
-          <p class="card-text">The Descent protocol</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task4/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 4</h2>
-          <p class="card-text">The Droid Awakens — Maze Runner Protocol</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task5/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 5</h2>
-          <p class="card-text">Droid Arm Trials in the Holochamber</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task6/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 6</h2>
-          <p class="card-text">A lone Path in the Force</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-  </div>
-</div>
+<hr>
+
+<h3 id="project-description">Project Description</h3>
+
+<ul>
+  <li>Pair an <strong>STM32F103 “Blue Pill”</strong> with an <strong>ESP32-WROOM-32D (16 MB)</strong> on a custom PCB.</li>
+  <li>ESP32 runs a web-server, saves uploaded binaries to LittleFS, and streams them over chunked UART with CRC checks.</li>
+  <li>STM32 hosts a dual-image bootloader: it verifies each image, rolls back on failure, and lets a 2-position switch pick which firmware to boot.</li>
+  <li>Result: a plug-and-play dev board that can flash, select, and update its own firmware wirelessly—no USB cables or ST-Link required.</li>
+</ul>
+
+<hr>
+
+<h3 id="resources">Resources</h3>
+
+<p><a href="https://youtube.com/playlist?list=PLNyfXcjhOAwO5HNTKpZPsqBhelLF2rWQx" rel="external nofollow noopener" target="_blank">STM32CubeIDE Quick-Start</a><br>
+<a href="https://www.youtube.com/watch?v=15zXAhsVx0k" rel="external nofollow noopener" target="_blank">UART Basics – Phil’s Lab</a><br>
+<a href="https://youtube.com/playlist?list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O" rel="external nofollow noopener" target="_blank">PCB Design Crash Course</a><br></p>
 
           </article>
 

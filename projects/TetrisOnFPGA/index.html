@@ -10,10 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Tasks | Eklavya 2025  </title>
+    <title>FPGA-Based Tetris | Eklavya 2025  </title>
     <meta name="author" content="Eklavya 2025  ">
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <meta name="description" content="Build a tiny FPGA console that plays Tetris in real-time, rendered entirely in Verilog on a BeagleVFire.">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -39,7 +38,7 @@
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/">
+    <link rel="canonical" href="https://eklavya.sravjti.in/projects/TetrisOnFPGA/">
 
     <!-- Dark Mode -->
     
@@ -92,8 +91,8 @@
           <li class="nav-item ">
             <a class="nav-link" href="/projects/">Eklavya Projects</a>
           </li>
-          <li class="nav-item active">
-            <a class="nav-link" href="/tasks/">Tasks<span class="sr-only">(current)</span></a>
+          <li class="nav-item ">
+            <a class="nav-link" href="/tasks/">Tasks</a>
           </li>
 
           <!-- Toggle theme mode -->
@@ -136,103 +135,52 @@
         <div class="post table-borderless">
 
           <header class="post-header">
-            <h1 class="post-title">Tasks</h1>
-            <p class="post-description"></p>
+            <h1 class="post-title">FPGA-Based Tetris</h1>
+            <p class="post-description">Build a tiny FPGA console that plays Tetris in real-time, rendered entirely in Verilog on a BeagleVFire.</p>
           </header>
 
           <article>
-            <!-- pages/projects.md -->
+            <hr>
 
-<div class="projects">
-<!-- Display projects without categories --><!-- Generate cards for each project -->
+<table>
+  <thead>
+    <tr>
+      <th>Project Domains</th>
+      <th>Mentors</th>
+      <th>Project Difficulty</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>FPGA, Digital Design, Embedded Graphics, UART I/O</td>
+      <td>Suchit, Sarvesh</td>
+      <td>Medium</td>
+    </tr>
+  </tbody>
+</table>
 
-<div class="grid">
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task1/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 1</h2>
-          <p class="card-text">The Binary Gauntlet</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task2/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 2</h2>
-          <p class="card-text">Rebel Blueprints</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task3/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 3</h2>
-          <p class="card-text">The Descent protocol</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task4/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 4</h2>
-          <p class="card-text">The Droid Awakens — Maze Runner Protocol</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task5/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 5</h2>
-          <p class="card-text">Droid Arm Trials in the Holochamber</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-<!-- _includes/projects.html -->
-<div class="grid-sizer"></div>
-<div class="grid-item">
-  <a href="/tasks/task6/">
-      <div class="card hoverable">
-        <div class="card-body">
-          <h2 class="card-title text-wrap">Task 6</h2>
-          <p class="card-text">A lone Path in the Force</p>
-          <div class="row ml-1 mr-1 p-0">
-          </div>
-        </div>
-      </div>
-    </a>
-</div>
-  </div>
-</div>
+<hr>
+
+<h3 id="project-description">Project Description</h3>
+
+<p>Turn a BeagleVFire into a one-game console:</p>
+<ul>
+  <li>Re-use an existing Verilog “VideoCard” to push pixels over HDMI.</li>
+  <li>Write the entire Tetris game—state machine, collision logic, score—with pure Verilog.</li>
+  <li>Read player input via simple GPIO buttons or a UART-connected keyboard.</li>
+  <li>If logic resources run tight, add on-chip RAM for the framebuffer.</li>
+</ul>
+
+<p>By the end you’ll have a self-contained bitstream that boots straight into Tetris and shows real-time graphics on any HDMI display.</p>
+
+<hr>
+
+<h3 id="resources">Resources</h3>
+
+<ul>
+  <li><a href="https://youtu.be/8OK8_tHeCIA?si=YbuLPEYIBgEx-y8m" rel="external nofollow noopener" target="_blank">FPGA Tetris (YouTube talk)</a></li>
+  <li><a href="https://eli.lipsitz.net/posts/introducing-gamebub/" rel="external nofollow noopener" target="_blank">GameBub FPGA Handheld Blog</a></li>
+</ul>
 
           </article>
 
