@@ -81,6 +81,21 @@ $$
 
 ---
 
+## Hints to Get Started
+
+Here are some helpful resources to guide you:
+
+- **Verilog Tutorial Playlist** – A beginner-friendly YouTube series:  
+  [Watch on YouTube](https://youtube.com/playlist?list=PL_3xKnVkfI2itQhCyfnamNYSCHd2KHi4k&si=7ooalEkESzB64Wqo)
+
+- **HDLBits** – Practice Verilog problems interactively:  
+  [Start with Step One](https://hdlbits.01xz.net/wiki/Step_one)
+
+- **ChipVerify Tutorials** – In-depth Verilog theory and examples:  
+  [Explore Verilog Tutorials](https://www.chipverify.com/tutorials/verilog)
+
+---
+
 ## Final Jedi Instructions
 
 > Your design must be optimized for both **timing** and **logic**.

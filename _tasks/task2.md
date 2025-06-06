@@ -13,7 +13,7 @@ category: Electronics (Bill Of Materials)
 ## Mission Brief
 
 In this mission, the **Padawans** are summoned to generate a **Bill of Materials (BOM)** for the PCB schematics and layouts they forged in the PCB Designing task. Worry not if you skipped the PCB Designing task — this mission stands on its own, young Padawan. This is no trivial duty—every resistor, capacitor, and IC must be accounted for. Only with a complete and accurate BOM can the Rebel Alliance proceed to manufacturing.
-**If you have not done the PCB Designing task** here is your reference [Material](https://drive.google.com/drive/u/0/folders/1RF4yw-MRR_ZKoP1AoHSOtmx7msi20Z3P) named `MiniMorse.kicad_sh`
+**If you have not done the PCB Designing task** here is your reference [Material](https://drive.google.com/drive/u/0/folders/1RF4yw-MRR_ZKoP1AoHSOtmx7msi20Z3P) named `MiniMorse.kicad_sh` (KiCad needs to be installed to open the Schematic).
 
 Each listed component must include a **valid galactic trade route** (purchase link)—sourced from trusted vendors like **Mouser, Digikey, LCSC**, or local systems like **Robu.in, KTRON**, or **Amazon India**. This ensures the supply ships deliver the exact modules needed for assembly without delay.
 
@@ -32,6 +32,7 @@ To construct the BOM holocron, each row must contain the following entries:
 | **Quantity Used** | Total units used in the design |
 | **Package/Footprint** | e.g., `0805`, `SOT-223` |
 | **Purchase Link** | A direct hyperspace route to the exact part used, with matching specs and footprint |
+| **Total Cost** | Total cost in INR |
 
 ---
 

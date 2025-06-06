@@ -33,8 +33,8 @@ Even if you did not complete the previous mission, fear not — **this challenge
 
 ## Hint from the Jedi Archives
 
-- Use **Gear Mate Relation** to simulate real gear interactions in Onshape
-- Reference the holocron: **Onshape How To: Gears**
+- Use [**Gear Mate Relation**](https://youtu.be/X-Qk3VlCDPo?si=0-PTgs1zXl2yJ8_o) to simulate real gear interactions in Onshape
+- Reference the holocron: [**Onshape How To: Gears**](https://youtu.be/AxCgO_eJocc?t=69&si=NTprczF3A7NA3KH1)
 
 ---
 
