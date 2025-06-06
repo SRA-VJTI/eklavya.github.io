@@ -1,39 +1,55 @@
 ---
 layout: page
 title: Task 3
-description: Spread your arms
-img: assets/img/Turtle.jpeg
+description: The Descent protocol
 importance: 4
+Category: Mathematics
 ---
 
+**Points for this task: 25**
 
-**Points for this task: 100**
+# The Descent Protocol
 
-## Description
-   
-Cooperative robots, or robots that work together in a collaborative manner, have a broad spectrum of applications and importance in today's world. These robots can be utilized in manufacturing to streamline production processes, enhance efficiency, and ensure consistent quality control. In healthcare, they can assist medical professionals by performing repetitive tasks or aiding in surgeries, ultimately improving patient care and outcomes. In disaster response scenarios, cooperative robots can navigate through hazardous environments, gather information, and assist in search and rescue missions, minimizing human risk. Furthermore, in exploration missions, such as space exploration or deep-sea exploration, these robots can work together to gather data and explore environments that are inaccessible or dangerous for humans. The significance of cooperative robots lies in their ability to augment human capabilities, automate tedious tasks, and operate in environments where human presence may be limited or risky. They represent a transformative technology that is reshaping industries and opening up new possibilities for innovation and advancement.
+## Premise
 
-## Task 
-Your Task is to create a simulation of cooperative robots using the ROS2 Turtlesim package to perform the desired maneuver with three turtlesims exactly as described below.
-   1. Turtle 1 should trace the path with red color,turtle2 with black and turtle3 with green color. 
-   2. You need to trace the following equations with the help of turtlesims packages:  
-       Y = 5cos(x) ,Y = 5sin(4x).
-   3. The Three turtlesims should not collide with each other,rather they should complete the given curves simultaneously.
-   4. The first curve traced by turtle 1 should be in interval [0,2π],the second curve should be in [2π,4π] and the third  curve should in [4π,6π].   
+You’re a companion of Han Solo, the Millennium Falcon took a hit during a short battle near the ruins of a forgotten Sith outpost orbiting a rogue planet. While escaping, you made the dumb call to jump into an uncharted gravity rift. Now you're trapped in what appears to be a vertical gravity tunnel, the data does not match anything you seen before. Gravity doesn’t pull in one direction. It changes with **time**. Your sensors spit out a equation:
 
-## Resources 
-   1.  [https://www.youtube.com/watch?v=FSqm0fDfxrk](https://www.youtube.com/watch?v=FSqm0fDfxrk)
-   2.  [https://youtube.com/watch?v=vCTbUgw6k8U](https://youtube.com/watch?v=vCTbUgw6k8U) 
- 
-   
-## Output
+$$
+g(y) = 9.8 \cos(2t)
+$$
 
-- The Expected outcome from the [participants](https://drive.google.com/drive/u/1/folders/1CoQOc8vKLSoqLoNIptqM-c156ZXGEzq3)
-- Make the Requried changes in the MARIO repository.
+The ship’s boosters are offline, and Chewie’s unconscious. Han is piloting manually, he needs your help in finding the trajectory.  
+Suddenly, your mind is touched by a vision from Master Yoda.  
+The vision says:
 
-## Submission Instructions
+$$
+\begin{aligned}
+k_1 &= f(x, t) \\
+k_2 &= f\left(x + \frac{h}{2} k_1, \; t + \frac{h}{2}\right) \\
+k_3 &= f\left(x + \frac{h}{2} k_2, \; t + \frac{h}{2}\right) \\
+k_4 &= f\left(x + h \cdot k_3, \; t + h\right) \\
+x_{\text{next}} &= x + \frac{h}{6} \left(k_1 + 2k_2 + 2k_3 + k_4\right)
+\end{aligned}
+$$
 
-You must create a zip file, which should contain ROS2 packages and a video of the output.
+System to save:
 
-Submit here: [Form](https://docs.google.com/forms/d/e/1FAIpQLSee2HnaR8JB_85cTnUeQ3AU6GudDHGpdXT3K5Yr0GV6cr6K7g/viewform?usp=sf_link)
+$$
+x(t) = \begin{bmatrix}
+y(t) \\
+v(t)
+\end{bmatrix}
+$$
 
+With dynamics as:
+
+$$
+\frac{d}{dt}x = f(x, t) = \begin{bmatrix}
+v(t) \\
+-9.8 \cos(2t)
+\end{bmatrix}
+$$
+
+You realize you are 10 V (Vectras) above the abyss, the ship is **still** and each pulse of time is 0.1 seconds.
+
+Use Yoda’s vision to calculate the state \( x \) at \( t = \{0.1\} \) seconds and save yourself.

@@ -1,56 +1,57 @@
 ---
 layout: page
 title: Task 2
-description: Stargazer's Wish
-img: assets/img/stars.jpg
+description: Rebel Blueprints
 importance: 3
-category: Computer Vision
+category: Electronics (Bill Of Materials)
 ---
 
-**Points for this task: 150**
+**Points for this task: 25**
 
-## Description
+# Rebel Blueprints
 
-In the vast expanse of the night sky, amidst the twinkling constellations and silent cosmic ballet, there exists a celestial wanderer that has captivated the imaginations of humanity for centuries: Halley's Comet. Our tale unfolds with a dedicated stargazer, their eyes fixed upon the heavens, eagerly awaiting the elusive comet's appearance. But this stargazer is not merely content with observing; they seek to unravel the mysteries of the comet's trajectory through the vastness of space.
+## Mission Brief
 
-As our stargazer gazes upwards, they are met not only by the majestic sight of Halley's Comet but also by a myriad of other stars scattered across the canvas of the night sky. These distant suns twinkle and shimmer, casting their own ethereal glow upon the darkness. Yet amidst this celestial symphony, the stargazer must discern the path of the comet, a needle in the cosmic haystack.
+In this mission, the **Padawans** are summoned to generate a **Bill of Materials (BOM)** for the PCB schematics and layouts they forged in the PCB Designing task. Worry not if you skipped the PCB Designing task — this mission stands on its own, young Padawan. This is no trivial duty—every resistor, capacitor, and IC must be accounted for. Only with a complete and accurate BOM can the Rebel Alliance proceed to manufacturing.
+**If you have not done the PCB Designing task** here is your reference [Material](https://drive.google.com/drive/u/0/folders/1RF4yw-MRR_ZKoP1AoHSOtmx7msi20Z3P) named `MiniMorse.kicad_sh`
 
-With a mind as sharp as the edge of a supernova, our stargazer sets forth to tackle the challenge of pinpointing the direction of Halley's Comet. They know that amidst the sea of stars, identifying the comet's trajectory requires keen observation and strategic thinking. Each star becomes a potential distraction, a cosmic enigma begging to divert attention away from the comet's path.
+Each listed component must include a **valid galactic trade route** (purchase link)—sourced from trusted vendors like **Mouser, Digikey, LCSC**, or local systems like **Robu.in, KTRON**, or **Amazon India**. This ensures the supply ships deliver the exact modules needed for assembly without delay.
 
-Undeterred by the vastness of space and the multitude of celestial distractions, our intrepid stargazer delves into the realm of coding. Armed with algorithms and astronomical knowledge, they craft a program capable of transforming the chaos of the cosmos into orderly data, revealing the comet's direction with precision. With elegant syntax as their tool, they decipher the subtle clues embedded in the night sky, guiding their gaze toward the comet's celestial journey.
+The BOM must be compiled and submitted in a **Google Sheet** or **Excel spreadsheet**, ready for command review. All hyperlinks should be clickable and clearly lead to the part used.
 
-As the nights pass and the comet draws nearer, our stargazer's perseverance pays off. With their trusty C++ program guiding the way, they track Halley's Comet's journey across the heavens, unlocking the secrets of its celestial dance. And as the comet fades once more into the depths of space, our stargazer stands triumphant, a testament to the enduring spirit of exploration and discovery that burns brightly within us all.
+---
 
-## Task
+## Jedi Archives: BOM Structure
 
-Your task is to read the images (file names in the zip file we’ll provide) from the zip file using OpenCV.
+To construct the BOM holocron, each row must contain the following entries:
 
-Refer to Pixels repository on github and use basic CV functions as used in it.
+| Column | Galactic Description |
+|--------|-----------------------|
+| **Component Name** | e.g., `0805 resistor`, `LM741` |
+| **Description** | e.g., `"5% tolerance, 10kΩ SMD resistor"` |
+| **Quantity Used** | Total units used in the design |
+| **Package/Footprint** | e.g., `0805`, `SOT-223` |
+| **Purchase Link** | A direct hyperspace route to the exact part used, with matching specs and footprint |
 
-Print the directions determined for all images on the terminal itself.
+---
 
-Directions of the comet can be North-West, North-East, South-East, South-West.
+## Hint from Master Yoda
 
+> Use websites like **Mouser**, **DigiKey**, **Robu.in**, and **KTRON**. You can also filter by **package type** when selecting parts. Always **check the datasheets** to verify footprints before selecting the final component for the blueprint.
 
-## Input
+---
 
-Zip file containing input images : [Download here](https://drive.google.com/file/d/1x160acFLSQUxT6KhZfOBOMm3lhMh4LgV/view?usp=drive_link)
+## Warnings from the High Council
 
-### Expected Output:
+- **Ensure Availability**: Only select components that are in stock and ready for delivery across the galaxy.
+- **Match the Footprint**: The mechanical specs must align perfectly with the footprints used in the PCB layout. Incorrect footprints can cause droid malfunctions.
+- **State Equivalents Clearly**: If the exact component is unavailable, provide a clear and compatible equivalent—no smuggling forbidden parts.
+- **No Overpricing**: Avoid parts from the Outer Rim markets that are unnecessarily expensive unless absolutely essential.
 
-{% include figure.html path="assets/img/task_2_example.png" title="example image" class="img-fluid rounded z-depth-1" %}
+---
 
+## Final Orders
 
-### Guidelines
+Let your attention to detail be as precise as a Jedi’s lightsaber. The future of the Resistance’s circuits depends on this document. May your BOM be accurate, available, and affordable.
 
-Language: The program must be implemented in C++.
-
-Libraries: Only standard C++ libraries. OpenCV can be used only for reading and displaying images.
-
-Image Input: The program should accept input images in common formats, such as JPEG or PNG.
-
-## Submission Instructions
-
-You must create a .zip file containing the C++ code file (.cpp), Makefile and screenshots of terminal containing the output directions of every image.
-
-Submit here: [Form](https://forms.gle/LGmze3ZvRkhzqcBDA)
+**May the Source Be With You.**

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: RC Dragonfly/Ornithopter from scratch
+title: RC Ornithopter from scratch
 
-description: A hands-on project combining simulation and real-world control of the SO100 robotic arm using vision, language, and machine learning.  
+description: This project builds a remote-controlled, bird-scale ornithopter from scratch, blending bio-inspired design with precision engineering.
 ---
 
 ---

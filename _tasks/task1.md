@@ -1,124 +1,79 @@
 ---
 layout: page
 title: Task 1
-description: Maze Runner
-img: assets/img/maze.jpeg
+description: The Binary Gauntlet
 importance: 2
+Category: Computer Vision
 ---
 
-**Points for Task: 100**
+**Points for this task: 50**
 
-## Description
+# The Binary Gauntlet  
+_A challenge only the most perceptive members of the Rebel Alliance can overcome._
 
-Alan faced a maze in a vast city. He had to navigate a treacherous path full with mines and incorrect turns. But he was determined to go to his target, even if it meant risking danger around every corner.
-Alan's journey was like a puzzle with many pieces missing. Every time he believed he was on the correct track, he ran into a dead end or turned back on discovering a concealed mine. It was aggravating, but Alan refused to quit. He continued going, determined to finish no matter what.
-After what seemed like an eternity, Alan arrived at his destination. He felt tired and relieved. He understood he needed to assist others to avoid the same difficulties he encountered. So he sent all of the details of his journey—every false turn, every mine—to his pal Tom, who was waiting at the starting spot.
-Tom was quite skilled at reading maps and finding out the best routes. When he received Alan's information, he realised he had an essential job. He meticulously documented Alan's route, noting every twist and bend, every risky area.
-Tom used Alan's data to generate a map of his path. Then he began determining the safest path for others to travel. He wanted to ensure that no one else had to go through what Alan did. With patience and skill, Tom evaluated the map to find the optimum route that avoided the mines and wrong turns.
+Welcome, young Padawan, to **The Binary Gauntlet** – a cryptographic trial embedded inside a **20×20 galactic pixel grid**. Only those who can decode the transmission hidden within shall retrieve the encrypted secret held tightly by the Empire.
 
+---
 
-**An Example of Maze**
+## Mission Objective
 
-```
-                                                    ___
- __________________________________________________|   |
-|   _______________________________    ____________    | <---- **END**
-|  |               |  |            |  |            |___|
-|  |               |  |            |  |
-|  |         ______|  |____        |  |
-|  |        |   ________   |       |  |
-|  |        |  |        |  |       |  |
-|  |        |  |        |  |       |  |
-|  |        |  |        |  |       |  |
-|  |        |  |        |  |       |  |
-|  |        |  |        |  |       |  |
-|  |        |  |        |  |       |  |
-|  |________|  |________|  |_______|  |________|
-|___________    _______________________________| <--- **DEAD END**
-            |  |
-            |  |
-            |  |
-            |  |
-            |  |
-          **START**
+Your task is to:
 
+- Traverse a **pixel-based grid** using custom Jedi traversal rules.
+- Extract **binary data** from each valid cell (Black = 1, White = 0).
+- Respect all **movement constraints** set by the Jedi Council.
+- Decode the resulting binary stream into a **14-character ASCII passphrase**.
+- Use this passphrase to **unlock a zip file** and recover a **classified Rebel video transmission**.
 
-```
+---
 
-** Sensor placement ***
-- Two sensors are used for this maze : a Line Sensor Array and an Infrared (IR) sensor.
+## The Galactic Grid
 
-```
-                               |     |
-                               |     |
-                           ____|     |____
-                           ____|     |____
-                               |     |
-                               |  6  |
-                              1|2 3 4|5
-```
+Each pixel is a **cell of traversal**. The colors and their meanings are as follows:
 
-- 1, 2, 3, 4, 5 are the positions of the 5 line sensors and the 6th is for the IR sensor.
-- The line sensors detect the lines on the maze while the IR sensor detects mines on it.
+| Pixel Color           | Meaning                              |
+| --------------------- | ------------------------------------ |
+| White `(255,255,255)` | Binary `0` – valid step              |
+| Black `(0,0,0)`       | Binary `1` – valid step              |
+| Red `(255,0,0)`       | Forbidden Zone – stepping here = mission failure |
+| Blue `(0,0,255)`      | Checkpoints – must pass through in order |
+| Green `(0,255,0)`     | Starting point (for visual aid only) |
 
-**Types of Junction**
+---
 
-```
-					   |XX|	  <--- Mines/U-turn
-					   |  |
-			-----------    -------------    <---- plus junction
-			-----------	   -------------		
-                       |  |
-                       |  |
-         ______________|  |
- Only-->|   ______________|  <-- Only Left
- Right  |  |
-        |  |
-    ____|  |____
-    ____    ____ <-- Plus
-        |  |
-        |  |
-    ____|  |
-    ____   | <-- Straight+Left
-        |  |
-        |  |_____
-        |   _____ <-- Straight+Right
-        |  |
-        |  |
-        |  |
-        |  |
+## Jedi Traversal Rules
 
-```
+1. **Valid Steps Only**: Step only on black or white pixels.  
+   **Red pixels are traps** — they trigger alarms and end your mission.
 
-# Task
+2. **Bit Extraction**:
+   - Step on **White → record `0`**
+   - Step on **Black → record `1`**
+   - **Order matters**: record bits in the order of your steps
 
-[Download Task data](https://drive.google.com/file/d/1lQB1hIVMLCdLkzNckBj-tAfWj_tsVkLb/view?usp=drive_link)
+3. **Checkpoint Protocol**:
+   - You must visit **blue pixels** in the **exact order** they appear in the galaxy.
 
+4. **No Re-Tracing**:
+   - **Do not step twice** on any pixel — each move is final.
 
-## Input
+---
 
-- `LSA_IR_data.txt`  has the sensor data obtained by Alex ,that has all the turns & obstacles on the map Alex traversed.
-- You will now process this map to find the shortest and safest path on the map .
+## Expected Outcome
 
-## Output
-- The output should consist of the shortest & safest path to navigate the maze . The path should be printed into a text file describing each turn taken at the type of junction with the direction.
-- Use the below example for reference : 
-```
-START
-LEFT TURN       PLUS                    East
-RIGHT TURN      ONLY RIGHT              South
-LEFT TURN       ONLY LEFT               East
-END
-...
-```
+- You will collect **112 binary bits** during your journey.
+- Convert these into **14 ASCII characters** using the ways of the Jedi.
+- This string is the **password** to unlock the zip file:  
+  `secret.zip`
+- Inside the archive lies a **critical video transmission**. Share it with the Rebellion and claim your reward.
 
-__Note__ :- 
-1. You should use only C language to solve this task.
-2.  Consider reference direction as North.
-3.  U turn is taken whenever a mine is encountered.
+---
 
-## Submission Instructions
+## Mission Visual
+ 
+![Binary Gauntlet Grid](assets/img/maze.png)
 
-- You must create a zip file, which should contain your code and generated output files.
+---
 
-- Submit here : [Link to Google Form](https://docs.google.com/forms/d/e/1FAIpQLSdRxKT2FxImMbvCOjaz35dgR1TDHpwIVYi31AI_b4yyg4SVNw/viewform?usp=sharing)
+**The Empire hides its secrets in plain sight — only a true decoder of the Force will succeed.**  
+_This is your trial. May the Source be with you._

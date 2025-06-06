@@ -53,14 +53,14 @@ table.table a {
 .table-dark tbody tr,
 .table-dark tbody th,
 .table-dark tbody td {
-  background-color: #ffffff !important;   /* rows & header → white   */
-  color:            #000000 !important;   /* text  → black           */
-  border-color:     #dee2e6 !important;   /* thin grey table borders */
+  background-color: inherit !important;
+  color: inherit !important;
+  border-color: inherit !important;
 }
 
 /* If you still want zebra striping: */
 .table-dark.table-striped tbody tr:nth-of-type(odd) {
-  background-color: #f8f9fa !important;   /* pale grey for odd rows  */
+  background-color: rgba(255, 255, 255, 0.05) !important;
 }
 
 figure,
@@ -1026,4 +1026,40 @@ h1, h2, h3, h4 {
   font-family: "Space Grotesk", sans-serif;
   font-weight: 300;           /* thin like Teenage Engineering headers */
   letter-spacing: -0.015em;   /* tighten a bit */
+}
+
+// Projects table styling
+.post table {
+  background-color: var(--global-bg-color);
+  color: var(--global-text-color);
+  border: 1px solid var(--global-divider-color);
+  
+  th {
+    background-color: var(--global-card-bg-color);
+    color: var(--global-text-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding: 8px;
+  }
+  
+  td {
+    color: var(--global-text-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding: 8px;
+  }
+}
+
+body.dark-theme .post table {
+  background-color: var(--global-bg-color);
+  border: 1px solid var(--global-divider-color);
+  
+  th {
+    background-color: #2c3237;
+    color: #f8f9fa;
+    border-bottom: 1px solid #495057;
+  }
+  
+  td {
+    color: #f8f9fa;
+    border-bottom: 1px solid #495057;
+  }
 }
