@@ -8,7 +8,7 @@ description: Fine-tune a T5 transformer to fix grammar mistakes and serve it thr
 ---
 
 | Project Domains                                              |Mentors| Project Difficulty |
-|------------------------------------------------------------|--|--------------------|
+|------------------------------------------------------------|---|--------------------|
 | NLP, Deep Learning, Transformers, Model Deployment, Pre-proc|Rakshita, Prithvi| Hard               |
 
 ---
