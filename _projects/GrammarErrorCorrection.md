@@ -9,7 +9,7 @@ description: Fine-tune a T5 transformer to fix grammar mistakes and serve it thr
 
 | Project Domains                                              |Mentors| Project Difficulty |
 |------------------------------------------------------------|--|--------------------|
-| NLP, Deep Learning, Transformers, Model Deployment, Pre-proc|Rakshita, Pritvi| Hard               |
+| NLP, Deep Learning, Transformers, Model Deployment, Pre-proc|Rakshita, Prithvi| Hard               |
 
 ---
 
@@ -26,6 +26,8 @@ Optional extras include batch endpoints, ONNX/quantized inference, and WandB exp
 
 ### Resources
 
+* Basics of Neural Networks & Transformer
+  <https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=WGVaBp3-osE6ohtc>
 * Quick tour of Hugging Face Transformers  
   <https://huggingface.co/docs/transformers/quicktour>  
 * T5 paper — *Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer*  
