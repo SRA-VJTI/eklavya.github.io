@@ -93,3 +93,6 @@ The serpent winds to unlock the lore.
 
 **The Empire hides its secrets in plain sight — only a true decoder of the Force will succeed.**  
 _This is your trial. May the Source be with you._
+
+
+## [Submit Here](https://forms.gle/wLxmFGn5XrVZzyER7)

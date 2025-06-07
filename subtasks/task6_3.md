@@ -108,3 +108,5 @@ Here are some helpful resources to guide you:
 **The Force binds all logic gates together. Let your HDL flow freely, but precisely.**
 
 _May the clock edge rise in your favor._
+
+## [Submit Here](https://forms.gle/o7KpTTQKPNxvDX7XA)
