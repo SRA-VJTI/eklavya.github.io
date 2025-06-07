@@ -56,3 +56,5 @@ To construct the BOM holocron, each row must contain the following entries:
 Let your attention to detail be as precise as a Jedi’s lightsaber. The future of the Resistance’s circuits depends on this document. May your BOM be accurate, available, and affordable.
 
 **May the Source Be With You.**
+
+## [Submit Here](https://forms.gle/2jLS4TkaVnkNYLkV6)
