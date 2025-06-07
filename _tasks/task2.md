@@ -46,7 +46,6 @@ To construct the BOM holocron, each row must contain the following entries:
 
 - **Ensure Availability**: Only select components that are in stock and ready for delivery across the galaxy.
 - **Match the Footprint**: The mechanical specs must align perfectly with the footprints used in the PCB layout. Incorrect footprints can cause droid malfunctions.
-- **State Equivalents Clearly**: If the exact component is unavailable, provide a clear and compatible equivalent—no smuggling forbidden parts.
 - **No Overpricing**: Avoid parts from the Outer Rim markets that are unnecessarily expensive unless absolutely essential.
 
 ---
