@@ -2,14 +2,14 @@
 layout: page
 title: CustomBoot-32 
 
-description: A compact STM32 + ESP32 board that stores multiple firmware images and updates itself over Wi-Fi.  
+description: STM32+ESP32 Development Board with Custom Bootloader and OTA Support
 ---
 
 ---
 
 | Project Domains                                       |Mentors | Project Difficulty |
 |-------------------------------------------------------|-------|------------|
-| Embedded Systems, Bootloaders, OTA, PCB Design, UART  | Pritvi, Shaunak |Hard               |
+| Embedded C, PCB Designing, Bootloaders, OTA, PCB Design, UART  | Prithvi, Vishal , Shaunak |Hard               |
 
 ---
 

@@ -22,7 +22,7 @@ Your task is to:
 - Traverse a **pixel-based grid** using custom Jedi traversal rules.
 - Extract **binary data** from each valid cell (Black = 1, White = 0).
 - Respect all **movement constraints** set by the Jedi Council.
-- Decode the resulting binary stream into a **14-character ASCII passphrase**.
+- Decode the resulting binary stream into a **13-character ASCII passphrase**.
 - Use this passphrase to **unlock a zip file** and recover a **classified Rebel video transmission**.
 
 ---
@@ -41,7 +41,7 @@ Each pixel is a **cell of traversal**. The colors and their meanings are as foll
 
 ---
 
-## Jedi Traversal Rules
+## Jedi Traversal Rules & Collection Rules
 
 1. **Valid Steps Only**: Step only on black or white pixels.  
    **Red pixels are traps** — they trigger alarms and end your mission.
@@ -50,6 +50,8 @@ Each pixel is a **cell of traversal**. The colors and their meanings are as foll
    - Step on **White → record `0`**
    - Step on **Black → record `1`**
    - **Order matters**: record bits in the order of your steps
+   - Each character is encoded as 8 bits (standard ASCII).
+   - After every 8 bits (one character), the 9th cell is a blue checkpoint.
 
 3. **Checkpoint Protocol**:
    - You must visit **blue pixels** in the **exact order** they appear in the galaxy.
@@ -57,12 +59,26 @@ Each pixel is a **cell of traversal**. The colors and their meanings are as foll
 4. **No Re-Tracing**:
    - **Do not step twice** on any pixel — each move is final.
 
+
 ---
 
+## Hint from Master Yoda
+
+> To uncover the message, you must follow the serpent's trail:
+From the glowing green, your path begins,
+Right you go, 'til the row thins.
+Drop down once, then switch your stride,
+Now to the left, let logic guide.
+Down again, the pattern stays,
+Right then left in woven ways.
+A zig, a zag across the floor,
+The serpent winds to unlock the lore.
+
+--
 ## Expected Outcome
 
 - You will collect **112 binary bits** during your journey.
-- Convert these into **14 ASCII characters** using the ways of the Jedi.
+- Convert these into **13 ASCII characters** using the ways of the Jedi.
 - This string is the **password** to unlock the zip file:  
   [`secret.zip`](https://drive.google.com/drive/u/0/folders/1RF4yw-MRR_ZKoP1AoHSOtmx7msi20Z3P)
 - Inside the archive lies a **critical video transmission**. Share it with the Rebellion and claim your reward.
