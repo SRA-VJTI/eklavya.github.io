@@ -64,13 +64,13 @@ horizontal: false
 
 ## Important For Task Submissions
 
-- [ ] Google Drive folder created with your **team name**
-- [ ] Separate subfolders created for each task in the format: `eamName_TeamNumber_Task1`, `TeamName_TeamNumber_Task2`, etc.
-- [ ] All required documents added inside the correct task folders
-- [ ] Google Doc is added to the task folder in Drive (Wherever required)
-- [ ] Document is **shared with edit access**
-- [ ] Document sharing is set to: **Anyone with the link can view**
-- [ ] Drive folder link is **ready and accessible**
-- [ ] Google Form is filled with **only the Drive link**
-- [ ] Submission is **confirmed with your mentor**
-- [ ] Only **one submission per task** has been made
+- Google Drive folder created with your **TeamName_TeamNumber**
+- Separate subfolders created for each task in the format: `TeamName_TeamNumber_Task1`, `TeamName_TeamNumber_Task2`, etc.
+- All required documents added inside the correct task folders
+- Google Doc is added to the task folder in Drive (Wherever required)
+- Document is **shared with edit access**
+- Document sharing is set to: **Anyone with the link can view**
+- Drive folder link is **ready and accessible**
+- Google Form is filled with **only the Drive link**
+- Submission is **confirmed with your mentor**
+- Only **one submission per task** has been made
