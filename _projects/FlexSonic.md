@@ -9,7 +9,7 @@ description: Design a smart glove that translates hand gestures into audible spe
 
 | Project Domains                                      | Project Mentors                 | Project Difficulty |
 |------------------------------------------------------|---------------------------------|--------------------|
-| ESP-IDF, Machine Learning, Embedded C, PCB Designing | Bhavesh Phundhkar, Yash Sutar   | Hard               |
+| ESP-IDF, Machine Learning, Embedded C, PCB Designing | Bhavesh Phundhkar, Yash Suthar   | Hard               |
 
 ---
 
@@ -21,6 +21,5 @@ An ESP32 microcontroller will process this stream of sensor data in real-time. B
 ---
 
 ### Resources
-[C Programming](https://youtube.com/playlist?list=PLvv0ScY6vfd8M-Mi_Vyrg7KgISTW3Sklt&si=iYt2vr5YE8kIqjZX)<br>
 [ESP32 API Reference](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/index.html)<br>
 [Flex Sensor Datasheet](https://cdn.sparkfun.com/assets/8/e/7/a/0/flex22.pdf)<br>

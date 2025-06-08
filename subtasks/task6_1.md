@@ -24,6 +24,28 @@ Even if you did not complete the previous mission, fear not — **this challenge
 
 ---
 
+## Transmission Blueprint Protocol – Eklavya Mission
+
+- Rename your holocron (document) to the format:  
+  `Eklavya_<Team Name>_<Team Number>`
+
+- Grant editing access to the Jedi Council members:  
+  hssagare_b23@el.vjti.ac.in  
+  vvnigudkar_b23@el.vjti.ac.in  
+  Do this once your design is ready for review and inform your mentor.
+
+- Blueprint requirements:
+  - Label all key components clearly:
+    - Input Gear
+    - Output Gear
+    - Input Shaft
+    - Output Shaft
+  - Include a marker to track revolutions.
+  - Ensure the design is clear and easy to evaluate.
+
+> Clarity, precision, and compact design will lead your squad to triumph.
+---
+
 ## Expected Outcome
 
 - **Onshape design file** (Link to the File with edit Access)

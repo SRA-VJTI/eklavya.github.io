@@ -9,7 +9,7 @@ description: Build a graceful omnidirectional robot that autonomously collects a
 
 | Project Domains                                      |  Mentors                 | Project Difficulty |
 |------------------------------------------------------|---------------------------------|--------------------|
-| Hardware Design, Computer Vision, Control Systems, Electronics | Prajwal Avhad, Harsh, Soham     | Medium             |
+| Hardware Design, Computer Vision, Control Systems, Electronics | Prajwal, Harsh, Soham     | Medium             |
 
 ---
 

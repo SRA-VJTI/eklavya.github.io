@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Make It Move
+title: Quad-Move
 
 description: Train a PPO-based gait policy in MuJoCo and deploy it on a low-cost, tortoise-style quadruped.  
 ---
