@@ -43,10 +43,6 @@ Even if you did not complete the previous mission, fear not — **this challenge
   - Include a marker to track revolutions.
   - Ensure the design is clear and easy to evaluate.
 
-- Compactness is key. The more space-efficient your build, the stronger your chances of ranking higher.
-
-- The top 3 most space-efficient designs will receive a 35-point bonus at the end of Round 1.
-
 > Clarity, precision, and compact design will lead your squad to triumph.
 ---
 
