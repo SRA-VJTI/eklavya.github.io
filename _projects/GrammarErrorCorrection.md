@@ -25,10 +25,6 @@ Optional extras include batch endpoints, ONNX/quantized inference, and WandB exp
 ---
 
 ### Resources
-
-* Basics of Neural Networks & Transformer
-  <https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=WGVaBp3-osE6ohtc>
-* Quick tour of Hugging Face Transformers  
-  <https://huggingface.co/docs/transformers/quicktour>  
-* T5 paper — *Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer*  
-  <https://arxiv.org/pdf/1910.10683>  
+[LLMs](https://youtu.be/wjZofJX0v4M?si=4i5WI0jNHPdFvNba)<br>
+[Attention Mechanism](https://youtu.be/eMlx5fFNoYc?si=junFWu6Mgudcd1ci)<br>
+[Gradient Descent](https://youtu.be/IHZwWFHWa-w?si=rDAmRTBPc9o0-Ps7)<br>

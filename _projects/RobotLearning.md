@@ -26,7 +26,6 @@ This project introduces robotics, machine learning, and language-conditioned con
 ---
 
 ### Resources
-
-[SO100 in MuJoco](https://wiki.seeedstudio.com/lerobot_so100m/?)<br>
-[TeleOp Data Collection demo](https://medium.com/%40sarohapranav/my-experiences-and-tips-for-creating-a-robotic-so100-arm-3df779a4aae7)<br>
-[Train an Action Chunking Transformer ](https://github.com/Shaka-Labs/ACT)<br>
+[LeRobot](https://github.com/huggingface/lerobot)
+[Paper for Action Chunking Transformer ](https://tonyzhaozh.github.io/aloha/)
+[Additional Robot Learning Resources](https://huggingface.co/blog/nvidia/gr00t-n1-5-so101-tuning)

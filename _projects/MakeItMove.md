@@ -36,4 +36,4 @@ Deploy the final network to a Raspberry Pi controller, drive affordable servos, 
 [Kurma](https://drive.google.com/file/d/1KZD7YOJFVc-1V6P_AOij_7Ek0Aka7dkh/view) <br>
 [Intro to Reinforcement Learning](https://youtu.be/JgvyzIkgxF0) <br>
 [Inverse RL](https://thegradient.pub/learning-from-humans-what-is-inverse-reinforcement-learning) <br>
-[PPO – Spinning Up guide](https://spinningup.openai.com/en/latest/algorithms/ppo.html) 
+[PPO – Explained](https://klu.ai/glossary/proximal-policy-optimization) 

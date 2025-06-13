@@ -24,6 +24,7 @@ description: STM32+ESP32 Development Board with Custom Bootloader and OTA Suppor
 
 ### Resources
 
-[STM32CubeIDE Quick-Start](https://youtube.com/playlist?list=PLNyfXcjhOAwO5HNTKpZPsqBhelLF2rWQx)<br>
-[UART Basics – Phil’s Lab](https://www.youtube.com/watch?v=15zXAhsVx0k)<br>
-[PCB Design Crash Course](https://youtube.com/playlist?list=PLEBQazB0HUyR24ckSZ5u05TZHV9khgA1O)<br>
+[Reference Project](https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board)<br>
+[BootLoader](https://embeddedinventor.com/embedded-bootloader-and-booting-process-explained/)<br>
+[OTA](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/api-reference/system/esp_https_ota.html)<br>
+[STM32](https://youtu.be/EaZuKRSvwdo?si=apB8K7ngO-cd8fAq)<br>
