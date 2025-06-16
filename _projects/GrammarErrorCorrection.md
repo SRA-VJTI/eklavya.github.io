@@ -7,9 +7,9 @@ description: Fine-tune a T5 transformer to fix grammar mistakes and serve it thr
 
 ---
 
-| Project Domains                                              |Mentors| Project Difficulty |
-|------------------------------------------------------------|---|--------------------|
-| NLP, Deep Learning, Transformers, Model Deployment, Pre-proc|Rakshita, Prithvi| Hard               |
+| Project Domains                                                   |                  Mentors           | Project Difficulty |
+|-------------------------------------------------------------------|------------------------------------|--------------------|
+| NLP, Deep Learning, Transformers, Model Deployment, Pre-processing|Rakshita Kowlikar, Prithvi Tambewagh| Hard               |
 
 ---
 
@@ -25,6 +25,5 @@ Optional extras include batch endpoints, ONNX/quantized inference, and WandB exp
 ---
 
 ### Resources
-[LLMs](https://youtu.be/wjZofJX0v4M?si=4i5WI0jNHPdFvNba)<br>
-[Attention Mechanism](https://youtu.be/eMlx5fFNoYc?si=junFWu6Mgudcd1ci)<br>
-[Gradient Descent](https://youtu.be/IHZwWFHWa-w?si=rDAmRTBPc9o0-Ps7)<br>
+[Neural Networks and LLMs](https://youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&si=guP7tS2C4tJPhJ6k)<br>
+[T5 Transformer](https://www.youtube.com/watch?v=91iLu6OOrwk&t=245s)<br>
