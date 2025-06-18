@@ -9,7 +9,7 @@ description: Bare-metal OS on Raspberry Pi with HDMI and a Pong game from scratc
 
 | Project Domains                                               | Mentors                                                    | Project Difficulty |
 |---------------------------------------------------------------|------------------------------------------------------------|--------------------|
-| Bare-metal, Drivers, ARM Assembly, Hardware Abstraction Layer | Shaunak Datar, Aditya Joil, Prithvi Tambewagh              | Hard               |
+| Bare-metal, Drivers, ARM Assembly, Hardware Abstraction Layer | Shaunak Datar, Aaditya Joil, Prithvi Tambewagh              | Hard               |
 
 ---
 
@@ -22,5 +22,6 @@ The project deals with creating a bare-metal operating system and hardware abstr
 
 ### Resources
 [RasPi-OS](https://github.com/s-matyukevich/raspberry-pi-os)<br>
+[RasPi-OS blog](https://s-matyukevich.github.io/raspberry-pi-os/)<br>
 [Assembly Language](https://youtu.be/gfmRrPjnEw4?si=flEVGXRJBXGRP29f)<br>
 [BareMetal Programming](https://youtu.be/mshVdGlGwBs?si=KgdI0XSvzd5yrXnl)<br>
