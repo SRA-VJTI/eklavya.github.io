@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Home | Eklavya 2026</title>
     <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
@@ -120,6 +120,51 @@
         <div class="ctl-event"><strong>Eklavya begins</strong></div>
       </div>
     </div>
+  </div>
+</div>
+
+<!-- Mobile-only timeline -->
+<div class="mobile-timeline">
+  <div class="ctl-line"></div>
+  <div class="ctl-item">
+    <div class="ctl-date">6 Jun</div>
+    <div class="ctl-dot"></div>
+    <div class="ctl-event">1st round of projects announced</div>
+  </div>
+  <div class="ctl-item">
+    <div class="ctl-date">8 Jun</div>
+    <div class="ctl-dot"></div>
+    <div class="ctl-event">Eklavya explanation session</div>
+  </div>
+  <div class="ctl-item">
+    <div class="ctl-date">10 Jun</div>
+    <div class="ctl-dot"></div>
+    <div class="ctl-event">Form deadline</div>
+  </div>
+  <div class="ctl-item">
+    <div class="ctl-date">12 – 19 Jun</div>
+    <div class="ctl-dot"></div>
+    <div class="ctl-event">Round 1 of Eklavya</div>
+  </div>
+  <div class="ctl-item">
+    <div class="ctl-date">22 Jun</div>
+    <div class="ctl-dot"></div>
+    <div class="ctl-event">Declaration of all projects &amp; Round 1 results</div>
+  </div>
+  <div class="ctl-item">
+    <div class="ctl-date">26 – 27 Jun</div>
+    <div class="ctl-dot"></div>
+    <div class="ctl-event">Interview round</div>
+  </div>
+  <div class="ctl-item">
+    <div class="ctl-date">30 Jun</div>
+    <div class="ctl-dot"></div>
+    <div class="ctl-event">Project team declaration</div>
+  </div>
+  <div class="ctl-item">
+    <div class="ctl-date">2 Jul</div>
+    <div class="ctl-dot"></div>
+    <div class="ctl-event"><strong>Eklavya begins</strong></div>
   </div>
 </div>
 
@@ -274,6 +319,39 @@
 
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();
+
+    // ── Mobile timeline scroll animation ──────────────────────────
+    var mobileTl = document.querySelector('.mobile-timeline');
+    if (mobileTl) {
+      var mLine  = mobileTl.querySelector('.ctl-line');
+      var mItems = mobileTl.querySelectorAll('.ctl-item');
+
+      // position line to span exactly first dot → last dot
+      var firstDot = mItems[0].querySelector('.ctl-dot');
+      var lastDot  = mItems[mItems.length - 1].querySelector('.ctl-dot');
+      function positionMobileLine() {
+        var tlRect    = mobileTl.getBoundingClientRect();
+        var fRect     = firstDot.getBoundingClientRect();
+        var lRect     = lastDot.getBoundingClientRect();
+        mLine.style.top    = (fRect.top + fRect.height / 2 - tlRect.top) + 'px';
+        mLine.style.bottom = (tlRect.bottom - (lRect.top + lRect.height / 2)) + 'px';
+      }
+      positionMobileLine();
+      window.addEventListener('resize', positionMobileLine);
+
+      function onScrollMobile() {
+        var rect = mobileTl.getBoundingClientRect();
+        var vh   = window.innerHeight;
+        var progress = Math.max(0, Math.min(1, (vh * 1.1 - rect.top) / (rect.height + vh * 0.3)));
+        mLine.style.transform = 'scaleY(' + progress + ')';
+        mItems.forEach(function(item, i) {
+          item.classList.toggle('visible', progress >= (i + 0.5) / mItems.length);
+        });
+      }
+
+      window.addEventListener('scroll', onScrollMobile, { passive: true });
+      onScrollMobile();
+    }
 
     // ── Zigzag reveal ──────────────────────────────────────────────
     var pairs = document.querySelectorAll('.zz-pair');
