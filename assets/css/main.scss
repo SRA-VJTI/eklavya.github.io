@@ -118,6 +118,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     gap: 0.1em;
+    font-size: clamp(2rem, 8vw, 3rem);
   }
 
   .nav-hamburger {
@@ -263,23 +264,23 @@ a {
   }
 
   .hi-so100 {
-    width: 230px;
-    right: -4%;
+    width: min(42vw, 230px);
+    right: -2%;
     top: 5%;
     transform: rotate(-20deg);
   }
   .hi-hand {
-    width: 240px;
+    width: min(44vw, 240px);
     left: 0%;
     bottom: 5%;
   }
   .hi-duck {
-    width: 270px;
-    left: -4%;
+    width: min(48vw, 270px);
+    left: -2%;
     top: 5%;
   }
   .hi-turtle {
-    width: 260px;
+    width: min(46vw, 260px);
     right: 0%;
     bottom: 5%;
     transform: rotate(-4deg);
@@ -608,6 +609,8 @@ a {
   line-height: 1.7;
   color: var(--black);
   margin-bottom: 3.5rem;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 .zz-body {
