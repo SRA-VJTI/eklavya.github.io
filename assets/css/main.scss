@@ -110,10 +110,6 @@ a {
     padding: 0 6%;
   }
 
-  .chance-timeline {
-    display: none;
-  }
-
   .chance-block {
     flex-direction: column;
     align-items: flex-start;
@@ -413,6 +409,34 @@ a {
   }
 }
 
+/* ─── Mobile-only timeline ──────────────────────────────────────── */
+
+.mobile-timeline {
+  display: none;
+  padding: 3rem 8%;
+  background: #fff;
+  position: relative;
+}
+
+.mobile-timeline .ctl-line {
+  position: absolute;
+  left: calc(8% + 95px);
+  width: 1.5px;
+  background: var(--red);
+  transform-origin: top;
+  transform: scaleY(0);
+}
+
+.mobile-timeline .ctl-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+.mobile-timeline .ctl-item:last-child {
+  margin-bottom: 0;
+}
+
 /* ─── Inline timeline (chance section) ─────────────────────────── */
 
 .ctl-line {
@@ -431,6 +455,15 @@ a {
   display: flex;
   flex-direction: column;
   gap: 1.8rem;
+}
+
+@media (max-width: 640px) {
+  .chance-timeline {
+    display: none;
+  }
+  .mobile-timeline {
+    display: block;
+  }
 }
 
 .ctl-item {
