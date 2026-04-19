@@ -173,7 +173,8 @@ nav_order: 2
   </div>
 </div>
 
-<p class="zz-body" style="text-align: center; padding: 6rem 0; background: #fff;">It's been a long journey but every step was worth it</p>
+<p class="zz-body" style="text-align: center; padding: 9rem 0 1rem; background: #fff;">What an insane journey it has been</p>
+<p class="zz-body" style="text-align: center; padding: 0 0 6rem; background: #fff;">This is the chance to start yours</p>
 
 <script>
   (function () {

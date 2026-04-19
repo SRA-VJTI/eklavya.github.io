@@ -13,11 +13,54 @@ layout: default
       <span class="chance-static">A chance to</span>
       <span class="chance-word-wrap">
         <span class="chance-track">
-          <span>build</span>
           <span>learn</span>
+          <span>build</span>
           <span>grow</span>
         </span>
       </span>
+    </div>
+    <div class="chance-timeline" id="chance-timeline">
+      <div class="ctl-line"></div>
+      <div class="ctl-item">
+        <div class="ctl-date">6 Jun</div>
+        <div class="ctl-dot"></div>
+        <div class="ctl-event">1st round of projects announced</div>
+      </div>
+      <div class="ctl-item">
+        <div class="ctl-date">8 Jun</div>
+        <div class="ctl-dot"></div>
+        <div class="ctl-event">Eklavya explanation session</div>
+      </div>
+      <div class="ctl-item">
+        <div class="ctl-date">10 Jun</div>
+        <div class="ctl-dot"></div>
+        <div class="ctl-event">Form deadline</div>
+      </div>
+      <div class="ctl-item">
+        <div class="ctl-date">12 – 19 Jun</div>
+        <div class="ctl-dot"></div>
+        <div class="ctl-event">Round 1 of Eklavya</div>
+      </div>
+      <div class="ctl-item">
+        <div class="ctl-date">22 Jun</div>
+        <div class="ctl-dot"></div>
+        <div class="ctl-event">Declaration of all projects &amp; Round 1 results</div>
+      </div>
+      <div class="ctl-item">
+        <div class="ctl-date">26 – 27 Jun</div>
+        <div class="ctl-dot"></div>
+        <div class="ctl-event">Interview round</div>
+      </div>
+      <div class="ctl-item">
+        <div class="ctl-date">30 Jun</div>
+        <div class="ctl-dot"></div>
+        <div class="ctl-event">Project team declaration</div>
+      </div>
+      <div class="ctl-item">
+        <div class="ctl-date">2 Jul</div>
+        <div class="ctl-dot"></div>
+        <div class="ctl-event"><strong>Eklavya begins</strong></div>
+      </div>
     </div>
   </div>
 </div>
@@ -34,7 +77,7 @@ layout: default
         <p class="zz-body" style="font-size: 1.08rem; line-height: 2.1; margin-top: 1.2rem;">Eklavya is a chance for you to put that knowledge to the test.</p>
       </div>
       <div class="zz-img-wrap">
-        <img src="{{ '/assets/img/eklavya_1.JPG' | relative_url }}" alt="Eklavya project" class="zz-image">
+        <img src="{{ '/assets/img/eklavya_1.webp' | relative_url }}" alt="Eklavya project" class="zz-image">
       </div>
     </div>
   </div>
@@ -43,7 +86,7 @@ layout: default
   <div class="zz-container">
     <div class="zz-pair zz-left">
       <div class="zz-img-wrap">
-        <img src="{{ '/assets/img/eklavya_2.jpeg' | relative_url }}" alt="Eklavya workshop" class="zz-image">
+        <img src="{{ '/assets/img/eklavya_2.webp' | relative_url }}" alt="Eklavya workshop" class="zz-image">
       </div>
       <div class="zz-text">
         <p class="zz-label">How it works</p>
@@ -71,17 +114,16 @@ layout: default
   <div class="zz-container">
     <div class="zz-pair zz-right">
       <div class="zz-text">
-        <p class="zz-label">Dates &amp; Links</p>
+        <p class="zz-label">Important Links</p>
         <ul class="zz-links">
           <li><strong>Register</strong> (teams of two) — <a href="https://bit.ly/eklavya26team_registration" target="_blank">bit.ly/eklavya26team_registration</a></li>
           <li><strong>Deadline</strong> — 10 June 2026 · 23:59 IST</li>
-          <li><strong>Timeline</strong> — <a href="https://bit.ly/eklavya26timeline" target="_blank">bit.ly/eklavya26timeline</a></li>
           <li><strong>Submit suggestions</strong> — <a href="https://bit.ly/eklavya26suggestions" target="_blank">bit.ly/eklavya26suggestions</a></li>
           <li><strong>Resources</strong> — <a href="https://linktr.ee/eklavya_26" target="_blank">linktr.ee/eklavya_26</a></li>
         </ul>
       </div>
       <div class="zz-img-wrap">
-        <img src="{{ '/assets/img/eklavya_3.jpeg' | relative_url }}" alt="Eklavya event" class="zz-image">
+        <img src="{{ '/assets/img/eklavya_3.webp' | relative_url }}" alt="Eklavya event" class="zz-image">
       </div>
     </div>
   </div>
@@ -133,6 +175,11 @@ layout: default
       setTimeout(step, wordDelay);
     }
 
+    var timeline  = document.getElementById('chance-timeline');
+    var ctlLine   = timeline.querySelector('.ctl-line');
+    var ctlItems  = timeline.querySelectorAll('.ctl-item');
+
+
     function onScroll() {
       var top       = section.getBoundingClientRect().top + window.scrollY;
       var scrolled  = Math.max(0, window.scrollY - top);
@@ -143,6 +190,18 @@ layout: default
         target = index;
         if (!animating) { animating = true; step(); }
       }
+
+      // show timeline container as soon as scroll begins
+      if (progress > 0) timeline.classList.add('visible');
+
+      // grow the line
+      ctlLine.style.transform = 'scaleY(' + progress + ')';
+
+      // reveal items progressively
+      ctlItems.forEach(function(item, i) {
+        var threshold = (i + 0.5) / ctlItems.length;
+        item.classList.toggle('visible', progress >= threshold);
+      });
     }
 
     window.addEventListener('scroll', onScroll, { passive: true });
