@@ -2,9 +2,15 @@
 layout: default
 ---
 <div class="page-hero">
+  <div class="page-hero-bg" aria-hidden="true">
+    <img class="phi phi-1" src="{{ '/assets/img/hero/turtlebot.png'    | relative_url }}" alt="">
+    <img class="phi phi-2" src="{{ '/assets/img/hero/so100.png'        | relative_url }}" alt="">
+    <img class="phi phi-4" src="{{ '/assets/img/hero/customboot.png'   | relative_url }}" alt="">
+    <img class="phi phi-3" src="{{ '/assets/img/hero/amazing_hand.png' | relative_url }}" alt="">
+  </div>
   <h1 class="page-title">{{ page.title }}</h1>
 </div>
 
-<div class="page-content">
+<div class="page-content{% if page.collection == 'projects' %} project-detail{% endif %}">
   {{ content }}
 </div>

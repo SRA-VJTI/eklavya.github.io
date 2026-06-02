@@ -99,7 +99,7 @@ a {
   &.open span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .h25-collage {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -452,15 +452,18 @@ a {
 
 .chance-timeline {
   position: relative;
-  display: flex;
+  display: none;
   flex-direction: column;
   gap: 1.8rem;
 }
 
-@media (max-width: 640px) {
+@media (min-width: 769px) {
   .chance-timeline {
-    display: none;
+    display: flex;
   }
+}
+
+@media (max-width: 768px) {
   .mobile-timeline {
     display: block;
   }
@@ -713,6 +716,8 @@ a {
 /* ─── Page layout (non-home pages) ─────────────────────────────── */
 
 .page-hero {
+  position: relative;
+  overflow: hidden;
   background-color: var(--dark-grey);
   min-height: 32vh;
   display: flex;
@@ -720,7 +725,58 @@ a {
   padding: 3rem 2.5rem;
 }
 
+/* Subtle dithered-image collage behind the title — same treatment as the
+   home / eklavya25 heroes (screen blend over the dark-grey background). */
+.page-hero-bg {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  user-select: none;
+}
+
+.page-hero-bg .phi {
+  position: absolute;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  user-select: none;
+}
+
+/* phi-1=turtlebot  phi-2=so100  phi-4=customboot  phi-3=amazing_hand */
+/* Full screen: 4 images */
+.phi-1 {
+  width: 270px;
+  right: 4%;
+  bottom: -16%;
+  opacity: 0.5;
+  transform: rotate(-6deg);
+}
+
+.phi-2 {
+  width: 240px;
+  right: 23%;
+  top: 12%;
+  opacity: 0.4;
+  transform: rotate(16deg);
+}
+
+.phi-4 {
+  width: 220px;
+  right: 44%;
+  top: 12%;
+  opacity: 0.38;
+  transform: rotate(10deg);
+}
+
+.phi-3 {
+  width: 200px;
+  right: 62%;
+  bottom: -10%;
+  opacity: 0.42;
+}
+
 .page-title {
+  position: relative;
+  z-index: 1;
   font-family: 'Nohemi', Helvetica, sans-serif;
   font-size: clamp(2.5rem, 6vw, 5rem);
   font-weight: 400;
@@ -729,11 +785,162 @@ a {
   line-height: 1;
 }
 
+/* 4→3: drop customboot, so100 centres between amazing_hand and turtlebot */
+@media (max-width: 1200px) {
+  .phi-4 { display: none; }
+  .phi-2 { right: 33%; }
+}
+
+/* 3→2: drop so100, keep turtlebot + amazing_hand */
+@media (max-width: 900px) {
+  .phi-2 { display: none; }
+}
+
+/* 2→1: drop amazing_hand, keep turtlebot (stays visible on phones) */
+@media (max-width: 620px) {
+  .phi-3 { display: none; }
+}
+
 .page-content {
   background-color: #ffffff;
   min-height: 60vh;
-  padding: 4rem 2.5rem 6rem;
+  padding: clamp(2.5rem, 6vw, 4rem) clamp(1.25rem, 5vw, 2.5rem) 6rem;
   font-family: Helvetica, Arial, sans-serif;
+}
+
+/* ─── Page content typography (markdown detail pages) ───────────── */
+
+.project-detail > * {
+  max-width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.project-detail h1,
+.project-detail h2,
+.project-detail h3 {
+  font-family: 'Nohemi', Helvetica, sans-serif;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--black);
+  margin: 2.5rem auto 1rem;
+  line-height: 1.2;
+}
+
+.project-detail h3 { font-size: 1.5rem; }
+
+.project-detail p {
+  font-size: 1.02rem;
+  line-height: 1.7;
+  color: #333;
+  margin: 0 auto 1.1rem;
+}
+
+.project-detail a {
+  color: var(--red);
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+.project-detail a:hover { border-bottom-color: var(--red); }
+
+.project-detail hr {
+  border: none;
+  border-top: 1px solid #E8E8E8;
+  margin: 2.5rem auto;
+}
+
+.project-detail table {
+  width: 100%;
+  max-width: 820px;
+  margin: 1.5rem auto 2rem;
+  border-collapse: collapse;
+  font-size: 0.98rem;
+}
+
+.project-detail table th {
+  text-align: left;
+  font-family: 'Nohemi', Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #999;
+  padding: 0 1.25rem 0.9rem;
+  border-bottom: 2px solid var(--black);
+}
+
+.project-detail table td {
+  padding: 1rem 1.25rem;
+  color: var(--black);
+  border-bottom: 1px solid #E8E8E8;
+  vertical-align: top;
+}
+
+/* ─── Projects grid ─────────────────────────────────────────────── */
+
+.projects {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects .grid {
+  display: grid;
+  /* Fluid: as many columns as fit (1 on phones → 3 max), each capped at
+     360px so the square cards never blow up on wide/2-col layouts. */
+  grid-template-columns: repeat(auto-fit, minmax(260px, 360px));
+  justify-content: center;
+  gap: clamp(1rem, 2.5vw, 1.75rem);
+}
+
+.projects .grid-sizer { display: none; }
+
+.projects .grid-item {
+  width: auto;
+  margin: 0;
+}
+
+.projects .card {
+  aspect-ratio: 1 / 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid var(--dark-grey);
+  border-radius: 0;
+}
+
+.projects .card-body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: clamp(1.25rem, 3.5vw, 1.9rem);
+}
+
+.projects .card-title {
+  font-family: 'Nohemi', Helvetica, sans-serif;
+  font-size: clamp(1.25rem, 3.5vw, 1.5rem);
+  font-weight: 400;
+  letter-spacing: -0.01em;
+  color: var(--black);
+  margin: 0 0 1.1rem;
+  padding-bottom: 1.1rem;
+  border-bottom: 1px solid var(--dark-grey);
+}
+
+.projects .card-text {
+  font-size: clamp(0.9rem, 2.5vw, 0.95rem);
+  line-height: 1.65;
+  color: #555;
+  margin: 0;
+}
+
+/* On phones the grid is a single full-width column — a forced square
+   would be enormous, so let those cards size to their content instead. */
+@media (max-width: 700px) {
+  .projects .card {
+    aspect-ratio: auto;
+  }
 }
 
 /* ─── Leaderboard table ─────────────────────────────────────────── */

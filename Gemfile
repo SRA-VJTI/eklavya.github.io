@@ -20,6 +20,7 @@ group :jekyll_plugins do
     gem 'webrick'
     gem 'rake'
     gem 'google-api-client'
+    gem 'ostruct'
 
 end
 group :other_plugins do
