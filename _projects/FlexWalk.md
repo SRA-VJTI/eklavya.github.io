@@ -25,8 +25,8 @@ The goal is to provide hands-on experience in humanoid mechanical design and rob
 
 ### Resources
 
-[Asimov Manual — How we built humanoid legs from the ground up](https://menlo.ai/blog/humanoid-legs-100-days)<br>
+[Asimov Manual](https://menlo.ai/blog/humanoid-legs-100-days)<br>
 [Asimov GitHub Repository](https://github.com/asimovinc/asimov-1)<br>
-[Reference Video — How we built humanoid robot legs](https://www.youtube.com/watch?v=wFUksEBPIA8)<br>
+[Reference Video](https://www.youtube.com/watch?v=wFUksEBPIA8)<br>
 
 ---

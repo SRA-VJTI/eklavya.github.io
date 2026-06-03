@@ -27,7 +27,8 @@ The project introduces you to practical robotics challenges like sensor calibrat
 
 ### Resources
 
-[KiCad v9.0](https://www.kicad.org/)<br>
-[Maze Solving Algorithm (Carleton University)](https://www.sce.carleton.ca/faculty/wainer/papers/Maze.pdf)<br>
+[Video of Veritasium](https://youtu.be/ZMQbHMgK2rw?si=muFDutCaNTkIlmlX)<br>
+[Blog for algorithms](https://www.sce.carleton.ca/faculty/wainer/papers/Maze.pdf)<br>
+[ESP-IDF documentation](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html)<br>
 
 ---
