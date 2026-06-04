@@ -880,17 +880,29 @@ a {
 /* ─── Projects grid ─────────────────────────────────────────────── */
 
 .projects {
-  max-width: 1200px;
+  max-width: 1290px;
   margin: 0 auto;
 }
 
 .projects .grid {
   display: grid;
-  /* Fluid: as many columns as fit (1 on phones → 3 max), each capped at
-     360px so the square cards never blow up on wide/2-col layouts. */
-  grid-template-columns: repeat(auto-fit, minmax(260px, 360px));
-  justify-content: center;
+  /* Explicit column count that steps down with width. Square size = container
+     width / columns, so adjust card size via `.projects { max-width }`
+     (currently 1290px → ~300px squares at 4 columns). */
+  grid-template-columns: repeat(4, 1fr);
   gap: clamp(1rem, 2.5vw, 1.75rem);
+}
+
+@media (max-width: 1024px) {
+  .projects .grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (max-width: 760px) {
+  .projects .grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 520px) {
+  .projects .grid { grid-template-columns: 1fr; }
 }
 
 .projects .grid-sizer { display: none; }
