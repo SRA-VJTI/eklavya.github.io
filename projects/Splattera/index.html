@@ -4,9 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
       <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <title>Tasks | Eklavya 2026</title>
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-">
+    <title>Splattera | Eklavya 2026</title>
+    <meta name="description" content="Turn a regular phone video of VJTI's campus into a photorealistic, navigable 3D environment you can walk around in like a first-person game.">
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="/assets/img/favicon.ico">
@@ -21,7 +20,7 @@
 
     <!-- Styles -->
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/">
+    <link rel="canonical" href="https://eklavya.sravjti.in/projects/Splattera/">
 
 </head>
 <body>
@@ -35,8 +34,8 @@
     <a href="/" class="nav-link">Home</a>
     <a href="/eklavya25/" class="nav-link">Eklavya '25</a>
     <a href="/leaderboard/" class="nav-link">Leaderboard</a>
-<a href="/tasks/" class="nav-link active">Tasks</a>
-    <a href="/projects/" class="nav-link">Projects</a>
+<a href="/tasks/" class="nav-link">Tasks</a>
+    <a href="/projects/" class="nav-link active">Projects</a>
   </nav>
 </header>
 
@@ -65,11 +64,45 @@
     <img class="phi phi-4" src="/assets/img/hero/customboot.png" alt="">
     <img class="phi phi-3" src="/assets/img/hero/amazing_hand.png" alt="">
   </div>
-  <h1 class="page-title">Tasks</h1>
+  <h1 class="page-title">Splattera</h1>
 </div>
 
-<div class="page-content">
-  <p>Aren’t you a bit early :P</p>
+<div class="page-content project-detail">
+  <hr>
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Domains</th>
+      <th>Mentors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Computer Vision, Machine Learning, 3D Reconstruction, Gaussian Splatting</td>
+      <td>Sarayu Anantharaman, Shashvat Prabhu</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3 id="project-description">Project Description</h3>
+
+<p>This project’s goal is taking a regular phone video of VJTI’s campus and turning it into a photorealistic, navigable 3D environment where you can walk around like a First-Person game.</p>
+
+<p>It involves Long Context 3D Scene Reconstruction, which is done by solving the camera position at every frame across the entire trajectory, without losing track over long distances. The camera positions and depth information then supervise the training of a 3D Gaussian Splat. To make it actually playable, we run semantic segmentation to identify individual objects in the scene, making them independently interactive.</p>
+
+<p>The final output is a navigable first-person Unity environment built entirely from a phone video, with collision, walkable surfaces, and interactive objects.</p>
+
+<hr>
+
+<h3 id="resources">Resources</h3>
+
+<p><a href="https://arxiv.org/pdf/2308.04079" rel="external nofollow noopener" target="_blank">3D Gaussian Splatting for Real-Time Radiance Field Rendering</a><br>
+<a href="https://loger-project.github.io/files/loger_paper.pdf" rel="external nofollow noopener" target="_blank">LoGeR Paper</a><br></p>
+
+<hr>
 
 </div>
 
