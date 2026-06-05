@@ -29,8 +29,8 @@ By the end, PlatyPulse becomes a real, working cyber-physical gadget capable of 
 
 ### Resources
 
-[Flipper Zero Overview](https://www.youtube.com/watch?v=mHvV_Tv8HDQ)<br>
-[RF Hacking Basics](https://www.youtube.com/watch?v=Ukfpq71BoMo)<br>
+[What is Modulation? Why Modulation is Required? Types of Modulation Explained](https://www.youtube.com/watch?v=mHvV_Tv8HDQ)<br>
+[What is RFID? How RFID works? RFID Explained in Detail](https://www.youtube.com/watch?v=Ukfpq71BoMo)<br>
 [Flipper Zero Official Site](https://flipper.net/)<br>
 [Digital Modulation Types](https://resources.system-analysis.cadence.com/blog/msa2021-types-of-digital-modulation)<br>
 [Flipper Zero Development Hardware Schematic](https://docs.flipper.net/zero/development/hardware/schematic)<br>
