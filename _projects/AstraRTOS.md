@@ -27,9 +27,19 @@ And the best part is AstraRTOS does not end with Eklavya. RTOSes like Zephyr and
 
 ### Resources
 
-[Dynamic Memory Allocation](https://medium.com/@prashantajabe09/learning-rtos-part-2-b4eb1eb0f89c)<br>
-[Software Timers](https://medium.com/@prashantajabe09/learning-rtos-part-8-082ffc48fca5)<br>
-[Bare Metal Programming Series](https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ)<br>
-[AstraRTOS GitHub](https://github.com/vedantmalkar/AstraRTOS)<br>
+<p style="margin-bottom: 0.4rem;"><strong>Blogs to refer to:</strong></p>
+
+<ul style="list-style: none; padding-left: 0.5rem; margin-top: 0; line-height: 1.9;">
+  <li>&rsaquo;&nbsp; <a href="https://medium.com/@prashantajabe09/learning-rtos-part-2-b4eb1eb0f89c" target="_blank">Dynamic Memory Allocation</a></li>
+  <li>&rsaquo;&nbsp; <a href="https://medium.com/@prashantajabe09/learning-rtos-part-3-b10b8d808e4a" target="_blank">Task Control Block</a></li>
+  <li>&rsaquo;&nbsp; <a href="https://medium.com/@prashantajabe09/learning-rtos-part-8-082ffc48fca5" target="_blank">Mutexes &amp; Semaphores</a></li>
+  <li>&rsaquo;&nbsp; <a href="https://medium.com/@prashantajabe09/learning-rtos-part-7-92e50ffb9363" target="_blank">Software Timers</a></li>
+  <li>&rsaquo;&nbsp; <a href="https://medium.com/@prashantajabe09/learning-rtos-9-3bb4b9f33b40" target="_blank">Event Groups</a></li>
+</ul>
+
+<p style="line-height: 1.9; margin-top: 1rem;">
+  <a href="https://www.youtube.com/playlist?list=PLP29wDx6QmW7HaCrRydOnxcy8QmW0SNdQ" target="_blank">Bare Metal Programming Series</a><br>
+  <a href="https://github.com/vedantmalkar/AstraRTOS" target="_blank">AstraRTOS GitHub</a>
+</p>
 
 ---
