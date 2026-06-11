@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Task 2 | Eklavya 2026</title>
+    <meta name="description" content="The Case of the Vanishing Inventory">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+    <!-- Nohemi Font -->
+    <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/nohemi">
+
+    <!-- Vesper Libre (Hinglish style) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;700&amp;display=swap">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/task2/">
+
+</head>
+<body>
+  <header class="site-nav">
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <nav id="nav-menu">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/eklavya25/" class="nav-link">Eklavya '25</a>
+    <a href="/leaderboard/" class="nav-link">Leaderboard</a>
+<a href="/tasks/" class="nav-link active">Tasks</a>
+    <a href="/projects/" class="nav-link">Projects</a>
+  </nav>
+</header>
+
+<script>
+  (function () {
+    var btn = document.getElementById('nav-hamburger');
+    var menu = document.getElementById('nav-menu');
+    btn.addEventListener('click', function () {
+      menu.classList.toggle('open');
+      btn.classList.toggle('open');
+    });
+    menu.querySelectorAll('.nav-link').forEach(function (l) {
+      l.addEventListener('click', function () {
+        menu.classList.remove('open');
+        btn.classList.remove('open');
+      });
+    });
+  })();
+</script>
+
+  <main>
+    <div class="page-hero">
+  <div class="page-hero-bg" aria-hidden="true">
+    <img class="phi phi-1" src="/assets/img/hero/turtlebot.png" alt="">
+    <img class="phi phi-2" src="/assets/img/hero/so100.png" alt="">
+    <img class="phi phi-4" src="/assets/img/hero/customboot.png" alt="">
+    <img class="phi phi-3" src="/assets/img/hero/amazing_hand.png" alt="">
+  </div>
+  <h1 class="page-title">Task 2</h1>
+</div>
+
+<div class="page-content project-detail">
+  <style>
+/* Mobile responsive */
+@media (max-width: 768px) {
+  iframe {
+    max-width: 100%;
+    height: auto !important;
+  }
+}
+</style>
+
+<p><strong>Points: <span style="color: #D72B2B;">50</span></strong></p>
+
+<h1 id="the-case-of-the-vanishing-inventory">The Case of the Vanishing Inventory</h1>
+
+<p>A Record of the Investigations of Mr. Sherlock Holmes</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="prologue">Prologue</h3>
+
+<p>Holmes had not left Baker Street in three days. The sitting room was cluttered with circuit diagrams, vendor catalogues, and cold cups of tea when a frantic young engineer from Whitechapel burst through the door.</p>
+
+<p>“Mr. Holmes, our manufacturing run is a disaster. Someone has handed us a completed schematic for a Handheld Gaming Console, but there is no procurement list, no part numbers, no vendors, nothing. The factory floor is idle and we cannot order a single component.”</p>
+
+<p>Holmes glanced at the schematic, rolled under the man’s arm, then leaned back in his chair.</p>
+
+<p>“The schematic tells us everything we need to know. Every component is there, waiting to be identified, sourced, and priced. What you need,” he said, “is a Bill of Materials. And what I need is someone meticulous enough to produce one correctly.”</p>
+
+<p>He looked at you.</p>
+
+<p>“That would be you.”</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="the-assignment">The Assignment</h3>
+
+<p>You will be provided with the schematic of the Handheld Gaming Console. Your task is to produce a complete and accurate Bill of Materials for it.</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="the-procurement-rules">The Procurement Rules</h3>
+
+<p>Holmes was particular about his sources. He kept a ranked list of trusted vendors, consulted strictly in order:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Vendor Priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Mouser</td>
+    </tr>
+    <tr>
+      <td>DigiKey</td>
+    </tr>
+    <tr>
+      <td>Robu.in</td>
+    </tr>
+    <tr>
+      <td>KTRON</td>
+    </tr>
+    <tr>
+      <td>Amazon India (last resort only)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>When selecting a component from any vendor, three conditions must be satisfied:</p>
+
+<ul>
+  <li>The component must be in stock.</li>
+  <li>The component must have the correct footprint and package as specified in the schematic. Verify against the datasheet.</li>
+  <li>The component must be reasonably priced. Do not select an overpriced part when an equivalent is available.</li>
+</ul>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="the-evidence-manifest">The Evidence Manifest</h3>
+
+<p>Every component in the schematic, resistors, capacitors, ICs, connectors, and all else, must appear in the BOM. Each row in the BOM must include:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Field</th>
+      <th>Description</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Reference</td>
+      <td>Reference designator(s) on PCB</td>
+      <td>C1,C2</td>
+    </tr>
+    <tr>
+      <td>Quantity</td>
+      <td>Number of units</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>Value</td>
+      <td>Component value</td>
+      <td>12pF</td>
+    </tr>
+    <tr>
+      <td>Package/Footprint</td>
+      <td>Package type</td>
+      <td>Capacitor_SMD:C_0805_2012Metric</td>
+    </tr>
+    <tr>
+      <td>Purchase Link</td>
+      <td>Direct vendor link</td>
+      <td>https://www.mouser.com/…</td>
+    </tr>
+    <tr>
+      <td>Rate</td>
+      <td>Cost per unit</td>
+      <td>1.78</td>
+    </tr>
+    <tr>
+      <td>Cost</td>
+      <td>Total cost (Quantity × Rate)</td>
+      <td>3.56</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>If the Generate BOM tool adds extra columns beyond those listed above, you may retain or remove them as you see fit. They will not affect your evaluation.</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="holmess-directive">Holmes’s Directive</h3>
+
+<p>“A purchase link that leads to the wrong package is worse than no link at all. Confirm the footprint. Confirm the stock. Confirm the price. Then, and only then, add it to the list.”</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="resources">Resources</h3>
+
+<p><strong>KiCad Official Website:</strong> <a href="https://www.kicad.org/" rel="external nofollow noopener" target="_blank">https://www.kicad.org/</a></p>
+
+<p><strong>KiCad Installation</strong></p>
+
+<p><strong>Windows</strong></p>
+<ul>
+  <li>Download the installer from the <a href="https://www.kicad.org/" rel="external nofollow noopener" target="_blank">official KiCad website</a>.</li>
+  <li>Run the .exe file.</li>
+  <li>Follow the setup wizard with default options.</li>
+  <li>Ensure symbol libraries and footprints are selected during installation.</li>
+</ul>
+
+<p><strong>macOS</strong></p>
+<ul>
+  <li>Download the .dmg file from the official site.</li>
+  <li>Open the DMG and drag KiCad into the Applications folder.</li>
+  <li>On first launch, allow permissions if macOS blocks the app.</li>
+</ul>
+
+<p><strong>Linux (Ubuntu / Debian)</strong></p>
+<ul>
+  <li>Use the official KiCad PPA or distribution repository.</li>
+  <li>Install via the package manager.</li>
+  <li>Ensure libraries are installed along with the main package.</li>
+</ul>
+
+<p><strong>Post-Installation Checks</strong></p>
+
+<ul>
+  <li>Launch KiCad successfully.</li>
+  <li>Open Schematic Editor and PCB Editor.</li>
+</ul>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="pcb-schematic">PCB Schematic</h3>
+
+<iframe src="https://drive.google.com/file/d/1JZnAx0AAHoDll6BsR44T0GGuU1jCNbbR/preview" width="350" height="350" allow="autoplay"></iframe>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="closing-note-from-holmes">Closing Note from Holmes</h3>
+
+<p>“Any fool can read a schematic. It takes a methodical mind to translate it into something a factory can actually build. Do not guess. Verify.”</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<p><strong>Your Mission:</strong> Generate a complete, accurate, and verified Bill of Materials from the provided schematic and submit it as a Google Sheet.</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<p><strong>Deliverables</strong></p>
+
+<p>A google sheet link with the Bill of Materials for the given schematic.</p>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="https://forms.gle/JQV2B3TMeoDQXNUd8" style="color: #D72B2B; font-size: 0.9rem; font-weight: bold;" rel="external nofollow noopener" target="_blank">[Submit Here]</a>
+</p>
+
+</div>
+
+  </main>
+
+  <script>
+    (function () {
+      var nav   = document.querySelector('.site-nav');
+      var links = nav.querySelectorAll('.nav-link');
+
+      function update() {
+        var vh       = window.innerHeight;
+        var start    = vh * 0.65;
+        var end      = vh * 1.05;
+        var progress = Math.min(Math.max((window.scrollY - start) / (end - start), 0), 1);
+
+        // background: dark → light
+        var bgDark  = [13, 13, 13];
+        var bgLight = [255, 255, 255];
+        var r = Math.round(bgDark[0] + (bgLight[0] - bgDark[0]) * progress);
+        var g = Math.round(bgDark[1] + (bgLight[1] - bgDark[1]) * progress);
+        var b = Math.round(bgDark[2] + (bgLight[2] - bgDark[2]) * progress);
+        nav.style.background = 'rgba(' + r + ',' + g + ',' + b + ', 0.88)';
+        nav.style.borderBottomColor = 'rgba(0,0,0,' + (progress * 0.08) + ')';
+
+        // links: dim white → dim black
+        var linkOpacity = 0.45 + (progress * (0.45 - 0.45)); // stays at 0.45 opacity
+        var lr = Math.round(240 + (13 - 240) * progress);
+        var lg = Math.round(240 + (13 - 240) * progress);
+        var lb = Math.round(240 + (13 - 240) * progress);
+        links.forEach(function(l) {
+          l.style.color = 'rgba(' + lr + ',' + lg + ',' + lb + ', 0.55)';
+        });
+      }
+
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
+  </script>
+</body>
+</html>

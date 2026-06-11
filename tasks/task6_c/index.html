@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Task 6C | Eklavya 2026</title>
+    <meta name="description" content="The Case of the Four Signals">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+    <!-- Nohemi Font -->
+    <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/nohemi">
+
+    <!-- Vesper Libre (Hinglish style) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;700&amp;display=swap">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/task6_c/">
+
+</head>
+<body>
+  <header class="site-nav">
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <nav id="nav-menu">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/eklavya25/" class="nav-link">Eklavya '25</a>
+    <a href="/leaderboard/" class="nav-link">Leaderboard</a>
+<a href="/tasks/" class="nav-link active">Tasks</a>
+    <a href="/projects/" class="nav-link">Projects</a>
+  </nav>
+</header>
+
+<script>
+  (function () {
+    var btn = document.getElementById('nav-hamburger');
+    var menu = document.getElementById('nav-menu');
+    btn.addEventListener('click', function () {
+      menu.classList.toggle('open');
+      btn.classList.toggle('open');
+    });
+    menu.querySelectorAll('.nav-link').forEach(function (l) {
+      l.addEventListener('click', function () {
+        menu.classList.remove('open');
+        btn.classList.remove('open');
+      });
+    });
+  })();
+</script>
+
+  <main>
+    <div class="page-hero">
+  <div class="page-hero-bg" aria-hidden="true">
+    <img class="phi phi-1" src="/assets/img/hero/turtlebot.png" alt="">
+    <img class="phi phi-2" src="/assets/img/hero/so100.png" alt="">
+    <img class="phi phi-4" src="/assets/img/hero/customboot.png" alt="">
+    <img class="phi phi-3" src="/assets/img/hero/amazing_hand.png" alt="">
+  </div>
+  <h1 class="page-title">Task 6C</h1>
+</div>
+
+<div class="page-content project-detail">
+  <style>
+.resources-list a {
+  color: #D72B2B;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.resources-list a:hover {
+  color: #a01f1f;
+}
+</style>
+
+<p><strong>Points: <span style="color: #D72B2B;">150</span></strong></p>
+
+<h1 id="the-case-of-the-four-signals">The Case of the Four Signals</h1>
+
+<div style="margin: 1rem 0;"></div>
+
+<h3 id="prologue">Prologue</h3>
+
+<p>It was a dreary Thursday evening at 221B Baker Street when Inspector Lestrade arrived, visibly flustered, clutching a leather satchel. He laid before Holmes the remnants of a curious apparatus, a partially burnt circuit board recovered from the den of Professor Alistair Voss, a disgraced electrical engineer suspected of orchestrating a string of telecommunications frauds across London.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>“The device,” Holmes said, lifting a fragment to the gaslight, “was a signal routing machine. Voss was feeding four distinct analog signals into a selector, intercepting whichever channel he wished at the turn of a jumper. Elegant. Criminal, but elegant.”</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>He turned to you, eyes sharp.</p>
+
+<p>“Scotland Yard needs this device reconstructed, fully documented, fully functional. Can you do it?”</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<h3 id="the-assignment">The Assignment</h3>
+
+<p>You are tasked with reconstructing Professor Voss’s signal routing apparatus from first principles.</p>
+
+<p>The device comprised two sections:</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<h3 id="part-i-the-four-signal-sources">Part I: The Four Signal Sources</h3>
+
+<p>Voss’s machine generated four analog signals, each processed by a dedicated circuit built around an operational amplifier. You must implement all four independently:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Signal</th>
+      <th>Circuit</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Signal A</td>
+      <td>Summing Amplifier: adds two input voltages</td>
+    </tr>
+    <tr>
+      <td>Signal B</td>
+      <td>Difference Amplifier: subtracts one input from another</td>
+    </tr>
+    <tr>
+      <td>Signal C</td>
+      <td>Ideal Integrator: outputs the time-integral of an input</td>
+    </tr>
+    <tr>
+      <td>Signal D</td>
+      <td>Ideal Differentiator: outputs the rate of change of an input</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>All four circuits must be designed independently, each as a self-contained op-amp stage.</p>
+
+<p>The output equations for each circuit, along with the component value constraints, are detailed in the attached reference sheet. Use these to determine appropriate resistor and capacitor values for your design.</p>
+
+<iframe src="https://drive.google.com/file/d/1NHlrR3VkHUWTf6bwV5InIIBhB3_AE1q8/preview" width="500" height="500" allow="autoplay"></iframe>
+
+<div style="margin: 1rem 0;"></div>
+
+<h3 id="part-ii-the-selector-mechanism">Part II: The Selector Mechanism</h3>
+
+<p>The outputs of all four circuits fed into a 4:1 multiplexer, Voss’s method of switching between intercepted channels at will.</p>
+
+<p>Holmes’s analysis of the charred remains revealed that Voss had built his selector to handle the analog nature of the signals cleanly, routing waveforms without distortion or loss. The select lines, Voss’s channel keys, were implemented using push buttons, allowing silent toggling between the four feeds at will.</p>
+
+<p>You must do the same. The 4:1 analog multiplexer must be constructed to faithfully pass the op-amp outputs, with the select lines controlled by push buttons.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<h3 id="holmess-directive">Holmes’s Directive</h3>
+
+<p>“A case is only as strong as its documentation, Watson. I will not accept loose wiring and vague labels. Every component named. Every signal traced. The schematic drawn cleanly in KiCAD, for it may one day be presented as evidence.”</p>
+
+<p>Your schematic must reflect:</p>
+
+<ul>
+  <li>All required components with correct symbols</li>
+  <li>Proper interconnection of op-amp outputs to the MUX input</li>
+  <li>Clear and correct labeling of all components and signals</li>
+</ul>
+
+<p>You may use the following ICs or any other as per your preference:</p>
+<ul>
+  <li>LM741, CD4052B</li>
+</ul>
+
+<div style="margin: 1rem 0;"></div>
+
+<h3 id="resources">Resources</h3>
+
+<p><strong>Op Amp:</strong></p>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=QiJYv4hHcLY&amp;t=10s" rel="external nofollow noopener" target="_blank">Introduction to Operational Amplifier: Characteristics of Ideal Op-Amp</a></li>
+  <li><a href="https://www.youtube.com/watch?v=p4FQyOwjhLA" rel="external nofollow noopener" target="_blank">Adder</a></li>
+  <li><a href="https://www.youtube.com/watch?v=ltVspUteuuI" rel="external nofollow noopener" target="_blank">Subtractor</a></li>
+  <li><a href="https://www.youtube.com/watch?v=OPvs7A554Rw" rel="external nofollow noopener" target="_blank">Integrator</a></li>
+  <li><a href="https://www.youtube.com/watch?v=aU24RWIgJVs&amp;t=282s" rel="external nofollow noopener" target="_blank">Differentiator</a></li>
+</ul>
+
+<p><strong>MUX:</strong></p>
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=aQlF-9i3fAA&amp;t=372s" rel="external nofollow noopener" target="_blank">4:1 Multiplexer</a></li>
+</ul>
+
+<p><strong>KiCAD:</strong></p>
+<ul>
+  <li><a href="https://youtube.com/playlist?list=PLn6004q9oeqGl91KifK6xHGuqvXGb374G&amp;si=lC6g04QjkYcJt8Uo" rel="external nofollow noopener" target="_blank">KiCAD Tutorial Playlist</a></li>
+</ul>
+
+<div style="margin: 1rem 0;"></div>
+
+<h3 id="closing-note-from-holmes">Closing Note from Holmes</h3>
+
+<p>“You have all the clues. The question is whether you have the intellect to assemble them.”</p>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="https://forms.gle/9SESzEGrNwG6FLLz8" style="color: #D72B2B; font-size: 0.9rem; font-weight: bold;" rel="external nofollow noopener" target="_blank">[Submit Here]</a>
+</p>
+
+</div>
+
+  </main>
+
+  <script>
+    (function () {
+      var nav   = document.querySelector('.site-nav');
+      var links = nav.querySelectorAll('.nav-link');
+
+      function update() {
+        var vh       = window.innerHeight;
+        var start    = vh * 0.65;
+        var end      = vh * 1.05;
+        var progress = Math.min(Math.max((window.scrollY - start) / (end - start), 0), 1);
+
+        // background: dark → light
+        var bgDark  = [13, 13, 13];
+        var bgLight = [255, 255, 255];
+        var r = Math.round(bgDark[0] + (bgLight[0] - bgDark[0]) * progress);
+        var g = Math.round(bgDark[1] + (bgLight[1] - bgDark[1]) * progress);
+        var b = Math.round(bgDark[2] + (bgLight[2] - bgDark[2]) * progress);
+        nav.style.background = 'rgba(' + r + ',' + g + ',' + b + ', 0.88)';
+        nav.style.borderBottomColor = 'rgba(0,0,0,' + (progress * 0.08) + ')';
+
+        // links: dim white → dim black
+        var linkOpacity = 0.45 + (progress * (0.45 - 0.45)); // stays at 0.45 opacity
+        var lr = Math.round(240 + (13 - 240) * progress);
+        var lg = Math.round(240 + (13 - 240) * progress);
+        var lb = Math.round(240 + (13 - 240) * progress);
+        links.forEach(function(l) {
+          l.style.color = 'rgba(' + lr + ',' + lg + ',' + lb + ', 0.55)';
+        });
+      }
+
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Task 6B | Eklavya 2026</title>
+    <meta name="description" content="The Cartesian Relay">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+    <!-- Nohemi Font -->
+    <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/nohemi">
+
+    <!-- Vesper Libre (Hinglish style) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;700&amp;display=swap">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/task6_b/">
+
+</head>
+<body>
+  <header class="site-nav">
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <nav id="nav-menu">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/eklavya25/" class="nav-link">Eklavya '25</a>
+    <a href="/leaderboard/" class="nav-link">Leaderboard</a>
+<a href="/tasks/" class="nav-link active">Tasks</a>
+    <a href="/projects/" class="nav-link">Projects</a>
+  </nav>
+</header>
+
+<script>
+  (function () {
+    var btn = document.getElementById('nav-hamburger');
+    var menu = document.getElementById('nav-menu');
+    btn.addEventListener('click', function () {
+      menu.classList.toggle('open');
+      btn.classList.toggle('open');
+    });
+    menu.querySelectorAll('.nav-link').forEach(function (l) {
+      l.addEventListener('click', function () {
+        menu.classList.remove('open');
+        btn.classList.remove('open');
+      });
+    });
+  })();
+</script>
+
+  <main>
+    <div class="page-hero">
+  <div class="page-hero-bg" aria-hidden="true">
+    <img class="phi phi-1" src="/assets/img/hero/turtlebot.png" alt="">
+    <img class="phi phi-2" src="/assets/img/hero/so100.png" alt="">
+    <img class="phi phi-4" src="/assets/img/hero/customboot.png" alt="">
+    <img class="phi phi-3" src="/assets/img/hero/amazing_hand.png" alt="">
+  </div>
+  <h1 class="page-title">Task 6B</h1>
+</div>
+
+<div class="page-content project-detail">
+  <style>
+.equation-block {
+  text-align: center;
+  margin: 1.25rem 0 1.5rem;
+  font-size: 1.12rem;
+}
+
+.equation-block .eq {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  margin: 0.4rem 1.4rem;
+  font-style: italic;
+}
+
+.equation-block .frac {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.equation-block .frac > .num {
+  border-bottom: 1.5px solid currentColor;
+  padding: 0 0.45em 0.1em;
+}
+
+.equation-block .frac > .den {
+  padding: 0.1em 0.45em 0;
+}
+
+.equation-where {
+  width: fit-content;
+  margin: 0.6rem auto 1.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.equation-where .where-label {
+  font-style: italic;
+  margin-bottom: 0.35rem;
+}
+
+.equation-where dl {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 0.6rem;
+  row-gap: 0.3rem;
+  margin: 0;
+}
+
+.equation-where dt {
+  text-align: right;
+  font-style: italic;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.equation-where dd {
+  margin: 0;
+  text-align: left;
+}
+</style>
+
+<p><strong>Points: <span style="color: #D72B2B;">150</span></strong></p>
+
+<h1 id="the-cartesian-relay">The Cartesian Relay</h1>
+
+<div style="margin: 1rem 0;"></div>
+
+<h3 id="the-case">The Case</h3>
+
+<p>The Cartesian Robotics Laboratory of Whitechapel has engaged the services of Mr. Sherlock Holmes in a matter of considerable mechanical urgency. Their automated carriage, a precision arm used in the sequencing of evidence parcels has gone silent. The transmission that once drove it has been destroyed, and no documentation survives.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>The laboratory’s lead engineer, a haggard man with chalk-dusted fingers, laid three facts before Holmes like clues at a crime scene:</p>
+
+<p>“The motor turns at precisely 3000 revolutions per minute at full duty cycle. The carriage must travel approximately at 63 metres per minute. And the shafts, input and output, must remain perfectly coaxial. The workspace permits nothing else.”</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>Holmes steepled his fingers. A long silence followed.</p>
+
+<p>“You have given me three constraints,” he said at last, “and three constraints, properly examined, admit precisely one solution. The transmission is not unknown to me. You need a fixed-ring planetary gear system. The geometry demands it. The coaxiality demands it. The reduction ratio demands it.”</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>He rose and moved to the blackboard.</p>
+
+<p>“The pinion diameter is 20 millimetres with 2mm module and 20° of pressure angle. Elementary. Work backwards from the rack velocity and you will find the gear reduction ratio. The sun, the planets and the ring, their tooth counts are not arbitrary. They are the only logical deduction.”</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="your-commission">Your Commission</h3>
+
+<p>Watson, Scotland Yard cannot wait. You are to reconstruct this transmission from first principles and render it in full, functional CAD.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>Holmes has marked the method on the blackboard. The rest is your deduction.</p>
+
+<p>“When you have eliminated the impossible,” he said, pulling on his coat, “whatever transmission remains, however compact, however elegant, must be the truth.”</p>
+
+<p>“But Holmes,” Watson protested, “where do we begin?”</p>
+
+<p>Holmes paused at the door, silhouetted against the gaslight.</p>
+
+<p>“Where any good investigation begins, Watson. With the numbers.”</p>
+
+<p>The game is afoot. The gears are waiting.</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="system-specifications">System Specifications</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th>Specification</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Motor max speed</td>
+      <td>3000 rpm</td>
+    </tr>
+    <tr>
+      <td>Target rack speed</td>
+      <td>63 m/min (63,000 mm/min)</td>
+    </tr>
+    <tr>
+      <td>Pinion pitch diameter</td>
+      <td>20 mm</td>
+    </tr>
+    <tr>
+      <td>Shaft configuration</td>
+      <td>Coaxial input &amp; output</td>
+    </tr>
+    <tr>
+      <td>Ring gear condition</td>
+      <td>Fixed (stationary)</td>
+    </tr>
+    <tr>
+      <td>Software</td>
+      <td>Onshape or Fusion 360 (with animation)</td>
+    </tr>
+  </tbody>
+</table>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="what-you-must-derive">What You Must Derive</h3>
+
+<ol>
+  <li>
+    <p><strong>Required pinion speed</strong> - Use the rack velocity equation to find what speed the pinion (and thus the carrier) must turn at.</p>
+  </li>
+  <li>
+    <p><strong>Gear reduction ratio</strong> - Find the ratio between motor speed and required pinion speed. This is your planetary reduction target.</p>
+  </li>
+  <li>
+    <p><strong>Tooth counts</strong> - Using the Willis equation (with the ring fixed) together with the coaxial geometric condition, determine valid tooth counts for the sun, planet, and ring gears:</p>
+
+    <div class="equation-block">
+  <span class="eq">R = 1 + <span class="frac"><span class="num">Z<sub>r</sub></span><span class="den">Z<sub>s</sub></span></span></span>
+  <span class="eq">Z<sub>p</sub> = <span class="frac"><span class="num">Z<sub>r</sub> − Z<sub>s</sub></span><span class="den">2</span></span></span>
+</div>
+
+    <div class="equation-where">
+  <div class="where-label">where</div>
+  <dl>
+    <dt>R</dt>
+<dd>= reduction ratio</dd>
+    <dt>Z<sub>r</sub>
+</dt>
+<dd>= number of teeth on the ring gear</dd>
+    <dt>Z<sub>s</sub>
+</dt>
+<dd>= number of teeth on the sun gear</dd>
+    <dt>Z<sub>p</sub>
+</dt>
+<dd>= number of teeth on the planet gears</dd>
+  </dl>
+</div>
+  </li>
+  <li>
+    <p><strong>Rack parameters</strong> - Select a module, verify rack pitch, and confirm linear output matches the needs.</p>
+  </li>
+</ol>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="cad-deliverables">CAD Deliverables</h3>
+
+<div style="margin: 1rem 0;"></div>
+
+<p><strong>For Onshape users:</strong>
+Provide edit access to the following emails: ashish422005@gmail.com, aayadav_b24@ee.vjti.ac.in, amvyapari_b24@ee.vjti.ac.in, ppdube_b24@et.vjti.ac.in and upload the animated GIF file on the drive.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p><strong>For Fusion 360 users:</strong>
+Upload the .f3d (Fusion Archive File) with the animated GIF on the drive.</p>
+
+<p>① <strong>Planetary gear assembly</strong> - Model sun, planet (×3), ring, and carrier. Ring must be grounded. All gear teeth must mesh correctly.</p>
+
+<p>② <strong>Rack and pinion stage</strong> - Model a rack meshing with a 20 mm pitch diameter pinion. Rack must be tangent to the pinion pitch circle with correct module.</p>
+
+<p>③ <strong>Motion links</strong> - Set up all joints and motion links: Sun→Carrier ratio, Sun→Planet (×3) ratio, and Rack &amp; Pinion joint. Carrier output must drive the pinion.</p>
+
+<p>④ <strong>Animation</strong> - Animate the full system driving the rack. All joints must move correctly and simultaneously.</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="resources">Resources</h3>
+
+<ul>
+  <li><a href="https://youtu.be/ARd-Om2VyiE" rel="external nofollow noopener" target="_blank">What is a planetary gear system</a></li>
+  <li><a href="https://youtu.be/AxCgO_eJocc" rel="external nofollow noopener" target="_blank">Spur gear basics for Onshape</a></li>
+  <li><a href="https://youtu.be/DdCMjsYvVTc?si=CFzg48jz01KEnm2H" rel="external nofollow noopener" target="_blank">Spur gear basics for Fusion</a></li>
+  <li><a href="https://youtu.be/wLZq1ZXhPfE?si=o187wT3UHw_g1VDy" rel="external nofollow noopener" target="_blank">Rack and Pinion for Onshape</a></li>
+  <li><a href="https://youtu.be/laBmk4ksrmg?si=DTrjtbIY2VUOLx5c" rel="external nofollow noopener" target="_blank">Rack and Pinion for Fusion - Part 1</a></li>
+  <li><a href="https://youtu.be/X3cJNxvROxs?si=tpIZpsfOwcH5a6Gc" rel="external nofollow noopener" target="_blank">Rack and Pinion for Fusion - Part 2</a></li>
+  <li><a href="https://youtu.be/X8SrkIw3who?si=Dx1GgiFIS_lY1BOJ" rel="external nofollow noopener" target="_blank">Rack and Pinion for Fusion - Part 3</a></li>
+</ul>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="holmess-final-words">Holmes’s Final Words</h3>
+
+<p>“The transmission is not lost, Watson. It was never lost. It was merely waiting to be found by someone capable of understanding the language of gears.”</p>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="https://forms.gle/oQJyQxxWnCRBBmdT6" style="color: #D72B2B; font-size: 0.9rem; font-weight: bold;" rel="external nofollow noopener" target="_blank">[Submit Here]</a>
+</p>
+
+</div>
+
+  </main>
+
+  <script>
+    (function () {
+      var nav   = document.querySelector('.site-nav');
+      var links = nav.querySelectorAll('.nav-link');
+
+      function update() {
+        var vh       = window.innerHeight;
+        var start    = vh * 0.65;
+        var end      = vh * 1.05;
+        var progress = Math.min(Math.max((window.scrollY - start) / (end - start), 0), 1);
+
+        // background: dark → light
+        var bgDark  = [13, 13, 13];
+        var bgLight = [255, 255, 255];
+        var r = Math.round(bgDark[0] + (bgLight[0] - bgDark[0]) * progress);
+        var g = Math.round(bgDark[1] + (bgLight[1] - bgDark[1]) * progress);
+        var b = Math.round(bgDark[2] + (bgLight[2] - bgDark[2]) * progress);
+        nav.style.background = 'rgba(' + r + ',' + g + ',' + b + ', 0.88)';
+        nav.style.borderBottomColor = 'rgba(0,0,0,' + (progress * 0.08) + ')';
+
+        // links: dim white → dim black
+        var linkOpacity = 0.45 + (progress * (0.45 - 0.45)); // stays at 0.45 opacity
+        var lr = Math.round(240 + (13 - 240) * progress);
+        var lg = Math.round(240 + (13 - 240) * progress);
+        var lb = Math.round(240 + (13 - 240) * progress);
+        links.forEach(function(l) {
+          l.style.color = 'rgba(' + lr + ',' + lg + ',' + lb + ', 0.55)';
+        });
+      }
+
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
+  </script>
+</body>
+</html>

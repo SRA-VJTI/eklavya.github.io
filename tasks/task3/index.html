@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Task 3 | Eklavya 2026</title>
+    <meta name="description" content="The Case of the Phantom Machine">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+    <!-- Nohemi Font -->
+    <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/nohemi">
+
+    <!-- Vesper Libre (Hinglish style) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;700&amp;display=swap">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/task3/">
+
+</head>
+<body>
+  <header class="site-nav">
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <nav id="nav-menu">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/eklavya25/" class="nav-link">Eklavya '25</a>
+    <a href="/leaderboard/" class="nav-link">Leaderboard</a>
+<a href="/tasks/" class="nav-link active">Tasks</a>
+    <a href="/projects/" class="nav-link">Projects</a>
+  </nav>
+</header>
+
+<script>
+  (function () {
+    var btn = document.getElementById('nav-hamburger');
+    var menu = document.getElementById('nav-menu');
+    btn.addEventListener('click', function () {
+      menu.classList.toggle('open');
+      btn.classList.toggle('open');
+    });
+    menu.querySelectorAll('.nav-link').forEach(function (l) {
+      l.addEventListener('click', function () {
+        menu.classList.remove('open');
+        btn.classList.remove('open');
+      });
+    });
+  })();
+</script>
+
+  <main>
+    <div class="page-hero">
+  <div class="page-hero-bg" aria-hidden="true">
+    <img class="phi phi-1" src="/assets/img/hero/turtlebot.png" alt="">
+    <img class="phi phi-2" src="/assets/img/hero/so100.png" alt="">
+    <img class="phi phi-4" src="/assets/img/hero/customboot.png" alt="">
+    <img class="phi phi-3" src="/assets/img/hero/amazing_hand.png" alt="">
+  </div>
+  <h1 class="page-title">Task 3</h1>
+</div>
+
+<div class="page-content project-detail">
+  <style>
+/* Mobile responsive */
+@media (max-width: 768px) {
+  iframe {
+    max-width: 100%;
+    height: auto !important;
+  }
+}
+</style>
+
+<p><strong>Points: <span style="color: #D72B2B;">50</span></strong></p>
+
+<h1 id="the-case-of-the-phantom-machine">The Case of the Phantom Machine</h1>
+
+<div style="margin: 1rem 0;"></div>
+
+<h3 id="prologue">Prologue</h3>
+
+<p>The November fog had settled thick upon London, swallowing the gas lamps of Baker Street in its grey embrace, when a hansom cab clattered to a halt before No. 221B. I had scarcely set down my evening paper when Mrs. Hudson appeared at the door, her face pale with concern.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>“A telegram, Mr. Holmes. Marked most urgent, from Scotland Yard.”</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>Holmes rose from his chair by the fire, his grey eyes already sharpening with that peculiar intensity I had come to know so well. He tore open the envelope and read aloud:</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>“UNDERGROUND LABORATORY BREACHED STOP EXPERIMENTAL VEHICLE ESCAPED STOP MORIARTY’S HAND SUSPECTED STOP MACHINE HEADING NORTH FROM COORDINATES NEAR BAKER STREET STOP CAPABLE OF GROUND AND AERIAL OPERATION STOP MUST BE INTERCEPTED BEFORE IT VANISHES INTO THE CITY STOP COME AT ONCE STOP LESTRADE”</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>Holmes was already reaching for his coat. “Watson, fetch your revolver. We pursue no ordinary quarry tonight.”</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>Within the hour, we found ourselves in a subterranean chamber beneath an abandoned warehouse, where Inspector Lestrade stood amid the wreckage of what had clearly been a sophisticated engineering works. Scattered across workbenches lay blueprints, canisters of fuel, and the remnants of mechanical components bearing the unmistakable precision of Continental manufacture.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>“The machine,” Lestrade explained, mopping his brow, “was designed by engineers in Moriarty’s employ. A multi-functional vehicle, Mr. Holmes, capable of traversing any terrain on wheels, and then, by some diabolical mechanism, transforming into an autonomous aerial system. A drone, scientists call it.”</p>
+
+<iframe src="https://drive.google.com/file/d/13wjPagXmFJLEK1254PZx_wuId4Q6U4fQ/preview" width="300" height="200" allow="autoplay"></iframe>
+
+<p>Holmes knelt beside a sheaf of documents, his long fingers tracing columns of figures. “The control system data,” he murmured. “They have left behind the mathematical principles governing the machine’s behaviour. Careless, or perhaps intentional, a challenge laid at my feet.”</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>He rose, fixing me with his penetrating gaze.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>“Watson, we must reconstruct this machine’s journey from first principles. Only by understanding its motion can we predict where it will emerge, and intercept it before Professor Moriarty’s agents reclaim their prize.”</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="the-assignment">The Assignment</h3>
+
+<p>You are tasked with analysing the trajectory and control systems of Professor Moriarty’s escaped mechanical vehicle, using the engineering data recovered from the underground laboratory.</p>
+
+<p>The pursuit comprises two distinct phases:</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="part-i-the-ground-pursuit---kinematic-analysis-of-the-escaping-vehicle">Part I: The Ground Pursuit - Kinematic Analysis of the Escaping Vehicle</h3>
+
+<p>According to the intelligence gathered by Holmes’s network of street informants, the mechanical vehicle initiated its escape from a fixed position, designated as Point A, located in the underground chamber. From there, it travelled in a perfectly straight line along a cobblestone passage leading toward the surface, covering a total distance of 1000 metres before emerging into the London streets.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>The vehicle’s onboard chronometer recorded its position at one-second intervals, providing a complete sampling of its motion throughout the escape.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>Your task is as follows:</p>
+
+<p>Using the kinematic data encoded in the machine’s control system along with PID gain values, determine the instantaneous speed of the vehicle at the following distances from Point A:</p>
+
+<ul>
+  <li>0 metres (at the moment of departure)</li>
+  <li>200 metres</li>
+  <li>500 metres</li>
+  <li>700 metres</li>
+  <li>1000 metres (at the moment of emergence)</li>
+</ul>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>Furthermore, you must demonstrate through calculation that the vehicle’s speed at the 1000-metre mark was precisely 44 metres per second, confirming the testimony of a crossing-sweeper who reported “a blur of brass and steam, faster than any hansom I ever saw.”</p>
+
+<iframe src="https://drive.google.com/file/d/1qer_1Dj0CfUMAV8mhnKFEgdGT10Jods3/preview" width="500" height="300" allow="autoplay"></iframe>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="part-ii-the-aerial-transformation---hovering-altitude-control-analysis">Part II: The Aerial Transformation - Hovering Altitude Control Analysis</h3>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>Upon reaching the 1000-metre threshold and recognising that it had crossed its programmed setpoint, the machine initiated an emergency deceleration protocol. It applied a constant braking acceleration of 4.4 m/s² for precisely 10 seconds, bringing itself to a complete halt upon the surface.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>At that moment, the vehicle underwent its remarkable transformation: wheels retracting, rotors deploying, the machine rising from the cobblestones as an autonomous drone, ascending toward the rooftops of London.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>The drone’s objective, as decoded from the recovered documents, was to achieve and maintain a steady hover at an altitude of 500 metres above ground level, presumably to rendezvous with an accomplice aboard an airship.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>The altitude control system employs a Proportional-Integral-Derivative (PID) controller, with gain values designated in the recovered schematics as Kp, Ki, and Kd.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>Your task is as follows:</p>
+
+<p>Using the PID control parameters provided, calculate the motor speed required to lift and stabilise the drone at the following altitudes:</p>
+
+<ul>
+  <li>0 metres (ground level, at the moment of lift-off)</li>
+  <li>100 metres</li>
+  <li>250 metres</li>
+  <li>400 metres</li>
+  <li>500 metres (the target hovering altitude)</li>
+</ul>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>You must determine the final motor speed, expressed in revolutions per minute (RPM), required to maintain steady hover at the 500-metre altitude, demonstrating that the control system achieves stable equilibrium at this height.</p>
+
+<iframe src="https://drive.google.com/file/d/1-rqYvJrgc-v1_RYsMOrG55rmh4kCkmgZ/preview" width="300" height="300" allow="autoplay"></iframe>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="part-iii-total-displacement---the-complete-journey">Part III: Total Displacement - The Complete Journey</h3>
+
+<p>Finally, Holmes requires a complete accounting of the machine’s displacement from its origin to its final hovering position.</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="holmess-directive">Holmes’s Directive</h3>
+
+<p>Holmes turned from the window, where he had been observing the fog-shrouded rooftops.</p>
+
+<p>“A case is only as strong as its documentation, Watson. I will not accept vague approximations or incomplete reasoning. Every calculation must be shown. Every assumption stated. The mathematics must be as precise as the gears of a Swiss chronometer, for it may one day be presented as evidence before a court of law, or before minds far more critical than Lestrade’s.”</p>
+
+<p>Your analysis must reflect:</p>
+
+<ul>
+  <li>Complete derivation of velocity at each specified distance during ground travel</li>
+  <li>Clear demonstration that the terminal ground speed equals 44 m/s</li>
+  <li>Proper application of PID control theory to the altitude stabilisation problem</li>
+  <li>Accurate calculation of motor speeds at each altitude checkpoint</li>
+  <li>Final motor RPM required for stable hover at 500 metres</li>
+  <li>Total displacement from origin to final hovering position</li>
+</ul>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="resources">Resources</h3>
+
+<p>The following references have been left by Holmes upon the mantelpiece at Baker Street for your study:</p>
+
+<ul>
+  <li><a href="https://youtu.be/XfAt6hNV8XM?si=LiXWcoPInHj4QftU" rel="external nofollow noopener" target="_blank">Reference 1</a></li>
+  <li><a href="https://youtu.be/UR0hOmjaHp0?si=cuD5Q7g9nLl8yS_y" rel="external nofollow noopener" target="_blank">Reference 2</a></li>
+  <li><a href="https://youtu.be/tFVAaUcOm4I?si=K9dPfk5zk2JCsi0_" rel="external nofollow noopener" target="_blank">Reference 3</a></li>
+</ul>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="closing-note-from-holmes">Closing Note from Holmes</h3>
+
+<p>The detective settled into his chair, steepling his fingers beneath his chin.</p>
+
+<p>“The machine has fled into the night, Watson, but mathematics does not lie, and physics cannot be bribed. Every metre it travels, every rotation of its motors, obeys laws as immutable as those that govern the stars. You have the data. You have the principles. The question that remains is whether you possess the analytical rigour to reconstruct its path, and the precision to intercept it before it vanishes forever into Moriarty’s web.”</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<p><strong>Deliverables</strong></p>
+
+<p>Handwritten report in form of pdf containing tabular solution (for part 1 and part 2) and final solved solution (for part 3) should be submitted</p>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="https://forms.gle/V6sFHE56n4BwcBJN9" style="color: #D72B2B; font-size: 0.9rem; font-weight: bold;" rel="external nofollow noopener" target="_blank">[Submit Here]</a>
+</p>
+
+</div>
+
+  </main>
+
+  <script>
+    (function () {
+      var nav   = document.querySelector('.site-nav');
+      var links = nav.querySelectorAll('.nav-link');
+
+      function update() {
+        var vh       = window.innerHeight;
+        var start    = vh * 0.65;
+        var end      = vh * 1.05;
+        var progress = Math.min(Math.max((window.scrollY - start) / (end - start), 0), 1);
+
+        // background: dark → light
+        var bgDark  = [13, 13, 13];
+        var bgLight = [255, 255, 255];
+        var r = Math.round(bgDark[0] + (bgLight[0] - bgDark[0]) * progress);
+        var g = Math.round(bgDark[1] + (bgLight[1] - bgDark[1]) * progress);
+        var b = Math.round(bgDark[2] + (bgLight[2] - bgDark[2]) * progress);
+        nav.style.background = 'rgba(' + r + ',' + g + ',' + b + ', 0.88)';
+        nav.style.borderBottomColor = 'rgba(0,0,0,' + (progress * 0.08) + ')';
+
+        // links: dim white → dim black
+        var linkOpacity = 0.45 + (progress * (0.45 - 0.45)); // stays at 0.45 opacity
+        var lr = Math.round(240 + (13 - 240) * progress);
+        var lg = Math.round(240 + (13 - 240) * progress);
+        var lb = Math.round(240 + (13 - 240) * progress);
+        links.forEach(function(l) {
+          l.style.color = 'rgba(' + lr + ',' + lg + ',' + lb + ', 0.55)';
+        });
+      }
+
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
+  </script>
+</body>
+</html>

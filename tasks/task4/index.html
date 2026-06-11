@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Task 4 | Eklavya 2026</title>
+    <meta name="description" content="Lost in the ROS">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+    <!-- Nohemi Font -->
+    <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/nohemi">
+
+    <!-- Vesper Libre (Hinglish style) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;700&amp;display=swap">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://eklavya.sravjti.in/tasks/task4/">
+
+</head>
+<body>
+  <header class="site-nav">
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <nav id="nav-menu">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/eklavya25/" class="nav-link">Eklavya '25</a>
+    <a href="/leaderboard/" class="nav-link">Leaderboard</a>
+<a href="/tasks/" class="nav-link active">Tasks</a>
+    <a href="/projects/" class="nav-link">Projects</a>
+  </nav>
+</header>
+
+<script>
+  (function () {
+    var btn = document.getElementById('nav-hamburger');
+    var menu = document.getElementById('nav-menu');
+    btn.addEventListener('click', function () {
+      menu.classList.toggle('open');
+      btn.classList.toggle('open');
+    });
+    menu.querySelectorAll('.nav-link').forEach(function (l) {
+      l.addEventListener('click', function () {
+        menu.classList.remove('open');
+        btn.classList.remove('open');
+      });
+    });
+  })();
+</script>
+
+  <main>
+    <div class="page-hero">
+  <div class="page-hero-bg" aria-hidden="true">
+    <img class="phi phi-1" src="/assets/img/hero/turtlebot.png" alt="">
+    <img class="phi phi-2" src="/assets/img/hero/so100.png" alt="">
+    <img class="phi phi-4" src="/assets/img/hero/customboot.png" alt="">
+    <img class="phi phi-3" src="/assets/img/hero/amazing_hand.png" alt="">
+  </div>
+  <h1 class="page-title">Task 4</h1>
+</div>
+
+<div class="page-content project-detail">
+  <style>
+/* Mobile responsive */
+@media (max-width: 768px) {
+  iframe {
+    max-width: 100%;
+    height: auto !important;
+  }
+}
+</style>
+
+<p><strong>Points: <span style="color: #D72B2B;">150</span></strong></p>
+
+<h1 id="lost-in-the-ros">Lost in the ROS</h1>
+
+<div style="margin: 1rem 0;"></div>
+
+<h3 id="prologue">PROLOGUE</h3>
+
+<p>The fog had settled thick over Baker Street when the first reports came in. Constables from three precincts. Frantic telegrams from the Ministry. And one very peculiar observation from a street sweeper on Aldgate : a wheeled machine, moving in perfect circles, obeying no human hand.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>No one knew where it had come from. No one could stop it. And no one , not Scotland Yard , not the Royal Society, not the bewildered engineers who claimed to have built it  could explain why it was still transmitting.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>“The machine is not broken, Watson. It is following instructions. Someone sent it those commands. The question is not what the rover is doing that much is obvious to anyone with eyes. The question is: who started it, and what exactly has it traced across this city?”</p>
+
+<p>Sherlock Holmes, 221B Baker Street</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>Holmes turned to you then, with that familiar look, half contempt, half challenge.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>“You. You’ll play both roles in this investigation. First, the villain who set it loose. Then the detective’s hand who must track it down. Can you manage that?”</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="part-i-the-villains-gambit">PART I: THE VILLAIN’S GAMBIT</h3>
+
+<p>You are not the hero of this story. Not yet.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>The rover did not go rogue on its own. It received a command precise, deliberate, and signed by no one. Somewhere in the city, someone wrote a script that launched it into that relentless loop. A perfectly maintained circle. Over and over, like a confession hidden in plain sight.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>That someone was you.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>The Royal Engineering Society, with a trust they would later have abundant cause to regret, had thrown open the doors of their simulation chamber and surrendered everything besides: the rover’s blueprints, the files that would summon it into being, the description of its every joint and limb, the rendered world through which it was to move, all of it placed in Watson’s hands without a single question asked. What chamber it was, and by what name the engineers called it, they did not trouble to write down; a man clever enough to be trusted with the thing, they seemed to assume, was clever enough to know where he stood.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p><strong>YOUR OBJECTIVE:</strong>
+Build the ROS workspace, source the environment, and launch the simulation. Spawn the rover. Then write the script that seals its fate. a velocity publisher that drives the rover in a clean, unbroken circle. Tune your linear and angular velocities. Make it geometric. Make it undeniable.</p>
+
+<p>The rover must move. You must be the reason.</p>
+
+<p>“Elementary geometry, really. A constant forward velocity paired with a constant angular turn rate. The machine will oblige , it always does.”</p>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<h3 id="part-ii-the-detectives-demand">PART II: THE DETECTIVE’S DEMAND</h3>
+
+<p>Three hours later. A knock at your door.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>You opened it to find a tall figure in a grey coat, pipe in hand, eyes that seemed to have already read every page of your life. He did not wait to be invited in.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>“Sit down. We haven’t much time, and I have questions that only telemetry can answer.”</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>Holmes spread a map across your table. The rover’s last known position was marked with a single red pin. But a pin means nothing as he needed the full path. Every coordinate. Every moment.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>“The rover is still transmitting , Its position. Every fraction of a second, it confesses exactly where it has been. I need you to listen. Write me a node that does nothing but listen  and remember.”</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p><strong>YOUR OBJECTIVE:</strong></p>
+
+<p>Write a ROS 2 node that reads the rover’s live position data and prints its (x, y) coordinates to the terminal in real time. Let the path speak for itself a circle will look like a circle, a square will betray its corners. The rover cannot lie. Only you can misread it.</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p>“The coordinates don’t lie, Watson. They never do. The rover has been leaving a confession on the floor of this city for the past three hours. You simply need to read it.”</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<iframe src="https://drive.google.com/file/d/1p6Z0-1QBxQBbDacTjM4EtwSNHIoNhVIX/preview" width="300" height="300" allow="autoplay"></iframe>
+
+<div style="margin: 1.5rem 0;"></div>
+
+<p><strong>Deliverables</strong></p>
+
+<p>1) circle_driver.py<br>
+(The velocity publisher that makes the rover circle)</p>
+
+<div style="margin: 0.5rem 0;"></div>
+
+<p>2) odom_printer_node.py<br>
+(The odometry subscriber that prints (x, y) live)</p>
+
+<div style="margin: 0.5rem 0;"></div>
+
+<p>3) simulation &amp; tracking.webm/mp4<br>
+(A screen recording showing the launch of the publisher node, launching the simulation showing the rover circle, and then another terminal output showing the (x,y) values being printed on another terminal.)</p>
+
+<div style="margin: 1rem 0;"></div>
+
+<p style="text-align: center; margin-top: 2rem;">
+  <a href="https://forms.gle/2g63hMn1tcnuoPrb7" style="color: #D72B2B; font-size: 0.9rem; font-weight: bold;" rel="external nofollow noopener" target="_blank">[Submit Here]</a>
+</p>
+
+</div>
+
+  </main>
+
+  <script>
+    (function () {
+      var nav   = document.querySelector('.site-nav');
+      var links = nav.querySelectorAll('.nav-link');
+
+      function update() {
+        var vh       = window.innerHeight;
+        var start    = vh * 0.65;
+        var end      = vh * 1.05;
+        var progress = Math.min(Math.max((window.scrollY - start) / (end - start), 0), 1);
+
+        // background: dark → light
+        var bgDark  = [13, 13, 13];
+        var bgLight = [255, 255, 255];
+        var r = Math.round(bgDark[0] + (bgLight[0] - bgDark[0]) * progress);
+        var g = Math.round(bgDark[1] + (bgLight[1] - bgDark[1]) * progress);
+        var b = Math.round(bgDark[2] + (bgLight[2] - bgDark[2]) * progress);
+        nav.style.background = 'rgba(' + r + ',' + g + ',' + b + ', 0.88)';
+        nav.style.borderBottomColor = 'rgba(0,0,0,' + (progress * 0.08) + ')';
+
+        // links: dim white → dim black
+        var linkOpacity = 0.45 + (progress * (0.45 - 0.45)); // stays at 0.45 opacity
+        var lr = Math.round(240 + (13 - 240) * progress);
+        var lg = Math.round(240 + (13 - 240) * progress);
+        var lb = Math.round(240 + (13 - 240) * progress);
+        links.forEach(function(l) {
+          l.style.color = 'rgba(' + lr + ',' + lg + ',' + lb + ', 0.55)';
+        });
+      }
+
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
+  </script>
+</body>
+</html>
