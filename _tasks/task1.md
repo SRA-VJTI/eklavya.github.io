@@ -7,30 +7,9 @@ category: Image Processing & Cryptography
 ---
 
 <style>
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1rem 0;
-}
-
-table th, table td {
-  border: 1px solid #ccc;
-  padding: 0.75rem;
-  text-align: left;
-}
-
-table th {
-  background-color: #f5f5f5;
-  font-weight: bold;
-}
-
-table tr:nth-child(even) {
-  background-color: #fafafa;
-}
-
 .rotation-codes {
   text-align: center;
-  margin: 2rem 0;
+  margin: 2rem auto;
 }
 
 .rotation-codes h4 {
@@ -38,10 +17,11 @@ table tr:nth-child(even) {
 }
 
 .rotation-codes ul {
-  display: inline-block;
-  text-align: left;
+  display: table;
+  margin: 0.5rem auto 0;
   padding: 0;
-  list-style-position: inside;
+  list-style: none;
+  text-align: left;
 }
 
 .rotation-codes li {

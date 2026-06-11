@@ -7,27 +7,6 @@ category: ROS2 and Gazebo
 ---
 
 <style>
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1rem 0;
-}
-
-table th, table td {
-  border: 1px solid #ccc;
-  padding: 0.75rem;
-  text-align: left;
-}
-
-table th {
-  background-color: #f5f5f5;
-  font-weight: bold;
-}
-
-table tr:nth-child(even) {
-  background-color: #fafafa;
-}
-
 /* Mobile responsive */
 @media (max-width: 768px) {
   iframe {
@@ -59,7 +38,7 @@ Sherlock Holmes, 221B Baker Street
 
 <div style="margin: 1rem 0;"></div>
 
-Holmes turned to you then, with that familiar look — half contempt, half challenge.
+Holmes turned to you then, with that familiar look, half contempt, half challenge.
 
 <div style="margin: 1rem 0;"></div>
 
@@ -67,7 +46,7 @@ Holmes turned to you then, with that familiar look — half contempt, half chall
 
 <div style="margin: 1.5rem 0;"></div>
 
-### PART I — THE VILLAIN'S GAMBIT
+### PART I: THE VILLAIN'S GAMBIT
 
 You are not the hero of this story. Not yet.
 
@@ -94,7 +73,7 @@ The rover must move. You must be the reason.
 
 <div style="margin: 1.5rem 0;"></div>
 
-### PART II — THE DETECTIVE'S DEMAND
+### PART II: THE DETECTIVE'S DEMAND
 
 Three hours later. A knock at your door.
 
@@ -142,7 +121,7 @@ Write a ROS 2 node that reads the rover's live position data and prints its (x, 
 
 <div style="margin: 0.5rem 0;"></div>
 
-3) simulation&tracking.webm/mp4  
+3) simulation & tracking.webm/mp4  
 (A screen recording showing the launch of the publisher node, launching the simulation showing the rover circle, and then another terminal output showing the (x,y) values being printed on another terminal.)
 
 <div style="margin: 1rem 0;"></div>

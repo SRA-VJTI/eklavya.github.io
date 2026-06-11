@@ -7,27 +7,6 @@ category: Mathematics & Control Systems
 ---
 
 <style>
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1rem 0;
-}
-
-table th, table td {
-  border: 1px solid #ccc;
-  padding: 0.75rem;
-  text-align: left;
-}
-
-table th {
-  background-color: #f5f5f5;
-  font-weight: bold;
-}
-
-table tr:nth-child(even) {
-  background-color: #fafafa;
-}
-
 /* Mobile responsive */
 @media (max-width: 768px) {
   iframe {
@@ -57,7 +36,7 @@ Holmes rose from his chair by the fire, his grey eyes already sharpening with th
 
 <div style="margin: 1rem 0;"></div>
 
-"UNDERGROUND LABORATORY BREACHED STOP EXPERIMENTAL VEHICLE ESCAPED STOP MORIARTY'S HAND SUSPECTED STOP MACHINE HEADING NORTH FROM COORDINATES NEAR BAKER STREET STOP CAPABLE OF GROUND AND AERIAL OPERATION STOP MUST BE INTERCEPTED BEFORE IT VANISHES INTO THE CITY STOP COME AT ONCE STOP — LESTRADE"
+"UNDERGROUND LABORATORY BREACHED STOP EXPERIMENTAL VEHICLE ESCAPED STOP MORIARTY'S HAND SUSPECTED STOP MACHINE HEADING NORTH FROM COORDINATES NEAR BAKER STREET STOP CAPABLE OF GROUND AND AERIAL OPERATION STOP MUST BE INTERCEPTED BEFORE IT VANISHES INTO THE CITY STOP COME AT ONCE STOP LESTRADE"
 
 <div style="margin: 1rem 0;"></div>
 
@@ -93,7 +72,7 @@ The pursuit comprises two distinct phases:
 
 <div style="margin: 1.5rem 0;"></div>
 
-### Part I: The Ground Pursuit — Kinematic Analysis of the Escaping Vehicle
+### Part I: The Ground Pursuit - Kinematic Analysis of the Escaping Vehicle
 
 According to the intelligence gathered by Holmes's network of street informants, the mechanical vehicle initiated its escape from a fixed position, designated as Point A, located in the underground chamber. From there, it travelled in a perfectly straight line along a cobblestone passage leading toward the surface, covering a total distance of 1000 metres before emerging into the London streets.
 
@@ -121,7 +100,7 @@ Furthermore, you must demonstrate through calculation that the vehicle's speed a
 
 <div style="margin: 1.5rem 0;"></div>
 
-### Part II: The Aerial Transformation — Hovering Altitude Control Analysis
+### Part II: The Aerial Transformation - Hovering Altitude Control Analysis
 
 <div style="margin: 1rem 0;"></div>
 
@@ -159,7 +138,7 @@ You must determine the final motor speed, expressed in revolutions per minute (R
 
 <div style="margin: 1.5rem 0;"></div>
 
-### Part III: Total Displacement — The Complete Journey
+### Part III: Total Displacement - The Complete Journey
 
 Finally, Holmes requires a complete accounting of the machine's displacement from its origin to its final hovering position.
 

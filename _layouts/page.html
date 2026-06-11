@@ -11,6 +11,6 @@ layout: default
   <h1 class="page-title">{{ page.title }}</h1>
 </div>
 
-<div class="page-content{% if page.collection == 'projects' %} project-detail{% endif %}">
+<div class="page-content{% if page.collection == 'projects' or page.collection == 'tasks' %} project-detail{% endif %}">
   {{ content }}
 </div>

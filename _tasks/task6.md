@@ -9,12 +9,21 @@ importance: 7
 .projects-grid {
   display: grid;
   gap: 1.5rem;
-  margin: 2rem 0;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin: 2rem auto;
+  max-width: 720px;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-.task-card {
-  border: 1px solid #ddd;
+/* scoped under .projects-grid so these win over the theme's
+   `.project-detail a { border-bottom: 1px solid transparent }`, which
+   otherwise erased each card's bottom border */
+.projects-grid .task-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 120px;
+  box-sizing: border-box;
+  border: 1px solid #d0d0d0;
   border-radius: 8px;
   padding: 1.5rem;
   text-align: center;
@@ -24,19 +33,28 @@ importance: 7
   color: inherit;
 }
 
-.task-card:hover {
+.projects-grid .task-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-color: #d0d0d0;
 }
 
-.task-card h3 {
+.projects-grid .task-card h3 {
   color: #D72B2B;
-  margin-bottom: 0.5rem;
+  margin: 0;
 }
 
-.task-card p {
-  color: #666;
-  margin: 0;
+.points-line {
+  text-align: center;
+  margin-top: 1.75rem;
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+  }
 }
 </style>
 
@@ -56,4 +74,4 @@ importance: 7
   </a>
 </div>
 
-**Points for any one Task: <span style="color: #D72B2B;">150</span>**
+<p class="points-line">Points for any one Task: <span style="color: #D72B2B;">150</span></p>

@@ -7,27 +7,6 @@ category: C Programming & Data Processing
 ---
 
 <style>
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1rem 0;
-}
-
-table th, table td {
-  border: 1px solid #ccc;
-  padding: 0.75rem;
-  text-align: left;
-}
-
-table th {
-  background-color: #f5f5f5;
-  font-weight: bold;
-}
-
-table tr:nth-child(even) {
-  background-color: #fafafa;
-}
-
 code {
   background-color: #f5f5f5;
   padding: 0.2rem 0.4rem;
@@ -136,13 +115,13 @@ Total distance : <XY.Z> m
 
 The latitude and longitude are those of the very first valid satellite fix, the route origin at Pentonville's gate. Total distance is the sum of all straight-segment distances in metres, rounded to one decimal place.
 
-**Part 2: Column Header**
+### Part 2: Column Header
 
 ```
 WP     ACTION              TURN°    HEADING    DIR       DIST
 ```
 
-**Part 3: Waypoint Rows**
+### Part 3: Waypoint Rows
 
 START row (first waypoint only)
 

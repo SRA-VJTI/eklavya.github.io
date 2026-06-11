@@ -8,25 +8,66 @@ category: Mechanical Design & CAD
 ---
 
 <style>
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1rem 0;
+.equation-block {
+  text-align: center;
+  margin: 1.25rem 0 1.5rem;
+  font-size: 1.12rem;
 }
 
-table th, table td {
-  border: 1px solid #ccc;
-  padding: 0.75rem;
+.equation-block .eq {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  margin: 0.4rem 1.4rem;
+  font-style: italic;
+}
+
+.equation-block .frac {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.equation-block .frac > .num {
+  border-bottom: 1.5px solid currentColor;
+  padding: 0 0.45em 0.1em;
+}
+
+.equation-block .frac > .den {
+  padding: 0.1em 0.45em 0;
+}
+
+.equation-where {
+  width: fit-content;
+  margin: 0.6rem auto 1.5rem;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.equation-where .where-label {
+  font-style: italic;
+  margin-bottom: 0.35rem;
+}
+
+.equation-where dl {
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 0.6rem;
+  row-gap: 0.3rem;
+  margin: 0;
+}
+
+.equation-where dt {
+  text-align: right;
+  font-style: italic;
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.equation-where dd {
+  margin: 0;
   text-align: left;
-}
-
-table th {
-  background-color: #f5f5f5;
-  font-weight: bold;
-}
-
-table tr:nth-child(even) {
-  background-color: #fafafa;
 }
 </style>
 
@@ -44,7 +85,7 @@ The Cartesian Robotics Laboratory of Whitechapel has engaged the services of Mr.
 
 The laboratory's lead engineer, a haggard man with chalk-dusted fingers, laid three facts before Holmes like clues at a crime scene:
 
-"The motor turns at precisely 3000 revolutions per minute at full duty cycle. The carriage must travel approximately at 63 metres per minute. And the shafts — input and output must remain perfectly coaxial. The workspace permits nothing else."
+"The motor turns at precisely 3000 revolutions per minute at full duty cycle. The carriage must travel approximately at 63 metres per minute. And the shafts, input and output, must remain perfectly coaxial. The workspace permits nothing else."
 
 <div style="margin: 1rem 0;"></div>
 
@@ -99,7 +140,22 @@ The game is afoot. The gears are waiting.
 
 2. **Gear reduction ratio** - Find the ratio between motor speed and required pinion speed. This is your planetary reduction target.
 
-3. **Tooth counts** - Using the Willis equation with ring fixed, determine valid tooth counts for sun, planet, and ring gears. Satisfy the geometric constraint.
+3. **Tooth counts** - Using the Willis equation (with the ring fixed) together with the coaxial geometric condition, determine valid tooth counts for the sun, planet, and ring gears:
+
+   <div class="equation-block" markdown="0">
+     <span class="eq">R = 1 + <span class="frac"><span class="num">Z<sub>r</sub></span><span class="den">Z<sub>s</sub></span></span></span>
+     <span class="eq">Z<sub>p</sub> = <span class="frac"><span class="num">Z<sub>r</sub> &minus; Z<sub>s</sub></span><span class="den">2</span></span></span>
+   </div>
+
+   <div class="equation-where" markdown="0">
+     <div class="where-label">where</div>
+     <dl>
+       <dt>R</dt><dd>= reduction ratio</dd>
+       <dt>Z<sub>r</sub></dt><dd>= number of teeth on the ring gear</dd>
+       <dt>Z<sub>s</sub></dt><dd>= number of teeth on the sun gear</dd>
+       <dt>Z<sub>p</sub></dt><dd>= number of teeth on the planet gears</dd>
+     </dl>
+   </div>
 
 4. **Rack parameters** - Select a module, verify rack pitch, and confirm linear output matches the needs.
 

@@ -8,27 +8,6 @@ category: Digital Design & Verilog
 ---
 
 <style>
-table {
-  border-collapse: collapse;
-  width: 100%;
-  margin: 1rem 0;
-}
-
-table th, table td {
-  border: 1px solid #ccc;
-  padding: 0.75rem;
-  text-align: left;
-}
-
-table th {
-  background-color: #f5f5f5;
-  font-weight: bold;
-}
-
-table tr:nth-child(even) {
-  background-color: #fafafa;
-}
-
 code {
   background-color: #f5f5f5;
   padding: 0.2rem 0.4rem;
