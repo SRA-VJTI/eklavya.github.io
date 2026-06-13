@@ -66,7 +66,7 @@ He picked up the second log and his expression shifted, just slightly, to the pa
 
 "And this," he said, "is our Wiggins."
 
-I leaned over. The second instrument measured the vehicle's own linear and angular acceleration across all three axes, which reports every thirty milliseconds, through the tunnel, through the barn, through the fire, never once going quiet.
+I leaned over. The second instrument measured the vehicle's own linear acceleration and angular velocity across all three axes, which reports every thirty milliseconds, through the tunnel, through the barn, through the fire, never once going quiet.
 
 "Never shuts up," Holmes said, almost approvingly. "Through the tunnel, through the barn, through the fire and still chattering, facing towards its destiny." He set it down. "Unfortunately, it also invents. Twitches that aren't turns. Rotations that last a single sample and then have the decency to disappear, like a witness who recants mid-sentence. The bias wanders. The numbers lie by small amounts, consistently, and in changing directions." He picked up his pipe. "Useful the way a nervous informant is useful. You listen, you discount heavily, and you do not let it near a courtroom."
 
