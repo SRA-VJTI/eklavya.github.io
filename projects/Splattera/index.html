@@ -89,11 +89,13 @@
 
 <h3 id="project-description">Project Description</h3>
 
-<p>This project’s goal is taking a regular phone video of VJTI’s campus and turning it into a photorealistic, navigable 3D environment where you can walk around like a First-Person game.</p>
+<p>This project’s goal is taking a regular video walking through VJTI’s campus and turning it into a photorealistic, navigable 3D environment where you can walk around like a First-Person game.</p>
 
-<p>It involves Long Context 3D Scene Reconstruction, which is done by solving the camera position at every frame across the entire trajectory, without losing track over long distances. The camera positions and depth information then supervise the training of a 3D Gaussian Splat. To make it actually playable, we run semantic segmentation to identify individual objects in the scene, making them independently interactive.</p>
+<p>What makes this project interesting is that you learn to tackle one of the hardest problems in 3D Reconstruction: efficiently solving camera position tracking of every frame over long video trajectories without drift. This is referred to as “Long Context 3d Scene Reconstruction”.</p>
 
-<p>The final output is a navigable first-person Unity environment built entirely from a phone video, with collision, walkable surfaces, and interactive objects.</p>
+<p>The camera positions and depth maps across the trajectory supervise the training of a 3D Gaussian Splat. We then integrate it into a pose-graph navigation loop for smooth exploration.</p>
+
+<p>This is a direct step into cutting-edge frontier research on 3D Reconstruction and Gaussian Splatting. High-quality interactive 3D scenes have a direct application in perception driven robotics, autonomous driving, embodied AI and digital twins. By the end of the project, you will have a cool demo to showcase, as well as a solid intuition on the problems that are being worked on in this domain.</p>
 
 <hr>
 
