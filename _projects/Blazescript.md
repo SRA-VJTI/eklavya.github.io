@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Blazescript
-description: Design your own programming language and write a compiler for it, from a handwritten lexer and parser to LLVM-powered optimizations targeting WebAssembly.
+description: Compilers are software tools that translate source code written in a high-level language into a lower-level representation, typically machine code, that a computer can execute directly.
 importance: 2
 ---
 
@@ -15,11 +15,11 @@ importance: 2
 
 ### Project Description
 
-Compilers are software tools which convert source code written in a high-level language to machine code, which the computer can execute.
+Compilers are software tools that translate source code written in a high-level language into a lower-level representation, typically machine code, that a computer can execute directly.
 
-In this project, you will be designing the syntax of your own programming language and writing a compiler for it. This includes designing the language's syntax and writing a handwritten lexer and parser for the compiler's frontend.
+In this project, you will design the syntax of our own programming language and build a compiler for it from scratch, motivated by the idea that a compiled, statically-analyzed language can offer real advantages over JavaScript for certain workloads on the web. While modern JavaScript engines do use just-in-time (JIT) compilation rather than pure interpretation, they still carry the overhead of dynamic typing, runtime type checks, and unpredictable warm-up and deoptimization behavior. A language that is compiled ahead of time, by contrast, can be analyzed and optimized fully before it ever runs, producing more predictable, near-native performance, which makes it well suited to computationally intensive, domain-specific workflows running in the browser.
 
-Additionally, the project will use the LLVM compiler infrastructure for performing optimizations and the compiler's backend, eventually targeting WebAssembly for execution on a web browser.
+To build this, you will write a handwritten lexer and parser to form the compiler's front end, responsible for tokenizing and parsing source code into an intermediate representation. From there, the project will use the LLVM compiler infrastructure to perform optimizations and handle the backend, ultimately compiling down to WebAssembly, a portable, low-level bytecode format that browsers can execute at near-native speed within a secure, sandboxed environment.
 
 ---
 
