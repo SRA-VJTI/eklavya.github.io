@@ -9,7 +9,7 @@ importance: 4
 
 | Project Domains                          | Mentors                          |
 |------------------------------------------|----------------------------------|
-| Mechanical Design, 3D Printing, Kinematics | Ashutosh Yadav, Ashish Nerlekar |
+| Mechanical Design, 3D Printing, Kinematics | Ashutosh Yadav, Ashish Nerlekar, Rishiraj Rajgor |
 
 ---
 
@@ -28,5 +28,7 @@ The goal is to provide hands-on experience in humanoid mechanical design and rob
 [Asimov Manual](https://menlo.ai/blog/humanoid-legs-100-days)<br>
 [Asimov GitHub Repository](https://github.com/asimovinc/asimov-1)<br>
 [Reference Video](https://www.youtube.com/watch?v=wFUksEBPIA8)<br>
+[Kinematics and Dynamics Modelling of the Biped Robot](https://www.researchgate.net/publication/271465861_Kinematics_and_Dynamics_Modelling_of_the_Biped_Robot)<br>
+[Trajectory Planning and Inverse Kinematics Solver for Real Biped Robot with 10 DOF-s](https://www.sciencedirect.com/science/article/pii/S2405896316325460)<br>
 
 ---
