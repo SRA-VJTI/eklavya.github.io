@@ -81,23 +81,48 @@ permalink: /leaderboard/
 .leaderboard-table tbody tr:hover {
   background-color: #f0f0f0;
 }
+
+.leaderboard-table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media (max-width: 600px) {
+  .leaderboard-container {
+    margin: 1rem auto;
+    padding: 1.25rem 0.75rem;
+    background-attachment: scroll;
+  }
+
+  .leaderboard-table th,
+  .leaderboard-table td {
+    padding: 0.6rem 0.7rem;
+    font-size: 0.9rem;
+  }
+
+  .leaderboard-table tbody td:nth-child(2) {
+    font-size: 0.9rem;
+  }
+}
 </style>
 
 <div class="leaderboard-container">
-  <table class="leaderboard-table">
-    <thead>
-      <tr>
-        <th scope="col">Rank</th>
-        <th scope="col">Team</th>
-        <th scope="col">Points</th>
-      </tr>
-    </thead>
-    <tbody id="leaderboardBody">
-      <tr>
-        <td colspan="3" style="text-align: center; padding: 2rem;">Loading leaderboard...</td>
-      </tr>
-    </tbody>
-  </table>
+  <div class="leaderboard-table-wrapper">
+    <table class="leaderboard-table">
+      <thead>
+        <tr>
+          <th scope="col">Rank</th>
+          <th scope="col">Team</th>
+          <th scope="col">Points</th>
+        </tr>
+      </thead>
+      <tbody id="leaderboardBody">
+        <tr>
+          <td colspan="3" style="text-align: center; padding: 2rem;">Loading leaderboard...</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 </div>
 
 <script src="{{ '/assets/js/leaderboard.js' | relative_url }}"></script>

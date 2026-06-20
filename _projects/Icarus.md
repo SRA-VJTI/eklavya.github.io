@@ -15,7 +15,7 @@ importance: 6
 
 ### Project Description
 
-AeroForge is a project focused on developing custom flight control firmware from scratch for a quadcopter using the ESP32-S3.
+Icarus is a project focused on developing custom flight control firmware from scratch for a quadcopter using the ESP32-S3.
 The project begins with writing C/C++ firmware to interface with an IMU and a barometer, handling data processing and filtering. You will implement PID control loops to translate sensor data into precise motor speed adjustments for stable flight. Alongside custom firmware development, the project includes practical flying experience by flashing and configuring open-source firmware like Betaflight and Ardupilot. The project combines embedded systems, sensor fusion and control theory to achieve stable flight.
 
 ---
