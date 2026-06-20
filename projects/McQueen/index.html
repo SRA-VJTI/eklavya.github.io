@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>McQueen | Eklavya 2026</title>
+    <meta name="description" content="Transform an off-the-shelf RC car into a self-driving vehicle using a single camera, imitation learning, and a distilled neural network running in real time on edge hardware.">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/assets/img/favicon.ico">
+
+    <!-- Nohemi Font -->
+    <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/nohemi">
+
+    <!-- Vesper Libre (Hinglish style) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vesper+Libre:wght@400;700&amp;display=swap">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://eklavya.sravjti.in/projects/McQueen/">
+
+</head>
+<body>
+  <header class="site-nav">
+  <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+  <nav id="nav-menu">
+    <a href="/" class="nav-link">Home</a>
+    <a href="/eklavya25/" class="nav-link">Eklavya '25</a>
+    <a href="/leaderboard/" class="nav-link">Leaderboard</a>
+<a href="/tasks/" class="nav-link">Tasks</a>
+    <a href="/projects/" class="nav-link active">Projects</a>
+  </nav>
+</header>
+
+<script>
+  (function () {
+    var btn = document.getElementById('nav-hamburger');
+    var menu = document.getElementById('nav-menu');
+    btn.addEventListener('click', function () {
+      menu.classList.toggle('open');
+      btn.classList.toggle('open');
+    });
+    menu.querySelectorAll('.nav-link').forEach(function (l) {
+      l.addEventListener('click', function () {
+        menu.classList.remove('open');
+        btn.classList.remove('open');
+      });
+    });
+  })();
+</script>
+
+  <main>
+    <div class="page-hero">
+  <div class="page-hero-bg" aria-hidden="true">
+    <img class="phi phi-1" src="/assets/img/hero/turtlebot.png" alt="">
+    <img class="phi phi-2" src="/assets/img/hero/so100.png" alt="">
+    <img class="phi phi-4" src="/assets/img/hero/customboot.png" alt="">
+    <img class="phi phi-3" src="/assets/img/hero/amazing_hand.png" alt="">
+  </div>
+  <h1 class="page-title">McQueen</h1>
+</div>
+
+<div class="page-content project-detail">
+  <hr>
+
+<table>
+  <thead>
+    <tr>
+      <th>Project Domains</th>
+      <th>Mentors</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Robotics, Autonomous Driving, Imitation Learning, Embedded Systems</td>
+      <td>Vrushtee Gaikwad, Sahil Apage</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<h3 id="project-description">Project Description</h3>
+
+<p>This project’s goal is taking an off the shelf RC car and building it into a self-driving vehicle that learns to drive from a single camera bringing the end to end approach proven on full size cars down to a small vehicle whose entire control stack we build and own inspired by modern full self-driving (FSD) paradigms.</p>
+
+<p>The system relies on an onboard edge computer acting as a centralized electronic control unit (ECU) that processes raw camera feeds through a deep neural network to directly output control commands to steering and throttle, trained on demonstrations we record by driving the car manually and over remote teleoperation.</p>
+
+<p>To fit a strong policy on small silicon, a large model trained off board is distilled into a small student network that runs in real time on the car.</p>
+
+<p>The final output is a single camera RC car that drives a real route autonomously, accepts remote teleop takeover — a self-built autonomy ECU that could drop into any small vehicle.</p>
+
+<hr>
+
+<h3 id="resources">Resources</h3>
+
+<p><a href="https://blog.comma.ai/mlsim/" rel="external nofollow noopener" target="_blank">Learning to Drive from a World Model</a><br>
+<a href="https://x.com/simcity99" rel="external nofollow noopener" target="_blank">simcity</a><br>
+<a href="https://github.com/commaai/openpilot" rel="external nofollow noopener" target="_blank">openpilot</a><br>
+<a href="https://github.com/commaai/commavq" rel="external nofollow noopener" target="_blank">commavq</a><br>
+<a href="https://github.com/vapor-autos/ecu" rel="external nofollow noopener" target="_blank">ecu</a><br>
+<a href="https://blog.comma.ai/011release/" rel="external nofollow noopener" target="_blank">The first robotics agent fully trained in a learned simulation</a><br></p>
+
+<hr>
+
+</div>
+
+  </main>
+
+  <script>
+    (function () {
+      var nav   = document.querySelector('.site-nav');
+      var links = nav.querySelectorAll('.nav-link');
+
+      function update() {
+        var vh       = window.innerHeight;
+        var start    = vh * 0.65;
+        var end      = vh * 1.05;
+        var progress = Math.min(Math.max((window.scrollY - start) / (end - start), 0), 1);
+
+        // background: dark → light
+        var bgDark  = [13, 13, 13];
+        var bgLight = [255, 255, 255];
+        var r = Math.round(bgDark[0] + (bgLight[0] - bgDark[0]) * progress);
+        var g = Math.round(bgDark[1] + (bgLight[1] - bgDark[1]) * progress);
+        var b = Math.round(bgDark[2] + (bgLight[2] - bgDark[2]) * progress);
+        nav.style.background = 'rgba(' + r + ',' + g + ',' + b + ', 0.88)';
+        nav.style.borderBottomColor = 'rgba(0,0,0,' + (progress * 0.08) + ')';
+
+        // links: dim white → dim black
+        var linkOpacity = 0.45 + (progress * (0.45 - 0.45)); // stays at 0.45 opacity
+        var lr = Math.round(240 + (13 - 240) * progress);
+        var lg = Math.round(240 + (13 - 240) * progress);
+        var lb = Math.round(240 + (13 - 240) * progress);
+        links.forEach(function(l) {
+          l.style.color = 'rgba(' + lr + ',' + lg + ',' + lb + ', 0.55)';
+        });
+      }
+
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
+  </script>
+</body>
+</html>
