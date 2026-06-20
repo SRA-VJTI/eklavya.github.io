@@ -9,14 +9,22 @@ importance: 6
 
 | Project Domains                                      | Mentors         |
 |------------------------------------------------------|-----------------|
-| Embedded Systems, Control Theory, Firmware Development | Bhakti, Aryan |
+| Embedded Systems, PCB Design, Control Theory, Firmware Development | Bhakti, Aryan |
 
 ---
 
 ### Project Description
 
-AeroForge is a project focused on developing custom flight control firmware from scratch for a quadcopter using the ESP32-S3.
-The project begins with writing C/C++ firmware to interface with an IMU and a barometer, handling data processing and filtering. You will implement PID control loops to translate sensor data into precise motor speed adjustments for stable flight. Alongside custom firmware development, the project includes practical flying experience by flashing and configuring open-source firmware like Betaflight and Ardupilot. The project combines embedded systems, sensor fusion and control theory to achieve stable flight.
+Icarus is a project focused on developing custom flight control firmware from scratch for a quadcopter using the ESP32-S3.
+
+The project begins with designing a custom flight controller PCB from scratch using the ESP32-S3. The board is intended for a tiny whoop drone using 8520 coreless motors. The hardware design includes sensor integration, power management and motor control circuitry.
+
+The firmware is written in C/C++ to interface with an IMU and a barometer. It handles sensor data acquisition, processing and filtering. PID control loops are implemented to translate sensor data into precise motor speed adjustments for stable flight.
+
+Alongside custom hardware and firmware development, the project includes practical flying experience using open-source flight stacks such as Betaflight and ArduPilot. This involves flashing, configuring, tuning and testing flight controllers.
+
+The project combines embedded systems, PCB design, sensor fusion, control theory and firmware development to achieve stable flight on a fully custom flight controller, using 8520 coreless dc motor.
+
 
 ---
 
