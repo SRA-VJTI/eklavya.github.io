@@ -9,7 +9,7 @@ importance: 3
 
 | Project Domains                                          | Mentors                       |
 |----------------------------------------------------------|-------------------------------|
-| Real-Time Operating Systems, Low Level Embedded Systems  | Vedant Malkar, Paarth Shirsat |
+| Real-Time Operating Systems, Low Level Embedded Systems  | Vedant Malkar, Paarth Shirsat, Mustafa |
 
 ---
 
